@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T12:02:54.645996+00:00",
+  "last_updated": "2026-10-17T11:18:24.916416+00:00",
   "count": 18,
   "items": [
     {
@@ -69,6 +69,23 @@
       "amount": null,
       "posted": null,
       "relevance_score": 2,
+      "tags": [
+        "Fellowship",
+        "STEM",
+        "Aggregator"
+      ]
+    },
+    {
+      "id": "feeef94b24",
+      "title": "Ocean and Marine Science Fellowships for Students, Professionals, and Scholars",
+      "source": "ProFellow",
+      "type": "Fellowship",
+      "url": "https://www.profellow.com/fellowships/ocean-and-marine-science-fellowships/",
+      "description": "",
+      "deadline": null,
+      "amount": null,
+      "posted": null,
+      "relevance_score": 1,
       "tags": [
         "Fellowship",
         "STEM",
@@ -287,23 +304,6 @@
       "source": "ProFellow",
       "type": "Fellowship",
       "url": "https://www.profellow.com/fellowships/fully-funded-masters-programs-in-criminal-justice/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 0,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "735cefa50b",
-      "title": "From Namibia to Google, Snap, and Beyond: Sterling De Sutter Summerville on Building a Career in Cultural Intelligence",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/interviews/from-namibia-to-google-snap-and-beyond-sterling-de-sutter-summerville-on-building-a-career-in-cultural-intelligence/",
       "description": "",
       "deadline": null,
       "amount": null,
