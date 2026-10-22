@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-21T12:38:23.663526+00:00",
-  "count": 18,
+  "last_updated": "2026-10-22T12:43:05.833015+00:00",
+  "count": 13,
   "items": [
     {
       "id": "602c85cf10",
@@ -185,91 +185,6 @@
       "source": "HHMI",
       "type": "Private Foundation Grant",
       "url": "https://www.hhmi.org/programs/eligible-institutions",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 0,
-      "tags": [
-        "HHMI",
-        "Biomedical",
-        "Life Sciences"
-      ]
-    },
-    {
-      "id": "be2643747c",
-      "title": "Investigators competition every 5 years",
-      "source": "HHMI",
-      "type": "Private Foundation Grant",
-      "url": "https://www.hhmi.org/programs/investigators",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 0,
-      "tags": [
-        "HHMI",
-        "Biomedical",
-        "Life Sciences"
-      ]
-    },
-    {
-      "id": "ad869dac62",
-      "title": "Freeman Hrabowski Scholars biennial competition",
-      "source": "HHMI",
-      "type": "Private Foundation Grant",
-      "url": "https://www.hhmi.org/programs/freeman-hrabowski-scholars",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 0,
-      "tags": [
-        "HHMI",
-        "Biomedical",
-        "Life Sciences"
-      ]
-    },
-    {
-      "id": "daf80222a1",
-      "title": "Hanna Gray Fellows biennial competition",
-      "source": "HHMI",
-      "type": "Private Foundation Grant",
-      "url": "https://www.hhmi.org/programs/hanna-h-gray-fellows",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 0,
-      "tags": [
-        "HHMI",
-        "Biomedical",
-        "Life Sciences"
-      ]
-    },
-    {
-      "id": "884cab15a2",
-      "title": "Gilliam Fellows annual competition",
-      "source": "HHMI",
-      "type": "Private Foundation Grant",
-      "url": "https://www.hhmi.org/programs/gilliam-fellows",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 0,
-      "tags": [
-        "HHMI",
-        "Biomedical",
-        "Life Sciences"
-      ]
-    },
-    {
-      "id": "1f52ea1f6d",
-      "title": "Cech Fellows annual competition",
-      "source": "HHMI",
-      "type": "Private Foundation Grant",
-      "url": "https://www.hhmi.org/programs/cech-fellows",
       "description": "",
       "deadline": null,
       "amount": null,
