@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T12:16:43.695377+00:00",
+  "last_updated": "2026-10-26T13:47:59.449445+00:00",
   "count": 13,
   "items": [
     {
@@ -127,23 +127,6 @@
       ]
     },
     {
-      "id": "3dfdf2537a",
-      "title": "From Microsoft Engineer to Capitol Hill: Julie Lin on Building MyCapitol After a TechCongress Fellowship",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/interviews/from-microsoft-engineer-to-capitol-hill-julie-lin-on-building-mycapitol-after-a-techcongress-fellowship/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
       "id": "7df5cd5fef",
       "title": "Skip to results",
       "source": "Simons Foundation",
@@ -194,6 +177,23 @@
         "HHMI",
         "Biomedical",
         "Life Sciences"
+      ]
+    },
+    {
+      "id": "5defa0ab18",
+      "title": "Peter Guma on Fulbright Teaching in Uzbekistan and Adapting When Funding Froze",
+      "source": "ProFellow",
+      "type": "Fellowship",
+      "url": "https://www.profellow.com/interviews/peter-guma-on-fulbright-teaching-in-uzbekistan-and-adapting-when-funding-froze/",
+      "description": "",
+      "deadline": null,
+      "amount": null,
+      "posted": null,
+      "relevance_score": 0,
+      "tags": [
+        "Fellowship",
+        "STEM",
+        "Aggregator"
       ]
     },
     {
