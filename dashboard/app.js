@@ -2,7 +2,7 @@
 // CONFIGURATION — update RAW_URL to your own repo's raw URL
 // Format: https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/funding.json
 // ─────────────────────────────────────────────────────────────
-const RAW_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/funding.json";
+const RAW_URL = "https://raw.githubusercontent.com/elo252/funding/main/data/funding.json";
 
 // ─── STATE ───
 let allItems = [];
@@ -213,6 +213,9 @@ function switchTab(tab, btn) {
   activeTab = tab;
   document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
   btn.classList.add("active");
+  const isNews = tab === "news";
+  document.body.classList.toggle("news-mode", isNews);
+  if (isNews) { if (typeof showNews === "function") showNews(); return; }
   applyFilters();
 }
 

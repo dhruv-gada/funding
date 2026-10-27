@@ -110,3 +110,9 @@ KEYWORDS = [
 ## 💾 Bookmarks
 
 Bookmarks are saved in your browser's `localStorage` — they persist across visits on the same browser.
+
+---
+
+## 🧬 Bio × AI Deals tab
+
+A second tab on the dashboard tracks funding rounds, acquisitions and pharma partnerships at the intersection of AI and biology. Claude updates it twice a day (around 9am and 5pm ET) by researching the news, writing an analysis, and pushing `data/news.json`, with a snapshot in `data/news-history/`. See [`news/RUNBOOK.md`](news/RUNBOOK.md) for exactly what each run does. Direct link: `your-site.vercel.app/#deals`.
