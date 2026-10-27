@@ -108,6 +108,7 @@
       <button class="tab tab-all active" onclick="switchTab('all', this)">All Opportunities</button>
       <button class="tab" onclick="switchTab('bookmarks', this)">★ Saved</button>
       <button class="tab tab-news" onclick="switchTab('news', this)">Bio × AI Deals <span class="tab-new">NEW</span></button>
+      <button class="tab tab-money" onclick="switchTab('money', this)">Money Map 2026</button>
     </div>
   </div>
 
@@ -125,6 +126,7 @@
     </div>
     <div id="grid" class="grid" style="display:none"></div>
     <section id="newsView" class="news-view" style="display:none" aria-live="polite"></section>
+    <section id="moneyView" class="news-view money-view" style="display:none"></section>
     <div id="emptyState" class="state-box" style="display:none">
       <p>No opportunities match your current filters.</p>
       <button class="clear-btn" onclick="resetFilters()">Clear All Filters</button>
@@ -162,5 +164,6 @@
 
   <script src="app.js"></script>
   <script src="news.js"></script>
+  <script src="money.js"></script>
 </body>
 </html>

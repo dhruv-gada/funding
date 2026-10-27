@@ -214,12 +214,16 @@ function switchTab(tab, btn) {
   document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
   btn.classList.add("active");
   const isNews = tab === "news";
-  document.body.classList.toggle("news-mode", isNews);
+  const isMoney = tab === "money";
+  document.body.classList.toggle("news-mode", isNews || isMoney);
+  document.body.classList.toggle("money-mode", isMoney);
+  const wantHash = isNews ? "#deals" : isMoney ? "#money" : "";
   try {
-    if (isNews && location.hash !== "#deals") history.replaceState(null, "", "#deals");
-    if (!isNews && location.hash) history.replaceState(null, "", location.pathname + location.search);
+    if (wantHash && location.hash !== wantHash) history.replaceState(null, "", wantHash);
+    if (!wantHash && location.hash) history.replaceState(null, "", location.pathname + location.search);
   } catch (e) {}
   if (isNews) { if (typeof showNews === "function") showNews(); return; }
+  if (isMoney) { if (typeof showMoney === "function") showMoney(); return; }
   applyFilters();
 }
 

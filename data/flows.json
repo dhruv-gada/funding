@@ -1,0 +1,2054 @@
+{
+ "last_updated": "2026-10-27T13:30:00+00:00",
+ "since": "2026-01-01",
+ "method": {
+  "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
+  "headline": "Headline view: as above, but partnerships and acquisitions count their full reported value, including milestones that may never be paid.",
+  "scope": "Named, sourced deals where AI is core to the company. This is a curated map, not a census: industry trackers count far more deals (see market context)."
+ },
+ "market_context": [
+  {
+   "label": "AI/ML biopharma venture, H1 2026",
+   "value": "$10.2B across 230 rounds",
+   "source": "DealForma",
+   "url": "https://dealforma.com/ai-machine-learning-rd-ma-ventures-ipos-h1-2026-review/"
+  },
+  {
+   "label": "AI/ML R&D partnerships, H1 2026",
+   "value": "70 deals · $45.9B headline · $1.9B upfront",
+   "source": "DealForma",
+   "url": "https://dealforma.com/ai-machine-learning-rd-ma-ventures-ipos-h1-2026-review/"
+  },
+  {
+   "label": "AI/ML M&A, H1 2026",
+   "value": "43 deals · $12.4B",
+   "source": "DealForma",
+   "url": "https://dealforma.com/ai-machine-learning-rd-ma-ventures-ipos-h1-2026-review/"
+  },
+  {
+   "label": "AI-focused biotech venture, 2026 to date",
+   "value": "More than $6B",
+   "source": "Crunchbase News",
+   "url": "https://news.crunchbase.com/health-wellness-biotech/startup-investment-exits-steady-ai-2026/"
+  }
+ ],
+ "chains": [
+  {
+   "id": "c-alphabet",
+   "title": "Alphabet's AlphaFold bet keeps compounding",
+   "kind": "Big tech & AI labs",
+   "steps": [
+    {
+     "label": "Alphabet, GV & CapitalG join Thrive-led round",
+     "amount": "$2.1B",
+     "deal": "v-isomorphic"
+    },
+    {
+     "label": "Isomorphic signs J&J",
+     "amount": "Undisclosed",
+     "deal": "p-jnj-isomorphic"
+    },
+    {
+     "label": "Abu Dhabi opens health data",
+     "amount": "Undisclosed",
+     "deal": "p-abudhabi-isomorphic"
+    },
+    {
+     "label": "Next round in talks at a $40B+ valuation",
+     "amount": "$2B+ (talks)",
+     "deal": null
+    }
+   ],
+   "insight": "Big tech money plus sovereign money (MGX, Temasek, UK Sovereign AI Fund) are funding the platform before it has clinical data. Pharma pays for access, and Gulf states offer data."
+  },
+  {
+   "id": "c-ailabs",
+   "title": "Frontier AI labs buy into biology",
+   "kind": "Big tech & AI labs",
+   "steps": [
+    {
+     "label": "Anthropic buys Coefficient Bio",
+     "amount": "~$400M stock",
+     "deal": "a-anthropic-coefficient"
+    },
+    {
+     "label": "OpenAI re-invests in Chai",
+     "amount": "$400M round",
+     "deal": "v-chai"
+    },
+    {
+     "label": "Chai signs BMS, then GSK",
+     "amount": "Undisclosed",
+     "deal": "p-gsk-chai"
+    },
+    {
+     "label": "Anthropic's Anthology Fund backs Basecamp",
+     "amount": "$140M round",
+     "deal": "v-basecamp"
+    },
+    {
+     "label": "OpenAI buys Orchestra Bio",
+     "amount": "Undisclosed",
+     "deal": "a-openai-orchestra"
+    },
+    {
+     "label": "OpenAI's former science lead raises for Warp",
+     "amount": "$215M",
+     "deal": "v-warp"
+    }
+   ],
+   "insight": "AI labs reach bio three ways: buying small teams outright, investing in model companies that sell to pharma, and through alumni who leave to found companies. Most deal terms stay undisclosed."
+  },
+  {
+   "id": "c-nvidia",
+   "title": "NVIDIA collects a toll on every layer",
+   "kind": "Big tech & AI labs",
+   "steps": [
+    {
+     "label": "Lilly × NVIDIA co-innovation lab",
+     "amount": "Up to $1B",
+     "deal": "p-lilly-nvidia"
+    },
+    {
+     "label": "NVentures in Proxima",
+     "amount": "$80M round",
+     "deal": "v-proxima"
+    },
+    {
+     "label": "NVentures in Lila Sciences",
+     "amount": "$350M round",
+     "deal": "v-lila"
+    },
+    {
+     "label": "NVentures in Superluminal",
+     "amount": "$60M round",
+     "deal": "v-superluminal"
+    },
+    {
+     "label": "NVentures in Basecamp",
+     "amount": "$140M round",
+     "deal": "v-basecamp"
+    }
+   ],
+   "insight": "NVIDIA rarely leads a round, but it shows up in the cap tables of companies that spend heavily on GPUs, and it co-funds pharma's compute build-out."
+  },
+  {
+   "id": "c-lilly",
+   "title": "Eli Lilly is investor, partner and customer at once",
+   "kind": "Pharma",
+   "steps": [
+    {
+     "label": "Equity in Alchemab, NewLimit, Superluminal and BigHat",
+     "amount": "4 rounds",
+     "deal": "v-newlimit"
+    },
+    {
+     "label": "Insilico licence",
+     "amount": "$115M upfront",
+     "deal": "p-lilly-insilico"
+    },
+    {
+     "label": "Profluent recombinases",
+     "amount": "Up to $2.25B",
+     "deal": "p-lilly-profluent"
+    },
+    {
+     "label": "METiS delivery deal",
+     "amount": "~$1.1B",
+     "deal": "p-lilly-metis"
+    }
+   ],
+   "insight": "Lilly shows up in 8 deals on this map, more than anyone else. It takes small equity stakes early, then signs licensing deals with large milestone totals."
+  },
+  {
+   "id": "c-passthrough",
+   "title": "Pharma money passes through AI biotechs",
+   "kind": "Pharma",
+   "steps": [
+    {
+     "label": "Pathos pays Alphamab for the JSKN016 ADC",
+     "amount": "$125M upfront",
+     "deal": "l-pathos-alphamab"
+    },
+    {
+     "label": "AstraZeneca partners with Pathos",
+     "amount": "Undisclosed",
+     "deal": "p-az-pathos"
+    },
+    {
+     "label": "BMS leads Pathos's round",
+     "amount": "$237M",
+     "deal": "v-pathos"
+    }
+   ],
+   "insight": "Some AI-first developers in-license assets from other biotechs (here Alphamab, a Chinese biotech), then raise from pharma to develop them. Investor cash goes to buying drugs as well as building models."
+  },
+  {
+   "id": "c-insilico",
+   "title": "Insilico turns one platform into many licences",
+   "kind": "Pharma",
+   "steps": [
+    {
+     "label": "Servier",
+     "amount": "$32M upfront",
+     "deal": "p-servier-insilico"
+    },
+    {
+     "label": "Eli Lilly",
+     "amount": "$115M upfront",
+     "deal": "p-lilly-insilico"
+    },
+    {
+     "label": "SK Biopharmaceuticals",
+     "amount": "$5M upfront",
+     "deal": "p-sk-insilico"
+    },
+    {
+     "label": "China Medical System",
+     "amount": "~$177M milestones",
+     "deal": "p-cms-insilico"
+    }
+   ],
+   "insight": "About $6.3B in headline value but only about $152M in disclosed upfront cash, which shows how far pharma–AI deals are back-loaded."
+  },
+  {
+   "id": "c-sovereign",
+   "title": "States are buying a seat at the frontier",
+   "kind": "Sovereign & state",
+   "steps": [
+    {
+     "label": "UK Sovereign AI Fund in Isomorphic and Basecamp",
+     "amount": "2 rounds",
+     "deal": "v-basecamp"
+    },
+    {
+     "label": "MGX & Temasek in Isomorphic",
+     "amount": "$2.1B round",
+     "deal": "v-isomorphic"
+    },
+    {
+     "label": "ADIA & IQT in Lila Sciences",
+     "amount": "$350M round",
+     "deal": "v-lila"
+    },
+    {
+     "label": "British Business Bank leads Alchemab",
+     "amount": "~$34M",
+     "deal": "v-alchemab"
+    },
+    {
+     "label": "Shanghai Pudong co-leads Drug Farm",
+     "amount": "$55M",
+     "deal": "v-drugfarm"
+    }
+   ],
+   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals. The pattern looks like industrial policy, with each country backing its own champions."
+  }
+ ],
+ "deals": [
+  {
+   "id": "p-sanofi-earendil",
+   "date": "2026-01-05",
+   "type": "Partnership",
+   "company": "Earendil Labs",
+   "sector": "Protein & antibody design",
+   "round": "Bispecifics collaboration",
+   "cash_usd": 160000000.0,
+   "headline_usd": 2560000000.0,
+   "amount_label": "$160M upfront · up to $2.56B",
+   "payers": [
+    {
+     "name": "Sanofi",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.pharmaceutical-technology.com/news/sanofi-earendil-labs-2-56bn-autoimmune-development-deal/",
+   "source_name": "Pharmaceutical Technology",
+   "note": null
+  },
+  {
+   "id": "p-servier-insilico",
+   "date": "2026-01-07",
+   "type": "Partnership",
+   "company": "Insilico Medicine",
+   "sector": "Small molecule & peptide design",
+   "round": "Oncology discovery",
+   "cash_usd": 32000000.0,
+   "headline_usd": 888000000.0,
+   "amount_label": "$32M upfront · up to $888M",
+   "payers": [
+    {
+     "name": "Servier",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://digitalbiology.substack.com/p/jpm-2026-what-the-ai-partnership",
+   "source_name": "Digital Biology (JPM recap)",
+   "note": null
+  },
+  {
+   "id": "v-boltz",
+   "date": "2026-01-08",
+   "type": "Venture",
+   "company": "Boltz",
+   "sector": "Foundation models & platforms",
+   "round": "Seed",
+   "cash_usd": 28000000.0,
+   "headline_usd": 28000000.0,
+   "amount_label": "$28M",
+   "payers": [
+    {
+     "name": "Andreessen Horowitz",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Amplify Partners",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Zetta Venture Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-topos",
+   "date": "2026-01-08",
+   "type": "Venture",
+   "company": "Topos Bio",
+   "sector": "Targets, delivery & biology",
+   "round": "Seed",
+   "cash_usd": 10500000.0,
+   "headline_usd": 10500000.0,
+   "amount_label": "$10.5M",
+   "payers": [
+    {
+     "name": "Boldstart",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Threshold",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Neo",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-parabilis",
+   "date": "2026-01-08",
+   "type": "Venture",
+   "company": "Parabilis Medicines",
+   "sector": "Small molecule & peptide design",
+   "round": "Series F",
+   "cash_usd": 305000000.0,
+   "headline_usd": 305000000.0,
+   "amount_label": "$305M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biospace.com/business/5-largest-vc-rounds-of-h1-2026",
+   "source_name": "BioSpace",
+   "note": "Its Helicon platform uses AI- and physics-based design."
+  },
+  {
+   "id": "p-gsk-noetik",
+   "date": "2026-01-08",
+   "type": "Partnership",
+   "company": "Noetik",
+   "sector": "Foundation models & platforms",
+   "round": "Virtual-cell model access",
+   "cash_usd": 50000000.0,
+   "headline_usd": 50000000.0,
+   "amount_label": "$50M upfront & near-term",
+   "payers": [
+    {
+     "name": "GSK",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://digitalbiology.substack.com/p/jpm-2026-what-the-ai-partnership",
+   "source_name": "Digital Biology (JPM recap)",
+   "note": "Total value not disclosed; only the upfront and near-term amount is counted."
+  },
+  {
+   "id": "p-pfizer-boltz",
+   "date": "2026-01-08",
+   "type": "Partnership",
+   "company": "Boltz",
+   "sector": "Foundation models & platforms",
+   "round": "Model collaboration",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Pfizer",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://digitalbiology.substack.com/p/jpm-2026-what-the-ai-partnership",
+   "source_name": "Digital Biology (JPM recap)",
+   "note": null
+  },
+  {
+   "id": "p-bayer-cradle",
+   "date": "2026-01-08",
+   "type": "Partnership",
+   "company": "Cradle",
+   "sector": "Protein & antibody design",
+   "round": "3-year collaboration",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Bayer",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://digitalbiology.substack.com/p/jpm-2026-what-the-ai-partnership",
+   "source_name": "Digital Biology (JPM recap)",
+   "note": null
+  },
+  {
+   "id": "p-lilly-nvidia",
+   "date": "2026-01-12",
+   "type": "Partnership",
+   "company": "Lilly × NVIDIA AI co-innovation lab",
+   "sector": "Lab automation & robotics",
+   "round": "Joint lab",
+   "cash_usd": null,
+   "headline_usd": 1000000000.0,
+   "amount_label": "Up to $1B over 5 years (joint)",
+   "payers": [
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    },
+    {
+     "name": "NVIDIA",
+     "kind": "Big tech & AI labs"
+    }
+   ],
+   "participants": [],
+   "url": "https://digitalbiology.substack.com/p/jpm-2026-what-the-ai-partnership",
+   "source_name": "Digital Biology (JPM recap)",
+   "note": "A joint commitment, not a payment to a startup; counted only in the headline-value view and split evenly between the two backers."
+  },
+  {
+   "id": "v-converge",
+   "date": "2026-01-13",
+   "type": "Venture",
+   "company": "Converge Bio",
+   "sector": "Foundation models & platforms",
+   "round": "Series A",
+   "cash_usd": 25000000.0,
+   "headline_usd": 25000000.0,
+   "amount_label": "$25M",
+   "payers": [
+    {
+     "name": "Bessemer Venture Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "TLV Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
+   "source_name": "TechCrunch",
+   "note": null
+  },
+  {
+   "id": "v-proxima",
+   "date": "2026-01-13",
+   "type": "Venture",
+   "company": "Proxima (ex-VantAI)",
+   "sector": "Small molecule & peptide design",
+   "round": "Seed",
+   "cash_usd": 80000000.0,
+   "headline_usd": 80000000.0,
+   "amount_label": "$80M",
+   "payers": [
+    {
+     "name": "DCVC",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "NVIDIA (NVentures)",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Roivant",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Alexandria",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "a-az-modella",
+   "date": "2026-01-13",
+   "type": "Acquisition",
+   "company": "Modella AI",
+   "sector": "Clinical & development AI",
+   "round": "Acquired by AstraZeneca",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "AstraZeneca",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biopharmatrend.com/news/astrazeneca-acquires-modella-ai-to-integrate-foundation-models-into-global-oncology-rd-1463/",
+   "source_name": "BiopharmaTrend",
+   "note": null
+  },
+  {
+   "id": "p-jnj-isomorphic",
+   "date": "2026-01-15",
+   "type": "Partnership",
+   "company": "Isomorphic Labs",
+   "sector": "Foundation models & platforms",
+   "round": "Multi-modality discovery",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Johnson & Johnson",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biotechgate.com/5-ai-drug-discovery-deals-shaping-licensing-in-2026/",
+   "source_name": "Biotechgate",
+   "note": "Month reported as January; exact day not given."
+  },
+  {
+   "id": "a-insitro-combinable",
+   "date": "2026-01-19",
+   "type": "Acquisition",
+   "company": "CombinAbleAI",
+   "sector": "Protein & antibody design",
+   "round": "Acquired by insitro",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "insitro",
+     "kind": "AI biotech"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.ddw-online.com/insitro-acquires-ai-biotech-to-develop-drug-discovery-platform-39956-202601/",
+   "source_name": "Drug Discovery World",
+   "note": null
+  },
+  {
+   "id": "p-servier-iktos",
+   "date": "2026-01-20",
+   "type": "Partnership",
+   "company": "Iktos",
+   "sector": "Small molecule & peptide design",
+   "round": "AI design + automated synthesis",
+   "cash_usd": null,
+   "headline_usd": 1000000000.0,
+   "amount_label": "Over €1B",
+   "payers": [
+    {
+     "name": "Servier",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biotechgate.com/5-ai-drug-discovery-deals-shaping-licensing-in-2026/",
+   "source_name": "Biotechgate",
+   "note": "Reported as over €1B; counted conservatively as $1.0B. Month reported as January."
+  },
+  {
+   "id": "v-galux",
+   "date": "2026-02-09",
+   "type": "Venture",
+   "company": "Galux",
+   "sector": "Protein & antibody design",
+   "round": "Series B",
+   "cash_usd": 29000000.0,
+   "headline_usd": 29000000.0,
+   "amount_label": "$29M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Korea Development Bank",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Mirae Asset",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "p-takeda-iambic",
+   "date": "2026-02-15",
+   "type": "Partnership",
+   "company": "Iambic",
+   "sector": "Small molecule & peptide design",
+   "round": "Oncology, GI & inflammation",
+   "cash_usd": null,
+   "headline_usd": 1700000000.0,
+   "amount_label": "Over $1.7B",
+   "payers": [
+    {
+     "name": "Takeda",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biotechgate.com/5-ai-drug-discovery-deals-shaping-licensing-in-2026/",
+   "source_name": "Biotechgate",
+   "note": "Month reported as February; exact day not given."
+  },
+  {
+   "id": "v-tamarind",
+   "date": "2026-02-26",
+   "type": "Venture",
+   "company": "Tamarind Bio",
+   "sector": "Foundation models & platforms",
+   "round": "Series A",
+   "cash_usd": 12000000.0,
+   "headline_usd": 12000000.0,
+   "amount_label": "$12M",
+   "payers": [
+    {
+     "name": "Dimension",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Y Combinator",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "i-generate",
+   "date": "2026-02-26",
+   "type": "IPO",
+   "company": "Generate Biomedicines",
+   "sector": "Protein & antibody design",
+   "round": "Nasdaq: GENB",
+   "cash_usd": 400000000.0,
+   "headline_usd": 400000000.0,
+   "amount_label": "$400M",
+   "payers": [
+    {
+     "name": "Public market investors",
+     "kind": "Public markets"
+    }
+   ],
+   "participants": [],
+   "url": "https://generatebiomedicines.com/media-center/generate-biomedicines-inc-announces-pricing-of-initial-public-offering",
+   "source_name": "Generate Biomedicines",
+   "note": null
+  },
+  {
+   "id": "v-earendil",
+   "date": "2026-03-20",
+   "type": "Venture",
+   "company": "Earendil Labs",
+   "sector": "Protein & antibody design",
+   "round": "Combined financing",
+   "cash_usd": 787000000.0,
+   "headline_usd": 787000000.0,
+   "amount_label": "$787M",
+   "payers": [
+    {
+     "name": "Dimension",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "DST Global",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "INCE Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Sanofi",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Pfizer (via Biotech Development Fund)",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Hillhouse",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "p-lilly-insilico",
+   "date": "2026-03-29",
+   "type": "Partnership",
+   "company": "Insilico Medicine",
+   "sector": "Small molecule & peptide design",
+   "round": "Oral small molecules",
+   "cash_usd": 115000000.0,
+   "headline_usd": 2750000000.0,
+   "amount_label": "$115M upfront · up to $2.75B",
+   "payers": [
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://intuitionlabs.ai/articles/lilly-insilico-ai-drug-discovery-deal",
+   "source_name": "IntuitionLabs",
+   "note": null
+  },
+  {
+   "id": "v-scala",
+   "date": "2026-03-31",
+   "type": "Venture",
+   "company": "Scala Biodesign",
+   "sector": "Protein & antibody design",
+   "round": "Series A",
+   "cash_usd": 16000000.0,
+   "headline_usd": 16000000.0,
+   "amount_label": "$16M",
+   "payers": [
+    {
+     "name": "Grove Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "TLV Partners",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Israel Innovation Authority",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-generare",
+   "date": "2026-04-02",
+   "type": "Venture",
+   "company": "Generare",
+   "sector": "Small molecule & peptide design",
+   "round": "Series A",
+   "cash_usd": 23000000.0,
+   "headline_usd": 23000000.0,
+   "amount_label": "€20M (~$23M)",
+   "payers": [
+    {
+     "name": "Alven",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "daphni",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "a-anthropic-coefficient",
+   "date": "2026-04-03",
+   "type": "Acquisition",
+   "company": "Coefficient Bio",
+   "sector": "Foundation models & platforms",
+   "round": "Acquired by Anthropic",
+   "cash_usd": 400000000.0,
+   "headline_usd": 400000000.0,
+   "amount_label": "~$400M (all stock, reported)",
+   "payers": [
+    {
+     "name": "Anthropic",
+     "kind": "Big tech & AI labs"
+    }
+   ],
+   "participants": [],
+   "url": "https://intuitionlabs.ai/articles/anthropic-coefficient-bio-acquisition-ai-drug-discovery",
+   "source_name": "IntuitionLabs",
+   "note": "Reported value; paid in stock, not cash."
+  },
+  {
+   "id": "v-helical",
+   "date": "2026-04-14",
+   "type": "Venture",
+   "company": "Helical",
+   "sector": "Foundation models & platforms",
+   "round": "Seed",
+   "cash_usd": 10000000.0,
+   "headline_usd": 10000000.0,
+   "amount_label": "$10M",
+   "payers": [
+    {
+     "name": "redalpine",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-alloy",
+   "date": "2026-04-15",
+   "type": "Venture",
+   "company": "Alloy Therapeutics",
+   "sector": "Protein & antibody design",
+   "round": "Series E",
+   "cash_usd": 40000000.0,
+   "headline_usd": 40000000.0,
+   "amount_label": "$40M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [
+    {
+     "name": "8VC",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "JIC Venture Growth",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Mubadala",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Founders Fund",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-fathom",
+   "date": "2026-04-27",
+   "type": "Venture",
+   "company": "Fathom Therapeutics",
+   "sector": "Small molecule & peptide design",
+   "round": "Series A",
+   "cash_usd": 47000000.0,
+   "headline_usd": 47000000.0,
+   "amount_label": "$47M",
+   "payers": [
+    {
+     "name": "Sutter Hill Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Alexandria",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "p-lilly-profluent",
+   "date": "2026-04-29",
+   "type": "Partnership",
+   "company": "Profluent",
+   "sector": "Protein & antibody design",
+   "round": "AI-designed recombinases",
+   "cash_usd": null,
+   "headline_usd": 2250000000.0,
+   "amount_label": "Up to $2.25B",
+   "payers": [
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://finance.yahoo.com/sectors/healthcare/articles/eli-lilly-bets-recombinases-2-115154997.html",
+   "source_name": "Yahoo Finance",
+   "note": null
+  },
+  {
+   "id": "a-roche-pathai",
+   "date": "2026-05-11",
+   "type": "Acquisition",
+   "company": "PathAI",
+   "sector": "Diagnostics & pathology AI",
+   "round": "Acquired by Roche",
+   "cash_usd": 750000000.0,
+   "headline_usd": 1050000000.0,
+   "amount_label": "$750M upfront · up to $1.05B",
+   "payers": [
+    {
+     "name": "Roche",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.bioxconomy.com/partnering/roche-acquires-pathai-for-750m-upfront-to-advance-ai-powered-digital-pathology",
+   "source_name": "BioXconomy",
+   "note": "Expected to close in H2 2026."
+  },
+  {
+   "id": "v-isomorphic",
+   "date": "2026-05-12",
+   "type": "Venture",
+   "company": "Isomorphic Labs",
+   "sector": "Foundation models & platforms",
+   "round": "Series B",
+   "cash_usd": 2100000000.0,
+   "headline_usd": 2100000000.0,
+   "amount_label": "$2.1B",
+   "payers": [
+    {
+     "name": "Thrive Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Alphabet",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "GV",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "CapitalG",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "MGX",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Temasek",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "UK Sovereign AI Fund",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-perceptic",
+   "date": "2026-05-26",
+   "type": "Venture",
+   "company": "Perceptic",
+   "sector": "Clinical & development AI",
+   "round": "Seed",
+   "cash_usd": 12000000.0,
+   "headline_usd": 12000000.0,
+   "amount_label": "$12M",
+   "payers": [
+    {
+     "name": "Accel",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Air Street Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-waypoint",
+   "date": "2026-06-02",
+   "type": "Venture",
+   "company": "Waypoint Bio",
+   "sector": "Protein & antibody design",
+   "round": "Series A",
+   "cash_usd": 20000000.0,
+   "headline_usd": 20000000.0,
+   "amount_label": "$20M",
+   "payers": [
+    {
+     "name": "Amplify Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "General Catalyst",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Lux Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-newlimit",
+   "date": "2026-06-03",
+   "type": "Venture",
+   "company": "NewLimit",
+   "sector": "Longevity & reprogramming",
+   "round": "Series C",
+   "cash_usd": 435000000.0,
+   "headline_usd": 435000000.0,
+   "amount_label": "$435M",
+   "payers": [
+    {
+     "name": "Founders Fund",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Thrive Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Kleiner Perkins",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    }
+   ],
+   "url": "https://raising.fi/news/newlimit-series-c-june-2026",
+   "source_name": "Raising.fi",
+   "note": null
+  },
+  {
+   "id": "v-lila",
+   "date": "2026-06-04",
+   "type": "Venture",
+   "company": "Lila Sciences",
+   "sector": "Lab automation & robotics",
+   "round": "Series A",
+   "cash_usd": 350000000.0,
+   "headline_usd": 350000000.0,
+   "amount_label": "$350M",
+   "payers": [
+    {
+     "name": "Braidwell",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Collective Global",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "NVIDIA (NVentures)",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Abu Dhabi Investment Authority",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "IQT",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Flagship Pioneering",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "General Catalyst",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Catalio",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://raising.fi/news/lila-sciences-series-a-june-2026",
+   "source_name": "Raising.fi",
+   "note": null
+  },
+  {
+   "id": "i-parabilis",
+   "date": "2026-06-09",
+   "type": "IPO",
+   "company": "Parabilis Medicines",
+   "sector": "Small molecule & peptide design",
+   "round": "Nasdaq: PBLS",
+   "cash_usd": 771000000.0,
+   "headline_usd": 771000000.0,
+   "amount_label": "~$771M incl. greenshoe",
+   "payers": [
+    {
+     "name": "Public market investors",
+     "kind": "Public markets"
+    }
+   ],
+   "participants": [],
+   "url": "https://dealforma.com/ai-machine-learning-rd-ma-ventures-ipos-h1-2026-review/",
+   "source_name": "DealForma",
+   "note": "Its Helicon platform uses AI- and physics-based design."
+  },
+  {
+   "id": "p-sk-insilico",
+   "date": "2026-06-22",
+   "type": "Partnership",
+   "company": "Insilico Medicine",
+   "sector": "Small molecule & peptide design",
+   "round": "CNS & neuroimmune",
+   "cash_usd": 5000000.0,
+   "headline_usd": 2500000000.0,
+   "amount_label": "$5M upfront · up to ~$2.5B",
+   "payers": [
+    {
+     "name": "SK Biopharmaceuticals",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://pharmexec.com/view/insilico-collaboration-sk-biopharmaceutical-ai-powered-cns-treatment",
+   "source_name": "PharmExec",
+   "note": "Upfront from DealForma's H1 2026 review."
+  },
+  {
+   "id": "v-xellar",
+   "date": "2026-06-29",
+   "type": "Venture",
+   "company": "Xellar Biosystems",
+   "sector": "Lab automation & robotics",
+   "round": "Series A/A+",
+   "cash_usd": 50000000.0,
+   "headline_usd": 50000000.0,
+   "amount_label": "$50M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-alchemab",
+   "date": "2026-07-09",
+   "type": "Venture",
+   "company": "Alchemab Therapeutics",
+   "sector": "Protein & antibody design",
+   "round": "Series A ext.",
+   "cash_usd": 34000000.0,
+   "headline_usd": 34000000.0,
+   "amount_label": "£25M (~$34M)",
+   "payers": [
+    {
+     "name": "British Business Bank",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "participants": [
+    {
+     "name": "RA Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    },
+    {
+     "name": "DCVC",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-mindrank",
+   "date": "2026-07-09",
+   "type": "Venture",
+   "company": "MindRank AI",
+   "sector": "Small molecule & peptide design",
+   "round": "Series B",
+   "cash_usd": 52000000.0,
+   "headline_usd": 52000000.0,
+   "amount_label": "$52M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-drugfarm",
+   "date": "2026-07-13",
+   "type": "Venture",
+   "company": "Drug Farm",
+   "sector": "Small molecule & peptide design",
+   "round": "Series D (1st close)",
+   "cash_usd": 55000000.0,
+   "headline_usd": 55000000.0,
+   "amount_label": "$55M",
+   "payers": [
+    {
+     "name": "Shanghai Pudong Leading Area Investment Center",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Shanghai Puxing PE Fund",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "v-chai",
+   "date": "2026-07-14",
+   "type": "Venture",
+   "company": "Chai Discovery",
+   "sector": "Foundation models & platforms",
+   "round": "Series C",
+   "cash_usd": 400000000.0,
+   "headline_usd": 400000000.0,
+   "amount_label": "$400M",
+   "payers": [
+    {
+     "name": "Index Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "OpenAI",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Thrive Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Kleiner Perkins",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Sequoia",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Dimension",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "General Catalyst",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Menlo Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": "Valued at $3.8B."
+  },
+  {
+   "id": "p-cms-insilico",
+   "date": "2026-07-14",
+   "type": "Partnership",
+   "company": "Insilico Medicine",
+   "sector": "Small molecule & peptide design",
+   "round": "CNS licence",
+   "cash_usd": null,
+   "headline_usd": 177000000.0,
+   "amount_label": "~$177M milestones",
+   "payers": [
+    {
+     "name": "China Medical System",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "v-transcripta",
+   "date": "2026-07-22",
+   "type": "Venture",
+   "company": "Transcripta Bio",
+   "sector": "Small molecule & peptide design",
+   "round": "Series A follow-on",
+   "cash_usd": 24000000.0,
+   "headline_usd": 24000000.0,
+   "amount_label": "$24M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Mayo Clinic",
+     "kind": "Undisclosed"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "p-gsk-relation",
+   "date": "2026-07-30",
+   "type": "Partnership",
+   "company": "Relation Therapeutics",
+   "sector": "Targets, delivery & biology",
+   "round": "Perturbation datasets",
+   "cash_usd": null,
+   "headline_usd": 110000000.0,
+   "amount_label": "Up to $110M",
+   "payers": [
+    {
+     "name": "GSK",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "v-accipiter",
+   "date": "2026-07-31",
+   "type": "Venture",
+   "company": "Accipiter Bio",
+   "sector": "Protein & antibody design",
+   "round": "Seed ext.",
+   "cash_usd": 10500000.0,
+   "headline_usd": 10500000.0,
+   "amount_label": "$10.5M",
+   "payers": [
+    {
+     "name": "Flying Fish Partners",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Takeda",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Alexandria",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "p-az-pathos",
+   "date": "2026-08-03",
+   "type": "Partnership",
+   "company": "Pathos AI",
+   "sector": "Clinical & development AI",
+   "round": "ER PROTAC (breast cancer)",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "AstraZeneca",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "l-pathos-alphamab",
+   "date": "2026-08-03",
+   "type": "In-licensing",
+   "company": "Alphamab Oncology",
+   "sector": null,
+   "round": "JSKN016 ADC licence (Pathos pays)",
+   "cash_usd": 125000000.0,
+   "headline_usd": 2200000000.0,
+   "amount_label": "$125M upfront · ~$2.2B",
+   "payers": [
+    {
+     "name": "Pathos AI",
+     "kind": "AI biotech"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": "Money flows out of an AI biotech: Pathos pays Alphamab for a cancer drug."
+  },
+  {
+   "id": "v-infinimmune",
+   "date": "2026-08-11",
+   "type": "Venture",
+   "company": "Infinimmune",
+   "sector": "Protein & antibody design",
+   "round": "Series A",
+   "cash_usd": 75000000.0,
+   "headline_usd": 75000000.0,
+   "amount_label": "$75M",
+   "payers": [
+    {
+     "name": "Regeneron Ventures",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Playground Global",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "RA Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Merck GHI",
+     "kind": "Pharma"
+    }
+   ],
+   "url": "https://www.biobucks.co/biotech-vc-funding-tracker-2026",
+   "source_name": "BioBucks tracker",
+   "note": null
+  },
+  {
+   "id": "v-aureka",
+   "date": "2026-08-12",
+   "type": "Venture",
+   "company": "Aureka Biotechnologies",
+   "sector": "Foundation models & platforms",
+   "round": "Series B",
+   "cash_usd": 100000000.0,
+   "headline_usd": 100000000.0,
+   "amount_label": "$100M",
+   "payers": [
+    {
+     "name": "Granite Asia",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://pulse2.com/aureka-biotechnologies-raises-100-million-series-b-to-build-biological-world-model-for-drug-discovery/",
+   "source_name": "Pulse 2.0",
+   "note": null
+  },
+  {
+   "id": "p-bms-chai",
+   "date": "2026-08-19",
+   "type": "Partnership",
+   "company": "Chai Discovery",
+   "sector": "Foundation models & platforms",
+   "round": "Antibody discovery",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Bristol Myers Squibb",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "v-superluminal",
+   "date": "2026-09-03",
+   "type": "Venture",
+   "company": "Superluminal Medicines",
+   "sector": "Small molecule & peptide design",
+   "round": "Series B",
+   "cash_usd": 60000000.0,
+   "headline_usd": 60000000.0,
+   "amount_label": "$60M",
+   "payers": [
+    {
+     "name": "BVF Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "NVIDIA (NVentures)",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    },
+    {
+     "name": "RA Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.biobucks.co/biotech-vc-funding-tracker-2026",
+   "source_name": "BioBucks tracker",
+   "note": null
+  },
+  {
+   "id": "v-altis",
+   "date": "2026-09-17",
+   "type": "Venture",
+   "company": "Altis Labs",
+   "sector": "Clinical & development AI",
+   "round": "Series A",
+   "cash_usd": 25000000.0,
+   "headline_usd": 25000000.0,
+   "amount_label": "$25M",
+   "payers": [
+    {
+     "name": "OrbiMed",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Qiming Venture Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news",
+   "source_name": "New Market Pitch",
+   "note": null
+  },
+  {
+   "id": "v-bigpicture",
+   "date": "2026-09-17",
+   "type": "Venture",
+   "company": "Big Picture Bio",
+   "sector": "Targets, delivery & biology",
+   "round": "Pre-seed",
+   "cash_usd": 2000000.0,
+   "headline_usd": 2000000.0,
+   "amount_label": "~$2M",
+   "payers": [
+    {
+     "name": "Kadmos Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Exceptional Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news",
+   "source_name": "New Market Pitch",
+   "note": null
+  },
+  {
+   "id": "p-novo-orbis",
+   "date": "2026-09-17",
+   "type": "Partnership",
+   "company": "Orbis Medicines",
+   "sector": "Small molecule & peptide design",
+   "round": "Cardiometabolic macrocycles",
+   "cash_usd": null,
+   "headline_usd": 1400000000.0,
+   "amount_label": "Up to $1.4B",
+   "payers": [
+    {
+     "name": "Novo Nordisk",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "p-abbvie-iambic",
+   "date": "2026-09-21",
+   "type": "Partnership",
+   "company": "Iambic",
+   "sector": "Small molecule & peptide design",
+   "round": "Immunology, neuro, oncology",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "AbbVie",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "p-bi-envisagenics",
+   "date": "2026-09-22",
+   "type": "Partnership",
+   "company": "Envisagenics",
+   "sector": "Targets, delivery & biology",
+   "round": "Splicing targets in solid tumours",
+   "cash_usd": null,
+   "headline_usd": 1000000000.0,
+   "amount_label": "Over $1B",
+   "payers": [
+    {
+     "name": "Boehringer Ingelheim",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "v-enveda",
+   "date": "2026-09-23",
+   "type": "Venture",
+   "company": "Enveda Biosciences",
+   "sector": "Small molecule & peptide design",
+   "round": "Series E",
+   "cash_usd": 311000000.0,
+   "headline_usd": 311000000.0,
+   "amount_label": "$311M",
+   "payers": [
+    {
+     "name": "Catalio",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "T. Rowe Price",
+     "kind": "Public markets"
+    },
+    {
+     "name": "Lux Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Lightspeed",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.biopharmadive.com/news/enveda-ai-drug-discovery-series-e/831161/",
+   "source_name": "BioPharma Dive",
+   "note": null
+  },
+  {
+   "id": "v-basecamp",
+   "date": "2026-09-23",
+   "type": "Venture",
+   "company": "Basecamp Research",
+   "sector": "Foundation models & platforms",
+   "round": "Series C",
+   "cash_usd": 140000000.0,
+   "headline_usd": 140000000.0,
+   "amount_label": "$140M",
+   "payers": [
+    {
+     "name": "S32",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "NVIDIA (NVentures)",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Anthropic (Anthology Fund w/ Menlo)",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "UK Sovereign AI Fund",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "NATO Innovation Fund",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Catalio",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
+   "source_name": "Tech.eu",
+   "note": null
+  },
+  {
+   "id": "p-bi-variant",
+   "date": "2026-09-23",
+   "type": "Partnership",
+   "company": "Variant Bio",
+   "sector": "Targets, delivery & biology",
+   "round": "Cardiovascular (expanded)",
+   "cash_usd": null,
+   "headline_usd": 250000000.0,
+   "amount_label": "Over $250M",
+   "payers": [
+    {
+     "name": "Boehringer Ingelheim",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "v-bighat",
+   "date": "2026-09-24",
+   "type": "Venture",
+   "company": "BigHat Biosciences",
+   "sector": "Protein & antibody design",
+   "round": "Series C",
+   "cash_usd": 75000000.0,
+   "headline_usd": 75000000.0,
+   "amount_label": "$75M",
+   "payers": [
+    {
+     "name": "DFJ Growth",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Premji Invest",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Merck GHI",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Andreessen Horowitz",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Catalio",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.biobucks.co/biotech-vc-funding-tracker-2026",
+   "source_name": "BioBucks tracker",
+   "note": null
+  },
+  {
+   "id": "p-gsk-chai",
+   "date": "2026-10-09",
+   "type": "Partnership",
+   "company": "Chai Discovery",
+   "sector": "Foundation models & platforms",
+   "round": "Platform access",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "GSK",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": null
+  },
+  {
+   "id": "p-zealand-generate",
+   "date": "2026-10-13",
+   "type": "Partnership",
+   "company": "Generate Biomedicines",
+   "sector": "Protein & antibody design",
+   "round": "Obesity & metabolic",
+   "cash_usd": 30000000.0,
+   "headline_usd": 1200000000.0,
+   "amount_label": "$30M upfront · up to $1.2B",
+   "payers": [
+    {
+     "name": "Zealand Pharma",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.bioxconomy.com/partnering/zealand-pharma-generates-metabolic-therapeutics-with-ai-platform",
+   "source_name": "BioXconomy",
+   "note": null
+  },
+  {
+   "id": "p-az-insitro",
+   "date": "2026-10-15",
+   "type": "Partnership",
+   "company": "insitro",
+   "sector": "Targets, delivery & biology",
+   "round": "MASH & cardiomyopathy targets",
+   "cash_usd": 40000000.0,
+   "headline_usd": 1500000000.0,
+   "amount_label": "$40M upfront · up to $1.5B",
+   "payers": [
+    {
+     "name": "AstraZeneca",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.tikr.com/blog/astrazeneca-signs-ai-drug-discovery-deal-worth-up-to-1-5-billion-only-40-million-is-guaranteed",
+   "source_name": "TIKR",
+   "note": null
+  },
+  {
+   "id": "p-lilly-metis",
+   "date": "2026-10-19",
+   "type": "Partnership",
+   "company": "METiS TechBio",
+   "sector": "Targets, delivery & biology",
+   "round": "Tissue-specific delivery",
+   "cash_usd": null,
+   "headline_usd": 1100000000.0,
+   "amount_label": "Low double-digit $M upfront · ~$1.1B",
+   "payers": [
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
+   "source_name": "BioBucks BD&L tracker",
+   "note": "Upfront described only as low double-digit millions, so it isn't counted as cash."
+  },
+  {
+   "id": "a-openai-orchestra",
+   "date": "2026-10-20",
+   "type": "Acquisition",
+   "company": "Orchestra Bio",
+   "sector": "Clinical & development AI",
+   "round": "Acquired by OpenAI",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "OpenAI",
+     "kind": "Big tech & AI labs"
+    }
+   ],
+   "participants": [],
+   "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-openai-acquired-orchestra-bio-175504169.html",
+   "source_name": "Yahoo Finance / Axios",
+   "note": null
+  },
+  {
+   "id": "p-astellas-aiproteins",
+   "date": "2026-10-21",
+   "type": "Partnership",
+   "company": "AI Proteins",
+   "sector": "Protein & antibody design",
+   "round": "De novo miniproteins",
+   "cash_usd": null,
+   "headline_usd": 400000000.0,
+   "amount_label": "Over $400M",
+   "payers": [
+    {
+     "name": "Astellas",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://pharmacally.com/ai-proteins-astellas-miniprotein-therapeutics-deal/",
+   "source_name": "Pharmacally",
+   "note": null
+  },
+  {
+   "id": "v-warp",
+   "date": "2026-10-22",
+   "type": "Venture",
+   "company": "Warp Sciences",
+   "sector": "Lab automation & robotics",
+   "round": "Launch round",
+   "cash_usd": 215000000.0,
+   "headline_usd": 215000000.0,
+   "amount_label": "$215M",
+   "payers": [
+    {
+     "name": "Lightspeed",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "IVP",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Lux Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Menlo Ventures",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Premji Invest",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+   "source_name": "TechCrunch",
+   "note": "Founded by OpenAI's former science lead."
+  },
+  {
+   "id": "v-pathos",
+   "date": "2026-10-23",
+   "type": "Venture",
+   "company": "Pathos AI",
+   "sector": "Clinical & development AI",
+   "round": "Series E",
+   "cash_usd": 237000000.0,
+   "headline_usd": 237000000.0,
+   "amount_label": "$237M",
+   "payers": [
+    {
+     "name": "Bristol Myers Squibb",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://siliconangle.com/2026/10/23/ai-drug-development-startup-pathos-ai-closes-237m-investment/",
+   "source_name": "SiliconANGLE",
+   "note": "Valued at $3B."
+  },
+  {
+   "id": "p-abudhabi-isomorphic",
+   "date": "2026-10-23",
+   "type": "Partnership",
+   "company": "Isomorphic Labs",
+   "sector": "Foundation models & platforms",
+   "round": "Health-data research roadmap",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Abu Dhabi Dept. of Health",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "participants": [],
+   "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi",
+   "source_name": "EnterpriseAM",
+   "note": null
+  }
+ ]
+}

@@ -35,7 +35,8 @@ Out of scope: healthcare admin/billing AI, generic hospital software, pure biote
 6. Set `last_updated` (UTC ISO) and `run_label` ("Morning brief · Oct 27, 2026" / "Evening brief · …").
 7. Save a snapshot: `data/news-history/YYYY-MM-DD-am.json` or `-pm.json` containing `{last_updated, run_label, analysis, item_ids}`.
 8. Validate: `python3 -m json.tool data/news.json > /dev/null`.
-9. Commit `data/news.json` and the snapshot with message `chore: bio×ai deals brief [YYYY-MM-DD am|pm]`, then push to `main`.
+9. **Update the money map** (`data/flows.json`, see the section below): append every new deal from this run, update any whose status or terms changed, and add or extend a `chains` entry when a deal continues a chain (same backer or company moving again). Validate it too: `python3 -m json.tool data/flows.json > /dev/null`.
+10. Commit `data/news.json`, `data/flows.json` and the snapshot with message `chore: bio×ai deals brief [YYYY-MM-DD am|pm]`, then push to `main`.
 
 ## Writing rules
 
@@ -71,3 +72,39 @@ Out of scope: healthcare admin/billing AI, generic hospital software, pure biote
 ```
 
 Dashboard math: "Venture · last 7 days" sums `amount_usd` for `type: Funding` + `status: Closed` items dated in the past 7 days. Keep `amount_usd` as the actual round size (not valuation). For partnerships, use the headline total.
+
+
+## Money map (`data/flows.json`)
+
+This file powers the **Money Map 2026** tab (`/#money`): a flow diagram from source → channel → sector, monthly totals, money hubs, funding chains and a deal ledger. It is **cumulative from 2026-01-01**, so never drop old deals from it. The page computes every chart from `deals`; you only edit the data.
+
+Deal schema:
+
+```json
+{
+  "id": "v-company | p-pharma-company | a-acquirer-target | i-company | l-licensor",
+  "date": "YYYY-MM-DD",
+  "type": "Venture | Partnership | Acquisition | IPO | In-licensing",
+  "company": "Company receiving the money (for In-licensing: the company being paid)",
+  "sector": "Foundation models & platforms | Small molecule & peptide design | Protein & antibody design | Targets, delivery & biology | Lab automation & robotics | Clinical & development AI | Diagnostics & pathology AI | Longevity & reprogramming",
+  "round": "Series B / deal scope / 'Acquired by X' / ticker",
+  "cash_usd": 0,
+  "headline_usd": 0,
+  "amount_label": "Human label exactly as reported, e.g. '$40M upfront · up to $1.5B'",
+  "payers": [{"name": "Lead investor / pharma / acquirer", "kind": "Venture capital | Pharma | Big tech & AI labs | Public markets | Sovereign & state | Undisclosed | AI biotech"}],
+  "participants": [{"name": "Other notable investors", "kind": "..."}],
+  "url": "https://primary source",
+  "source_name": "Outlet",
+  "note": "Optional caveat, or null"
+}
+```
+
+Rules:
+- **Venture:** `cash_usd` = `headline_usd` = round size. `payers` = the named lead(s); if none named, use `[{"name":"Lead not named","kind":"Undisclosed"}]` and list known backers in `participants`.
+- **Partnership:** `cash_usd` = disclosed upfront only (null if undisclosed or vague); `headline_usd` = total potential value (null if undisclosed).
+- **Acquisition:** `cash_usd` = disclosed upfront price; `headline_usd` = price including milestones. Mark stock deals in `note`.
+- **IPO:** gross proceeds, payer `Public market investors` / `Public markets`.
+- **In-licensing:** an AI biotech paying someone else. It shows in the ledger and chains, not in the flow diagram.
+- Corporate venture arms count as their parent's kind (NVentures → Big tech & AI labs; Lilly Ventures, Merck GHI → Pharma). Use one consistent name per backer (e.g. always "Eli Lilly", always "NVIDIA (NVentures)") so the hubs ranking counts correctly.
+- Chains: `{"id","title","kind","steps":[{"label","amount","deal": "<deal id or null>"}],"insight"}`. Keep 5–8 chains, focused on where money is moving next. Update the insight when a new step lands.
+- Update `last_updated`. If a market-context figure gets a newer report (e.g. a Q3 or full-year review), replace it and keep the source link.

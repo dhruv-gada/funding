@@ -216,16 +216,19 @@ function setNewsType(t) {
 const _origLoadData = loadData;
 loadData = function () {
   if (activeTab === "news") return showNews(true);
+  if (activeTab === "money" && typeof showMoney === "function") return showMoney(true);
   return _origLoadData();
 };
 
 // Deep link: /#deals opens the Bio × AI tab (on load and when a #deals link is clicked)
 function syncHash() {
-  if (location.hash === "#deals" && activeTab !== "news") {
-    const btn = document.querySelector(".tab-news");
-    if (btn) switchTab("news", btn);
+  const map = { "#deals": ["news", ".tab-news"], "#money": ["money", ".tab-money"] };
+  const hit = map[location.hash];
+  if (hit && activeTab !== hit[0]) {
+    const btn = document.querySelector(hit[1]);
+    if (btn) switchTab(hit[0], btn);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 }
 window.addEventListener("hashchange", syncHash);
-syncHash();
+window.addEventListener("load", syncHash);
