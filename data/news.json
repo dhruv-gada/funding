@@ -1,46 +1,57 @@
 {
-  "last_updated": "2026-10-27T13:20:00+00:00",
-  "run_label": "Morning brief · Oct 27, 2026",
+  "last_updated": "2026-10-27T20:55:00+00:00",
+  "run_label": "Evening brief · Oct 27, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Money is going to AI drug companies that make and test molecules, and public markets are paying for those with clinical assets",
-    "summary": "The week of Oct 20 brought about $514M in disclosed venture money into bio×AI across three rounds: Pathos AI ($237M), Warp Sciences ($215M) and Hexagon Bio ($62M). Earlier in October, Iambic raised $150M in an IPO at a valuation above $800M. OpenAI made its first biotech acquisition (Orchestra Bio), and Isomorphic Labs is reportedly raising at $40B or more. Pharma keeps signing discovery deals with large headline totals but little upfront cash.",
+    "headline": "AI money is moving downstream: after funding molecules that get made and tested, pharma, big tech and seed investors are now betting AI can redesign clinical trials too",
+    "summary": "Disclosed bio×AI venture reached about $524M in the past week (Pathos $237M, Warp $215M, Hexagon $62M, Atlas Bio $10M) and about $650M across seven private rounds in October, on top of Iambic's $150M IPO. Since Friday, Boehringer Ingelheim and Microsoft agreed to test digital patient twins for trials, and Atlas Bio raised a seed to simulate Phase II studies. Pharma licensing keeps big headlines and small upfronts: Zealand–Generate ($30M of ~$1.2B), Lilly–METiS (low double-digit millions of $1.1B) and AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
-        "title": "Robots and owned data in the loop",
-        "detail": "Warp Sciences (robots trained by chemists wearing sensor gloves), Xaira's X-Automate (agent-run lab automation) and Rivercell (€22M to generate its own cell-response data for a virtual-cell model) all bet that the bottleneck is now making, testing and measuring, not designing. Expect more capital for self-driving wet labs and proprietary data."
+        "title": "AI moves into trial design",
+        "detail": "Boehringer and Microsoft are testing digital patient twins and synthetic control arms, starting in lung disease. Atlas Bio raised a $10M seed to simulate Phase II outcomes from tissue RNA, and Pathos's $237M round funds AI-picked patients and biomarker-led trials. The costliest part of drug development is now a target for AI money, not just discovery."
       },
       {
-        "title": "Frontier AI labs moving into biotech",
-        "detail": "OpenAI bought Orchestra Bio to add drug-development agents to Rosalind. Its former science lead launched Warp the same week, and another OpenAI researcher is reportedly raising about $200M. Isomorphic's reported valuation of $40B or more would make it the most valuable AI-drug company before it has any clinical proof."
+        "title": "Make, test and manufacture: money for the physical layer",
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing, with AstraZeneca investing), Xaira's X-Automate and Rivercell (€22M to generate its own cell data) all bet that the bottleneck has moved from design to the lab and the plant. WhiteLab's $26M is built on AI-designed capsids proven in animals."
       },
       {
-        "title": "Public markets reward clinical assets",
-        "detail": "Iambic priced a $150M IPO at the midpoint, with existing backers ARK and Duquesne indicating about 40% of the book, and is funding a mid-stage HER2 program. Hexagon Bio's $62M Series C was likewise sold on one ADC heading to Phase 1 in 2027. Platforms with a near-clinic asset are getting paid; pure platforms rely on pharma deals."
+        "title": "Frontier AI labs and their alumni move into biotech",
+        "detail": "OpenAI bought Orchestra Bio and backs Chai, which converted a GSK bake-off into a pipeline-wide deal. Anthropic's Anthology Fund joined Basecamp's $140M round. Former OpenAI staff founded Warp, and another is reportedly raising about $200M. Isomorphic is in talks at $40B or more."
       },
       {
-        "title": "Pharma wants equity, but pays little upfront",
-        "detail": "Bristol Myers Squibb led Pathos AI's $237M Series E at a $3B valuation. Yet in licensing, AstraZeneca–insitro is worth up to $1.5B with only $40M (about 3%) upfront, and Astellas–AI Proteins is worth more than $400M with the upfront undisclosed. Most headline value depends on milestones."
+        "title": "Pharma pays in milestones, and is now shopping for delivery",
+        "detail": "Upfronts stay at roughly 2–3% of headline value: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), and Lilly–METiS (low double-digit millions of $1.1B). Delivery is a new category: Lilly licensed METiS's AI lipid design and WhiteLab raised for AI-designed AAVs."
       }
     ],
-    "watchlist": [
-      "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
-      "Miles Wang's ~$200M raise: the company name, the lead investor, and whether it competes with Warp",
-      "Recursion Q3 results on Nov 2 and updated REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
-      "Iambic's first quarter as a public company and how IAM trades against its $16 IPO price",
-      "Enveda ENV-294 Phase 2 data in eczema and asthma, an early clinical test of AI-found natural-product drugs"
-    ],
-    "since_last_run": "Quiet overnight: no new qualifying bio×AI deal was announced between the Oct 26 evening brief and this morning. This run added three in-window deals the earlier briefs missed: Hexagon Bio's $62M Series C (Oct 23, led by The Column Group), Iambic's $150M Nasdaq IPO (Oct 15) and Rivercell's €22M seed (Oct 7). That lifts disclosed venture for the week of Oct 20 from about $452M to about $514M and adds a 'public markets reward clinical assets' theme, NVIDIA and European seed investors as movers, and a new IPO prediction. Recursion set Q3 results for Nov 2 and a REC-4881 data webinar for Nov 3 (added to the watchlist). No prediction resolved.",
     "movers": [
       {
         "player": "OpenAI",
         "kind": "AI lab",
         "direction": "From models to owning life-sciences workflows",
-        "detail": "OpenAI bought Orchestra Bio to put pharma-operations agents into Rosalind. Its alumni are spinning out bio companies (Kevin Weil's Warp, and Miles Wang reportedly raising ~$200M). It also backed Chai Discovery, which raised $400M in July.",
+        "detail": "OpenAI bought Orchestra Bio to put pharma-operations agents into Rosalind and is an investor in Chai, which just widened its GSK deal. Alumni are spinning out bio companies: Kevin Weil's Warp, and Miles Wang reportedly raising about $200M.",
         "evidence": [
           "2026-10-20-openai-orchestra-bio",
           "2026-10-22-warp-sciences-launch",
-          "2026-10-22-miles-wang-raise-talks"
+          "2026-10-22-miles-wang-raise-talks",
+          "2026-10-09-gsk-chai"
+        ]
+      },
+      {
+        "player": "Anthropic",
+        "kind": "AI lab",
+        "direction": "Investing in bio model companies with proprietary data",
+        "detail": "Anthropic's Anthology Fund joined Basecamp Research's $140M Series C alongside NVIDIA. Its IPO filing, covered by Fierce on Oct 26, sets out drug R&D as an ambition.",
+        "evidence": [
+          "2026-09-23-basecamp-series-c"
+        ]
+      },
+      {
+        "player": "Microsoft",
+        "kind": "Big tech",
+        "direction": "Into clinical development through pharma partnerships",
+        "detail": "Microsoft's new collaboration with Boehringer Ingelheim targets digital patient twins and synthetic control arms, starting in lung health. It is pitching AI and cloud at the trial stage, where Google's Isomorphic is focused on discovery.",
+        "evidence": [
+          "2026-10-24-boehringer-microsoft-twins"
         ]
       },
       {
@@ -54,13 +65,34 @@
         ]
       },
       {
-        "player": "Lightspeed",
-        "kind": "VC",
-        "direction": "Concentrating on OpenAI-alumni bio founders",
-        "detail": "Lightspeed led Warp's $215M launch and is reportedly in talks to lead Miles Wang's ~$200M round, pairing frontier-lab talent with bio.",
+        "player": "NVIDIA",
+        "kind": "Big tech",
+        "direction": "In the cap tables from foundation models to public companies",
+        "detail": "NVentures joined Basecamp's $140M Series C, and NVIDIA-backed Iambic raised $150M in its IPO. NVIDIA rarely leads, but it now spans data-moat model companies and companies with clinical assets.",
         "evidence": [
-          "2026-10-22-warp-sciences-launch",
-          "2026-10-22-miles-wang-raise-talks"
+          "2026-09-23-basecamp-series-c",
+          "2026-10-15-iambic-ipo"
+        ]
+      },
+      {
+        "player": "Eli Lilly",
+        "kind": "Pharma",
+        "direction": "Licensing AI platforms for delivery, not just molecules",
+        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B), adding to its run of AI deals this year.",
+        "evidence": [
+          "2026-10-19-lilly-metis"
+        ]
+      },
+      {
+        "player": "AstraZeneca",
+        "kind": "Pharma",
+        "direction": "Outsourcing discovery, investing in manufacturing robots, building Gulf trial capacity",
+        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets, invested in Multiply Labs' $75M round, partners with Pathos on an ER PROTAC, and is exploring up to 30 trials in Abu Dhabi by 2030.",
+        "evidence": [
+          "2026-10-15-astrazeneca-insitro",
+          "2026-10-07-multiply-labs-series-b",
+          "2026-10-23-pathos-series-e",
+          "2026-10-23-abudhabi-isomorphic"
         ]
       },
       {
@@ -73,63 +105,60 @@
         ]
       },
       {
-        "player": "AstraZeneca",
+        "player": "Mid-size pharma (Astellas, Zealand, GSK, Boehringer)",
         "kind": "Pharma",
-        "direction": "Outsourcing target discovery in cardiometabolic disease; building Gulf trial capacity",
-        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets. It is exploring up to 30 trials in Abu Dhabi by 2030 and partners with Pathos on an ER PROTAC.",
+        "direction": "Renting AI platforms in their core areas rather than building them",
+        "detail": "Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK widened its Chai deal after lab tests, and Boehringer went to Microsoft for trial twins.",
         "evidence": [
-          "2026-10-15-astrazeneca-insitro",
-          "2026-10-23-abudhabi-isomorphic",
-          "2026-10-23-pathos-series-e"
+          "2026-10-21-astellas-ai-proteins",
+          "2026-10-13-zealand-generate",
+          "2026-10-09-gsk-chai",
+          "2026-10-24-boehringer-microsoft-twins"
         ]
       },
       {
-        "player": "Astellas",
-        "kind": "Pharma",
-        "direction": "Licensing de novo protein design rather than building it",
-        "detail": "Astellas signed a deal with AI Proteins worth more than $400M for miniproteins, with the upfront undisclosed.",
+        "player": "Lightspeed",
+        "kind": "VC",
+        "direction": "Concentrating on OpenAI-alumni bio founders",
+        "detail": "Lightspeed led Warp's $215M launch and is reportedly in talks to lead Miles Wang's ~$200M round.",
         "evidence": [
-          "2026-10-21-astellas-ai-proteins"
+          "2026-10-22-warp-sciences-launch",
+          "2026-10-22-miles-wang-raise-talks"
         ]
       },
       {
         "player": "Lux Capital",
         "kind": "VC",
-        "direction": "Backing both ends: AI discovery and automated chemistry",
-        "detail": "Lux is in both Warp (lab automation) and Enveda (AI natural-product discovery, now clinical).",
+        "direction": "Owning the make-and-test layer end to end",
+        "detail": "Lux is in Warp (automated chemistry), Multiply Labs (robotic manufacturing) and Enveda (AI natural-product discovery, now clinical).",
         "evidence": [
           "2026-10-22-warp-sciences-launch",
+          "2026-10-07-multiply-labs-series-b",
           "2026-09-23-enveda-series-e"
+        ]
+      },
+      {
+        "player": "European early-stage investors",
+        "kind": "VC",
+        "direction": "Backing data-first and trial-simulation bets",
+        "detail": "Creandum led Atlas Bio's $10M seed, HV Capital led Rivercell's €22M seed and AVP led WhiteLab's $26M Series B, so European funds are writing larger early cheques for AI biology.",
+        "evidence": [
+          "2026-10-27-atlas-bio-seed",
+          "2026-10-07-rivercell-seed",
+          "2026-10-05-whitelab-series-b"
         ]
       },
       {
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
         "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
-        "detail": "ARK and Duquesne indicated about 40% of Iambic's $150M IPO. T. Rowe Price and a sovereign fund joined Enveda's Series E, and Canada's CPP Investments is back in Hexagon Bio's Series C. Abu Dhabi is offering its health data to AI drug companies.",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, and Abu Dhabi is offering its health data to AI drug companies.",
         "evidence": [
           "2026-10-15-iambic-ipo",
           "2026-09-23-enveda-series-e",
           "2026-10-23-hexagon-bio-series-c",
+          "2026-09-23-basecamp-series-c",
           "2026-10-23-abudhabi-isomorphic"
-        ]
-      },
-      {
-        "player": "NVIDIA",
-        "kind": "Big tech",
-        "direction": "Its portfolio companies are reaching public markets",
-        "detail": "NVIDIA-backed Iambic became one of the first AI-native drug developers to IPO this autumn, raising $150M. NVIDIA rarely leads, but its bets now span compute deals with pharma and companies with clinical assets.",
-        "evidence": [
-          "2026-10-15-iambic-ipo"
-        ]
-      },
-      {
-        "player": "European seed investors",
-        "kind": "VC",
-        "direction": "Backing data-first virtual-cell bets",
-        "detail": "HV Capital led Rivercell's €22M seed alongside HCVC, Alven and Bpifrance, a large first cheque for a European AI-biology company built around generating its own data.",
-        "evidence": [
-          "2026-10-07-rivercell-seed"
         ]
       }
     ],
@@ -144,7 +173,7 @@
         "call": "Another frontier AI lab or big tech company buys an AI-bio tooling startup, following OpenAI–Orchestra",
         "timeframe": "By mid-2027",
         "confidence": "Medium",
-        "based_on": "OpenAI's Rosalind acquisition; Alphabet's push to commercialize Isomorphic"
+        "based_on": "OpenAI's Rosalind acquisition; Anthropic's Basecamp stake; Microsoft's Boehringer deal"
       },
       {
         "call": "Isomorphic closes $2B+ near $40B, and late-stage AI-biotech rounds price up after it",
@@ -156,13 +185,13 @@
         "call": "Pharma–AI discovery deals keep upfronts below ~5% of headline value",
         "timeframe": "Ongoing",
         "confidence": "High",
-        "based_on": "AZ–insitro (~3% upfront); Astellas–AI Proteins (upfront undisclosed)"
+        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B)"
       },
       {
-        "call": "'Onshore automated chemistry' becomes its own funding category as companies diversify away from Chinese contract labs",
+        "call": "A second top-20 pharma announces an AI digital-twin or synthetic-control-arm partnership, or a startup raises $50M+ for it",
         "timeframe": "Next 6 months",
         "confidence": "Medium",
-        "based_on": "Warp's thesis; Xaira building in-house robotics"
+        "based_on": "Boehringer–Microsoft digital twins; Atlas Bio's seed; Pathos funding AI-led trial design"
       },
       {
         "call": "Another AI-native drug developer files publicly for a US IPO",
@@ -170,9 +199,114 @@
         "confidence": "Medium",
         "based_on": "Iambic's $150M IPO priced at the midpoint with insider support; Generate Biomedicines' $400M IPO in February"
       }
-    ]
+    ],
+    "watchlist": [
+      "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
+      "Miles Wang's ~$200M raise: the company name, the lead investor, and whether it competes with Warp",
+      "Recursion Q3 results on Nov 2 and updated REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
+      "Atlas Bio's first simulated-trial results (due around early December) and whether a named pharma customer backs them",
+      "Boehringer–Microsoft: first lung-health feasibility results and any regulator discussion of a hybrid control arm"
+    ],
+    "since_last_run": "Two new deals since this morning: Boehringer Ingelheim and Microsoft agreed (Oct 24) to test AI digital patient twins and synthetic control arms, and Atlas Bio raised a $10M Creandum-led seed (Oct 27) to simulate Phase II trials. This lifts past-7-day venture from about $514M to about $524M and adds the new lead theme, AI moving into trial design. This run also filled gaps in the deals feed for in-window October deals already on the Money Map (Lilly–METiS $1.1B, Zealand–Generate $30M upfront of ~$1.2B, GSK–Chai, Basecamp's $140M Series C) and added two rounds that were missing from both: Multiply Labs' $75M Series B (Oct 7, with AstraZeneca investing) and WhiteLab Genomics' $26M Series B (Oct 5). New movers: Anthropic, Microsoft, Eli Lilly and a mid-size pharma group. One prediction, onshore automated chemistry, was replaced with a call on trial-simulation deals. No prediction resolved."
   },
   "items": [
+    {
+      "id": "2026-10-27-atlas-bio-seed",
+      "date": "2026-10-27",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Atlas Bio",
+      "counterparty": "Creandum (lead)",
+      "amount_usd": 10000000,
+      "amount_label": "$10M seed ($12.5M total)",
+      "round": "Seed",
+      "valuation_label": null,
+      "investors": [
+        "Creandum",
+        "First Momentum Ventures",
+        "LEA Partners"
+      ],
+      "area": "AI clinical-trial simulation",
+      "summary": "Basel-based Atlas Bio builds virtual patients from human-tissue RNA data and uses them to predict how a drug would perform in a Phase II trial, so sponsors can test trial designs before enrolling anyone. It raised a $10M seed led by Creandum on top of a $2.5M pre-seed.",
+      "why_invested": "Creandum's case is that Atlas can simulate trial outcomes without needing sensitive treatment records, which could save sponsors time and money; the pre-seed backers frame it as tackling the high failure rate of mid-stage trials. The founders come from Google language-model research and self-driving cars, which also appealed to tech-first investors.",
+      "whats_next": "Hiring across science and sales, platform work, and signing enterprise customers. The company says first simulated-trial results are due roughly six weeks after the announcement (around early December); watch for a named pharma customer and any prospective validation against a real trial readout.",
+      "why_it_matters": "Seed money is now chasing the costliest step in drug development, Phase II, rather than discovery alone.",
+      "links": [
+        {
+          "title": "Tech Funding News: Atlas Bio raises $12.5M to simulate Phase II trials",
+          "url": "https://techfundingnews.com/atlas-bio-12-5m-ai-simulate-phase-ii-drug-trials/"
+        }
+      ],
+      "url": "https://techfundingnews.com/atlas-bio-12-5m-ai-simulate-phase-ii-drug-trials/",
+      "source_name": "Tech Funding News",
+      "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-10-24-boehringer-microsoft-twins",
+      "date": "2026-10-24",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Boehringer Ingelheim",
+      "counterparty": "Microsoft",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": null,
+      "valuation_label": null,
+      "investors": [],
+      "area": "Digital patient twins / trial design",
+      "summary": "Boehringer Ingelheim and Microsoft agreed a strategic collaboration to test whether AI-built digital patient twins can model disease progression, simulate trials and support synthetic or hybrid control arms. Work starts in lung health; no financial terms were given.",
+      "why_invested": "Boehringer says the aim is fewer patients on placebo, faster evidence and better-designed trials, while keeping regulatory and safety standards intact. Likely: Microsoft gains a flagship pharma use case for its cloud and AI stack, building on Boehringer's large Copilot rollout.",
+      "whats_next": "A feasibility phase of modelling and prototyping in lung disease, then possible expansion to other therapy areas, animal health and infrastructure work. No timeline was disclosed; watch for a first hybrid control arm and any regulator engagement.",
+      "why_it_matters": "Big pharma and big tech are taking AI past discovery and into the design of the trials themselves, where most of the money is spent.",
+      "links": [
+        {
+          "title": "AI Weekly: Boehringer and Microsoft partner on digital patient twins",
+          "url": "https://aiweekly.co/alerts/boehringer-and-microsoft-partner-on-ai-digital-patient-twins"
+        },
+        {
+          "title": "Indian Pharma Post: scope, lung-health start and next steps",
+          "url": "https://www.indianpharmapost.com/news/boehringer-ingelheim-microsoft-join-forces-to-explore-ai-powered-digital-patient-twins-22225"
+        },
+        {
+          "title": "Fierce Biotech: AI and machine learning coverage",
+          "url": "https://www.fiercebiotech.com/ai-and-machine-learning"
+        }
+      ],
+      "url": "https://aiweekly.co/alerts/boehringer-and-microsoft-partner-on-ai-digital-patient-twins",
+      "source_name": "AI Weekly",
+      "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-10-23-xaira-x-automate",
+      "date": "2026-10-23",
+      "type": "Launch",
+      "status": "Announced",
+      "company": "Xaira Therapeutics",
+      "counterparty": null,
+      "amount_usd": null,
+      "amount_label": null,
+      "round": "Platform launch",
+      "valuation_label": null,
+      "investors": [],
+      "area": "Agentic lab automation",
+      "summary": "Xaira unveiled X-Automate: lab workcells, a low-cost vision-guided robotic arm (X-Bot), and an AI agent (X-Scientist) that runs the experiments. In a week-long test, instrument use went from an estimated 54% on a 9-to-5 human schedule to 97%.",
+      "why_it_matters": "This is the same make-and-test bet as Warp Sciences, from a company that already has a lot of funding. Expect lab automation to become a standard part of AI-biotech pitches.",
+      "url": "https://www.xaira.com/news/x-automate-brings-physical-and-agentic-ai-to-labs",
+      "source_name": "Xaira",
+      "first_seen": "2026-10-27T02:45:00+00:00",
+      "why_invested": "Not a deal. Xaira is spending its existing funding on in-house, low-cost robotics instead of buying expensive lab automation.",
+      "whats_next": "A planned self-driving lab with about 100 robot arms and a mobile robot platform (Eve). Long-term reliability is still unproven.",
+      "links": [
+        {
+          "title": "Xaira: X-Automate",
+          "url": "https://www.xaira.com/news/x-automate-brings-physical-and-agentic-ai-to-labs"
+        },
+        {
+          "title": "Xaira: X-Scientist agent",
+          "url": "https://www.xaira.com/news/x-scientist-recursive-self-improving-agentic-ai-platform"
+        }
+      ]
+    },
     {
       "id": "2026-10-23-pathos-series-e",
       "date": "2026-10-23",
@@ -211,64 +345,6 @@
         {
           "title": "Endpoints: earlier $62M Series C",
           "url": "https://endpts.com/pathos-ai-nabs-62m-series-c-as-it-hunts-for-more-phase-1-drugs-with-ai"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-abudhabi-isomorphic",
-      "date": "2026-10-23",
-      "type": "Partnership",
-      "status": "Signed",
-      "company": "Isomorphic Labs",
-      "counterparty": "Abu Dhabi Department of Health",
-      "amount_usd": null,
-      "amount_label": "Undisclosed",
-      "round": "Research agreement",
-      "valuation_label": null,
-      "investors": [],
-      "area": "AI preclinical research / health data access",
-      "summary": "Isomorphic Labs and Abu Dhabi's Department of Health will draw up a 24-month roadmap for AI-enabled preclinical research inside the emirate's secure research data environment.",
-      "why_it_matters": "Gulf states are trading access to population health data for a role in AI drug discovery. That data access is becoming a competitive advantage in its own right.",
-      "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi",
-      "source_name": "EnterpriseAM",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "Abu Dhabi is trading access to its health data and research environment for a role in AI drug discovery. Isomorphic gets data from populations that are underrepresented in drug research.",
-      "whats_next": "A 24-month preclinical research roadmap. In a parallel agreement, AstraZeneca explores up to 30 trials in Abu Dhabi by 2030, with the first six by end of 2026.",
-      "links": [
-        {
-          "title": "EnterpriseAM: Abu Dhabi health-data agreements",
-          "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-xaira-x-automate",
-      "date": "2026-10-23",
-      "type": "Launch",
-      "status": "Announced",
-      "company": "Xaira Therapeutics",
-      "counterparty": null,
-      "amount_usd": null,
-      "amount_label": null,
-      "round": "Platform launch",
-      "valuation_label": null,
-      "investors": [],
-      "area": "Agentic lab automation",
-      "summary": "Xaira unveiled X-Automate: lab workcells, a low-cost vision-guided robotic arm (X-Bot), and an AI agent (X-Scientist) that runs the experiments. In a week-long test, instrument use went from an estimated 54% on a 9-to-5 human schedule to 97%.",
-      "why_it_matters": "This is the same make-and-test bet as Warp Sciences, from a company that already has a lot of funding. Expect lab automation to become a standard part of AI-biotech pitches.",
-      "url": "https://www.xaira.com/news/x-automate-brings-physical-and-agentic-ai-to-labs",
-      "source_name": "Xaira",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "Not a deal. Xaira is spending its existing funding on in-house, low-cost robotics instead of buying expensive lab automation.",
-      "whats_next": "A planned self-driving lab with about 100 robot arms and a mobile robot platform (Eve). Long-term reliability is still unproven.",
-      "links": [
-        {
-          "title": "Xaira: X-Automate",
-          "url": "https://www.xaira.com/news/x-automate-brings-physical-and-agentic-ai-to-labs"
-        },
-        {
-          "title": "Xaira: X-Scientist agent",
-          "url": "https://www.xaira.com/news/x-scientist-recursive-self-improving-agentic-ai-platform"
         }
       ]
     },
@@ -312,6 +388,33 @@
       "url": "https://www.startupresearcher.com/news/hexagon-bio-closes-62-million-series-c-funding-round",
       "source_name": "Startup Researcher",
       "first_seen": "2026-10-27T13:20:00+00:00"
+    },
+    {
+      "id": "2026-10-23-abudhabi-isomorphic",
+      "date": "2026-10-23",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Isomorphic Labs",
+      "counterparty": "Abu Dhabi Department of Health",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": "Research agreement",
+      "valuation_label": null,
+      "investors": [],
+      "area": "AI preclinical research / health data access",
+      "summary": "Isomorphic Labs and Abu Dhabi's Department of Health will draw up a 24-month roadmap for AI-enabled preclinical research inside the emirate's secure research data environment.",
+      "why_it_matters": "Gulf states are trading access to population health data for a role in AI drug discovery. That data access is becoming a competitive advantage in its own right.",
+      "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi",
+      "source_name": "EnterpriseAM",
+      "first_seen": "2026-10-27T02:45:00+00:00",
+      "why_invested": "Abu Dhabi is trading access to its health data and research environment for a role in AI drug discovery. Isomorphic gets data from populations that are underrepresented in drug research.",
+      "whats_next": "A 24-month preclinical research roadmap. In a parallel agreement, AstraZeneca explores up to 30 trials in Abu Dhabi by 2030, with the first six by end of 2026.",
+      "links": [
+        {
+          "title": "EnterpriseAM: Abu Dhabi health-data agreements",
+          "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi"
+        }
+      ]
     },
     {
       "id": "2026-10-22-warp-sciences-launch",
@@ -459,39 +562,39 @@
       ]
     },
     {
-      "id": "2026-10-15-astrazeneca-insitro",
-      "date": "2026-10-15",
+      "id": "2026-10-19-lilly-metis",
+      "date": "2026-10-19",
       "type": "Partnership",
       "status": "Signed",
-      "company": "insitro",
-      "counterparty": "AstraZeneca",
-      "amount_usd": 1500000000,
-      "amount_label": "$40M upfront · up to $1.5B",
-      "round": "Discovery collaboration",
+      "company": "METiS TechBio",
+      "counterparty": "Eli Lilly",
+      "amount_usd": 1100000000,
+      "amount_label": "Low double-digit $M upfront · up to $1.1B",
+      "round": null,
       "valuation_label": null,
       "investors": [],
-      "area": "ML target discovery (MASH, cardiomyopathy)",
-      "summary": "insitro's Virtual Human platform will take AstraZeneca-chosen targets in MASH and cardiomyopathy to development candidates. AstraZeneca then takes over clinical development and gets worldwide rights. Royalties are single-digit.",
-      "why_it_matters": "A typical shape for an AI-discovery deal: a large headline total, but only about 3% guaranteed upfront.",
-      "url": "https://www.tikr.com/blog/astrazeneca-signs-ai-drug-discovery-deal-worth-up-to-1-5-billion-only-40-million-is-guaranteed",
-      "source_name": "TIKR",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "AstraZeneca calls target selection one of the most critical R&D decisions and wants AI to find the root-cause biology of disease. It is handing that step to insitro's Virtual Human platform in two cardiometabolic areas with high unmet need.",
-      "whats_next": "insitro takes AstraZeneca-nominated targets to development-candidate stage, and then AstraZeneca runs the clinic. Watch for the first candidate nominations, which would trigger milestones.",
+      "area": "AI-designed drug delivery (LNPs)",
+      "summary": "Hong Kong's METiS, which uses its AiLNP platform to generate and optimise ionizable lipids for lipid nanoparticles, signed a delivery collaboration with Eli Lilly. METiS gets an upfront in the low double-digit millions, up to $1.1B in milestones and single-digit tiered royalties.",
+      "why_invested": "Lilly wants nanoparticles that reach specific tissues and perform better, and METiS argues delivery often decides whether a drug works. Likely: Lilly is buying optionality on delivery for its growing nucleic-acid and genetic-medicine pipeline without building lipid design in-house.",
+      "whats_next": "Lipid discovery and optimisation for undisclosed Lilly programs; no diseases or timelines named. Watch for the first named indication and whether METiS adds more Western pharma partners after Hengrui and Boulevard Bio.",
+      "why_it_matters": "AI deal flow is spreading from designing molecules to designing how they get delivered, and pharma will source that from China-based platforms despite US policy pressure.",
       "links": [
         {
-          "title": "TIKR: only $40M guaranteed",
-          "url": "https://www.tikr.com/blog/astrazeneca-signs-ai-drug-discovery-deal-worth-up-to-1-5-billion-only-40-million-is-guaranteed"
+          "title": "Fierce Biotech: Lilly allies with Metis in $1.1B deal",
+          "url": "https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery"
         },
         {
-          "title": "BioXconomy: MASH and cardiomyopathies",
-          "url": "https://www.bioxconomy.com/partnering/az-and-insitro-ink-ai-collaboration-to-target-mash-and-cardiomyopathies"
+          "title": "BioSpace: terms, royalties and Lilly's delivery deal run",
+          "url": "https://www.biospace.com/deals/lilly-puts-1-1b-on-the-line-for-hong-kong-biotechs-ai-drug-delivery-platform"
         },
         {
-          "title": "NewsBytes summary",
-          "url": "https://www.newsbytesapp.com/news/business/astrazeneca-partners-with-insitro-in-40-million-ai-drug-development-deal/tldr"
+          "title": "BioSpectrum Asia: METiS–Lilly delivery deal",
+          "url": "https://www.biospectrumasia.com/news/26/28550/chinas-startup-metis-techbio-strikes-drug-delivery-deal-worth-1-1-b-with-eli-lilly.html"
         }
-      ]
+      ],
+      "url": "https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery",
+      "source_name": "Fierce Biotech",
+      "first_seen": "2026-10-27T20:55:00+00:00"
     },
     {
       "id": "2026-10-15-iambic-ipo",
@@ -534,6 +637,111 @@
       "url": "https://www.biospace.com/press-releases/iambic-announces-pricing-of-initial-public-offering",
       "source_name": "BioSpace (company release)",
       "first_seen": "2026-10-27T13:20:00+00:00"
+    },
+    {
+      "id": "2026-10-15-astrazeneca-insitro",
+      "date": "2026-10-15",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "insitro",
+      "counterparty": "AstraZeneca",
+      "amount_usd": 1500000000,
+      "amount_label": "$40M upfront · up to $1.5B",
+      "round": "Discovery collaboration",
+      "valuation_label": null,
+      "investors": [],
+      "area": "ML target discovery (MASH, cardiomyopathy)",
+      "summary": "insitro's Virtual Human platform will take AstraZeneca-chosen targets in MASH and cardiomyopathy to development candidates. AstraZeneca then takes over clinical development and gets worldwide rights. Royalties are single-digit.",
+      "why_it_matters": "A typical shape for an AI-discovery deal: a large headline total, but only about 3% guaranteed upfront.",
+      "url": "https://www.tikr.com/blog/astrazeneca-signs-ai-drug-discovery-deal-worth-up-to-1-5-billion-only-40-million-is-guaranteed",
+      "source_name": "TIKR",
+      "first_seen": "2026-10-27T02:45:00+00:00",
+      "why_invested": "AstraZeneca calls target selection one of the most critical R&D decisions and wants AI to find the root-cause biology of disease. It is handing that step to insitro's Virtual Human platform in two cardiometabolic areas with high unmet need.",
+      "whats_next": "insitro takes AstraZeneca-nominated targets to development-candidate stage, and then AstraZeneca runs the clinic. Watch for the first candidate nominations, which would trigger milestones.",
+      "links": [
+        {
+          "title": "TIKR: only $40M guaranteed",
+          "url": "https://www.tikr.com/blog/astrazeneca-signs-ai-drug-discovery-deal-worth-up-to-1-5-billion-only-40-million-is-guaranteed"
+        },
+        {
+          "title": "BioXconomy: MASH and cardiomyopathies",
+          "url": "https://www.bioxconomy.com/partnering/az-and-insitro-ink-ai-collaboration-to-target-mash-and-cardiomyopathies"
+        },
+        {
+          "title": "NewsBytes summary",
+          "url": "https://www.newsbytesapp.com/news/business/astrazeneca-partners-with-insitro-in-40-million-ai-drug-development-deal/tldr"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-zealand-generate",
+      "date": "2026-10-13",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Generate Biomedicines",
+      "counterparty": "Zealand Pharma",
+      "amount_usd": 1200000000,
+      "amount_label": "$30M upfront · up to ~$1.2B",
+      "round": null,
+      "valuation_label": null,
+      "investors": [],
+      "area": "AI protein design · obesity",
+      "summary": "Zealand Pharma hired Generate Biomedicines to design multispecific protein drugs for metabolic disease with its AI platform. Generate gets $30M upfront, up to $35M in early preclinical milestones within a total of nearly $1.2B, plus royalties.",
+      "why_invested": "Zealand has worked mostly with peptides and small molecules and wants proteins that hit several obesity targets at once; it pairs its metabolic know-how with Generate's design engine rather than building one.",
+      "whats_next": "Two initial programs; Generate runs research to lead-candidate selection, then Zealand takes over clinical development. Watch for the first candidate nomination and early milestone payments.",
+      "why_it_matters": "Obesity, the biggest market in pharma, is now pulling in AI protein design, again with about 2.5% of the headline value paid upfront.",
+      "links": [
+        {
+          "title": "Fierce Biotech: Zealand inks $1.2B Generate pact",
+          "url": "https://www.fiercebiotech.com/biotech/zealand-inks-12b-generate-pact-add-multispecific-proteins-obesity-pipeline"
+        },
+        {
+          "title": "pharmaphorum: Zealand forges obesity alliance with Generate",
+          "url": "https://pharmaphorum.com/news/zealand-forges-obesity-alliance-ai-specialist-generate"
+        },
+        {
+          "title": "Cooley: deal announcement",
+          "url": "https://www.cooley.com/news/coverage/2026/2026-10-13-zealand-pharma-and-generate-biomedicines-enter-collaboration-and-license-agreement"
+        }
+      ],
+      "url": "https://www.fiercebiotech.com/biotech/zealand-inks-12b-generate-pact-add-multispecific-proteins-obesity-pipeline",
+      "source_name": "Fierce Biotech",
+      "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-10-09-gsk-chai",
+      "date": "2026-10-09",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Chai Discovery",
+      "counterparty": "GSK",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": null,
+      "valuation_label": null,
+      "investors": [],
+      "area": "Protein structure & design models",
+      "summary": "After testing Chai's models in its own labs, GSK turned an evaluation into a broader collaboration that gives it access to Chai's folding and design models across its pipeline. Terms were not disclosed.",
+      "why_invested": "GSK found binders for every target it tested using Chai designs made without target-specific training, and says Chai's models complement the in-house models it retrains on its own lab data.",
+      "whats_next": "Chai supports discovery across GSK programs. Watch for disclosed terms, the first GSK program credited to Chai, and further big-pharma signings after BMS, Lilly, Novartis and Pfizer.",
+      "why_it_matters": "Pharma is now buying AI design only after a wet-lab bake-off, so model companies with proven hit rates are winning platform deals.",
+      "links": [
+        {
+          "title": "Contract Pharma: Chai and GSK collaborate after wet-lab evaluation",
+          "url": "https://www.contractpharma.com/breaking-news/chai-discovery-gsk-announce-collaboration-following-wet-lab-evaluation/"
+        },
+        {
+          "title": "HLTH: Chai and GSK expand collaboration",
+          "url": "https://hlth.com/insights/news/chai-discovery-and-gsk-expand-ai-drug-discovery-collaboration-following-successful-laboratory-evaluation"
+        },
+        {
+          "title": "pharmaphorum: AI news watch, October 2026",
+          "url": "https://pharmaphorum.com/news/ai-drug-discovery-development-news-watch-october-2026"
+        }
+      ],
+      "url": "https://www.contractpharma.com/breaking-news/chai-discovery-gsk-announce-collaboration-following-wet-lab-evaluation/",
+      "source_name": "Contract Pharma",
+      "first_seen": "2026-10-27T20:55:00+00:00"
     },
     {
       "id": "2026-10-08-isomorphic-series-c-talks",
@@ -615,6 +823,88 @@
       "first_seen": "2026-10-27T13:20:00+00:00"
     },
     {
+      "id": "2026-10-07-multiply-labs-series-b",
+      "date": "2026-10-07",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Multiply Labs",
+      "counterparty": "NantWorks / Patrick Soon-Shiong (lead)",
+      "amount_usd": 75000000,
+      "amount_label": "$75M",
+      "round": "Series B",
+      "valuation_label": null,
+      "investors": [
+        "NantWorks",
+        "AstraZeneca",
+        "Lingotto",
+        "Teradyne",
+        "Strange Ventures",
+        "Casdin Capital",
+        "Lux Capital",
+        "Founders Fund",
+        "Fifty Years"
+      ],
+      "area": "Robotic biomanufacturing ('physical AI')",
+      "summary": "Multiply Labs builds enclosed robotic clusters that automate manual steps in making cell and gene therapies, and is moving into antibodies, viral vectors and mRNA. Patrick Soon-Shiong's NantWorks led the $75M Series B, taking total funding past $100M.",
+      "why_invested": "Lingotto, which joined the board, argues biologics manufacturing has fallen behind the science and robotics can make it scale as it did in cars and chips. AstraZeneca's stake is a strategic bet that faster AI-led discovery will otherwise jam up at manufacturing.",
+      "whats_next": "More capacity, a faster product roadmap and bigger engineering, regulatory and commercial teams to move from clinical-stage installations to commercial-scale production. Watch for a commercial-product deployment and further pharma investors.",
+      "why_it_matters": "The 'make' bottleneck now extends past the discovery lab to manufacturing, and pharma is investing directly in robots to clear it.",
+      "links": [
+        {
+          "title": "BioSpace (Business Wire): Multiply Labs raises $75M Series B",
+          "url": "https://www.biospace.com/press-releases/multiply-labs-raises-75-million-series-b-to-close-the-gap-between-drug-discovery-and-drug-manufacturing"
+        },
+        {
+          "title": "Multiply Labs: Series B announcement",
+          "url": "https://www.multiplylabs.com/press/series-b-2026"
+        }
+      ],
+      "url": "https://www.biospace.com/press-releases/multiply-labs-raises-75-million-series-b-to-close-the-gap-between-drug-discovery-and-drug-manufacturing",
+      "source_name": "BioSpace",
+      "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-10-05-whitelab-series-b",
+      "date": "2026-10-05",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "WhiteLab Genomics",
+      "counterparty": "AVP (lead)",
+      "amount_usd": 26000000,
+      "amount_label": "$26M",
+      "round": "Series B",
+      "valuation_label": null,
+      "investors": [
+        "AVP",
+        "Yaday Health",
+        "Blast Club",
+        "Omnes Capital",
+        "Debiopharm Innovation Fund"
+      ],
+      "area": "AI-designed gene-therapy delivery",
+      "summary": "Paris-based WhiteLab uses its ALFRED platform to design delivery vehicles for genomic medicines, including AAV capsids that crossed the blood-brain barrier in animal work with the Paris Brain Institute. AVP led a $26M Series B.",
+      "why_invested": "Likely: investors are backing evidence that AI-designed capsids work in living animals, plus the novel sequences that could make for defensible IP; the company pitches better brain delivery for Alzheimer's and Parkinson's.",
+      "whats_next": "In vivo validation of viral and non-viral delivery (including LNPs) and synthetic promoters, building a portfolio of bio-assets to keep or partner, and expansion to the US, Japan and South Korea. Watch for a first pharma licensing deal.",
+      "why_it_matters": "Delivery is becoming its own AI-design category, alongside the Lilly–METiS deal.",
+      "links": [
+        {
+          "title": "Axios Pro: WhiteLab Genomics raises $26M Series B",
+          "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines"
+        },
+        {
+          "title": "Pulse 2.0: investors and use of funds",
+          "url": "https://pulse2.com/whitelab-genomics-raises-26-million-series-b/"
+        },
+        {
+          "title": "Drug Target Review: WhiteLab raises $26M",
+          "url": "https://www.drugtargetreview.com/news/whitelab-genomics-raises-26m-to-advance-ai-designed-genomic-medicines/2136665.article"
+        }
+      ],
+      "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
+      "source_name": "Axios Pro",
+      "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
       "id": "2026-09-23-enveda-series-e",
       "date": "2026-09-23",
       "type": "Funding",
@@ -647,34 +937,47 @@
       ]
     },
     {
-      "id": "2026-09-17-altis-labs-series-a",
-      "date": "2026-09-17",
+      "id": "2026-09-23-basecamp-series-c",
+      "date": "2026-09-23",
       "type": "Funding",
       "status": "Closed",
-      "company": "Altis Labs",
-      "counterparty": "OrbiMed, Qiming (co-leads)",
-      "amount_usd": 25000000,
-      "amount_label": "$25M",
-      "round": "Series A",
-      "valuation_label": null,
+      "company": "Basecamp Research",
+      "counterparty": "S32 (lead)",
+      "amount_usd": 140000000,
+      "amount_label": "$140M",
+      "round": "Series C",
+      "valuation_label": "$800M",
       "investors": [
-        "OrbiMed",
-        "Qiming Venture Partners USA"
+        "S32",
+        "NVIDIA (NVentures)",
+        "Anthropic Anthology Fund",
+        "Catalio",
+        "NATO Innovation Fund",
+        "Rockefeller Foundation",
+        "Singular"
       ],
-      "area": "Imaging AI for oncology trials",
-      "summary": "Altis trains models on medical images and patient outcomes so drug developers can read treatment effects earlier in cancer trials.",
-      "why_it_matters": "Clinical-trial AI is drawing specialist biotech investors, not only tech VCs.",
-      "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news",
-      "source_name": "New Market Pitch",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "Specialist biotech funds (OrbiMed) are backing a model that shortens oncology trials by reading imaging endpoints earlier, which saves money for every sponsor.",
-      "whats_next": "Signing drug developers as customers. Watch for named pharma trial partners.",
+      "area": "Biological foundation models",
+      "summary": "London's Basecamp Research trains its EDEN design models on a proprietary genomic dataset gathered through partnerships in more than 30 countries. S32 led an oversubscribed $140M Series C at an $800M valuation, with NVIDIA and Anthropic's Anthology Fund joining.",
+      "why_invested": "Likely: backers are paying for a proprietary data moat that model companies relying on public sequence databases lack; Anthropic and NVIDIA also gain a showcase for frontier-model and GPU use in biology.",
+      "whats_next": "Training the next EDEN models and pushing toward in vivo cell therapies. Watch for a first pharma partnership tied to EDEN designs.",
+      "why_it_matters": "Anthropic is now on a bio cap table, which puts both leading AI labs into biology investing.",
       "links": [
         {
-          "title": "New Market Pitch: healthcare AI funding, Sept–Oct 2026",
-          "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news"
+          "title": "Tech.eu: Anthropic and NVIDIA back Basecamp's $140M Series C",
+          "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
+        },
+        {
+          "title": "AI Weekly: round led by S32 at $800M",
+          "url": "https://aiweekly.co/alerts/basecamp-research-raises-140m-series-c-at-800m-led-by-s32-anthropic-and-nvidia"
+        },
+        {
+          "title": "Dealroom: Basecamp lands $140M",
+          "url": "https://dealroom.co/news/155746-basecamp-research-lands-140m-series-c-to-test-ai-designed-drugs"
         }
-      ]
+      ],
+      "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
+      "source_name": "Tech.eu",
+      "first_seen": "2026-10-27T20:55:00+00:00"
     },
     {
       "id": "2026-09-17-big-picture-bio-preseed",
@@ -699,6 +1002,36 @@
       "first_seen": "2026-10-27T02:45:00+00:00",
       "why_invested": "A small, early bet on predicting drug combinations, a less crowded problem than single-target design.",
       "whats_next": "Wet-lab validation of predicted combinations, then a seed round.",
+      "links": [
+        {
+          "title": "New Market Pitch: healthcare AI funding, Sept–Oct 2026",
+          "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-17-altis-labs-series-a",
+      "date": "2026-09-17",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Altis Labs",
+      "counterparty": "OrbiMed, Qiming (co-leads)",
+      "amount_usd": 25000000,
+      "amount_label": "$25M",
+      "round": "Series A",
+      "valuation_label": null,
+      "investors": [
+        "OrbiMed",
+        "Qiming Venture Partners USA"
+      ],
+      "area": "Imaging AI for oncology trials",
+      "summary": "Altis trains models on medical images and patient outcomes so drug developers can read treatment effects earlier in cancer trials.",
+      "why_it_matters": "Clinical-trial AI is drawing specialist biotech investors, not only tech VCs.",
+      "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news",
+      "source_name": "New Market Pitch",
+      "first_seen": "2026-10-27T02:45:00+00:00",
+      "why_invested": "Specialist biotech funds (OrbiMed) are backing a model that shortens oncology trials by reading imaging endpoints earlier, which saves money for every sponsor.",
+      "whats_next": "Signing drug developers as customers. Watch for named pharma trial partners.",
       "links": [
         {
           "title": "New Market Pitch: healthcare AI funding, Sept–Oct 2026",

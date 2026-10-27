@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-27T13:30:00+00:00",
+ "last_updated": "2026-10-27T20:55:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -248,6 +248,44 @@
     }
    ],
    "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals. The pattern looks like industrial policy, with each country backing its own champions."
+  },
+  {
+   "id": "c-downstream",
+   "title": "AI money moves down the pipeline",
+   "kind": "Venture capital",
+   "steps": [
+    {
+     "label": "WhiteLab raises for AI-designed delivery",
+     "amount": "$26M",
+     "deal": "v-whitelab"
+    },
+    {
+     "label": "AstraZeneca joins Multiply Labs' robot manufacturing round",
+     "amount": "$75M round",
+     "deal": "v-multiply"
+    },
+    {
+     "label": "Lightspeed and Lux fund Warp's chemistry robots",
+     "amount": "$215M",
+     "deal": "v-warp"
+    },
+    {
+     "label": "BMS leads Pathos for AI-led trials",
+     "amount": "$237M",
+     "deal": "v-pathos"
+    },
+    {
+     "label": "Boehringer and Microsoft test digital patient twins",
+     "amount": "Undisclosed",
+     "deal": "p-boehringer-microsoft"
+    },
+    {
+     "label": "Creandum seeds Atlas Bio's simulated Phase II trials",
+     "amount": "$10M",
+     "deal": "v-atlasbio"
+    }
+   ],
+   "insight": "In October, money moved past molecule design toward delivery, wet-lab and manufacturing robots, and now trial design. Big tech and pharma are entering at the trial stage, where most R&D money is spent."
   }
  ],
  "deals": [
@@ -1855,7 +1893,7 @@
    "type": "Partnership",
    "company": "Chai Discovery",
    "sector": "Foundation models & platforms",
-   "round": "Platform access",
+   "round": "Pipeline-wide platform access",
    "cash_usd": null,
    "headline_usd": null,
    "amount_label": "Undisclosed",
@@ -1866,8 +1904,8 @@
     }
    ],
    "participants": [],
-   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
-   "source_name": "BioBucks BD&L tracker",
+   "url": "https://www.contractpharma.com/breaking-news/chai-discovery-gsk-announce-collaboration-following-wet-lab-evaluation/",
+   "source_name": "Contract Pharma",
    "note": null
   },
   {
@@ -1887,8 +1925,8 @@
     }
    ],
    "participants": [],
-   "url": "https://www.bioxconomy.com/partnering/zealand-pharma-generates-metabolic-therapeutics-with-ai-platform",
-   "source_name": "BioXconomy",
+   "url": "https://www.fiercebiotech.com/biotech/zealand-inks-12b-generate-pact-add-multispecific-proteins-obesity-pipeline",
+   "source_name": "Fierce Biotech",
    "note": null
   },
   {
@@ -1929,8 +1967,8 @@
     }
    ],
    "participants": [],
-   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
-   "source_name": "BioBucks BD&L tracker",
+   "url": "https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery",
+   "source_name": "Fierce Biotech",
    "note": "Upfront described only as low double-digit millions, so it isn't counted as cash."
   },
   {
@@ -2143,6 +2181,141 @@
    "url": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/",
    "source_name": "EU-Startups",
    "note": "USD figure as reported in company launch coverage"
+  },
+  {
+   "id": "v-atlasbio",
+   "date": "2026-10-27",
+   "type": "Venture",
+   "company": "Atlas Bio",
+   "sector": "Clinical & development AI",
+   "round": "Seed",
+   "cash_usd": 10000000.0,
+   "headline_usd": 10000000.0,
+   "amount_label": "$10M seed ($12.5M total)",
+   "payers": [
+    {
+     "name": "Creandum",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "First Momentum Ventures",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "LEA Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://techfundingnews.com/atlas-bio-12-5m-ai-simulate-phase-ii-drug-trials/",
+   "source_name": "Tech Funding News",
+   "note": "$12.5M total includes an earlier $2.5M pre-seed; only the $10M seed is counted."
+  },
+  {
+   "id": "p-boehringer-microsoft",
+   "date": "2026-10-24",
+   "type": "Partnership",
+   "company": "Microsoft",
+   "sector": "Clinical & development AI",
+   "round": "Digital patient twins",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Boehringer Ingelheim",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://aiweekly.co/alerts/boehringer-and-microsoft-partner-on-ai-digital-patient-twins",
+   "source_name": "AI Weekly",
+   "note": "Strategic collaboration; no financial terms disclosed."
+  },
+  {
+   "id": "v-multiply",
+   "date": "2026-10-07",
+   "type": "Venture",
+   "company": "Multiply Labs",
+   "sector": "Lab automation & robotics",
+   "round": "Series B",
+   "cash_usd": 75000000.0,
+   "headline_usd": 75000000.0,
+   "amount_label": "$75M",
+   "payers": [
+    {
+     "name": "NantWorks",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "AstraZeneca",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Lingotto",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Teradyne",
+     "kind": "Undisclosed"
+    },
+    {
+     "name": "Lux Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Founders Fund",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Casdin Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.biospace.com/press-releases/multiply-labs-raises-75-million-series-b-to-close-the-gap-between-drug-discovery-and-drug-manufacturing",
+   "source_name": "BioSpace (Business Wire)",
+   "note": "Led by Patrick Soon-Shiong with NantWorks; robotic biomanufacturing."
+  },
+  {
+   "id": "v-whitelab",
+   "date": "2026-10-05",
+   "type": "Venture",
+   "company": "WhiteLab Genomics",
+   "sector": "Targets, delivery & biology",
+   "round": "Series B",
+   "cash_usd": 26000000.0,
+   "headline_usd": 26000000.0,
+   "amount_label": "$26M",
+   "payers": [
+    {
+     "name": "AVP",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Omnes Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Debiopharm Innovation Fund",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Yaday Health",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Blast Club",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
+   "source_name": "Axios Pro",
+   "note": null
   }
  ]
 }
