@@ -1,0 +1,191 @@
+{
+  "last_updated": "2026-10-27T13:20:00+00:00",
+  "run_label": "Morning brief · Oct 27, 2026",
+  "analysis": {
+    "headline": "Money is going to AI drug companies that make and test molecules, and public markets are paying for those with clinical assets",
+    "summary": "The week of Oct 20 brought about $514M in disclosed venture money into bio×AI across three rounds: Pathos AI ($237M), Warp Sciences ($215M) and Hexagon Bio ($62M). Earlier in October, Iambic raised $150M in an IPO at a valuation above $800M. OpenAI made its first biotech acquisition (Orchestra Bio), and Isomorphic Labs is reportedly raising at $40B or more. Pharma keeps signing discovery deals with large headline totals but little upfront cash.",
+    "themes": [
+      {
+        "title": "Robots and owned data in the loop",
+        "detail": "Warp Sciences (robots trained by chemists wearing sensor gloves), Xaira's X-Automate (agent-run lab automation) and Rivercell (€22M to generate its own cell-response data for a virtual-cell model) all bet that the bottleneck is now making, testing and measuring, not designing. Expect more capital for self-driving wet labs and proprietary data."
+      },
+      {
+        "title": "Frontier AI labs moving into biotech",
+        "detail": "OpenAI bought Orchestra Bio to add drug-development agents to Rosalind. Its former science lead launched Warp the same week, and another OpenAI researcher is reportedly raising about $200M. Isomorphic's reported valuation of $40B or more would make it the most valuable AI-drug company before it has any clinical proof."
+      },
+      {
+        "title": "Public markets reward clinical assets",
+        "detail": "Iambic priced a $150M IPO at the midpoint, with existing backers ARK and Duquesne indicating about 40% of the book, and is funding a mid-stage HER2 program. Hexagon Bio's $62M Series C was likewise sold on one ADC heading to Phase 1 in 2027. Platforms with a near-clinic asset are getting paid; pure platforms rely on pharma deals."
+      },
+      {
+        "title": "Pharma wants equity, but pays little upfront",
+        "detail": "Bristol Myers Squibb led Pathos AI's $237M Series E at a $3B valuation. Yet in licensing, AstraZeneca–insitro is worth up to $1.5B with only $40M (about 3%) upfront, and Astellas–AI Proteins is worth more than $400M with the upfront undisclosed. Most headline value depends on milestones."
+      }
+    ],
+    "watchlist": [
+      "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
+      "Miles Wang's ~$200M raise: the company name, the lead investor, and whether it competes with Warp",
+      "Recursion Q3 results on Nov 2 and updated REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
+      "Iambic's first quarter as a public company and how IAM trades against its $16 IPO price",
+      "Enveda ENV-294 Phase 2 data in eczema and asthma, an early clinical test of AI-found natural-product drugs"
+    ],
+    "since_last_run": "Quiet overnight: no new qualifying bio×AI deal was announced between the Oct 26 evening brief and this morning. This run added three in-window deals the earlier briefs missed: Hexagon Bio's $62M Series C (Oct 23, led by The Column Group), Iambic's $150M Nasdaq IPO (Oct 15) and Rivercell's €22M seed (Oct 7). That lifts disclosed venture for the week of Oct 20 from about $452M to about $514M and adds a 'public markets reward clinical assets' theme, NVIDIA and European seed investors as movers, and a new IPO prediction. Recursion set Q3 results for Nov 2 and a REC-4881 data webinar for Nov 3 (added to the watchlist). No prediction resolved.",
+    "movers": [
+      {
+        "player": "OpenAI",
+        "kind": "AI lab",
+        "direction": "From models to owning life-sciences workflows",
+        "detail": "OpenAI bought Orchestra Bio to put pharma-operations agents into Rosalind. Its alumni are spinning out bio companies (Kevin Weil's Warp, and Miles Wang reportedly raising ~$200M). It also backed Chai Discovery, which raised $400M in July.",
+        "evidence": [
+          "2026-10-20-openai-orchestra-bio",
+          "2026-10-22-warp-sciences-launch",
+          "2026-10-22-miles-wang-raise-talks"
+        ]
+      },
+      {
+        "player": "Alphabet / Isomorphic Labs",
+        "kind": "Big tech",
+        "direction": "Scaling capital and data access ahead of clinical proof",
+        "detail": "Isomorphic is in talks to raise more than $2B at a valuation of $40B or more, and has a new data-access roadmap with Abu Dhabi's health department.",
+        "evidence": [
+          "2026-10-08-isomorphic-series-c-talks",
+          "2026-10-23-abudhabi-isomorphic"
+        ]
+      },
+      {
+        "player": "Lightspeed",
+        "kind": "VC",
+        "direction": "Concentrating on OpenAI-alumni bio founders",
+        "detail": "Lightspeed led Warp's $215M launch and is reportedly in talks to lead Miles Wang's ~$200M round, pairing frontier-lab talent with bio.",
+        "evidence": [
+          "2026-10-22-warp-sciences-launch",
+          "2026-10-22-miles-wang-raise-talks"
+        ]
+      },
+      {
+        "player": "Bristol Myers Squibb",
+        "kind": "Pharma",
+        "direction": "Buying equity and access in AI for neurology",
+        "detail": "BMS led Pathos's $237M Series E, and the partnership's first focus is Alzheimer's.",
+        "evidence": [
+          "2026-10-23-pathos-series-e"
+        ]
+      },
+      {
+        "player": "AstraZeneca",
+        "kind": "Pharma",
+        "direction": "Outsourcing target discovery in cardiometabolic disease; building Gulf trial capacity",
+        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets. It is exploring up to 30 trials in Abu Dhabi by 2030 and partners with Pathos on an ER PROTAC.",
+        "evidence": [
+          "2026-10-15-astrazeneca-insitro",
+          "2026-10-23-abudhabi-isomorphic",
+          "2026-10-23-pathos-series-e"
+        ]
+      },
+      {
+        "player": "Astellas",
+        "kind": "Pharma",
+        "direction": "Licensing de novo protein design rather than building it",
+        "detail": "Astellas signed a deal with AI Proteins worth more than $400M for miniproteins, with the upfront undisclosed.",
+        "evidence": [
+          "2026-10-21-astellas-ai-proteins"
+        ]
+      },
+      {
+        "player": "Lux Capital",
+        "kind": "VC",
+        "direction": "Backing both ends: AI discovery and automated chemistry",
+        "detail": "Lux is in both Warp (lab automation) and Enveda (AI natural-product discovery, now clinical).",
+        "evidence": [
+          "2026-10-22-warp-sciences-launch",
+          "2026-09-23-enveda-series-e"
+        ]
+      },
+      {
+        "player": "Crossover & sovereign funds",
+        "kind": "Public-market / sovereign",
+        "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's $150M IPO. T. Rowe Price and a sovereign fund joined Enveda's Series E, and Canada's CPP Investments is back in Hexagon Bio's Series C. Abu Dhabi is offering its health data to AI drug companies.",
+        "evidence": [
+          "2026-10-15-iambic-ipo",
+          "2026-09-23-enveda-series-e",
+          "2026-10-23-hexagon-bio-series-c",
+          "2026-10-23-abudhabi-isomorphic"
+        ]
+      },
+      {
+        "player": "NVIDIA",
+        "kind": "Big tech",
+        "direction": "Its portfolio companies are reaching public markets",
+        "detail": "NVIDIA-backed Iambic became one of the first AI-native drug developers to IPO this autumn, raising $150M. NVIDIA rarely leads, but its bets now span compute deals with pharma and companies with clinical assets.",
+        "evidence": [
+          "2026-10-15-iambic-ipo"
+        ]
+      },
+      {
+        "player": "European seed investors",
+        "kind": "VC",
+        "direction": "Backing data-first virtual-cell bets",
+        "detail": "HV Capital led Rivercell's €22M seed alongside HCVC, Alven and Bpifrance, a large first cheque for a European AI-biology company built around generating its own data.",
+        "evidence": [
+          "2026-10-07-rivercell-seed"
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "call": "At least one more OpenAI or DeepMind alumni bio startup announces a $100M+ launch round",
+        "timeframe": "Next 3 months",
+        "confidence": "High",
+        "based_on": "Warp's $215M, plus Miles Wang's reported ~$200M round in talks"
+      },
+      {
+        "call": "Another frontier AI lab or big tech company buys an AI-bio tooling startup, following OpenAI–Orchestra",
+        "timeframe": "By mid-2027",
+        "confidence": "Medium",
+        "based_on": "OpenAI's Rosalind acquisition; Alphabet's push to commercialize Isomorphic"
+      },
+      {
+        "call": "Isomorphic closes $2B+ near $40B, and late-stage AI-biotech rounds price up after it",
+        "timeframe": "Next 1–3 months",
+        "confidence": "Medium",
+        "based_on": "Bloomberg-reported talks; Pathos's valuation nearly doubling since 2025"
+      },
+      {
+        "call": "Pharma–AI discovery deals keep upfronts below ~5% of headline value",
+        "timeframe": "Ongoing",
+        "confidence": "High",
+        "based_on": "AZ–insitro (~3% upfront); Astellas–AI Proteins (upfront undisclosed)"
+      },
+      {
+        "call": "'Onshore automated chemistry' becomes its own funding category as companies diversify away from Chinese contract labs",
+        "timeframe": "Next 6 months",
+        "confidence": "Medium",
+        "based_on": "Warp's thesis; Xaira building in-house robotics"
+      },
+      {
+        "call": "Another AI-native drug developer files publicly for a US IPO",
+        "timeframe": "By end of Q1 2027",
+        "confidence": "Medium",
+        "based_on": "Iambic's $150M IPO priced at the midpoint with insider support; Generate Biomedicines' $400M IPO in February"
+      }
+    ]
+  },
+  "item_ids": [
+    "2026-10-23-pathos-series-e",
+    "2026-10-23-abudhabi-isomorphic",
+    "2026-10-23-xaira-x-automate",
+    "2026-10-23-hexagon-bio-series-c",
+    "2026-10-22-warp-sciences-launch",
+    "2026-10-22-miles-wang-raise-talks",
+    "2026-10-21-astellas-ai-proteins",
+    "2026-10-20-openai-orchestra-bio",
+    "2026-10-15-astrazeneca-insitro",
+    "2026-10-15-iambic-ipo",
+    "2026-10-08-isomorphic-series-c-talks",
+    "2026-10-07-rivercell-seed",
+    "2026-09-23-enveda-series-e",
+    "2026-09-17-altis-labs-series-a",
+    "2026-09-17-big-picture-bio-preseed"
+  ]
+}

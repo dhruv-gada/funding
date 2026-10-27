@@ -1,36 +1,36 @@
 {
-  "last_updated": "2026-10-27T02:45:00+00:00",
-  "run_label": "Evening brief · Oct 26, 2026",
+  "last_updated": "2026-10-27T13:20:00+00:00",
+  "run_label": "Morning brief · Oct 27, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Money is flowing to AI labs that make and test molecules, not just predict them",
-    "summary": "The week of Oct 20 brought about $452M in disclosed venture money into bio×AI, almost all of it in two rounds: Pathos AI ($237M) and Warp Sciences ($215M). OpenAI made its first biotech acquisition (Orchestra Bio), and Isomorphic Labs is reportedly raising at a valuation of $40B or more. Pharma keeps signing AI discovery deals with large headline totals but small upfront cash.",
+    "headline": "Money is going to AI drug companies that make and test molecules, and public markets are paying for those with clinical assets",
+    "summary": "The week of Oct 20 brought about $514M in disclosed venture money into bio×AI across three rounds: Pathos AI ($237M), Warp Sciences ($215M) and Hexagon Bio ($62M). Earlier in October, Iambic raised $150M in an IPO at a valuation above $800M. OpenAI made its first biotech acquisition (Orchestra Bio), and Isomorphic Labs is reportedly raising at $40B or more. Pharma keeps signing discovery deals with large headline totals but little upfront cash.",
     "themes": [
       {
-        "title": "Robots in the loop",
-        "detail": "Warp Sciences (robots trained by chemists wearing sensor gloves) and Xaira's X-Automate (agent-run lab automation) are both betting that the bottleneck is now making and testing molecules, not designing them. Expect more capital to go to self-driving wet labs."
+        "title": "Robots and owned data in the loop",
+        "detail": "Warp Sciences (robots trained by chemists wearing sensor gloves), Xaira's X-Automate (agent-run lab automation) and Rivercell (€22M to generate its own cell-response data for a virtual-cell model) all bet that the bottleneck is now making, testing and measuring, not designing. Expect more capital for self-driving wet labs and proprietary data."
       },
       {
         "title": "Frontier AI labs moving into biotech",
         "detail": "OpenAI bought Orchestra Bio to add drug-development agents to Rosalind. Its former science lead launched Warp the same week, and another OpenAI researcher is reportedly raising about $200M. Isomorphic's reported valuation of $40B or more would make it the most valuable AI-drug company before it has any clinical proof."
       },
       {
-        "title": "Pharma as lead investor, not just partner",
-        "detail": "Bristol Myers Squibb led Pathos AI's $237M Series E at a $3B valuation. Strategic money leading late-stage rounds is a sign that pharma wants a stake in the platform, not only access to its targets."
+        "title": "Public markets reward clinical assets",
+        "detail": "Iambic priced a $150M IPO at the midpoint, with existing backers ARK and Duquesne indicating about 40% of the book, and is funding a mid-stage HER2 program. Hexagon Bio's $62M Series C was likewise sold on one ADC heading to Phase 1 in 2027. Platforms with a near-clinic asset are getting paid; pure platforms rely on pharma deals."
       },
       {
-        "title": "Headline totals overstate the cash",
-        "detail": "AstraZeneca–insitro is worth up to $1.5B, but only $40M (about 3%) is upfront. Astellas–AI Proteins is worth more than $400M, with the upfront undisclosed. Most of the value depends on milestones that may never be reached."
+        "title": "Pharma wants equity, but pays little upfront",
+        "detail": "Bristol Myers Squibb led Pathos AI's $237M Series E at a $3B valuation. Yet in licensing, AstraZeneca–insitro is worth up to $1.5B with only $40M (about 3%) upfront, and Astellas–AI Proteins is worth more than $400M with the upfront undisclosed. Most headline value depends on milestones."
       }
     ],
     "watchlist": [
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Miles Wang's ~$200M raise: the company name, the lead investor, and whether it competes with Warp",
-      "Whether other frontier AI labs follow OpenAI into biotech acquisitions",
-      "Pathos AI's JSKN016 antibody-drug conjugate (ADC) program, which the company calls its key priority",
+      "Recursion Q3 results on Nov 2 and updated REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
+      "Iambic's first quarter as a public company and how IAM trades against its $16 IPO price",
       "Enveda ENV-294 Phase 2 data in eczema and asthma, an early clinical test of AI-found natural-product drugs"
     ],
-    "since_last_run": "First report. This sets the baseline, and future runs will show what changed since this one.",
+    "since_last_run": "Quiet overnight: no new qualifying bio×AI deal was announced between the Oct 26 evening brief and this morning. This run added three in-window deals the earlier briefs missed: Hexagon Bio's $62M Series C (Oct 23, led by The Column Group), Iambic's $150M Nasdaq IPO (Oct 15) and Rivercell's €22M seed (Oct 7). That lifts disclosed venture for the week of Oct 20 from about $452M to about $514M and adds a 'public markets reward clinical assets' theme, NVIDIA and European seed investors as movers, and a new IPO prediction. Recursion set Q3 results for Nov 2 and a REC-4881 data webinar for Nov 3 (added to the watchlist). No prediction resolved.",
     "movers": [
       {
         "player": "OpenAI",
@@ -105,11 +105,31 @@
       {
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
-        "direction": "Positioning for AI-biotech IPOs and data partnerships",
-        "detail": "T. Rowe Price and a sovereign fund joined Enveda's Series E. Abu Dhabi is offering its health data to AI drug companies.",
+        "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's $150M IPO. T. Rowe Price and a sovereign fund joined Enveda's Series E, and Canada's CPP Investments is back in Hexagon Bio's Series C. Abu Dhabi is offering its health data to AI drug companies.",
         "evidence": [
+          "2026-10-15-iambic-ipo",
           "2026-09-23-enveda-series-e",
+          "2026-10-23-hexagon-bio-series-c",
           "2026-10-23-abudhabi-isomorphic"
+        ]
+      },
+      {
+        "player": "NVIDIA",
+        "kind": "Big tech",
+        "direction": "Its portfolio companies are reaching public markets",
+        "detail": "NVIDIA-backed Iambic became one of the first AI-native drug developers to IPO this autumn, raising $150M. NVIDIA rarely leads, but its bets now span compute deals with pharma and companies with clinical assets.",
+        "evidence": [
+          "2026-10-15-iambic-ipo"
+        ]
+      },
+      {
+        "player": "European seed investors",
+        "kind": "VC",
+        "direction": "Backing data-first virtual-cell bets",
+        "detail": "HV Capital led Rivercell's €22M seed alongside HCVC, Alven and Bpifrance, a large first cheque for a European AI-biology company built around generating its own data.",
+        "evidence": [
+          "2026-10-07-rivercell-seed"
         ]
       }
     ],
@@ -143,6 +163,12 @@
         "timeframe": "Next 6 months",
         "confidence": "Medium",
         "based_on": "Warp's thesis; Xaira building in-house robotics"
+      },
+      {
+        "call": "Another AI-native drug developer files publicly for a US IPO",
+        "timeframe": "By end of Q1 2027",
+        "confidence": "Medium",
+        "based_on": "Iambic's $150M IPO priced at the midpoint with insider support; Generate Biomedicines' $400M IPO in February"
       }
     ]
   },
@@ -189,6 +215,105 @@
       ]
     },
     {
+      "id": "2026-10-23-abudhabi-isomorphic",
+      "date": "2026-10-23",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Isomorphic Labs",
+      "counterparty": "Abu Dhabi Department of Health",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": "Research agreement",
+      "valuation_label": null,
+      "investors": [],
+      "area": "AI preclinical research / health data access",
+      "summary": "Isomorphic Labs and Abu Dhabi's Department of Health will draw up a 24-month roadmap for AI-enabled preclinical research inside the emirate's secure research data environment.",
+      "why_it_matters": "Gulf states are trading access to population health data for a role in AI drug discovery. That data access is becoming a competitive advantage in its own right.",
+      "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi",
+      "source_name": "EnterpriseAM",
+      "first_seen": "2026-10-27T02:45:00+00:00",
+      "why_invested": "Abu Dhabi is trading access to its health data and research environment for a role in AI drug discovery. Isomorphic gets data from populations that are underrepresented in drug research.",
+      "whats_next": "A 24-month preclinical research roadmap. In a parallel agreement, AstraZeneca explores up to 30 trials in Abu Dhabi by 2030, with the first six by end of 2026.",
+      "links": [
+        {
+          "title": "EnterpriseAM: Abu Dhabi health-data agreements",
+          "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-xaira-x-automate",
+      "date": "2026-10-23",
+      "type": "Launch",
+      "status": "Announced",
+      "company": "Xaira Therapeutics",
+      "counterparty": null,
+      "amount_usd": null,
+      "amount_label": null,
+      "round": "Platform launch",
+      "valuation_label": null,
+      "investors": [],
+      "area": "Agentic lab automation",
+      "summary": "Xaira unveiled X-Automate: lab workcells, a low-cost vision-guided robotic arm (X-Bot), and an AI agent (X-Scientist) that runs the experiments. In a week-long test, instrument use went from an estimated 54% on a 9-to-5 human schedule to 97%.",
+      "why_it_matters": "This is the same make-and-test bet as Warp Sciences, from a company that already has a lot of funding. Expect lab automation to become a standard part of AI-biotech pitches.",
+      "url": "https://www.xaira.com/news/x-automate-brings-physical-and-agentic-ai-to-labs",
+      "source_name": "Xaira",
+      "first_seen": "2026-10-27T02:45:00+00:00",
+      "why_invested": "Not a deal. Xaira is spending its existing funding on in-house, low-cost robotics instead of buying expensive lab automation.",
+      "whats_next": "A planned self-driving lab with about 100 robot arms and a mobile robot platform (Eve). Long-term reliability is still unproven.",
+      "links": [
+        {
+          "title": "Xaira: X-Automate",
+          "url": "https://www.xaira.com/news/x-automate-brings-physical-and-agentic-ai-to-labs"
+        },
+        {
+          "title": "Xaira: X-Scientist agent",
+          "url": "https://www.xaira.com/news/x-scientist-recursive-self-improving-agentic-ai-platform"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-hexagon-bio-series-c",
+      "date": "2026-10-23",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Hexagon Bio",
+      "counterparty": "The Column Group",
+      "amount_usd": 62000000,
+      "amount_label": "$62M",
+      "round": "Series C",
+      "valuation_label": null,
+      "investors": [
+        "The Column Group",
+        "Nextech Invest",
+        "Deviation Capital",
+        "8VC",
+        "CPP Investments"
+      ],
+      "area": "Computational genome mining / ADC payloads",
+      "summary": "Hexagon Bio mines microbial genomes with a computational discovery platform to find new cell-killing small molecules. It closed a $62M Series C led by The Column Group to take its first antibody-drug conjugate, HEX-360, into the clinic.",
+      "why_invested": "Stated: HEX-360 pairs a HER2 antibody with a payload that blocks protein production, which the company argues can get around resistance to today's topoisomerase and tubulin payloads; preclinical data at AACR 2026 matched or beat an Enhertu-like comparator. Likely: investors are buying a novel-payload ADC story at a time when ADCs are pharma's hottest licensing category.",
+      "whats_next": "HEX-360 is in IND-enabling studies, with a Phase 1 start guided for the first half of 2027. The money also funds new single and dual payloads. Watch for the IND filing and any pharma ADC partnership.",
+      "why_it_matters": "Computational discovery platforms are increasingly being funded on the strength of one clinical-ready asset, not on the platform itself.",
+      "links": [
+        {
+          "title": "Startup Researcher: Hexagon Bio closes $62M Series C",
+          "url": "https://www.startupresearcher.com/news/hexagon-bio-closes-62-million-series-c-funding-round"
+        },
+        {
+          "title": "BioSpace: Hexagon's Series B and computational discovery platform (background)",
+          "url": "https://www.biospace.com/hexagon-bio-raises-77-3-million-series-b-financing-and-strengthens-leadership-to-expand-novel-computational-discovery-platform-and-advance-microbial-genome-derived-small-molecules"
+        },
+        {
+          "title": "Parsers: weekly funding report, week of Oct 20",
+          "url": "https://parsers.substack.com/p/funding-rounds-report-weekly-of-october-b61"
+        }
+      ],
+      "url": "https://www.startupresearcher.com/news/hexagon-bio-closes-62-million-series-c-funding-round",
+      "source_name": "Startup Researcher",
+      "first_seen": "2026-10-27T13:20:00+00:00"
+    },
+    {
       "id": "2026-10-22-warp-sciences-launch",
       "date": "2026-10-22",
       "type": "Funding",
@@ -233,6 +358,35 @@
           "url": "https://startupfortune.com/kevin-weil-leaves-openai-and-raises-215-million-for-drug-discovery-startup/"
         }
       ]
+    },
+    {
+      "id": "2026-10-22-miles-wang-raise-talks",
+      "date": "2026-10-22",
+      "type": "Funding",
+      "status": "In talks",
+      "company": "Miles Wang's drug startup (unnamed)",
+      "counterparty": "Lightspeed (reportedly in talks to lead)",
+      "amount_usd": null,
+      "amount_label": "~$200M (reported)",
+      "round": "Launch round (talks)",
+      "valuation_label": null,
+      "investors": [
+        "Lightspeed"
+      ],
+      "area": "AI drug discovery",
+      "summary": "An OpenAI researcher is reportedly raising about $200M for his own drug-discovery startup, with Lightspeed in talks to lead. Reported in coverage of Warp Sciences' launch.",
+      "why_it_matters": "This would be a second OpenAI-alumni bio startup in the same month with a $200M-class launch round, and it would make Lightspeed the go-to lead for that group.",
+      "why_invested": "The reported pattern is backing frontier-lab researchers who move into drug discovery. Founders are getting large launch rounds on pedigree before showing any data.",
+      "whats_next": "Watch for the company name, the round closing and the investors. Its scope compared with Warp (discovery or chemistry) will show whether these founders are competing or splitting the space.",
+      "links": [
+        {
+          "title": "The Next Web: reported in Warp Sciences coverage",
+          "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab"
+        }
+      ],
+      "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
+      "source_name": "The Next Web",
+      "first_seen": "2026-10-27T02:45:00+00:00"
     },
     {
       "id": "2026-10-21-astellas-ai-proteins",
@@ -305,64 +459,6 @@
       ]
     },
     {
-      "id": "2026-10-23-abudhabi-isomorphic",
-      "date": "2026-10-23",
-      "type": "Partnership",
-      "status": "Signed",
-      "company": "Isomorphic Labs",
-      "counterparty": "Abu Dhabi Department of Health",
-      "amount_usd": null,
-      "amount_label": "Undisclosed",
-      "round": "Research agreement",
-      "valuation_label": null,
-      "investors": [],
-      "area": "AI preclinical research / health data access",
-      "summary": "Isomorphic Labs and Abu Dhabi's Department of Health will draw up a 24-month roadmap for AI-enabled preclinical research inside the emirate's secure research data environment.",
-      "why_it_matters": "Gulf states are trading access to population health data for a role in AI drug discovery. That data access is becoming a competitive advantage in its own right.",
-      "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi",
-      "source_name": "EnterpriseAM",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "Abu Dhabi is trading access to its health data and research environment for a role in AI drug discovery. Isomorphic gets data from populations that are underrepresented in drug research.",
-      "whats_next": "A 24-month preclinical research roadmap. In a parallel agreement, AstraZeneca explores up to 30 trials in Abu Dhabi by 2030, with the first six by end of 2026.",
-      "links": [
-        {
-          "title": "EnterpriseAM: Abu Dhabi health-data agreements",
-          "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-xaira-x-automate",
-      "date": "2026-10-23",
-      "type": "Launch",
-      "status": "Announced",
-      "company": "Xaira Therapeutics",
-      "counterparty": null,
-      "amount_usd": null,
-      "amount_label": null,
-      "round": "Platform launch",
-      "valuation_label": null,
-      "investors": [],
-      "area": "Agentic lab automation",
-      "summary": "Xaira unveiled X-Automate: lab workcells, a low-cost vision-guided robotic arm (X-Bot), and an AI agent (X-Scientist) that runs the experiments. In a week-long test, instrument use went from an estimated 54% on a 9-to-5 human schedule to 97%.",
-      "why_it_matters": "This is the same make-and-test bet as Warp Sciences, from a company that already has a lot of funding. Expect lab automation to become a standard part of AI-biotech pitches.",
-      "url": "https://www.xaira.com/news/x-automate-brings-physical-and-agentic-ai-to-labs",
-      "source_name": "Xaira",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "Not a deal. Xaira is spending its existing funding on in-house, low-cost robotics instead of buying expensive lab automation.",
-      "whats_next": "A planned self-driving lab with about 100 robot arms and a mobile robot platform (Eve). Long-term reliability is still unproven.",
-      "links": [
-        {
-          "title": "Xaira: X-Automate",
-          "url": "https://www.xaira.com/news/x-automate-brings-physical-and-agentic-ai-to-labs"
-        },
-        {
-          "title": "Xaira: X-Scientist agent",
-          "url": "https://www.xaira.com/news/x-scientist-recursive-self-improving-agentic-ai-platform"
-        }
-      ]
-    },
-    {
       "id": "2026-10-15-astrazeneca-insitro",
       "date": "2026-10-15",
       "type": "Partnership",
@@ -396,6 +492,48 @@
           "url": "https://www.newsbytesapp.com/news/business/astrazeneca-partners-with-insitro-in-40-million-ai-drug-development-deal/tldr"
         }
       ]
+    },
+    {
+      "id": "2026-10-15-iambic-ipo",
+      "date": "2026-10-15",
+      "type": "IPO",
+      "status": "Closed",
+      "company": "Iambic Therapeutics",
+      "counterparty": "Public market investors",
+      "amount_usd": 150000000,
+      "amount_label": "$150M",
+      "round": "IPO (Nasdaq: IAM)",
+      "valuation_label": "$800M+ (reported at pricing)",
+      "investors": [
+        "ARK Investment Management (indicated)",
+        "Duquesne Family Office (indicated)"
+      ],
+      "area": "AI small-molecule design",
+      "summary": "NVIDIA-backed Iambic, which designs small-molecule cancer drugs with its own AI platform, priced its Nasdaq IPO at $16, the middle of its range, selling 9.375M shares for $150M gross.",
+      "why_invested": "Likely: public investors get a clinical-stage AI drug developer with a Phase 1 asset (IAM1363, a brain-penetrant HER2 inhibitor) and a long list of pharma partners. Existing holders ARK and Duquesne signalled they would take about 40% of the deal, which de-risked the book.",
+      "whats_next": "About $75M goes to mid-stage work on IAM1363, about $15M each to IAM217 (KIF18A) and IAM-C1 (CDK2/4), and about $20M to the AI platform. Watch first public-company results and the IAM1363 Phase 1 readout.",
+      "why_it_matters": "The IPO window is open again for AI-native drugmakers with clinical assets, giving late-stage private rounds a public exit to price against.",
+      "links": [
+        {
+          "title": "Iambic (BioSpace): pricing of IPO",
+          "url": "https://www.biospace.com/press-releases/iambic-announces-pricing-of-initial-public-offering"
+        },
+        {
+          "title": "pharmaphorum: Iambic sets IPO terms, use of proceeds",
+          "url": "https://pharmaphorum.com/news/iambic-prices-its-ipo-seeking-raise-160m"
+        },
+        {
+          "title": "pharmaphorum: AI drug discovery news watch, October 2026",
+          "url": "https://pharmaphorum.com/news/ai-drug-discovery-development-news-watch-october-2026"
+        },
+        {
+          "title": "SEC: Iambic 424B4 prospectus",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001997038/000119312526422865/iambic_inception_424b4.htm"
+        }
+      ],
+      "url": "https://www.biospace.com/press-releases/iambic-announces-pricing-of-initial-public-offering",
+      "source_name": "BioSpace (company release)",
+      "first_seen": "2026-10-27T13:20:00+00:00"
     },
     {
       "id": "2026-10-08-isomorphic-series-c-talks",
@@ -435,6 +573,46 @@
           "url": "https://news.bgov.com/private-equity/isomorphic-labs-in-funding-talks-for-at-least-40-billion-value"
         }
       ]
+    },
+    {
+      "id": "2026-10-07-rivercell-seed",
+      "date": "2026-10-07",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Rivercell",
+      "counterparty": "HV Capital",
+      "amount_usd": 25000000,
+      "amount_label": "€22M (~$25M)",
+      "round": "Seed",
+      "valuation_label": null,
+      "investors": [
+        "HV Capital",
+        "HCVC",
+        "Alven",
+        "Bpifrance Digital Venture"
+      ],
+      "area": "AI virtual cell / cell-response data",
+      "summary": "Paris-based Rivercell came out of stealth with a €22M seed round to generate its own cell-response data and train an AI 'virtual cell' that predicts how human cells react to drugs and genetic changes.",
+      "why_invested": "Stated: the founders argue the field's real gap is data, not models, so the company runs its own wet lab to produce it. Likely: the team (a prior exit to Philips, plus Owkin and Bioptimus alumni) made a large seed for Europe easier to back.",
+      "whats_next": "Scale the in-house data platform, expand the Paris lab and launch the virtual-cell programme. Watch for a first pharma data partnership and model benchmarks.",
+      "why_it_matters": "Virtual-cell models are attracting seed money in Europe, and the pitch is owning proprietary data rather than having a better architecture.",
+      "links": [
+        {
+          "title": "EU-Startups: Rivercell emerges with €22M",
+          "url": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/"
+        },
+        {
+          "title": "Bionity: Rivercell launches with $25M for cell-response AI",
+          "url": "https://www.bionity.com/en/news/1190071/rivercell-launches-with-25-million-to-build-data-platforms-and-ai-models-that-predict-how-human-cells-respond-to-treatment.html"
+        },
+        {
+          "title": "Pulse 2.0: Rivercell $25M seed",
+          "url": "https://pulse2.com/rivercell-raises-25-million-seed-round-to-build-ai-virtual-cell-platform/amp/"
+        }
+      ],
+      "url": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/",
+      "source_name": "EU-Startups",
+      "first_seen": "2026-10-27T13:20:00+00:00"
     },
     {
       "id": "2026-09-23-enveda-series-e",
@@ -527,35 +705,6 @@
           "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news"
         }
       ]
-    },
-    {
-      "id": "2026-10-22-miles-wang-raise-talks",
-      "date": "2026-10-22",
-      "type": "Funding",
-      "status": "In talks",
-      "company": "Miles Wang's drug startup (unnamed)",
-      "counterparty": "Lightspeed (reportedly in talks to lead)",
-      "amount_usd": null,
-      "amount_label": "~$200M (reported)",
-      "round": "Launch round (talks)",
-      "valuation_label": null,
-      "investors": [
-        "Lightspeed"
-      ],
-      "area": "AI drug discovery",
-      "summary": "An OpenAI researcher is reportedly raising about $200M for his own drug-discovery startup, with Lightspeed in talks to lead. Reported in coverage of Warp Sciences' launch.",
-      "why_it_matters": "This would be a second OpenAI-alumni bio startup in the same month with a $200M-class launch round, and it would make Lightspeed the go-to lead for that group.",
-      "why_invested": "The reported pattern is backing frontier-lab researchers who move into drug discovery. Founders are getting large launch rounds on pedigree before showing any data.",
-      "whats_next": "Watch for the company name, the round closing and the investors. Its scope compared with Warp (discovery or chemistry) will show whether these founders are competing or splitting the space.",
-      "links": [
-        {
-          "title": "The Next Web: reported in Warp Sciences coverage",
-          "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab"
-        }
-      ],
-      "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
-      "source_name": "The Next Web",
-      "first_seen": "2026-10-27T02:45:00+00:00"
     }
   ]
 }

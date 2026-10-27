@@ -128,9 +128,14 @@
      "label": "NVentures in Basecamp",
      "amount": "$140M round",
      "deal": "v-basecamp"
+    },
+    {
+     "label": "NVIDIA-backed Iambic IPOs",
+     "amount": "$150M IPO",
+     "deal": "i-iambic"
     }
    ],
-   "insight": "NVIDIA rarely leads a round, but it shows up in the cap tables of companies that spend heavily on GPUs, and it co-funds pharma's compute build-out."
+   "insight": "NVIDIA rarely leads a round, but it shows up in the cap tables of companies that spend heavily on GPUs, and it co-funds pharma's compute build-out. With Iambic's IPO, its portfolio is starting to reach public markets."
   },
   {
    "id": "c-lilly",
@@ -2049,6 +2054,95 @@
    "url": "https://enterpriseam.com/uae/2026/10/23/abu-dhabi-opens-its-health-data-to-isomorphic-labs-whoop-and-astrazeneca-and-lulu-plans-a-inr-25-bn-push-into-delhi",
    "source_name": "EnterpriseAM",
    "note": null
+  },
+  {
+   "id": "v-hexagon",
+   "date": "2026-10-23",
+   "type": "Venture",
+   "company": "Hexagon Bio",
+   "sector": "Small molecule & peptide design",
+   "round": "Series C",
+   "cash_usd": 62000000.0,
+   "headline_usd": 62000000.0,
+   "amount_label": "$62M",
+   "payers": [
+    {
+     "name": "The Column Group",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "8VC",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Nextech Invest",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "CPP Investments",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://www.startupresearcher.com/news/hexagon-bio-closes-62-million-series-c-funding-round",
+   "source_name": "Startup Researcher",
+   "note": "Computational genome mining; round funds HEX-360 ADC into Phase 1"
+  },
+  {
+   "id": "i-iambic",
+   "date": "2026-10-15",
+   "type": "IPO",
+   "company": "Iambic Therapeutics",
+   "sector": "Small molecule & peptide design",
+   "round": "Nasdaq: IAM",
+   "cash_usd": 150000000.0,
+   "headline_usd": 150000000.0,
+   "amount_label": "$150M",
+   "payers": [
+    {
+     "name": "Public market investors",
+     "kind": "Public markets"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biospace.com/press-releases/iambic-announces-pricing-of-initial-public-offering",
+   "source_name": "BioSpace (company release)",
+   "note": "Gross proceeds before underwriter option; ARK and Duquesne indicated ~40%"
+  },
+  {
+   "id": "v-rivercell",
+   "date": "2026-10-07",
+   "type": "Venture",
+   "company": "Rivercell",
+   "sector": "Targets, delivery & biology",
+   "round": "Seed",
+   "cash_usd": 25000000.0,
+   "headline_usd": 25000000.0,
+   "amount_label": "€22M (~$25M)",
+   "payers": [
+    {
+     "name": "HV Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Alven",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "HCVC",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Bpifrance",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/",
+   "source_name": "EU-Startups",
+   "note": "USD figure as reported in company launch coverage"
   }
  ]
 }
