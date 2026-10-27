@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FundingRadar — Tripathi Lab · Brown University</title>
+  <script src="auth.js"></script>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet" />
@@ -14,7 +15,7 @@
   <div class="topbar">
     <div class="topbar-inner">
       <span>Tripathi Biomedical Engineering Lab · Brown University</span>
-      <span id="lastUpdated">Loading data...</span>
+      <span class="topbar-right"><span id="lastUpdated">Loading data...</span><button class="lock-btn" onclick="lockSite()" title="Lock this device">🔒 Lock</button></span>
     </div>
   </div>
 
@@ -36,6 +37,7 @@
         </div>
       </div>
       <div class="header-right">
+        <a href="#deals" class="deals-link">Bio × AI Deals →</a>
         <a href="https://tripathi.engin.brown.edu" target="_blank" class="lab-link">Tripathi Lab ↗</a>
         <button class="refresh-btn" onclick="loadData()">↻ Refresh</button>
       </div>
@@ -103,7 +105,7 @@
   <!-- TABS -->
   <div class="tabs-bar">
     <div class="tabs-inner">
-      <button class="tab active" onclick="switchTab('all', this)">All Opportunities</button>
+      <button class="tab tab-all active" onclick="switchTab('all', this)">All Opportunities</button>
       <button class="tab" onclick="switchTab('bookmarks', this)">★ Saved</button>
       <button class="tab tab-news" onclick="switchTab('news', this)">Bio × AI Deals <span class="tab-new">NEW</span></button>
     </div>

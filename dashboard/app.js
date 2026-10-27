@@ -215,6 +215,10 @@ function switchTab(tab, btn) {
   btn.classList.add("active");
   const isNews = tab === "news";
   document.body.classList.toggle("news-mode", isNews);
+  try {
+    if (isNews && location.hash !== "#deals") history.replaceState(null, "", "#deals");
+    if (!isNews && location.hash) history.replaceState(null, "", location.pathname + location.search);
+  } catch (e) {}
   if (isNews) { if (typeof showNews === "function") showNews(); return; }
   applyFilters();
 }

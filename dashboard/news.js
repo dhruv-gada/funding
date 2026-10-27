@@ -219,8 +219,13 @@ loadData = function () {
   return _origLoadData();
 };
 
-// Deep link: /#deals opens the Bio × AI tab
-if (location.hash === "#deals") {
-  const btn = document.querySelector(".tab-news");
-  if (btn) switchTab("news", btn);
+// Deep link: /#deals opens the Bio × AI tab (on load and when a #deals link is clicked)
+function syncHash() {
+  if (location.hash === "#deals" && activeTab !== "news") {
+    const btn = document.querySelector(".tab-news");
+    if (btn) switchTab("news", btn);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 }
+window.addEventListener("hashchange", syncHash);
+syncHash();
