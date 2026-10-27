@@ -12,12 +12,14 @@ Scrapes NIH, NSF, Grants.gov, Wellcome, Simons, HHMI, Hertz, Ford, ProFellow and
 ├── scraper/scraper.py             ← Python scraper
 ├── data/funding.json              ← Auto-updated output (committed by Actions)
 └── dashboard/
-    ├── index.html                 ← Deploy to Vercel
+    ├── index.html                 ← Hosted on Render (static site)
     ├── style.css
     └── app.js
 ```
 
 ---
+
+> **Live:** https://fundingradar-oo4w.onrender.com, a Render static site (publish directory `dashboard`) that auto-deploys on every push. The Vercel steps below are the original alternative.
 
 ## 🚀 Setup (One Time, ~10 minutes)
 
@@ -115,4 +117,4 @@ Bookmarks are saved in your browser's `localStorage` — they persist across vis
 
 ## 🧬 Bio × AI Deals tab
 
-A second tab on the dashboard tracks funding rounds, acquisitions and pharma partnerships at the intersection of AI and biology. Claude updates it twice a day (around 9am and 5pm ET) by researching the news, writing an analysis, and pushing `data/news.json`, with a snapshot in `data/news-history/`. See [`news/RUNBOOK.md`](news/RUNBOOK.md) for exactly what each run does. Direct link: `your-site.vercel.app/#deals`.
+A second tab on the dashboard tracks funding rounds, acquisitions and pharma partnerships at the intersection of AI and biology. Claude updates it twice a day (around 9am and 5pm ET) by researching the news, writing an analysis, and pushing `data/news.json`, with a snapshot in `data/news-history/`. See [`news/RUNBOOK.md`](news/RUNBOOK.md) for exactly what each run does. Live site: https://fundingradar-oo4w.onrender.com (deals tab: https://fundingradar-oo4w.onrender.com/#deals). Render redeploys on every push to `main`.

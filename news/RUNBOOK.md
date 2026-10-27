@@ -1,6 +1,6 @@
 # Bio × AI Deals — run book
 
-This is what each scheduled run (around 9am and 5pm ET) does. The dashboard's **Bio × AI Deals** tab reads `data/news.json` straight from GitHub. A push is all it takes to update the site; Vercel only needs to redeploy when files in `dashboard/` change.
+This is what each scheduled run (around 9am and 5pm ET) does. The dashboard's **Bio × AI Deals** tab reads `data/news.json` straight from GitHub. The site is hosted on Render (https://fundingradar-oo4w.onrender.com, static site `fundingradar`, publish dir `dashboard`), which redeploys automatically on every push to `main`.
 
 ## Scope
 
