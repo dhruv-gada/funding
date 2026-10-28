@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-28T13:10:00+00:00",
+ "last_updated": "2026-10-28T20:48:27+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -102,7 +102,7 @@
      "deal": "a-anthropic-mithril"
     }
    ],
-   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and now owning drug programs outright (Anthropic–Mithril). Most terms stay undisclosed."
+   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and owning drug programs outright (Anthropic–Mithril). Anthropic's S-1 now pitches that bio push to public investors. Most terms stay undisclosed."
   },
   {
    "id": "c-nvidia",
@@ -138,9 +138,14 @@
      "label": "NVIDIA-backed Iambic IPOs",
      "amount": "$150M IPO",
      "deal": "i-iambic"
+    },
+    {
+     "label": "Danaher builds NVIDIA AI into lab instruments",
+     "amount": "Undisclosed",
+     "deal": "p-danaher-nvidia"
     }
    ],
-   "insight": "NVIDIA rarely leads a round, but it shows up in the cap tables of companies that spend heavily on GPUs, and it co-funds pharma's compute build-out. With Iambic's IPO, its portfolio is starting to reach public markets."
+   "insight": "NVIDIA rarely leads a round, but it shows up in the cap tables of GPU-heavy companies, co-funds pharma's compute build-out, and now sits inside Danaher's lab instruments. With Iambic's IPO its portfolio is reaching public markets."
   },
   {
    "id": "c-lilly",
@@ -2408,6 +2413,27 @@
    "url": "https://www.utahbusiness.com/industry/2026/10/15/recursion-prices-200m-stock-offering-as-sanofi-picks-a-partnered-drug-candidate/",
    "source_name": "Utah Business",
    "note": "Follow-on offering by an already-listed company, not an IPO. Same day Sanofi picked a candidate ($10M milestone)."
+  },
+  {
+   "id": "p-danaher-nvidia",
+   "date": "2026-10-15",
+   "type": "Partnership",
+   "company": "NVIDIA",
+   "sector": "Lab automation & robotics",
+   "round": "AI in lab instruments (DGX Spark, RAPIDS, BioNeMo)",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Danaher",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.bioxconomy.com/partnering/danaher-and-nvidia-partner-on-ai-driven-lab-automation",
+   "source_name": "BioXconomy",
+   "note": "Danaher is a life-sciences tools company, grouped with pharma as the buyer. No terms disclosed."
   }
  ]
 }

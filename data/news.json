@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-10-28T13:10:00+00:00",
-  "run_label": "Morning brief · Oct 28, 2026",
+  "last_updated": "2026-10-28T20:48:27+00:00",
+  "run_label": "Evening brief · Oct 28, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Frontier AI labs are turning into drug developers: Anthropic disclosed it owns its own antibody programs, as pharma and big tech push AI into clinical trials",
-    "summary": "Anthropic revealed it bought one-person Mithril Medicine in July and now runs rare-disease antibody programs in-house, three weeks after OpenAI bought Orchestra Bio. Disclosed bio×AI venture held at about $524M over the past week (Pathos $237M, Warp $215M, Hexagon $62M, Atlas Bio $10M) and about $650M across seven private rounds in October, alongside public raises by Iambic ($150M IPO) and Recursion ($200M follow-on). Pharma licensing keeps small upfronts: Zealand–Generate ($30M of ~$1.2B), Lilly–METiS (low double-digit millions of $1.1B) and AstraZeneca–insitro ($40M of $1.5B).",
+    "headline": "Frontier AI labs are turning into drug developers, and Anthropic has now put that pitch in its IPO filing",
+    "summary": "Anthropic's S-1 (Oct 26, Nasdaq: ANT) presents drug discovery and lab automation as core to its story, the day before it disclosed buying the rare-disease antibody startup Mithril; OpenAI bought Orchestra Bio a week earlier. Disclosed bio×AI venture over the past week was about $524M (Pathos $237M, Warp $215M, Hexagon $62M, Atlas Bio $10M), with Iambic's $150M IPO and Recursion's $200M follow-on on the public side. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), Lilly–METiS (low double-digit millions of $1.1B), AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner",
-        "detail": "Anthropic now owns Mithril's muscular-dystrophy antibodies and plans candidates in 2027; OpenAI bought Orchestra Bio and backs Chai; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Isomorphic is in talks at $40B or more."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and the company now owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027. OpenAI bought Orchestra Bio and backs Chai; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Isomorphic is in talks at $40B or more."
       },
       {
         "title": "AI moves into trial design and recruitment",
@@ -16,7 +16,7 @@
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
-        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing, with AstraZeneca investing), Xaira's X-Automate and Rivercell (€22M to generate its own cell data) all bet that the bottleneck has moved from design to the lab and the plant. WhiteLab's $26M rests on AI-designed capsids."
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing, with AstraZeneca investing), Xaira's X-Automate and Rivercell (€22M to generate its own cell data) all bet the bottleneck has moved from design to the lab. Incumbents are moving too: Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models controlling lab robots."
       },
       {
         "title": "Pharma pays in milestones; public markets want partner proof",
@@ -39,9 +39,10 @@
       {
         "player": "Anthropic",
         "kind": "AI lab",
-        "direction": "From selling Claude to pharma to running its own drug programs",
-        "detail": "Anthropic disclosed it bought Mithril Medicine in July and is taking its rare-disease bispecific antibodies toward candidates in 2027. It also published Claude results with BMS, Enveda and Generate, and its Anthology Fund joined Basecamp's $140M Series C.",
+        "direction": "From selling Claude to pharma to owning drug programs, now part of its IPO story",
+        "detail": "Anthropic's S-1 (Oct 26) frames drug discovery and model-run labs as core uses and names Novo Nordisk, BMS, AbbVie and Sanofi as customers. It disclosed buying Mithril Medicine in July and is taking its rare-disease antibodies toward candidates in 2027; its Anthology Fund joined Basecamp's $140M.",
         "evidence": [
+          "2026-10-26-anthropic-s1-drug-rd",
           "2026-10-27-anthropic-mithril",
           "2026-09-23-basecamp-series-c"
         ]
@@ -69,11 +70,12 @@
       {
         "player": "NVIDIA",
         "kind": "Big tech",
-        "direction": "In the cap tables from foundation models to public companies",
-        "detail": "NVentures joined Basecamp's $140M Series C, and NVIDIA-backed Iambic raised $150M in its IPO. NVIDIA rarely leads, but it now spans data-moat model companies and companies with clinical assets.",
+        "direction": "In the cap tables and now inside lab instruments",
+        "detail": "NVentures joined Basecamp's $140M Series C, NVIDIA-backed Iambic raised $150M in its IPO, and Danaher is building NVIDIA computing and BioNeMo models into its lab instruments. NVIDIA rarely leads, but it now spans model companies, public drug developers and lab hardware.",
         "evidence": [
           "2026-09-23-basecamp-series-c",
-          "2026-10-15-iambic-ipo"
+          "2026-10-15-iambic-ipo",
+          "2026-10-15-danaher-nvidia-autonomous-lab"
         ]
       },
       {
@@ -206,13 +208,13 @@
       }
     ],
     "watchlist": [
+      "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether drug programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
-      "Miles Wang's ~$200M raise: the company name, the lead investor, and whether it competes with Warp",
       "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
-      "Anthropic's in-house pipeline: whether it adds programs or hires beyond Mithril, and whether OpenAI answers with its own drug programs",
-      "Trial AI: first Boehringer–Microsoft feasibility results, whether AstraZeneca–Oracle becomes a binding deal, and Atlas Bio's first simulated-trial readouts (around early December)"
+      "Miles Wang's ~$200M raise: the company name, the lead investor, and whether it competes with Warp",
+      "Trial AI: first Boehringer–Microsoft feasibility results, whether AstraZeneca–Oracle becomes binding, and Atlas Bio's first simulated-trial readouts (around early December)"
     ],
-    "since_last_run": "One new deal since last night: Anthropic disclosed (Oct 27) that it bought Mithril Medicine in July, a one-person, Atlas-backed startup developing bispecific antibodies for two rare muscular dystrophies; terms were not given. This run also added two in-window deals that were missing: AstraZeneca and Oracle's non-binding term sheet for AI trial recruitment (Oct 20) and Recursion's $200M follow-on offering, priced the day Sanofi picked its first candidate (Oct 15, $10M milestone). Past-7-day venture is unchanged at about $524M. Movers: Anthropic now reads as a drug owner, Microsoft is grouped with Oracle on trial AI, and AstraZeneca, BMS and the crossover-fund entries gained evidence. The new lead headline is AI labs becoming drug developers. No prediction resolved: Mithril was bought in July (before OpenAI–Orchestra) and is a drug developer, so the AI-lab acquisition call was reworded to count both kinds and stays open. The trial-AI call was widened to include recruitment, now that AstraZeneca–Oracle counts as a second pharma–tech deal."
+    "since_last_run": "Quiet afternoon for new money: no new venture round, licensing deal or acquisition qualified since this morning (Vera Health's $28.5M Series A is clinical-evidence search, so out of scope). Two items were added. Anthropic's S-1 (filed Oct 26) is now tracked as an IPO filing because it pitches drug discovery and lab-running models to public investors; it is not priced and is left out of the money map since the proceeds are not bio-specific. Danaher–NVIDIA (Oct 15), a missed in-window deal to put NVIDIA AI and BioNeMo inside Danaher's lab instruments, was backfilled. Past-7-day venture is unchanged at about $524M. Movers: Anthropic and NVIDIA gained evidence; the lab-automation theme now includes incumbents. No prediction resolved: Anthropic is an AI lab, not an AI-native drug developer, so the IPO-filing call stays open."
   },
   "items": [
     {
@@ -286,6 +288,41 @@
       "url": "https://endpoints.news/anthropic-buys-a-single-person-biotech-startup-backed-by-atlas-venture/",
       "source_name": "Endpoints News",
       "first_seen": "2026-10-28T13:10:00+00:00"
+    },
+    {
+      "id": "2026-10-26-anthropic-s1-drug-rd",
+      "date": "2026-10-26",
+      "type": "IPO",
+      "status": "Announced",
+      "company": "Anthropic",
+      "counterparty": "Public market investors (Nasdaq: ANT)",
+      "amount_usd": null,
+      "amount_label": "Not priced (NYT-reported ~$100B raise)",
+      "round": "IPO filing (S-1)",
+      "valuation_label": null,
+      "investors": [],
+      "area": "Frontier AI lab moving into drug R&D",
+      "summary": "Anthropic filed its S-1 for a Nasdaq listing under the ticker ANT. The filing presents drug discovery and disease detection as core uses of its models, describes plans to let future models run lab equipment and robots, and confirms in-house discovery work on neglected diseases following July's Claude Science launch. Pharma customers named include Novo Nordisk, BMS, AbbVie and Sanofi. No price range was set; the New York Times reported a raise of about $100B.",
+      "why_invested": "Not a bio deal in itself. Likely: Anthropic puts science, and drug R&D in particular, at the center of its long-term story to justify a very large valuation. Owning programs such as Mithril's antibodies gives that story concrete assets, and existing pharma contracts show enterprise demand beyond coding.",
+      "whats_next": "Price range and roadshow; any segment disclosure of life-sciences revenue or R&D spend; whether the drug programs carry their own risk factors (the filing already flags that models could act in unintended or autonomous ways). After listing, watch whether public money lets Anthropic buy more biotech assets.",
+      "why_it_matters": "The first frontier lab to file for an IPO is pitching public investors on drug discovery, so bio is now part of the core equity story for AI labs, not a side project.",
+      "links": [
+        {
+          "title": "Pharmaceutical Technology: Anthropic plots IPO amid foray into drug development",
+          "url": "https://www.pharmaceutical-technology.com/news/anthropic-ipo-drug-development-pharma/"
+        },
+        {
+          "title": "Fierce Biotech: Anthropic lays out drug R&D ambitions and risks in IPO filing",
+          "url": "https://www.fiercebiotech.com/biotech/anthropic-extols-ais-drug-rd-potential-including-risks-mammoth-ipo-filing"
+        },
+        {
+          "title": "Nate's Newsletter: S-1 financials (H1 2026 revenue, margins, R&D)",
+          "url": "https://natesnewsletter.substack.com/p/anthropic-ipo-s1-analysis"
+        }
+      ],
+      "url": "https://www.pharmaceutical-technology.com/news/anthropic-ipo-drug-development-pharma/",
+      "source_name": "Pharmaceutical Technology",
+      "first_seen": "2026-10-28T20:48:27+00:00"
     },
     {
       "id": "2026-10-24-boehringer-microsoft-twins",
@@ -794,6 +831,41 @@
       "url": "https://www.utahbusiness.com/industry/2026/10/15/recursion-prices-200m-stock-offering-as-sanofi-picks-a-partnered-drug-candidate/",
       "source_name": "Utah Business",
       "first_seen": "2026-10-28T13:10:00+00:00"
+    },
+    {
+      "id": "2026-10-15-danaher-nvidia-autonomous-lab",
+      "date": "2026-10-15",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Danaher",
+      "counterparty": "NVIDIA",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": null,
+      "valuation_label": null,
+      "investors": [],
+      "area": "AI-enabled lab instruments / autonomous science",
+      "summary": "Danaher, which owns Beckman Coulter, Leica, Cytiva and other lab-instrument businesses, agreed to build NVIDIA computing and AI into its instruments: DGX Spark at the edge, RAPIDS analytics and BioNeMo models, with Cosmos and Omniverse digital twins being explored. A small set of priority instruments comes first. No financial terms were given.",
+      "why_invested": "Both sides say the aim is a closed loop in which experiment results train models and models choose the next experiments, which shortens the step from prediction to proof. For NVIDIA it puts its stack inside the installed base of lab hardware. Danaher keeps customers free to use other models, which suggests it wants AI as an instrument feature rather than a lock-in.",
+      "whats_next": "Pilot results on the first instruments, then a decision on rolling out across the portfolio. Watch for named pharma pilot sites and for links to Danaher's own autonomous antibody lab.",
+      "why_it_matters": "The incumbent instrument makers now want the 'AI lab' business that startups such as Lila, Warp and Multiply are raising for, and NVIDIA is supplying both sides.",
+      "links": [
+        {
+          "title": "BioXconomy: Danaher and NVIDIA partner on AI-driven lab automation",
+          "url": "https://www.bioxconomy.com/partnering/danaher-and-nvidia-partner-on-ai-driven-lab-automation"
+        },
+        {
+          "title": "GEN: Danaher, NVIDIA combine lab instrumentation and AI",
+          "url": "https://www.genengnews.com/topics/artificial-intelligence/danaher-nvidia-combine-lab-instrumentation-and-ai-to-advance-autonomous-science/"
+        },
+        {
+          "title": "pharmaphorum: AI in drug discovery news watch, October 2026",
+          "url": "https://pharmaphorum.com/news/ai-drug-discovery-and-development-news-watch-0"
+        }
+      ],
+      "url": "https://www.bioxconomy.com/partnering/danaher-and-nvidia-partner-on-ai-driven-lab-automation",
+      "source_name": "BioXconomy",
+      "first_seen": "2026-10-28T20:48:27+00:00"
     },
     {
       "id": "2026-10-13-zealand-generate",
