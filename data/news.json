@@ -1,26 +1,26 @@
 {
-  "last_updated": "2026-10-27T20:55:00+00:00",
-  "run_label": "Evening brief · Oct 27, 2026",
+  "last_updated": "2026-10-28T13:10:00+00:00",
+  "run_label": "Morning brief · Oct 28, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "AI money is moving downstream: after funding molecules that get made and tested, pharma, big tech and seed investors are now betting AI can redesign clinical trials too",
-    "summary": "Disclosed bio×AI venture reached about $524M in the past week (Pathos $237M, Warp $215M, Hexagon $62M, Atlas Bio $10M) and about $650M across seven private rounds in October, on top of Iambic's $150M IPO. Since Friday, Boehringer Ingelheim and Microsoft agreed to test digital patient twins for trials, and Atlas Bio raised a seed to simulate Phase II studies. Pharma licensing keeps big headlines and small upfronts: Zealand–Generate ($30M of ~$1.2B), Lilly–METiS (low double-digit millions of $1.1B) and AstraZeneca–insitro ($40M of $1.5B).",
+    "headline": "Frontier AI labs are turning into drug developers: Anthropic disclosed it owns its own antibody programs, as pharma and big tech push AI into clinical trials",
+    "summary": "Anthropic revealed it bought one-person Mithril Medicine in July and now runs rare-disease antibody programs in-house, three weeks after OpenAI bought Orchestra Bio. Disclosed bio×AI venture held at about $524M over the past week (Pathos $237M, Warp $215M, Hexagon $62M, Atlas Bio $10M) and about $650M across seven private rounds in October, alongside public raises by Iambic ($150M IPO) and Recursion ($200M follow-on). Pharma licensing keeps small upfronts: Zealand–Generate ($30M of ~$1.2B), Lilly–METiS (low double-digit millions of $1.1B) and AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
-        "title": "AI moves into trial design",
-        "detail": "Boehringer and Microsoft are testing digital patient twins and synthetic control arms, starting in lung disease. Atlas Bio raised a $10M seed to simulate Phase II outcomes from tissue RNA, and Pathos's $237M round funds AI-picked patients and biomarker-led trials. The costliest part of drug development is now a target for AI money, not just discovery."
+        "title": "AI labs move from vendor to drug owner",
+        "detail": "Anthropic now owns Mithril's muscular-dystrophy antibodies and plans candidates in 2027; OpenAI bought Orchestra Bio and backs Chai; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Isomorphic is in talks at $40B or more."
+      },
+      {
+        "title": "AI moves into trial design and recruitment",
+        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, and AstraZeneca and Oracle signed a term sheet to use hospital data for trial recruitment, starting in Abu Dhabi. Atlas Bio raised a $10M seed to simulate Phase II trials, and BMS is using Claude to judge trial plans. Pathos's $237M also funds AI-led trial design."
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
-        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing, with AstraZeneca investing), Xaira's X-Automate and Rivercell (€22M to generate its own cell data) all bet that the bottleneck has moved from design to the lab and the plant. WhiteLab's $26M is built on AI-designed capsids proven in animals."
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing, with AstraZeneca investing), Xaira's X-Automate and Rivercell (€22M to generate its own cell data) all bet that the bottleneck has moved from design to the lab and the plant. WhiteLab's $26M rests on AI-designed capsids."
       },
       {
-        "title": "Frontier AI labs and their alumni move into biotech",
-        "detail": "OpenAI bought Orchestra Bio and backs Chai, which converted a GSK bake-off into a pipeline-wide deal. Anthropic's Anthology Fund joined Basecamp's $140M round. Former OpenAI staff founded Warp, and another is reportedly raising about $200M. Isomorphic is in talks at $40B or more."
-      },
-      {
-        "title": "Pharma pays in milestones, and is now shopping for delivery",
-        "detail": "Upfronts stay at roughly 2–3% of headline value: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), and Lilly–METiS (low double-digit millions of $1.1B). Delivery is a new category: Lilly licensed METiS's AI lipid design and WhiteLab raised for AI-designed AAVs."
+        "title": "Pharma pays in milestones; public markets want partner proof",
+        "detail": "Upfronts stay at roughly 2–3% of headline value: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), Lilly–METiS (low double-digit millions of $1.1B). Recursion raised $200M at a discount only on the day Sanofi picked a candidate ($10M milestone), and Iambic priced its IPO at the midpoint with insider support."
       }
     ],
     "movers": [
@@ -39,19 +39,21 @@
       {
         "player": "Anthropic",
         "kind": "AI lab",
-        "direction": "Investing in bio model companies with proprietary data",
-        "detail": "Anthropic's Anthology Fund joined Basecamp Research's $140M Series C alongside NVIDIA. Its IPO filing, covered by Fierce on Oct 26, sets out drug R&D as an ambition.",
+        "direction": "From selling Claude to pharma to running its own drug programs",
+        "detail": "Anthropic disclosed it bought Mithril Medicine in July and is taking its rare-disease bispecific antibodies toward candidates in 2027. It also published Claude results with BMS, Enveda and Generate, and its Anthology Fund joined Basecamp's $140M Series C.",
         "evidence": [
+          "2026-10-27-anthropic-mithril",
           "2026-09-23-basecamp-series-c"
         ]
       },
       {
-        "player": "Microsoft",
+        "player": "Microsoft & Oracle",
         "kind": "Big tech",
         "direction": "Into clinical development through pharma partnerships",
-        "detail": "Microsoft's new collaboration with Boehringer Ingelheim targets digital patient twins and synthetic control arms, starting in lung health. It is pitching AI and cloud at the trial stage, where Google's Isomorphic is focused on discovery.",
+        "detail": "Microsoft is testing digital patient twins and synthetic control arms with Boehringer Ingelheim, and Oracle signed a term sheet with AstraZeneca to use hospital data and AI for trial recruitment. Cloud vendors are pitching at the trial stage, while Google's Isomorphic stays in discovery.",
         "evidence": [
-          "2026-10-24-boehringer-microsoft-twins"
+          "2026-10-24-boehringer-microsoft-twins",
+          "2026-10-20-astrazeneca-oracle-trials"
         ]
       },
       {
@@ -86,10 +88,11 @@
       {
         "player": "AstraZeneca",
         "kind": "Pharma",
-        "direction": "Outsourcing discovery, investing in manufacturing robots, building Gulf trial capacity",
-        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets, invested in Multiply Labs' $75M round, partners with Pathos on an ER PROTAC, and is exploring up to 30 trials in Abu Dhabi by 2030.",
+        "direction": "Outsourcing discovery and trial tech, investing in manufacturing robots, building Gulf trial capacity",
+        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets, a term sheet with Oracle for AI trial recruitment (starting in Abu Dhabi with M42), invested in Multiply Labs' $75M round, partners with Pathos on an ER PROTAC and is exploring up to 30 trials in Abu Dhabi by 2030.",
         "evidence": [
           "2026-10-15-astrazeneca-insitro",
+          "2026-10-20-astrazeneca-oracle-trials",
           "2026-10-07-multiply-labs-series-b",
           "2026-10-23-pathos-series-e",
           "2026-10-23-abudhabi-isomorphic"
@@ -98,10 +101,11 @@
       {
         "player": "Bristol Myers Squibb",
         "kind": "Pharma",
-        "direction": "Buying equity and access in AI for neurology",
-        "detail": "BMS led Pathos's $237M Series E, and the partnership's first focus is Alzheimer's.",
+        "direction": "Buying equity and access in AI for neurology and trial planning",
+        "detail": "BMS led Pathos's $237M Series E, with Alzheimer's as the first focus, and is using Anthropic's Claude to assess early trial plans, with wider work planned for 2027.",
         "evidence": [
-          "2026-10-23-pathos-series-e"
+          "2026-10-23-pathos-series-e",
+          "2026-10-27-anthropic-mithril"
         ]
       },
       {
@@ -152,9 +156,10 @@
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
         "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
-        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, and Abu Dhabi is offering its health data to AI drug companies.",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, and Abu Dhabi is offering its health data to AI drug companies.",
         "evidence": [
           "2026-10-15-iambic-ipo",
+          "2026-10-15-recursion-offering-sanofi",
           "2026-09-23-enveda-series-e",
           "2026-10-23-hexagon-bio-series-c",
           "2026-09-23-basecamp-series-c",
@@ -170,10 +175,10 @@
         "based_on": "Warp's $215M, plus Miles Wang's reported ~$200M round in talks"
       },
       {
-        "call": "Another frontier AI lab or big tech company buys an AI-bio tooling startup, following OpenAI–Orchestra",
+        "call": "Another frontier AI lab or big tech company announces a new bio acquisition (tooling startup or drug developer), after OpenAI–Orchestra and Anthropic–Mithril",
         "timeframe": "By mid-2027",
         "confidence": "Medium",
-        "based_on": "OpenAI's Rosalind acquisition; Anthropic's Basecamp stake; Microsoft's Boehringer deal"
+        "based_on": "OpenAI's Orchestra deal; Anthropic's Mithril and Coefficient Bio buys; Microsoft and Oracle trial partnerships"
       },
       {
         "call": "Isomorphic closes $2B+ near $40B, and late-stage AI-biotech rounds price up after it",
@@ -188,10 +193,10 @@
         "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B)"
       },
       {
-        "call": "A second top-20 pharma announces an AI digital-twin or synthetic-control-arm partnership, or a startup raises $50M+ for it",
+        "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
         "timeframe": "Next 6 months",
         "confidence": "Medium",
-        "based_on": "Boehringer–Microsoft digital twins; Atlas Bio's seed; Pathos funding AI-led trial design"
+        "based_on": "Boehringer–Microsoft digital twins; AstraZeneca–Oracle recruitment term sheet; Atlas Bio's seed"
       },
       {
         "call": "Another AI-native drug developer files publicly for a US IPO",
@@ -203,11 +208,11 @@
     "watchlist": [
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Miles Wang's ~$200M raise: the company name, the lead investor, and whether it competes with Warp",
-      "Recursion Q3 results on Nov 2 and updated REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
-      "Atlas Bio's first simulated-trial results (due around early December) and whether a named pharma customer backs them",
-      "Boehringer–Microsoft: first lung-health feasibility results and any regulator discussion of a hybrid control arm"
+      "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
+      "Anthropic's in-house pipeline: whether it adds programs or hires beyond Mithril, and whether OpenAI answers with its own drug programs",
+      "Trial AI: first Boehringer–Microsoft feasibility results, whether AstraZeneca–Oracle becomes a binding deal, and Atlas Bio's first simulated-trial readouts (around early December)"
     ],
-    "since_last_run": "Two new deals since this morning: Boehringer Ingelheim and Microsoft agreed (Oct 24) to test AI digital patient twins and synthetic control arms, and Atlas Bio raised a $10M Creandum-led seed (Oct 27) to simulate Phase II trials. This lifts past-7-day venture from about $514M to about $524M and adds the new lead theme, AI moving into trial design. This run also filled gaps in the deals feed for in-window October deals already on the Money Map (Lilly–METiS $1.1B, Zealand–Generate $30M upfront of ~$1.2B, GSK–Chai, Basecamp's $140M Series C) and added two rounds that were missing from both: Multiply Labs' $75M Series B (Oct 7, with AstraZeneca investing) and WhiteLab Genomics' $26M Series B (Oct 5). New movers: Anthropic, Microsoft, Eli Lilly and a mid-size pharma group. One prediction, onshore automated chemistry, was replaced with a call on trial-simulation deals. No prediction resolved."
+    "since_last_run": "One new deal since last night: Anthropic disclosed (Oct 27) that it bought Mithril Medicine in July, a one-person, Atlas-backed startup developing bispecific antibodies for two rare muscular dystrophies; terms were not given. This run also added two in-window deals that were missing: AstraZeneca and Oracle's non-binding term sheet for AI trial recruitment (Oct 20) and Recursion's $200M follow-on offering, priced the day Sanofi picked its first candidate (Oct 15, $10M milestone). Past-7-day venture is unchanged at about $524M. Movers: Anthropic now reads as a drug owner, Microsoft is grouped with Oracle on trial AI, and AstraZeneca, BMS and the crossover-fund entries gained evidence. The new lead headline is AI labs becoming drug developers. No prediction resolved: Mithril was bought in July (before OpenAI–Orchestra) and is a drug developer, so the AI-lab acquisition call was reworded to count both kinds and stays open. The trial-AI call was widened to include recruitment, now that AstraZeneca–Oracle counts as a second pharma–tech deal."
   },
   "items": [
     {
@@ -240,6 +245,47 @@
       "url": "https://techfundingnews.com/atlas-bio-12-5m-ai-simulate-phase-ii-drug-trials/",
       "source_name": "Tech Funding News",
       "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-10-27-anthropic-mithril",
+      "date": "2026-10-27",
+      "type": "Acquisition",
+      "status": "Closed",
+      "company": "Mithril Medicine",
+      "counterparty": "Anthropic",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": "Acquired by Anthropic",
+      "valuation_label": null,
+      "investors": [
+        "Atlas Venture"
+      ],
+      "area": "AI-run antibody drug development / rare disease",
+      "summary": "Anthropic disclosed that in July it bought Mithril Medicine, a one-person, Atlas-backed startup whose founder used Claude to coordinate 11 outside labs and take a bispecific antibody for LAMA2-related muscular dystrophy from idea to mouse data in under 18 months. Terms were not disclosed; Anthropic also published early results from Claude work with BMS, Enveda, Generate, BigHat, Divergence Labs and The Column Group.",
+      "why_invested": "Anthropic frames it as a shift from supplying AI tools to pharma toward developing its own medicines, starting with rare childhood diseases, under a model it calls one scientist running several programs with AI doing the coordination. Likely: owning programs gives it hard case studies of what Claude can and cannot do across the whole pipeline, which helps sell to pharma.",
+      "whats_next": "More than 100 bispecific antibodies are in cell testing; Anthropic aims to pick formal candidates for both diseases in 2027, with first human trials possible in late 2028 (LAMA2-CMD) and 2029 (alpha-dystroglycanopathy). The mouse data is preliminary. BMS plans to widen its Claude trial-planning work in 2027.",
+      "why_it_matters": "A frontier AI lab now owns drug programs itself, so AI labs are becoming possible competitors to the biotechs they sell to, not just vendors.",
+      "links": [
+        {
+          "title": "Endpoints: Anthropic's latest biotech buy is a one-person stealth startup",
+          "url": "https://endpoints.news/anthropic-buys-a-single-person-biotech-startup-backed-by-atlas-venture/"
+        },
+        {
+          "title": "Unite.AI: Anthropic reports early drug development progress with Claude",
+          "url": "https://www.unite.ai/anthropic-reports-early-drug-development-progress-with-claude/"
+        },
+        {
+          "title": "Becker's: Anthropic buys drug startup, reports results with six partners",
+          "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/anthropic-buys-drug-startup-reports-claude-results-with-6-partners/"
+        },
+        {
+          "title": "Anthropic: Early progress in drug development",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        }
+      ],
+      "url": "https://endpoints.news/anthropic-buys-a-single-person-biotech-startup-backed-by-atlas-venture/",
+      "source_name": "Endpoints News",
+      "first_seen": "2026-10-28T13:10:00+00:00"
     },
     {
       "id": "2026-10-24-boehringer-microsoft-twins",
@@ -562,6 +608,41 @@
       ]
     },
     {
+      "id": "2026-10-20-astrazeneca-oracle-trials",
+      "date": "2026-10-20",
+      "type": "Partnership",
+      "status": "Announced",
+      "company": "AstraZeneca",
+      "counterparty": "Oracle Health and Life Sciences",
+      "amount_usd": null,
+      "amount_label": "Undisclosed (non-binding term sheet)",
+      "round": null,
+      "valuation_label": null,
+      "investors": [],
+      "area": "Clinical-trial AI / patient recruitment",
+      "summary": "AstraZeneca and Oracle signed a non-binding term sheet to use Oracle's cloud, AI tools and de-identified hospital data to find trial patients sooner, spot disease earlier and monitor drug safety. The first project is an uncontrolled-hypertension program in Abu Dhabi with UAE health company M42.",
+      "why_invested": "The stated goal is to cut the slow patient enrollment that makes trials long and costly, pairing Oracle's data and AI with AstraZeneca's trial and regulatory know-how. Likely: Oracle gets a top pharma anchor for its health-data business, and AstraZeneca extends its Abu Dhabi trial push.",
+      "whats_next": "Terms still have to be finalised. More projects are planned in the US, Middle East and Europe across cancer, cardiorenal, respiratory, immunology and rare disease, each after legal, privacy and ethics review.",
+      "why_it_matters": "A second big pharma–big tech trial-AI tie-up in a week (after Boehringer–Microsoft) shows the spending moving to recruitment and trial execution.",
+      "links": [
+        {
+          "title": "The Next Web: AstraZeneca and Oracle team up on AI to find trial patients",
+          "url": "https://thenextweb.com/news/astrazeneca-oracle-ai-drug-trials"
+        },
+        {
+          "title": "RTTNews: AstraZeneca, Oracle launch AI collaboration to optimise clinical trials",
+          "url": "https://www.rttnews.com/3700351/astrazeneca-oracle-launch-ai-collaboration-to-optimise-clinical-trials.aspx?type=alleco"
+        },
+        {
+          "title": "PharmaShots Weekly (Oct 26): deal roundup",
+          "url": "https://pharmashots.substack.com/p/pharmashots-weekly-oct-26-2026-edition"
+        }
+      ],
+      "url": "https://thenextweb.com/news/astrazeneca-oracle-ai-drug-trials",
+      "source_name": "The Next Web",
+      "first_seen": "2026-10-28T13:10:00+00:00"
+    },
+    {
       "id": "2026-10-19-lilly-metis",
       "date": "2026-10-19",
       "type": "Partnership",
@@ -672,6 +753,47 @@
           "url": "https://www.newsbytesapp.com/news/business/astrazeneca-partners-with-insitro-in-40-million-ai-drug-development-deal/tldr"
         }
       ]
+    },
+    {
+      "id": "2026-10-15-recursion-offering-sanofi",
+      "date": "2026-10-15",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Recursion",
+      "counterparty": "Public market investors",
+      "amount_usd": 200000000,
+      "amount_label": "$200M",
+      "round": "Public follow-on offering (Nasdaq: RXRX)",
+      "valuation_label": null,
+      "investors": [
+        "Janus Henderson Investors",
+        "Invus",
+        "Longaeva Partners",
+        "ARK Invest",
+        "Driehaus Capital Management"
+      ],
+      "area": "AI drug discovery platform",
+      "summary": "Recursion sold about 61.5M shares at $3.25 to raise roughly $200M, on the same day Sanofi picked the first development candidate from their AI small-molecule collaboration, an oral drug for inflammatory disease that triggers a $10M milestone. The shares jumped more than 16% on the Sanofi news.",
+      "why_invested": "Likely: specialist holders such as Janus Henderson, ARK and Driehaus bought in on the first pharma-picked candidate from the platform, which adds validation and lifts total Sanofi payments to $144M.",
+      "whats_next": "Recursion says the cash extends its runway into 2029. Sanofi funds the program, with Phase 1 expected in 2027 and more than $300M in further milestones possible. Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3 come next.",
+      "why_it_matters": "First-generation AI biotechs can still raise from public markets, but at a discount and only when a pharma partner backs a molecule.",
+      "links": [
+        {
+          "title": "Utah Business: Recursion prices $200M offering as Sanofi picks a candidate",
+          "url": "https://www.utahbusiness.com/industry/2026/10/15/recursion-prices-200m-stock-offering-as-sanofi-picks-a-partnered-drug-candidate/"
+        },
+        {
+          "title": "Stocktwits: RXRX heads for its best day in over a year",
+          "url": "https://stocktwits.com/news-articles/markets/equity/rxrx-stock-heads-for-its-best-day-in-over-a-year-what-s-driving-the-rally-today/cZxhcH4RBrX"
+        },
+        {
+          "title": "Recursion: pricing of $200M public offering",
+          "url": "https://seekingalpha.com/pr/19770760-recursion-announces-pricing-of-200-million-public-offering-of-class-a-common-stock"
+        }
+      ],
+      "url": "https://www.utahbusiness.com/industry/2026/10/15/recursion-prices-200m-stock-offering-as-sanofi-picks-a-partnered-drug-candidate/",
+      "source_name": "Utah Business",
+      "first_seen": "2026-10-28T13:10:00+00:00"
     },
     {
       "id": "2026-10-13-zealand-generate",

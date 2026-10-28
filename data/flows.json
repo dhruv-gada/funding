@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-27T20:55:00+00:00",
+ "last_updated": "2026-10-28T13:10:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -95,9 +95,14 @@
      "label": "OpenAI's former science lead raises for Warp",
      "amount": "$215M",
      "deal": "v-warp"
+    },
+    {
+     "label": "Anthropic reveals it owns Mithril's drug programs",
+     "amount": "Undisclosed",
+     "deal": "a-anthropic-mithril"
     }
    ],
-   "insight": "AI labs reach bio three ways: buying small teams outright, investing in model companies that sell to pharma, and through alumni who leave to found companies. Most deal terms stay undisclosed."
+   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and now owning drug programs outright (Anthropic–Mithril). Most terms stay undisclosed."
   },
   {
    "id": "c-nvidia",
@@ -283,9 +288,14 @@
      "label": "Creandum seeds Atlas Bio's simulated Phase II trials",
      "amount": "$10M",
      "deal": "v-atlasbio"
+    },
+    {
+     "label": "AstraZeneca and Oracle sign for AI trial recruitment",
+     "amount": "Undisclosed",
+     "deal": "p-astrazeneca-oracle"
     }
    ],
-   "insight": "In October, money moved past molecule design toward delivery, wet-lab and manufacturing robots, and now trial design. Big tech and pharma are entering at the trial stage, where most R&D money is spent."
+   "insight": "In October, money moved past molecule design toward delivery, lab and manufacturing robots, and now trial design and recruitment. Microsoft and Oracle are entering at the trial stage, where most R&D money is spent."
   }
  ],
  "deals": [
@@ -2316,6 +2326,88 @@
    "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
    "source_name": "Axios Pro",
    "note": null
+  },
+  {
+   "id": "a-anthropic-mithril",
+   "date": "2026-10-27",
+   "type": "Acquisition",
+   "company": "Mithril Medicine",
+   "sector": "Protein & antibody design",
+   "round": "Acquired by Anthropic",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Anthropic",
+     "kind": "Big tech & AI labs"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Atlas Venture",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://endpoints.news/anthropic-buys-a-single-person-biotech-startup-backed-by-atlas-venture/",
+   "source_name": "Endpoints News",
+   "note": "Deal closed in July 2026; disclosed Oct 27. Terms undisclosed."
+  },
+  {
+   "id": "p-astrazeneca-oracle",
+   "date": "2026-10-20",
+   "type": "Partnership",
+   "company": "Oracle Health and Life Sciences",
+   "sector": "Clinical & development AI",
+   "round": "AI trial recruitment & real-world data (term sheet)",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "AstraZeneca",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [
+    {
+     "name": "M42",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://thenextweb.com/news/astrazeneca-oracle-ai-drug-trials",
+   "source_name": "The Next Web",
+   "note": "Non-binding term sheet; first project in Abu Dhabi with M42."
+  },
+  {
+   "id": "i-recursion-followon",
+   "date": "2026-10-15",
+   "type": "IPO",
+   "company": "Recursion",
+   "sector": "Foundation models & platforms",
+   "round": "Follow-on offering (Nasdaq: RXRX)",
+   "cash_usd": 200000000,
+   "headline_usd": 200000000,
+   "amount_label": "$200M",
+   "payers": [
+    {
+     "name": "Public market investors",
+     "kind": "Public markets"
+    }
+   ],
+   "participants": [
+    {
+     "name": "ARK Invest",
+     "kind": "Public markets"
+    },
+    {
+     "name": "Janus Henderson Investors",
+     "kind": "Public markets"
+    }
+   ],
+   "url": "https://www.utahbusiness.com/industry/2026/10/15/recursion-prices-200m-stock-offering-as-sanofi-picks-a-partnered-drug-candidate/",
+   "source_name": "Utah Business",
+   "note": "Follow-on offering by an already-listed company, not an IPO. Same day Sanofi picked a candidate ($10M milestone)."
   }
  ]
 }
