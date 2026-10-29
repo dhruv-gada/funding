@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-10-28T20:48:27+00:00",
-  "run_label": "Evening brief · Oct 28, 2026",
+  "last_updated": "2026-10-29T12:57:58+00:00",
+  "run_label": "Morning brief · Oct 29, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Frontier AI labs are turning into drug developers, and Anthropic has now put that pitch in its IPO filing",
-    "summary": "Anthropic's S-1 (Oct 26, Nasdaq: ANT) presents drug discovery and lab automation as core to its story, the day before it disclosed buying the rare-disease antibody startup Mithril; OpenAI bought Orchestra Bio a week earlier. Disclosed bio×AI venture over the past week was about $524M (Pathos $237M, Warp $215M, Hexagon $62M, Atlas Bio $10M), with Iambic's $150M IPO and Recursion's $200M follow-on on the public side. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), Lilly–METiS (low double-digit millions of $1.1B), AstraZeneca–insitro ($40M of $1.5B).",
+    "headline": "Frontier AI labs are turning into drug developers, while the old guard consolidates: Flagship just merged three AI platforms into one",
+    "summary": "Anthropic's S-1 (Oct 26) puts drug discovery at the center of its IPO pitch, a day before it disclosed buying antibody startup Mithril; OpenAI bought Orchestra Bio a week earlier. Disclosed bio×AI venture since Oct 22 is about $535M (Pathos $237M, Warp $215M, Hexagon $62M, ALLOX $10.5M, Atlas Bio $10M), BioGeometry's Series A passed $100M, and Flagship folded Cellarity, Etiome and Empress (together $374M raised) into Etcelera. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner",
@@ -19,8 +19,8 @@
         "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing, with AstraZeneca investing), Xaira's X-Automate and Rivercell (€22M to generate its own cell data) all bet the bottleneck has moved from design to the lab. Incumbents are moving too: Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models controlling lab robots."
       },
       {
-        "title": "Pharma pays in milestones; public markets want partner proof",
-        "detail": "Upfronts stay at roughly 2–3% of headline value: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), Lilly–METiS (low double-digit millions of $1.1B). Recursion raised $200M at a discount only on the day Sanofi picked a candidate ($10M milestone), and Iambic priced its IPO at the midpoint with insider support."
+        "title": "Scale of data over number of platforms",
+        "detail": "Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model and perturbation data, BioGeometry raised past $100M to pair its design model with a virtual cell model and automated lab, and ALLOX and Rivercell raised seeds to generate their own experimental data. Investors now pay for proprietary data at scale rather than another model."
       }
     ],
     "movers": [
@@ -123,6 +123,15 @@
         ]
       },
       {
+        "player": "Flagship Pioneering",
+        "kind": "VC",
+        "direction": "Consolidating its own AI platforms instead of funding them separately",
+        "detail": "Flagship merged Cellarity, Etiome and Empress (together $374M raised) into Etcelera with no new capital disclosed, spun Cellarity's sickle cell drug into its own company, and is lining up a big-pharma alliance for the combined platform.",
+        "evidence": [
+          "2026-10-29-flagship-etcelera"
+        ]
+      },
+      {
         "player": "Lightspeed",
         "kind": "VC",
         "direction": "Concentrating on OpenAI-alumni bio founders",
@@ -147,11 +156,12 @@
         "player": "European early-stage investors",
         "kind": "VC",
         "direction": "Backing data-first and trial-simulation bets",
-        "detail": "Creandum led Atlas Bio's $10M seed, HV Capital led Rivercell's €22M seed and AVP led WhiteLab's $26M Series B, so European funds are writing larger early cheques for AI biology.",
+        "detail": "Creandum led Atlas Bio's $10M seed, HV Capital led Rivercell's €22M seed, AVP led WhiteLab's $26M Series B and Asabys led ALLOX's $10.5M seed, so European funds are writing larger early cheques for data-first AI biology.",
         "evidence": [
           "2026-10-27-atlas-bio-seed",
           "2026-10-07-rivercell-seed",
-          "2026-10-05-whitelab-series-b"
+          "2026-10-05-whitelab-series-b",
+          "2026-10-29-allox-seed"
         ]
       },
       {
@@ -166,6 +176,15 @@
           "2026-10-23-hexagon-bio-series-c",
           "2026-09-23-basecamp-series-c",
           "2026-10-23-abudhabi-isomorphic"
+        ]
+      },
+      {
+        "player": "Chinese state-linked capital",
+        "kind": "Crossover & sovereign",
+        "direction": "Funding domestic AI protein design at $100M scale",
+        "detail": "China Life Capital led BioGeometry's Series A+, taking its Series A past $100M, with China Development Venture Capital and the Shanghai biomedical fund alongside; the company targets bispecific antibody INDs in 2027.",
+        "evidence": [
+          "2026-10-28-biogeometry-series-a-plus"
         ]
       }
     ],
@@ -211,12 +230,124 @@
       "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether drug programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
-      "Miles Wang's ~$200M raise: the company name, the lead investor, and whether it competes with Warp",
+      "Etcelera: the name and terms of its pending big-pharma alliance, and whether Flagship raises fresh money for it",
       "Trial AI: first Boehringer–Microsoft feasibility results, whether AstraZeneca–Oracle becomes binding, and Atlas Bio's first simulated-trial readouts (around early December)"
     ],
-    "since_last_run": "Quiet afternoon for new money: no new venture round, licensing deal or acquisition qualified since this morning (Vera Health's $28.5M Series A is clinical-evidence search, so out of scope). Two items were added. Anthropic's S-1 (filed Oct 26) is now tracked as an IPO filing because it pitches drug discovery and lab-running models to public investors; it is not priced and is left out of the money map since the proceeds are not bio-specific. Danaher–NVIDIA (Oct 15), a missed in-window deal to put NVIDIA AI and BioNeMo inside Danaher's lab instruments, was backfilled. Past-7-day venture is unchanged at about $524M. Movers: Anthropic and NVIDIA gained evidence; the lab-automation theme now includes incumbents. No prediction resolved: Anthropic is an AI lab, not an AI-native drug developer, so the IPO-filing call stays open."
+    "since_last_run": "Three new items since last evening. Flagship merged Cellarity, Etiome and Empress Therapeutics into Etcelera (Oct 29), an AI causal-biology company with no new capital disclosed and a big-pharma alliance in the works. Beijing's BioGeometry closed a Series A+ led by China Life Capital that takes its Series A past $100M (tranche size undisclosed, so not counted in venture totals). Barcelona's ALLOX raised a $10.5M seed led by Asabys. Past-7-day disclosed venture is now about $535M. Movers: Flagship and Chinese state-linked capital added; European early-stage investors gained ALLOX. New theme on data scale over platform count. No prediction resolved. Watchlist swaps Miles Wang's raise for Etcelera's pending pharma deal (Wang is still covered by the alumni prediction)."
   },
   "items": [
+    {
+      "id": "2026-10-29-flagship-etcelera",
+      "date": "2026-10-29",
+      "type": "Acquisition",
+      "status": "Closed",
+      "company": "Etcelera",
+      "counterparty": "Flagship Pioneering",
+      "amount_usd": null,
+      "amount_label": "No new capital disclosed ($374M raised by the three predecessors)",
+      "round": "Merger of Cellarity, Etiome and Empress Therapeutics",
+      "valuation_label": null,
+      "investors": [
+        "Flagship Pioneering"
+      ],
+      "area": "Virtual cell / causal-biology AI platform",
+      "summary": "Flagship folded three of its own portfolio companies, Cellarity, Etiome and Empress Therapeutics, into one AI drug discovery company called Etcelera, run by former Adaptimmune CEO Ad Rawcliffe. It combines more than 30 prediction models, a foundation model trained on about 150 million cells and Flagship's in-house AI unit; no new funding was announced.",
+      "why_invested": "Flagship says most Phase II failures come from not knowing what causes disease, and that pooling the three companies' cell-state, disease-timing and multi-omics data with perturbation data should predict which drugs work before trials. Likely also: three sub-scale platforms are cheaper to fund and easier to partner as one.",
+      "whats_next": "First programs are in myelofibrosis and essential thrombocythemia, plus immunology and metabolic-fibrotic disease. It keeps Cellarity's 2022 Novo Nordisk MASH deal, and a second alliance with an unnamed big pharma is in the works. Cellarity's oral sickle cell drug moves into a separate asset company. Watch for that pharma deal and any fresh financing.",
+      "why_it_matters": "The biggest venture creator in biotech is consolidating its AI platforms around data scale, a sign that standalone single-platform AI biotechs struggle to raise on their own.",
+      "links": [
+        {
+          "title": "PR Newswire: Flagship forms Etcelera",
+          "url": "https://www.prnewswire.com/news-releases/flagship-pioneering-forms-etcelera-to-move-drug-discovery-from-probability-to-prediction-302922499.html"
+        },
+        {
+          "title": "BioPharma Dive: Flagship blends three startups into Etcelera",
+          "url": "https://www.biopharmadive.com/news/flagship-etcelera-etiome-empress-cellarity-launch/872947/"
+        },
+        {
+          "title": "Endpoints: Flagship merges three companies for AI drug discovery",
+          "url": "https://endpoints.news/flagship-pioneering-merges-three-of-its-companies-for-ai-drug-discovery/"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/flagship-pioneering-forms-etcelera-to-move-drug-discovery-from-probability-to-prediction-302922499.html",
+      "source_name": "PR Newswire (Flagship release)",
+      "first_seen": "2026-10-29T12:57:58+00:00"
+    },
+    {
+      "id": "2026-10-29-allox-seed",
+      "date": "2026-10-29",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "ALLOX",
+      "counterparty": "Asabys (lead)",
+      "amount_usd": 10500000,
+      "amount_label": "$10.5M (€9.4M)",
+      "round": "Seed",
+      "valuation_label": null,
+      "investors": [
+        "Asabys (Sabadell Asabys II)",
+        "CDTI (Innvierte)",
+        "Institut Català de Finances"
+      ],
+      "area": "Allosteric drug discovery (experimental data + AI)",
+      "summary": "Barcelona's ALLOX, a spinout of the Centre for Genomic Regulation, maps allosteric pockets by testing huge numbers of protein mutants at once and is building AI models on that data to find druggable sites on hard targets. It closed a $10.5M seed led by Asabys and named Morten Graugaard as independent chair.",
+      "why_invested": "Likely: Asabys, which also led the pre-seed, is backing a proprietary biophysical dataset that few others have, aimed at protein-protein interactions and transcription factors that standard design tools struggle with.",
+      "whats_next": "Building its AI hotspot models, growing the in-house chemistry team, moving several programs toward small-molecule candidates and signing pharma research partnerships.",
+      "why_it_matters": "Another European seed built on generating its own experimental data first, the same bet as Rivercell and Atlas Bio.",
+      "links": [
+        {
+          "title": "GlobeNewswire: ALLOX closes $10.5M seed",
+          "url": "https://www.globenewswire.com/news-release/2026/10/29/3390985/0/en/allox-closes-10-5m-seed-financing-and-appoints-morten-graugaard-as-chair-to-scale-allosteric-drug-discovery-platform-and-build-pipeline.html"
+        },
+        {
+          "title": "BIST: ALLO X, a CRG spinout for undruggable proteins",
+          "url": "https://bist.eu/allo-x-a-crg-spinoff-created-to-tackle-undruggable-proteins/"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/10/29/3390985/0/en/allox-closes-10-5m-seed-financing-and-appoints-morten-graugaard-as-chair-to-scale-allosteric-drug-discovery-platform-and-build-pipeline.html",
+      "source_name": "GlobeNewswire (company release)",
+      "first_seen": "2026-10-29T12:57:58+00:00"
+    },
+    {
+      "id": "2026-10-28-biogeometry-series-a-plus",
+      "date": "2026-10-28",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "BioGeometry",
+      "counterparty": "China Life Capital (lead)",
+      "amount_usd": null,
+      "amount_label": "Series A+ (size undisclosed) · Series A total >$100M",
+      "round": "Series A+",
+      "valuation_label": null,
+      "investors": [
+        "China Life Capital",
+        "Shanghai Biomedical Industry Fund",
+        "China Development Venture Capital",
+        "Fortune Capital (Dacheng)"
+      ],
+      "area": "AI protein design / virtual cell (China)",
+      "summary": "Beijing's BioGeometry, which builds an all-atom molecule design model (GeoFlow) and a virtual cell model (GeoCell) linked to an automated lab, closed a Series A+ led by China Life Capital that takes its total Series A past $100M. The A+ tranche size was not disclosed.",
+      "why_invested": "Likely: backers are buying a Chinese answer to AlphaFold-style design with reported hit rates near 20% across 20+ targets, plus near-term revenue from synthetic biology products, which lowers the risk versus a pure drug-pipeline bet. The lead is the investment arm of a state-linked insurer.",
+      "whats_next": "Upgrading GeoFlow (V4) and GeoCell, expanding the automated lab, and moving several bispecific antibody programs toward IND filings in 2027; synthetic biology revenue is targeted for 2027. Watch for out-licensing to Western pharma, as other Chinese AI biotechs have done.",
+      "why_it_matters": "Chinese state-linked capital is now writing $100M-scale checks for AI protein design, adding a well-funded competitor pool to the US and UK leaders.",
+      "links": [
+        {
+          "title": "Endpoints: BioGeometry gets $100M+ for AI drug R&D",
+          "url": "https://endpoints.news/beijing-based-biogeometry-gets-100m-for-ai-drug-rd/"
+        },
+        {
+          "title": "TMTPost: Series A+ closes, Series A tops $100M",
+          "url": "https://en.tmtpost.com/news/8184365"
+        },
+        {
+          "title": "Ventureburn: models, pipeline and 2027 plans",
+          "url": "https://ventureburn.com/biogeometry-raises-100-million-ai-drug-design-models/"
+        }
+      ],
+      "url": "https://endpoints.news/beijing-based-biogeometry-gets-100m-for-ai-drug-rd/",
+      "source_name": "Endpoints News",
+      "first_seen": "2026-10-29T12:57:58+00:00"
+    },
     {
       "id": "2026-10-27-atlas-bio-seed",
       "date": "2026-10-27",

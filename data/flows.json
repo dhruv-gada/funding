@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-28T20:48:27+00:00",
+ "last_updated": "2026-10-29T12:57:58+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -2434,6 +2434,66 @@
    "url": "https://www.bioxconomy.com/partnering/danaher-and-nvidia-partner-on-ai-driven-lab-automation",
    "source_name": "BioXconomy",
    "note": "Danaher is a life-sciences tools company, grouped with pharma as the buyer. No terms disclosed."
+  },
+  {
+   "id": "v-allox",
+   "date": "2026-10-29",
+   "type": "Venture",
+   "company": "ALLOX",
+   "sector": "Small molecule & peptide design",
+   "round": "Seed",
+   "cash_usd": 10500000,
+   "headline_usd": 10500000,
+   "amount_label": "$10.5M (€9.4M)",
+   "payers": [
+    {
+     "name": "Asabys",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "CDTI (Innvierte)",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Institut Català de Finances",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://www.globenewswire.com/news-release/2026/10/29/3390985/0/en/allox-closes-10-5m-seed-financing-and-appoints-morten-graugaard-as-chair-to-scale-allosteric-drug-discovery-platform-and-build-pipeline.html",
+   "source_name": "GlobeNewswire",
+   "note": null
+  },
+  {
+   "id": "v-biogeometry",
+   "date": "2026-10-28",
+   "type": "Venture",
+   "company": "BioGeometry",
+   "sector": "Protein & antibody design",
+   "round": "Series A+",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed A+ · Series A total >$100M",
+   "payers": [
+    {
+     "name": "China Life Capital",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Shanghai Biomedical Industry Fund",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "China Development Venture Capital",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://endpoints.news/beijing-based-biogeometry-gets-100m-for-ai-drug-rd/",
+   "source_name": "Endpoints News",
+   "note": "Tranche size not disclosed; cumulative Series A (multiple closes incl. mid-2026) exceeds $100M, so not added to totals."
   }
  ]
 }
