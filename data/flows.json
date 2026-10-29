@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-29T12:57:58+00:00",
+ "last_updated": "2026-10-29T20:48:20+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -280,6 +280,11 @@
      "deal": "v-warp"
     },
     {
+     "label": "Avego leads Opentrons' Series E for AI-run lab robots",
+     "amount": "$40M",
+     "deal": "v-opentrons"
+    },
+    {
      "label": "BMS leads Pathos for AI-led trials",
      "amount": "$237M",
      "deal": "v-pathos"
@@ -298,9 +303,14 @@
      "label": "AstraZeneca and Oracle sign for AI trial recruitment",
      "amount": "Undisclosed",
      "deal": "p-astrazeneca-oracle"
+    },
+    {
+     "label": "Formation Bio raises a fund to buy clinical-stage drugs",
+     "amount": "$600M",
+     "deal": "v-formation-bio-fund"
     }
    ],
-   "insight": "In October, money moved past molecule design toward delivery, lab and manufacturing robots, and now trial design and recruitment. Microsoft and Oracle are entering at the trial stage, where most R&D money is spent."
+   "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic."
   }
  ],
  "deals": [
@@ -2494,6 +2504,53 @@
    "url": "https://endpoints.news/beijing-based-biogeometry-gets-100m-for-ai-drug-rd/",
    "source_name": "Endpoints News",
    "note": "Tranche size not disclosed; cumulative Series A (multiple closes incl. mid-2026) exceeds $100M, so not added to totals."
+  },
+  {
+   "id": "v-opentrons",
+   "date": "2026-10-29",
+   "type": "Venture",
+   "company": "Opentrons",
+   "sector": "Lab automation & robotics",
+   "round": "Series E",
+   "cash_usd": 40000000,
+   "headline_usd": 40000000,
+   "amount_label": "$40M",
+   "payers": [
+    {
+     "name": "Avego",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "BroadOak Capital Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.roboticstomorrow.com/news/2026/10/29/opentrons-announces-40m-series-e-round-to-standardize-ai-driven-science-on-its-robots/27316",
+   "source_name": "Robotics Tomorrow (company release)",
+   "note": null
+  },
+  {
+   "id": "v-formation-bio-fund",
+   "date": "2026-10-28",
+   "type": "Venture",
+   "company": "Formation Bio",
+   "sector": "Clinical & development AI",
+   "round": "Debut drug-development fund (LP commitments)",
+   "cash_usd": 600000000,
+   "headline_usd": 600000000,
+   "amount_label": "$600M fund",
+   "payers": [
+    {
+     "name": "Foundations, endowments & hospitals (LPs)",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.prnewswire.com/news-releases/formation-bio-announces-600-million-debut-fund-to-expand-drug-development-capacity-302921852.html",
+   "source_name": "PR Newswire",
+   "note": "Capital commitments to a Formation Bio-managed fund that buys Phase 1–2 drugs into standalone entities, not equity in Formation Bio itself; LPs not named."
   }
  ]
 }
