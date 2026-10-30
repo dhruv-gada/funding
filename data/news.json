@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-29T20:48:20+00:00",
-  "run_label": "Evening brief · Oct 29, 2026",
+  "last_updated": "2026-10-30T13:15:43+00:00",
+  "run_label": "Morning brief · Oct 30, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers, and the money around them is moving to the lab bench and the clinic: Opentrons raised for AI-run robots and Formation Bio lined up $600M to buy clinical drugs",
@@ -243,7 +243,7 @@
       "Etcelera: the name and terms of its pending big-pharma alliance, and whether Flagship raises fresh money for it",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals and who sells to it, first Boehringer–Microsoft twin results, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "Two new items since this morning. Opentrons raised a $40M Series E led by Avego (Oct 29) to make its 11,000-plus lab robots the execution layer for AI-driven experiments, lifting past-7-day disclosed venture to about $575M. Formation Bio closed $600M in LP commitments for a debut fund (Oct 28) that will in-license 10–15 Phase 1–2 drugs; it is logged as Announced and kept out of venture totals because it is fund capital, not equity in the company. Movers: new entry for endowments, foundations and hospitals as LPs; OpenAI's entry notes its Formation Bio tie. Themes on trials and the physical layer updated. No prediction resolved (Formation's fund is adjacent to the trial-tech call but doesn't meet it). Watchlist folds Formation's first acquisitions into the clinical-AI item. Also seen but not added: Insilico hit a discovery milestone with Servier (undisclosed payment) and Transcripta Bio signed an unpriced autism research deal with Mayo Clinic."
+    "since_last_run": "Quiet overnight: no new qualifying bio×AI deal since last evening's brief. Searches across AI drug discovery funding, M&A, pharma licensing, protein design, lab automation, genomics and the named leaders turned up only items already tracked (Formation Bio's $600M fund, Flagship's Etcelera merger, ALLOX, Opentrons) and follow-up coverage of Anthropic's Oct 27 drug-development update, which is folded into the Mithril item. Isomorphic's Series C is still at the talks stage, with no close reported. No changes to movers, themes or predictions, and none resolved. Seen but not added: Hologic's Oct 20 agreement to buy Reveal Genomics (an ML-assisted breast-cancer diagnostics company, terms undisclosed), which is diagnostics rather than AI-driven drug R&D, and Omabit's $2M seed for genomics data analysis, whose source page couldn't be checked."
   },
   "items": [
     {
