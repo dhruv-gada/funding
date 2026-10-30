@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-10-30T13:15:43+00:00",
-  "run_label": "Morning brief · Oct 30, 2026",
+  "last_updated": "2026-10-30T20:47:12+00:00",
+  "run_label": "Evening brief · Oct 30, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Frontier AI labs are turning into drug developers, and the money around them is moving to the lab bench and the clinic: Opentrons raised for AI-run robots and Formation Bio lined up $600M to buy clinical drugs",
-    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it now owns Mithril's antibodies; OpenAI bought Orchestra Bio. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M), and Formation Bio separately raised a $600M fund from foundations, endowments and hospitals to in-license 10–15 clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
+    "headline": "Frontier AI labs are turning into drug developers, and pharma is now wiring AI scientists into whole pipelines: Pfizer signed Edison Scientific's Kosmos agent across its R&D as money keeps moving to the lab bench and the clinic",
+    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it now owns Mithril's antibodies; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M), and Formation Bio separately raised a $600M fund to in-license 10–15 clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
-        "title": "AI labs move from vendor to drug owner",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and the company now owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027. OpenAI bought Orchestra Bio and backs Chai; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Isomorphic is in talks at $40B or more."
+        "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and the company now owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027. OpenAI bought Orchestra Bio and backs Chai; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Isomorphic is in talks at $40B or more."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
@@ -240,10 +240,10 @@
       "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether drug programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
-      "Etcelera: the name and terms of its pending big-pharma alliance, and whether Flagship raises fresh money for it",
+      "AI-scientist agents in pharma: disclosed terms or a first program credited to Edison's Kosmos at Pfizer, more pipeline-wide signings, and whether Edison raises on the back of it",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals and who sells to it, first Boehringer–Microsoft twin results, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "Quiet overnight: no new qualifying bio×AI deal since last evening's brief. Searches across AI drug discovery funding, M&A, pharma licensing, protein design, lab automation, genomics and the named leaders turned up only items already tracked (Formation Bio's $600M fund, Flagship's Etcelera merger, ALLOX, Opentrons) and follow-up coverage of Anthropic's Oct 27 drug-development update, which is folded into the Mithril item. Isomorphic's Series C is still at the talks stage, with no close reported. No changes to movers, themes or predictions, and none resolved. Seen but not added: Hologic's Oct 20 agreement to buy Reveal Genomics (an ML-assisted breast-cancer diagnostics company, terms undisclosed), which is diagnostics rather than AI-driven drug R&D, and Omabit's $2M seed for genomics data analysis, whose source page couldn't be checked."
+    "since_last_run": "One new deal since this morning: on Oct 29 Pfizer signed Edison Scientific (the FutureHouse spinout, $70M raised) to deploy its Kosmos AI-scientist agent across its R&D pipeline, with no financial terms disclosed. It follows Edison's May deal with Incyte and adds a startup to the pipeline-wide AI-agent deals that have so far gone mostly to frontier labs; the summary, headline and first theme now reflect it. On the watchlist, Edison–Pfizer follow-through replaces the Etcelera alliance item. No change to movers. No prediction resolved: Isomorphic's Series C is still at the talks stage, and no new AI-lab acquisition, IPO filing or trial-tech partnership landed. Searches across funding, M&A, licensing, protein design, lab automation, genomics, IPOs and the named leaders otherwise turned up only tracked items or older news (OMass's Oct 15 Series C, which isn't AI-driven; PacBio–Verily's Oct 20 genomics data deal, terms undisclosed and outside drug R&D deal flow)."
   },
   "items": [
     {
@@ -355,6 +355,45 @@
       "url": "https://www.roboticstomorrow.com/news/2026/10/29/opentrons-announces-40m-series-e-round-to-standardize-ai-driven-science-on-its-robots/27316",
       "source_name": "Robotics Tomorrow (company release)",
       "first_seen": "2026-10-29T20:48:20+00:00"
+    },
+    {
+      "id": "2026-10-29-pfizer-edison-kosmos",
+      "date": "2026-10-29",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Edison Scientific",
+      "counterparty": "Pfizer",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": null,
+      "valuation_label": null,
+      "investors": [],
+      "area": "AI scientist agents for R&D",
+      "summary": "Edison Scientific, the FutureHouse spinout that has raised $70M, will roll out its Edison platform and Kosmos AI-scientist agent across Pfizer's R&D pipeline, starting in oncology, immunology and internal medicine. No financial terms were disclosed.",
+      "why_invested": "Edison's pitch is that Kosmos learns from Pfizer's own record of what has worked and failed in human biology and carries lessons between programs, giving Pfizer a compounding in-house advantage rather than a one-off tool. Likely also: Pfizer wants a pipeline-wide agent deal of its own after rivals signed with Anthropic, OpenAI and others.",
+      "whats_next": "Kosmos will build combined world models from public data and Pfizer's internal data, and Edison is embedding its own scientists and engineers in Pfizer teams. Watch for disclosed terms, a named program or decision credited to Kosmos, more pharma signings after Incyte (May) and Pfizer, and whether Edison raises a larger round on the back of it.",
+      "why_it_matters": "Big pharma is now signing pipeline-wide AI-scientist deals with startups as well as frontier labs, and the value being sold is training on the pharma's private failure data, not the model alone.",
+      "links": [
+        {
+          "title": "Edison Scientific: Agreement with Pfizer (company release)",
+          "url": "https://edisonscientific.com/news/edison-scientific-announces-agreement-with-pfizer-to-accelerate-research-and-development"
+        },
+        {
+          "title": "BioSpace: Edison Scientific announces Pfizer agreement",
+          "url": "https://www.biospace.com/press-releases/edison-scientific-announces-agreement-with-pfizer-to-accelerate-research-and-development"
+        },
+        {
+          "title": "Pharma Journalist: Pfizer partners with Edison Scientific",
+          "url": "https://www.pharmajournalist.com/pfizer-partners-with-edison-scientific-to-accelerate-ai-driven-drug-research/"
+        },
+        {
+          "title": "Fierce Biotech: Earlier Incyte–Edison deal to train Kosmos on its data",
+          "url": "https://www.fiercebiotech.com/biotech/incyte-inks-deal-edison-scientific-train-ai-through-drug-discovery"
+        }
+      ],
+      "url": "https://edisonscientific.com/news/edison-scientific-announces-agreement-with-pfizer-to-accelerate-research-and-development",
+      "source_name": "Edison Scientific",
+      "first_seen": "2026-10-30T20:47:12+00:00"
     },
     {
       "id": "2026-10-28-biogeometry-series-a-plus",

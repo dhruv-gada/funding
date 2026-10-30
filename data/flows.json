@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-29T20:48:20+00:00",
+ "last_updated": "2026-10-30T20:47:12+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -2551,6 +2551,27 @@
    "url": "https://www.prnewswire.com/news-releases/formation-bio-announces-600-million-debut-fund-to-expand-drug-development-capacity-302921852.html",
    "source_name": "PR Newswire",
    "note": "Capital commitments to a Formation Bio-managed fund that buys Phase 1–2 drugs into standalone entities, not equity in Formation Bio itself; LPs not named."
+  },
+  {
+   "id": "p-pfizer-edison",
+   "date": "2026-10-29",
+   "type": "Partnership",
+   "company": "Edison Scientific",
+   "sector": "Foundation models & platforms",
+   "round": "Pipeline-wide AI-scientist (Kosmos) deployment",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Pfizer",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://edisonscientific.com/news/edison-scientific-announces-agreement-with-pfizer-to-accelerate-research-and-development",
+   "source_name": "Edison Scientific",
+   "note": "Financial terms not disclosed"
   }
  ]
 }
