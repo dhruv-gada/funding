@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-31T12:47:33+00:00",
+ "last_updated": "2026-10-31T20:53:15+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -54,12 +54,17 @@
      "deal": "p-abudhabi-isomorphic"
     },
     {
+     "label": "DeepMind, Isomorphic & Meta fund Biohub's open cell data",
+     "amount": "$300M (of $1.8B)",
+     "deal": "p-biohub-virtualbio"
+    },
+    {
      "label": "Next round in talks at a $40B+ valuation",
      "amount": "$2B+ (talks)",
      "deal": null
     }
    ],
-   "insight": "Big tech money plus sovereign money (MGX, Temasek, UK Sovereign AI Fund) are funding the platform before it has clinical data. Pharma pays for access, and Gulf states offer data."
+   "insight": "Big tech money plus sovereign money (MGX, Temasek, UK Sovereign AI Fund) are funding the platform before it has clinical data. Pharma pays for access, Gulf states offer data, and Alphabet is now also paying for shared biology data with an early-access window."
   },
   {
    "id": "c-ailabs",
@@ -2593,6 +2598,48 @@
    "url": "https://www.businesswire.com/news/home/20261013711213/en",
    "source_name": "Business Wire",
    "note": "Financial terms not disclosed"
+  },
+  {
+   "id": "p-biohub-virtualbio",
+   "date": "2026-10-07",
+   "type": "Partnership",
+   "company": "Biohub (Virtual Biology Initiative)",
+   "sector": "Foundation models & platforms",
+   "round": "Open virtual-cell data coalition",
+   "cash_usd": null,
+   "headline_usd": 300000000,
+   "amount_label": "$300M from DeepMind, Isomorphic & Meta · $1.8B initiative total",
+   "payers": [
+    {
+     "name": "Google DeepMind",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Isomorphic Labs",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Meta",
+     "kind": "Big tech & AI labs"
+    }
+   ],
+   "participants": [
+    {
+     "name": "US Department of Energy",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "NIH",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "NVIDIA (NVentures)",
+     "kind": "Big tech & AI labs"
+    }
+   ],
+   "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
+   "source_name": "Newswise (DOE Office of Science release)",
+   "note": "Recipient is a nonprofit. Only the big tech $300M commitment (split not disclosed, timing not stated) is counted; DOE pledged >$500M over five years and NIH's share is prior federal data investment, so the $1.8B headline is not counted."
   }
  ]
 }

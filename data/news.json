@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-10-31T12:47:33+00:00",
-  "run_label": "Morning brief · Oct 31, 2026",
+  "last_updated": "2026-10-31T20:53:15+00:00",
+  "run_label": "Evening brief · Oct 31, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Frontier AI labs are turning into drug developers, and pharma is now wiring AI scientists into whole pipelines: Pfizer signed Edison Scientific's Kosmos agent across its R&D as money keeps moving to the lab bench and the clinic",
-    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it now owns Mithril's antibodies; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M), and Formation Bio separately raised a $600M fund to in-license 10–15 clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), while AstraZeneca keeps adding small AI bets such as Tremont AI for preclinical safety reads.",
+    "headline": "Frontier AI labs are turning into drug developers and big tech is now paying for biology's raw data, while pharma wires AI scientists into whole pipelines: Pfizer signed Edison's Kosmos agent as money keeps moving to the lab bench and the clinic",
+    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch, it owns Mithril's antibodies and says it now runs two to five preclinical programs; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M), Formation Bio raised a $600M fund to in-license clinical drugs, and Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open cell-data coalition. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and the company now owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027. OpenAI bought Orchestra Bio and backs Chai; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Isomorphic is in talks at $40B or more."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Isomorphic is in talks at $40B or more."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
@@ -19,8 +19,8 @@
         "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots."
       },
       {
-        "title": "Scale of data over number of platforms",
-        "detail": "Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model and perturbation data, BioGeometry raised past $100M to pair its design model with a virtual cell model and automated lab, and ALLOX and Rivercell raised seeds to generate their own experimental data. Investors now pay for proprietary data at scale rather than another model."
+        "title": "Scale of data over number of platforms, now with big tech paying for the data layer",
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model and perturbation data, BioGeometry raised past $100M to pair its design model with a virtual cell model and automated lab, and ALLOX and Rivercell raised seeds to generate their own experimental data. Investors now pay for data at scale rather than another model, and shared public datasets raise the bar for startups selling a proprietary atlas."
       }
     ],
     "movers": [
@@ -41,7 +41,7 @@
         "player": "Anthropic",
         "kind": "AI lab",
         "direction": "From selling Claude to pharma to owning drug programs, now part of its IPO story",
-        "detail": "Anthropic's S-1 (Oct 26) frames drug discovery and model-run labs as core uses and names Novo Nordisk, BMS, AbbVie and Sanofi as customers. It disclosed buying Mithril Medicine in July and is taking its rare-disease antibodies toward candidates in 2027; its Anthology Fund joined Basecamp's $140M.",
+        "detail": "Anthropic's S-1 (Oct 26) frames drug discovery and model-run labs as core uses and names Novo Nordisk, BMS, AbbVie and Sanofi as customers. It disclosed buying Mithril Medicine in July (after Coefficient Bio this spring), is taking its rare-disease antibodies toward candidates in 2027, and its drug R&D head now describes two to five active preclinical programs; its Anthology Fund joined Basecamp's $140M.",
         "evidence": [
           "2026-10-26-anthropic-s1-drug-rd",
           "2026-10-27-anthropic-mithril",
@@ -59,24 +59,26 @@
         ]
       },
       {
-        "player": "Alphabet / Isomorphic Labs",
+        "player": "Alphabet / Isomorphic Labs (and Meta)",
         "kind": "Big tech",
-        "direction": "Scaling capital and data access ahead of clinical proof",
-        "detail": "Isomorphic is in talks to raise more than $2B at a valuation of $40B or more, and has a new data-access roadmap with Abu Dhabi's health department.",
+        "direction": "Scaling capital and buying early access to biology's training data",
+        "detail": "Isomorphic is in talks to raise more than $2B at a valuation of $40B or more, has a data-access roadmap with Abu Dhabi's health department, and with Google DeepMind and Meta put $300M into Biohub's $1.8B open cell-data coalition, reportedly with a one-year head start on the data.",
         "evidence": [
           "2026-10-08-isomorphic-series-c-talks",
-          "2026-10-23-abudhabi-isomorphic"
+          "2026-10-23-abudhabi-isomorphic",
+          "2026-10-07-biohub-virtual-biology-1-8b"
         ]
       },
       {
         "player": "NVIDIA",
         "kind": "Big tech",
         "direction": "In the cap tables and now inside lab instruments",
-        "detail": "NVentures joined Basecamp's $140M Series C, NVIDIA-backed Iambic raised $150M in its IPO, and Danaher is building NVIDIA computing and BioNeMo models into its lab instruments. NVIDIA rarely leads, but it now spans model companies, public drug developers and lab hardware.",
+        "detail": "NVentures joined Basecamp's $140M Series C, NVIDIA-backed Iambic raised $150M in its IPO, and Danaher is building NVIDIA computing and BioNeMo models into its lab instruments. NVIDIA rarely leads, but it now spans model companies, public drug developers and lab hardware. It is also supplying compute in kind to Biohub's virtual-cell coalition.",
         "evidence": [
           "2026-09-23-basecamp-series-c",
           "2026-10-15-iambic-ipo",
-          "2026-10-15-danaher-nvidia-autonomous-lab"
+          "2026-10-15-danaher-nvidia-autonomous-lab",
+          "2026-10-07-biohub-virtual-biology-1-8b"
         ]
       },
       {
@@ -171,14 +173,15 @@
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
         "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
-        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, and Abu Dhabi is offering its health data to AI drug companies.",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort.",
         "evidence": [
           "2026-10-15-iambic-ipo",
           "2026-10-15-recursion-offering-sanofi",
           "2026-09-23-enveda-series-e",
           "2026-10-23-hexagon-bio-series-c",
           "2026-09-23-basecamp-series-c",
-          "2026-10-23-abudhabi-isomorphic"
+          "2026-10-23-abudhabi-isomorphic",
+          "2026-10-07-biohub-virtual-biology-1-8b"
         ]
       },
       {
@@ -240,12 +243,12 @@
     ],
     "watchlist": [
       "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
-      "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether drug programs get their own risk factors",
+      "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether its two to five preclinical programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "AI-scientist agents in pharma: disclosed terms or a first program credited to Edison's Kosmos at Pfizer, more pipeline-wide signings, and whether Edison raises on the back of it",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, first Boehringer–Microsoft twin results, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "Quiet overnight: no new qualifying deal was announced since the Oct 30 evening brief. Two items were added from gaps in earlier coverage. AstraZeneca signed a research collaboration with Tremont AI, a Mass General Brigham spinout, to build AI for reading preclinical toxicology slides (terms undisclosed; trade coverage Oct 28–30, the release may date from mid-October). BigHat Biosciences' $75M Series C from Sep 24 (DFJ Growth and Premji Invest co-leading, Lilly, Amgen and Merck's fund re-upping) was missing from this tab though already on the money map. AstraZeneca's and Eli Lilly's mover entries and the lab and clinical themes now reflect these; watchlist reordered to put Recursion's Nov 2–3 readouts first. No prediction resolved: Isomorphic's Series C is still at the talks stage and no new AI-lab acquisition, IPO filing or trial-tech partnership landed. Also seen but left out: ScionxBio's Oct 21 Sanofi mRNA licensing deal (AI is a supporting tool, terms undisclosed), an Insilico–Servier discovery milestone, and non-AI raises from Dren Bio ($350M) and Setara ($90M)."
+    "since_last_run": "Quiet Saturday: no new qualifying deal was announced since this morning's brief. One gap from earlier coverage was added: on Oct 7 Biohub expanded its Virtual Biology Initiative to a $1.8B coalition, with Google DeepMind, Isomorphic Labs and Meta putting in $300M together, the US Energy Department more than $500M over five years, and NIH contributing existing datasets (the newly named money is closer to $1.3B). That item now feeds the Alphabet/Isomorphic, NVIDIA and sovereign mover entries and the data-scale theme. Anthropic's drug R&D head also said in an Oct 30 interview that its pipeline holds two to five preclinical programs, which is reflected in the Anthropic entry. No prediction resolved: Isomorphic's round is still in talks and no new AI-lab acquisition, IPO filing or trial-tech partnership landed. Seen but left out: Ortet's $500M launch (Sep 29), which targets clinical, lab and revenue-cycle workflows rather than drug discovery, and AstraZeneca's Modella AI purchase, which dates from January. Recursion's Nov 2–3 readouts are next."
   },
   "items": [
     {
@@ -1356,6 +1359,49 @@
       "url": "https://www.biospace.com/press-releases/multiply-labs-raises-75-million-series-b-to-close-the-gap-between-drug-discovery-and-drug-manufacturing",
       "source_name": "BioSpace",
       "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-10-07-biohub-virtual-biology-1-8b",
+      "date": "2026-10-07",
+      "type": "Partnership",
+      "status": "Announced",
+      "company": "Biohub (Virtual Biology Initiative)",
+      "counterparty": "Google DeepMind, Isomorphic Labs & Meta; US DOE and NIH",
+      "amount_usd": 1800000000,
+      "amount_label": "$1.8B initiative (incl. in-kind and prior federal data) · $300M from DeepMind, Isomorphic & Meta",
+      "round": "Expansion of the Virtual Biology Initiative",
+      "valuation_label": null,
+      "investors": [
+        "Google DeepMind",
+        "Isomorphic Labs",
+        "Meta",
+        "US Department of Energy",
+        "NIH",
+        "NVIDIA (compute, in kind)",
+        "Renaissance Philanthropy"
+      ],
+      "area": "Virtual cell / open biological training data",
+      "summary": "The Zuckerberg-backed Biohub grew its virtual-cell data effort into a $1.8B coalition: Google DeepMind, Isomorphic Labs and Meta put in $300M together, the Energy Department pledged more than $500M over five years, and NIH is contributing existing datasets built on over $500M of past federal spending. The aim is an open, AI-ready store of cell-response data and new measurement tools to train predictive models of biology.",
+      "why_invested": "The partners say no single group can generate enough standardized cell data to build an accurate model of how cells respond to drugs or genetic changes, so they are pooling it. Likely also for the tech companies: early exclusive access to the data (reported at one year before public release) feeds their own biology models, including Isomorphic's drug design engine.",
+      "whats_next": "Watch for the first released datasets, how the one-year commercial head start works in practice, which other companies buy in, and whether DOE's autonomous labs start producing data at scale. Note that the new money named is closer to $1.3B; the rest is prior NIH investment.",
+      "why_it_matters": "Big tech is now paying for the raw data layer of biology, not just models, which raises the bar for startups whose edge is a proprietary cell atlas.",
+      "links": [
+        {
+          "title": "Newswise (DOE release): coalition commits nearly $2B to biology data for AI",
+          "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease"
+        },
+        {
+          "title": "pharmaphorum: Biohub raises $1.8bn for virtual biology",
+          "url": "https://pharmaphorum.com/news/biohub-raises-18bn-its-virtual-biology-initiative"
+        },
+        {
+          "title": "Let's Data Science: breakdown of the $1.8B and commercial early access",
+          "url": "https://letsdatascience.com/news/biohub-expands-ai-ready-biology-data-initiative-75b2234b"
+        }
+      ],
+      "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
+      "source_name": "Newswise (DOE Office of Science release)",
+      "first_seen": "2026-10-31T20:53:15+00:00"
     },
     {
       "id": "2026-10-05-whitelab-series-b",
