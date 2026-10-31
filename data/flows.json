@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-30T20:47:12+00:00",
+ "last_updated": "2026-10-31T12:47:33+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -1908,8 +1908,8 @@
      "kind": "Venture capital"
     }
    ],
-   "url": "https://www.biobucks.co/biotech-vc-funding-tracker-2026",
-   "source_name": "BioBucks tracker",
+   "url": "https://dealroom.co/news/156012-bighat-biosciences-raises-75m-series-c-for-ai-designed-drugs",
+   "source_name": "Dealroom",
    "note": null
   },
   {
@@ -2571,6 +2571,27 @@
    "participants": [],
    "url": "https://edisonscientific.com/news/edison-scientific-announces-agreement-with-pfizer-to-accelerate-research-and-development",
    "source_name": "Edison Scientific",
+   "note": "Financial terms not disclosed"
+  },
+  {
+   "id": "p-az-tremont",
+   "date": "2026-10-28",
+   "type": "Partnership",
+   "company": "Tremont AI",
+   "sector": "Diagnostics & pathology AI",
+   "round": "Research collaboration: AI for preclinical toxicologic pathology",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "AstraZeneca",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.businesswire.com/news/home/20261013711213/en",
+   "source_name": "Business Wire",
    "note": "Financial terms not disclosed"
   }
  ]

@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-10-30T20:47:12+00:00",
-  "run_label": "Evening brief · Oct 30, 2026",
+  "last_updated": "2026-10-31T12:47:33+00:00",
+  "run_label": "Morning brief · Oct 31, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers, and pharma is now wiring AI scientists into whole pipelines: Pfizer signed Edison Scientific's Kosmos agent across its R&D as money keeps moving to the lab bench and the clinic",
-    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it now owns Mithril's antibodies; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M), and Formation Bio separately raised a $600M fund to in-license 10–15 clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
+    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it now owns Mithril's antibodies; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M), and Formation Bio separately raised a $600M fund to in-license 10–15 clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), while AstraZeneca keeps adding small AI bets such as Tremont AI for preclinical safety reads.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
@@ -12,11 +12,11 @@
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
-        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials."
+        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads."
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
-        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate and Rivercell (€22M) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots."
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots."
       },
       {
         "title": "Scale of data over number of platforms",
@@ -82,20 +82,22 @@
       {
         "player": "Eli Lilly",
         "kind": "Pharma",
-        "direction": "Licensing AI platforms for delivery, not just molecules",
-        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B), adding to its run of AI deals this year.",
+        "direction": "Licensing AI platforms for delivery, and holding equity in AI biologics developers",
+        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B) and re-upped in BigHat's $75M Series C alongside Amgen and Merck's fund, adding to its run of AI deals this year.",
         "evidence": [
-          "2026-10-19-lilly-metis"
+          "2026-10-19-lilly-metis",
+          "2026-09-24-bighat-series-c"
         ]
       },
       {
         "player": "AstraZeneca",
         "kind": "Pharma",
-        "direction": "Outsourcing discovery and trial tech, investing in manufacturing robots, building Gulf trial capacity",
-        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets, a term sheet with Oracle for AI trial recruitment (starting in Abu Dhabi with M42), invested in Multiply Labs' $75M round, partners with Pathos on an ER PROTAC and is exploring up to 30 trials in Abu Dhabi by 2030.",
+        "direction": "Spreading AI bets from discovery through preclinical safety to trials, plus manufacturing robots and Gulf trial capacity",
+        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets, a term sheet with Oracle for AI trial recruitment (starting in Abu Dhabi with M42), a research deal with Tremont AI for AI-read preclinical toxicology, invested in Multiply Labs' $75M round, partners with Pathos on an ER PROTAC and is exploring up to 30 trials in Abu Dhabi by 2030.",
         "evidence": [
           "2026-10-15-astrazeneca-insitro",
           "2026-10-20-astrazeneca-oracle-trials",
+          "2026-10-28-astrazeneca-tremont-ai",
           "2026-10-07-multiply-labs-series-b",
           "2026-10-23-pathos-series-e",
           "2026-10-23-abudhabi-isomorphic"
@@ -237,13 +239,13 @@
       }
     ],
     "watchlist": [
+      "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
       "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether drug programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
-      "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
       "AI-scientist agents in pharma: disclosed terms or a first program credited to Edison's Kosmos at Pfizer, more pipeline-wide signings, and whether Edison raises on the back of it",
-      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals and who sells to it, first Boehringer–Microsoft twin results, and whether AstraZeneca–Oracle becomes binding"
+      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, first Boehringer–Microsoft twin results, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "One new deal since this morning: on Oct 29 Pfizer signed Edison Scientific (the FutureHouse spinout, $70M raised) to deploy its Kosmos AI-scientist agent across its R&D pipeline, with no financial terms disclosed. It follows Edison's May deal with Incyte and adds a startup to the pipeline-wide AI-agent deals that have so far gone mostly to frontier labs; the summary, headline and first theme now reflect it. On the watchlist, Edison–Pfizer follow-through replaces the Etcelera alliance item. No change to movers. No prediction resolved: Isomorphic's Series C is still at the talks stage, and no new AI-lab acquisition, IPO filing or trial-tech partnership landed. Searches across funding, M&A, licensing, protein design, lab automation, genomics, IPOs and the named leaders otherwise turned up only tracked items or older news (OMass's Oct 15 Series C, which isn't AI-driven; PacBio–Verily's Oct 20 genomics data deal, terms undisclosed and outside drug R&D deal flow)."
+    "since_last_run": "Quiet overnight: no new qualifying deal was announced since the Oct 30 evening brief. Two items were added from gaps in earlier coverage. AstraZeneca signed a research collaboration with Tremont AI, a Mass General Brigham spinout, to build AI for reading preclinical toxicology slides (terms undisclosed; trade coverage Oct 28–30, the release may date from mid-October). BigHat Biosciences' $75M Series C from Sep 24 (DFJ Growth and Premji Invest co-leading, Lilly, Amgen and Merck's fund re-upping) was missing from this tab though already on the money map. AstraZeneca's and Eli Lilly's mover entries and the lab and clinical themes now reflect these; watchlist reordered to put Recursion's Nov 2–3 readouts first. No prediction resolved: Isomorphic's Series C is still at the talks stage and no new AI-lab acquisition, IPO filing or trial-tech partnership landed. Also seen but left out: ScionxBio's Oct 21 Sanofi mRNA licensing deal (AI is a supporting tool, terms undisclosed), an Insilico–Servier discovery milestone, and non-AI raises from Dren Bio ($350M) and Setara ($90M)."
   },
   "items": [
     {
@@ -479,6 +481,41 @@
       "url": "https://www.prnewswire.com/news-releases/formation-bio-announces-600-million-debut-fund-to-expand-drug-development-capacity-302921852.html",
       "source_name": "PR Newswire (company release)",
       "first_seen": "2026-10-29T20:48:20+00:00"
+    },
+    {
+      "id": "2026-10-28-astrazeneca-tremont-ai",
+      "date": "2026-10-28",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Tremont AI",
+      "counterparty": "AstraZeneca",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": null,
+      "valuation_label": null,
+      "investors": [],
+      "area": "Preclinical safety / toxicologic pathology AI",
+      "summary": "Tremont AI, a Boston spinout from the Mahmood Lab at Mass General Brigham that builds foundation models and agents for reading preclinical toxicology slides, signed a research collaboration with AstraZeneca to build and test AI for faster safety screening in animal studies. No financial terms were disclosed; trade coverage appeared Oct 28–30.",
+      "why_invested": "Tremont's stated case is that pathologists still score huge numbers of tissue images by semi-quantitative judgment that varies between experts, and that toxicology-specific models can make those reads measurable, repeatable and quicker to triage, especially rare findings that general-purpose models miss. Likely for AstraZeneca: a cheap way to speed up the safety step that sits between AI-designed molecules and the clinic, building on its earlier pathology-AI moves such as the Modella acquisition.",
+      "whats_next": "The two will refine and benchmark Tremont's models on real safety-assessment work; no timeline or milestones were given. Watch for published validation results, a move from research collaboration to paid deployment, other pharma or CRO signings, and a disclosed seed round for Tremont, which only came out of stealth in late September.",
+      "why_it_matters": "As AI speeds up design, pharma is starting to pay for AI further down the preclinical chain, where safety reads are a slow manual step.",
+      "links": [
+        {
+          "title": "Business Wire: Tremont AI announces research collaboration (company release)",
+          "url": "https://www.businesswire.com/news/home/20261013711213/en"
+        },
+        {
+          "title": "DDW: Research collab will build AI for accelerated safety screening",
+          "url": "https://www.ddw-online.com/research-collab-will-build-ai-solutions-for-accelerated-safety-screening-44591-202610/"
+        },
+        {
+          "title": "TechEdge AI: Tremont AI and AstraZeneca collaborate on AI for drug safety",
+          "url": "https://techedgeai.com/?p=40997"
+        }
+      ],
+      "url": "https://www.businesswire.com/news/home/20261013711213/en",
+      "source_name": "Business Wire",
+      "first_seen": "2026-10-31T12:47:33+00:00"
     },
     {
       "id": "2026-10-27-atlas-bio-seed",
@@ -1360,6 +1397,54 @@
       "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
       "source_name": "Axios Pro",
       "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-09-24-bighat-series-c",
+      "date": "2026-09-24",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "BigHat Biosciences",
+      "counterparty": "DFJ Growth, Premji Invest",
+      "amount_usd": 75000000,
+      "amount_label": "$75M",
+      "round": "Series C",
+      "valuation_label": null,
+      "investors": [
+        "DFJ Growth",
+        "Premji Invest",
+        "Catalio Capital Management",
+        "LG Technology Ventures",
+        "Sigmas Group",
+        "8VC",
+        "Andreessen Horowitz",
+        "Amgen Ventures",
+        "Eli Lilly",
+        "Merck Global Health Innovation Fund",
+        "Section 32",
+        "Alexandria Venture Investments"
+      ],
+      "area": "AI antibody & protein design",
+      "summary": "BigHat, which pairs machine-learning design with its own wet lab and an agentic data platform for protein drugs, raised a $75M Series C co-led by DFJ Growth and Premji Invest, taking total funding to about $223M. Added late: the round fell inside the tracking window but was missed by earlier runs.",
+      "why_invested": "The company says the money backs both its clinical pipeline and the design-and-test platform behind it. Likely for investors: BigHat now has a drug in patients, so its AI-designed biologics are moving from platform promise to clinical readout, and pharma backers Lilly, Amgen and Merck re-upping signals strategic interest.",
+      "whats_next": "BHB810, a CDH17 antibody-drug conjugate for gastrointestinal cancers, is dosing in Phase 1; BHB299, a CEACAM6 T-cell engager, is finishing preclinical work with human trials planned for 2027. Watch for first Phase 1 data, the BHB299 IND and any pharma licensing of either asset.",
+      "why_it_matters": "Growth investors are now funding AI protein-design companies on the strength of clinical assets, with pharma corporate funds staying in the cap table.",
+      "links": [
+        {
+          "title": "Dealroom: BigHat raises $75M Series C for AI-designed drugs",
+          "url": "https://dealroom.co/news/156012-bighat-biosciences-raises-75m-series-c-for-ai-designed-drugs"
+        },
+        {
+          "title": "HedgeCo: BigHat Series C co-led by DFJ Growth and Premji Invest",
+          "url": "https://hedgeco.net/news/09/2026/bighat-biosciences-raised-75-million-series-c-co-led-by-dfj-growth-and-premji-invest.html"
+        },
+        {
+          "title": "Inforcapital: BigHat raises $75M Series C",
+          "url": "https://inforcapital.com/news/bighat-biosciences-raises-75-million-series-c-co-led-by-dfj-growth-and-premji-invest/"
+        }
+      ],
+      "url": "https://dealroom.co/news/156012-bighat-biosciences-raises-75m-series-c-for-ai-designed-drugs",
+      "source_name": "Dealroom",
+      "first_seen": "2026-10-31T12:47:33+00:00"
     },
     {
       "id": "2026-09-23-enveda-series-e",
