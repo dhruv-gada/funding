@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-10-31T20:53:15+00:00",
-  "run_label": "Evening brief · Oct 31, 2026",
+  "last_updated": "2026-11-01T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 1, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Frontier AI labs are turning into drug developers and big tech is now paying for biology's raw data, while pharma wires AI scientists into whole pipelines: Pfizer signed Edison's Kosmos agent as money keeps moving to the lab bench and the clinic",
-    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch, it owns Mithril's antibodies and says it now runs two to five preclinical programs; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M), Formation Bio raised a $600M fund to in-license clinical drugs, and Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open cell-data coalition. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
+    "headline": "Frontier AI labs are turning into drug developers while pharma and big tech now pay for biology's training data: GSK, Pfizer and Sanofi signed onto Parse and Nomic's 100M-cell Cascade immune dataset, a week after DeepMind, Isomorphic and Meta funded Biohub's open cell atlas",
+    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it owns Mithril's antibodies; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, plus adsilico's £10M), Formation Bio raised a $600M fund to in-license clinical drugs, and two data coalitions formed: big tech's $300M toward Biohub's open $1.8B effort and a pharma-backed, licensed Cascade dataset (terms undisclosed). Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
@@ -12,15 +12,15 @@
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
-        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads."
+        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, adsilico raised £10M to test medical devices on AI-built virtual patients, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads."
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
         "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots."
       },
       {
-        "title": "Scale of data over number of platforms, now with big tech paying for the data layer",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model and perturbation data, BioGeometry raised past $100M to pair its design model with a virtual cell model and automated lab, and ALLOX and Rivercell raised seeds to generate their own experimental data. Investors now pay for data at scale rather than another model, and shared public datasets raise the bar for startups selling a proprietary atlas."
+        "title": "Scale of data over number of platforms: big tech and pharma both now pay for the data layer",
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX and Rivercell raised seeds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own."
       }
     ],
     "movers": [
@@ -116,15 +116,26 @@
         ]
       },
       {
+        "player": "Pfizer",
+        "kind": "Pharma",
+        "direction": "Buying AI scientists and shared training data rather than owning AI companies",
+        "detail": "In one week Pfizer signed Edison Scientific to run its Kosmos agent on internal data across oncology, immunology and internal medicine, and became a founding partner (with GSK and Sanofi) in Parse and Nomic's Cascade immune-perturbation dataset. Neither deal has disclosed terms; both rent capability rather than take equity.",
+        "evidence": [
+          "2026-10-29-pfizer-edison-kosmos",
+          "2026-10-29-parse-nomic-cascade"
+        ]
+      },
+      {
         "player": "Mid-size pharma (Astellas, Zealand, GSK, Boehringer)",
         "kind": "Pharma",
         "direction": "Renting AI platforms in their core areas rather than building them",
-        "detail": "Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK widened its Chai deal after lab tests, and Boehringer went to Microsoft for trial twins.",
+        "detail": "Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK widened its Chai deal after lab tests and joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins.",
         "evidence": [
           "2026-10-21-astellas-ai-proteins",
           "2026-10-13-zealand-generate",
           "2026-10-09-gsk-chai",
-          "2026-10-24-boehringer-microsoft-twins"
+          "2026-10-24-boehringer-microsoft-twins",
+          "2026-10-29-parse-nomic-cascade"
         ]
       },
       {
@@ -161,12 +172,13 @@
         "player": "European early-stage investors",
         "kind": "VC",
         "direction": "Backing data-first and trial-simulation bets",
-        "detail": "Creandum led Atlas Bio's $10M seed, HV Capital led Rivercell's €22M seed, AVP led WhiteLab's $26M Series B and Asabys led ALLOX's $10.5M seed, so European funds are writing larger early cheques for data-first AI biology.",
+        "detail": "Creandum led Atlas Bio's $10M seed, HV Capital led Rivercell's €22M seed, AVP led WhiteLab's $26M Series B, Asabys led ALLOX's $10.5M seed and PXN Ventures led adsilico's £10M Series A, so European funds are writing larger early cheques for data-first AI biology and virtual-patient simulation.",
         "evidence": [
           "2026-10-27-atlas-bio-seed",
           "2026-10-07-rivercell-seed",
           "2026-10-05-whitelab-series-b",
-          "2026-10-29-allox-seed"
+          "2026-10-29-allox-seed",
+          "2026-10-26-adsilico-series-a"
         ]
       },
       {
@@ -232,23 +244,29 @@
         "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
         "timeframe": "Next 6 months",
         "confidence": "Medium",
-        "based_on": "Boehringer–Microsoft digital twins; AstraZeneca–Oracle recruitment term sheet; Atlas Bio's seed; Formation Bio's $600M fund for AI-run clinical development (adjacent, but not a trial-tech raise)"
+        "based_on": "Boehringer–Microsoft digital twins; AstraZeneca–Oracle recruitment term sheet; Atlas Bio's seed; Formation Bio's $600M fund for AI-run clinical development (adjacent, but not a trial-tech raise); adsilico's £10M for virtual-patient device trials (adjacent, below the bar)"
       },
       {
         "call": "Another AI-native drug developer files publicly for a US IPO",
         "timeframe": "By end of Q1 2027",
         "confidence": "Medium",
         "based_on": "Iambic's $150M IPO priced at the midpoint with insider support; Generate Biomedicines' $400M IPO in February"
+      },
+      {
+        "call": "At least one more pharma-funded or big tech-funded biological data consortium of 10M+ cells (or a comparable perturbation atlas) is announced",
+        "timeframe": "Next 3 months",
+        "confidence": "Medium",
+        "based_on": "Biohub's $1.8B open coalition (Oct 7) and the Cascade consortium with GSK, Pfizer and Sanofi (Oct 29) landing three weeks apart"
       }
     ],
     "watchlist": [
       "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
       "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether its two to five preclinical programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
-      "AI-scientist agents in pharma: disclosed terms or a first program credited to Edison's Kosmos at Pfizer, more pipeline-wide signings, and whether Edison raises on the back of it",
-      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, first Boehringer–Microsoft twin results, and whether AstraZeneca–Oracle becomes binding"
+      "Data coalitions: Cascade's first release date and new members, and whether Biohub's open data or pharma's licensed data wins more partners",
+      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "Quiet Saturday: no new qualifying deal was announced since this morning's brief. One gap from earlier coverage was added: on Oct 7 Biohub expanded its Virtual Biology Initiative to a $1.8B coalition, with Google DeepMind, Isomorphic Labs and Meta putting in $300M together, the US Energy Department more than $500M over five years, and NIH contributing existing datasets (the newly named money is closer to $1.3B). That item now feeds the Alphabet/Isomorphic, NVIDIA and sovereign mover entries and the data-scale theme. Anthropic's drug R&D head also said in an Oct 30 interview that its pipeline holds two to five preclinical programs, which is reflected in the Anthropic entry. No prediction resolved: Isomorphic's round is still in talks and no new AI-lab acquisition, IPO filing or trial-tech partnership landed. Seen but left out: Ortet's $500M launch (Sep 29), which targets clinical, lab and revenue-cycle workflows rather than drug discovery, and AstraZeneca's Modella AI purchase, which dates from January. Recursion's Nov 2–3 readouts are next."
+    "since_last_run": "Quiet weekend for new money: no new AI-bio funding round, acquisition or IPO was announced since Friday's evening brief. Two items from the past week were added after a fresh sweep. On Oct 29 Parse Biosciences (QIAGEN) and Nomic launched Cascade, a licensed 100M-cell immune perturbation dataset with GSK, Pfizer, Sanofi, Graph Therapeutics and Turbine as founding partners (terms undisclosed); it now feeds the data-scale theme, the mid-size pharma entry and a new Pfizer mover entry (Edison plus Cascade). On Oct 26 Leeds spinout adsilico raised a £10M Series A led by PXN Ventures for AI-built virtual patients used in device trials, added to the clinical theme and the European early-stage mover. One prediction was added on further data consortia. No prediction resolved: Isomorphic's round is still in talks, and adsilico's raise is below the $50M bar for the trial-tech call. Seen but left out: Isomorphic's $2.1B Series B (May) and ByteDance spinout Anew Labs' $290M Series A (Sep 16), both outside the window, and Dren Bio's $350M round, which has no AI angle. Recursion's Nov 2–3 readouts are next."
   },
   "items": [
     {
@@ -399,6 +417,47 @@
       "url": "https://edisonscientific.com/news/edison-scientific-announces-agreement-with-pfizer-to-accelerate-research-and-development",
       "source_name": "Edison Scientific",
       "first_seen": "2026-10-30T20:47:12+00:00"
+    },
+    {
+      "id": "2026-10-29-parse-nomic-cascade",
+      "date": "2026-10-29",
+      "type": "Partnership",
+      "status": "Announced",
+      "company": "Parse Biosciences (QIAGEN) & Nomic Bio",
+      "counterparty": "GSK, Pfizer, Sanofi (founding pharma partners)",
+      "amount_usd": null,
+      "amount_label": "Undisclosed (partner-funded consortium)",
+      "round": "Data consortium (Cascade)",
+      "valuation_label": null,
+      "investors": [
+        "GSK",
+        "Pfizer",
+        "Sanofi",
+        "Graph Therapeutics",
+        "Turbine"
+      ],
+      "area": "Perturbation data for virtual-cell models",
+      "summary": "Parse, now part of QIAGEN, and Nomic launched Cascade, a licensable dataset of about 100 million single-cell immune profiles paired with more than 11,000 secreted-protein readouts across 150,000+ cytokine and drug perturbations. GSK, Pfizer, Sanofi, Graph Therapeutics and Turbine signed on as founding partners; no money or delivery date was disclosed.",
+      "why_invested": "Stated: the partners say AI models of immune biology are short of data on how human cells respond to cytokines and drugs, and they want the dataset to train virtual-cell models and to find and check new targets. Likely: sharing the cost of generation lets each pharma get first access to a dataset none would build alone.",
+      "whats_next": "Watch for the first data release and timeline, more pharma or AI-lab partners joining, and whether any partner reports a target or model trained on it. Also watch whether access terms stay closed or loosen given Biohub's open data push.",
+      "why_it_matters": "Pharma is now paying, as a group, for the perturbation data that virtual-cell models need, a closed, licensed counterpart to the big tech-funded open Biohub effort.",
+      "links": [
+        {
+          "title": "BioSpace (Business Wire): Parse and Nomic announce Cascade dataset",
+          "url": "https://www.biospace.com/press-releases/parse-biosciences-and-nomic-announce-100-million-cell-multimodal-ai-ready-dataset-for-immune-biology"
+        },
+        {
+          "title": "GEN: 100 million-cell AI-ready dataset from Parse and Nomic",
+          "url": "https://www.genengnews.com/topics/omics/100-million-cell-ai-ready-dataset-with-single-cell-and-proteomic-data-created-by-parse-and-nomic/"
+        },
+        {
+          "title": "Tech Times: Cascade adds the missing protein signal for immune AI",
+          "url": "https://www.techtimes.com/articles/329816/20261031/parse-nomic-launch-cascade-ai-immune-drug-discovery-gets-its-missing-protein-signal.htm"
+        }
+      ],
+      "url": "https://www.biospace.com/press-releases/parse-biosciences-and-nomic-announce-100-million-cell-multimodal-ai-ready-dataset-for-immune-biology",
+      "source_name": "BioSpace (Business Wire)",
+      "first_seen": "2026-11-01T13:55:00+00:00"
     },
     {
       "id": "2026-10-28-biogeometry-series-a-plus",
@@ -626,6 +685,45 @@
       "url": "https://www.pharmaceutical-technology.com/news/anthropic-ipo-drug-development-pharma/",
       "source_name": "Pharmaceutical Technology",
       "first_seen": "2026-10-28T20:48:27+00:00"
+    },
+    {
+      "id": "2026-10-26-adsilico-series-a",
+      "date": "2026-10-26",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "adsilico",
+      "counterparty": "PXN Ventures (lead)",
+      "amount_usd": null,
+      "amount_label": "£10M",
+      "round": "Series A",
+      "valuation_label": null,
+      "investors": [
+        "PXN Ventures",
+        "Northern Gritstone",
+        "Parkwalk"
+      ],
+      "area": "Virtual patients for in-silico device trials",
+      "summary": "adsilico, a 2024 University of Leeds spinout, uses generative AI on anonymised scans to build virtual hearts and vessels, then runs physics simulations to test implants across varied virtual populations before and alongside clinical trials. It raised a £10M Series A, taking its total to £13.5M.",
+      "why_invested": "Likely: device trials enrol only a few hundred patients and struggle to cover every body type, so investors are backing software that lets makers spot risky patient groups and choose sizes before costly studies. PXN led, with existing backers Northern Gritstone and Parkwalk following on.",
+      "whats_next": "Building out heart models, expanding into neurovascular devices such as aneurysm flow diverters, and growing from 14 to about 34 staff. Watch for named device-maker customers and whether regulators accept its simulations as supporting evidence.",
+      "why_it_matters": "Virtual-patient modelling is spreading from drug trials into medical devices, adding to the case that simulated cohorts will become a standard part of trial evidence.",
+      "links": [
+        {
+          "title": "Tech.eu: Leeds AI spinout adsilico raises £10M",
+          "url": "https://tech.eu/2026/10/26/leeds-ai-spinout-adsilico-raises-ps10m-to-test-medical-devices-on-virtual-patients/"
+        },
+        {
+          "title": "The SaaS News: adsilico raises £10M Series A",
+          "url": "https://www.thesaasnews.com/news/adsilico-raises-10m-series-a/"
+        },
+        {
+          "title": "Yorkshire Post: Adsilico raises £10m for AI device testing",
+          "url": "https://www.yorkshirepost.co.uk/business/adsilico-yorkshire-firm-using-ai-to-expand-medical-device-testing-raises-ps10m-in-funding-9306127"
+        }
+      ],
+      "url": "https://tech.eu/2026/10/26/leeds-ai-spinout-adsilico-raises-ps10m-to-test-medical-devices-on-virtual-patients/",
+      "source_name": "Tech.eu",
+      "first_seen": "2026-11-01T13:55:00+00:00"
     },
     {
       "id": "2026-10-24-boehringer-microsoft-twins",
