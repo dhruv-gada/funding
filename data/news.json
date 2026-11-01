@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T13:55:00+00:00",
-  "run_label": "Morning brief · Nov 1, 2026",
+  "last_updated": "2026-11-01T21:46:10+00:00",
+  "run_label": "Evening brief · Nov 1, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers while pharma and big tech now pay for biology's training data: GSK, Pfizer and Sanofi signed onto Parse and Nomic's 100M-cell Cascade immune dataset, a week after DeepMind, Isomorphic and Meta funded Biohub's open cell atlas",
@@ -266,7 +266,7 @@
       "Data coalitions: Cascade's first release date and new members, and whether Biohub's open data or pharma's licensed data wins more partners",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "Quiet weekend for new money: no new AI-bio funding round, acquisition or IPO was announced since Friday's evening brief. Two items from the past week were added after a fresh sweep. On Oct 29 Parse Biosciences (QIAGEN) and Nomic launched Cascade, a licensed 100M-cell immune perturbation dataset with GSK, Pfizer, Sanofi, Graph Therapeutics and Turbine as founding partners (terms undisclosed); it now feeds the data-scale theme, the mid-size pharma entry and a new Pfizer mover entry (Edison plus Cascade). On Oct 26 Leeds spinout adsilico raised a £10M Series A led by PXN Ventures for AI-built virtual patients used in device trials, added to the clinical theme and the European early-stage mover. One prediction was added on further data consortia. No prediction resolved: Isomorphic's round is still in talks, and adsilico's raise is below the $50M bar for the trial-tech call. Seen but left out: Isomorphic's $2.1B Series B (May) and ByteDance spinout Anew Labs' $290M Series A (Sep 16), both outside the window, and Dren Bio's $350M round, which has no AI angle. Recursion's Nov 2–3 readouts are next."
+    "since_last_run": "Quiet Sunday: no new AI-bio funding round, acquisition, partnership or IPO surfaced since this morning's brief, after fresh sweeps of drug-discovery funding, M&A, pharma licensing, protein design, lab automation, China financings and the named leaders. The only fresh coverage was Endpoints' Oct 29–30 reporting on Anthropic's life-sciences push (Mithril, its partner roster and a two-to-five-program preclinical pipeline), which is already reflected in the Anthropic item and mover entry. No prediction resolved: Isomorphic's round is still in talks and no new alumni launch, lab acquisition or AI-biotech IPO filing appeared. Next up are Recursion's Q3 results on Nov 2 and its REC-4881 FAP data on Nov 3."
   },
   "items": [
     {
