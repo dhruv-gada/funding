@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-02T13:51:58+00:00",
-  "run_label": "Morning brief · Nov 2, 2026",
+  "last_updated": "2026-11-02T21:47:25+00:00",
+  "run_label": "Evening brief · Nov 2, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers while pharma and big tech now pay for biology's training data: GSK, Pfizer and Sanofi signed onto Parse and Nomic's 100M-cell Cascade immune dataset, a week after DeepMind, Isomorphic and Meta funded Biohub's open cell atlas",
@@ -260,13 +260,13 @@
       }
     ],
     "watchlist": [
-      "Recursion Q3 results after today's close (Nov 2) and its REC-4881 FAP data webinar on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
+      "Recursion's REC-4881 FAP webinar on Nov 3, after Q3 results showed polyp-burden cuts in 13 of 15 patients and a runway into 2029: does the market start paying for first-generation AI-biotech clinical data?",
       "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether its two to five preclinical programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Data coalitions: Cascade's first release date and new members, and whether Biohub's open data or pharma's licensed data wins more partners",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "Quiet weekend into Monday: no new AI-bio funding round, acquisition, partnership or IPO surfaced since last night's brief, after fresh sweeps of drug-discovery funding, M&A, pharma licensing, protein design, lab automation, China financings and the named leaders. The only large biotech rounds of the past few days, Dren Bio's $350M and Setara's $90M Series A, are not AI-driven and stay out of scope. Two mid-September items (Altis Labs' $25M Series A and Big Picture Bio's pre-seed) aged out of the 45-day window, trimming disclosed venture in the window slightly. No prediction resolved: Isomorphic's round is still reported as in talks, and no new alumni launch, AI-lab acquisition or AI-biotech IPO filing appeared. Recursion reports Q3 after today's close and presents REC-4881 FAP data tomorrow."
+    "since_last_run": "Quiet again today: fresh sweeps of AI drug-discovery funding, M&A, pharma licensing, protein design, lab automation, virtual-cell and China financings, and the named leaders turned up no new qualifying round, acquisition, partnership or IPO since this morning. The one update is Recursion's Q3 report after the close: revenue rose to $18.6M (from $5.2M a year ago), the net loss narrowed to $119M, cash stands near $749M including October's $200M offering, and REC-4881 cut polyp burden in 13 of 15 FAP patients; the Sanofi $10M option it highlights was already logged on Oct 15. Out-of-scope rounds this week included Samplix's €25M first close for droplet-based antibody screening, which has no AI angle. No item aged out and no prediction resolved: Isomorphic's round is still unconfirmed, and no new alumni launch, AI-lab acquisition or AI-biotech IPO filing appeared."
   },
   "items": [
     {
@@ -1213,7 +1213,7 @@
       "area": "AI drug discovery platform",
       "summary": "Recursion sold about 61.5M shares at $3.25 to raise roughly $200M, on the same day Sanofi picked the first development candidate from their AI small-molecule collaboration, an oral drug for inflammatory disease that triggers a $10M milestone. The shares jumped more than 16% on the Sanofi news.",
       "why_invested": "Likely: specialist holders such as Janus Henderson, ARK and Driehaus bought in on the first pharma-picked candidate from the platform, which adds validation and lifts total Sanofi payments to $144M.",
-      "whats_next": "Recursion says the cash extends its runway into 2029. Sanofi funds the program, with Phase 1 expected in 2027 and more than $300M in further milestones possible. Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3 come next.",
+      "whats_next": "Recursion's Q3 report (Nov 2) put cash at about $562M at quarter end, roughly $749M counting the October offering, and kept the runway into 2029. Sanofi is paying for the optioned immunology program and Phase 1 is planned for 2027, with more than $300M in further milestones possible. Clinically, REC-4881 shrank polyp burden in 13 of 15 FAP patients at 12 weeks (median cut 47%), and REC-1245 showed three partial responses in solid tumours at 45 mg and above. Fred Hassan became board chair on Oct 31. Next: the REC-4881 webinar on Nov 3 and how the stock trades on the data.",
       "why_it_matters": "First-generation AI biotechs can still raise from public markets, but at a discount and only when a pharma partner backs a molecule.",
       "links": [
         {
@@ -1227,6 +1227,10 @@
         {
           "title": "Recursion: pricing of $200M public offering",
           "url": "https://seekingalpha.com/pr/19770760-recursion-announces-pricing-of-200-million-public-offering-of-class-a-common-stock"
+        },
+        {
+          "title": "BioPharmaWatch: Recursion Q3 2026 results and clinical data",
+          "url": "https://www.biopharmawatch.com/news/RXRX/recursion-reports-q3-2026-results-and-clinical-data"
         }
       ],
       "url": "https://www.utahbusiness.com/industry/2026/10/15/recursion-prices-200m-stock-offering-as-sanofi-picks-a-partnered-drug-candidate/",
