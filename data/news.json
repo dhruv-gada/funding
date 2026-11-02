@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T21:46:10+00:00",
-  "run_label": "Evening brief · Nov 1, 2026",
+  "last_updated": "2026-11-02T13:51:58+00:00",
+  "run_label": "Morning brief · Nov 2, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers while pharma and big tech now pay for biology's training data: GSK, Pfizer and Sanofi signed onto Parse and Nomic's 100M-cell Cascade immune dataset, a week after DeepMind, Isomorphic and Meta funded Biohub's open cell atlas",
@@ -260,13 +260,13 @@
       }
     ],
     "watchlist": [
-      "Recursion Q3 results on Nov 2 and REC-4881 (FAP) data on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
+      "Recursion Q3 results after today's close (Nov 2) and its REC-4881 FAP data webinar on Nov 3, a test of whether the first AI-biotech generation can show clinical value",
       "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether its two to five preclinical programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Data coalitions: Cascade's first release date and new members, and whether Biohub's open data or pharma's licensed data wins more partners",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "Quiet Sunday: no new AI-bio funding round, acquisition, partnership or IPO surfaced since this morning's brief, after fresh sweeps of drug-discovery funding, M&A, pharma licensing, protein design, lab automation, China financings and the named leaders. The only fresh coverage was Endpoints' Oct 29–30 reporting on Anthropic's life-sciences push (Mithril, its partner roster and a two-to-five-program preclinical pipeline), which is already reflected in the Anthropic item and mover entry. No prediction resolved: Isomorphic's round is still in talks and no new alumni launch, lab acquisition or AI-biotech IPO filing appeared. Next up are Recursion's Q3 results on Nov 2 and its REC-4881 FAP data on Nov 3."
+    "since_last_run": "Quiet weekend into Monday: no new AI-bio funding round, acquisition, partnership or IPO surfaced since last night's brief, after fresh sweeps of drug-discovery funding, M&A, pharma licensing, protein design, lab automation, China financings and the named leaders. The only large biotech rounds of the past few days, Dren Bio's $350M and Setara's $90M Series A, are not AI-driven and stay out of scope. Two mid-September items (Altis Labs' $25M Series A and Big Picture Bio's pre-seed) aged out of the 45-day window, trimming disclosed venture in the window slightly. No prediction resolved: Isomorphic's round is still reported as in talks, and no new alumni launch, AI-lab acquisition or AI-biotech IPO filing appeared. Recursion reports Q3 after today's close and presents REC-4881 FAP data tomorrow."
   },
   "items": [
     {
@@ -1664,66 +1664,6 @@
       "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
       "source_name": "Tech.eu",
       "first_seen": "2026-10-27T20:55:00+00:00"
-    },
-    {
-      "id": "2026-09-17-big-picture-bio-preseed",
-      "date": "2026-09-17",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "Big Picture Bio",
-      "counterparty": "Kadmos Capital, Exceptional Ventures (co-leads)",
-      "amount_usd": 2000000,
-      "amount_label": "~$2M",
-      "round": "Pre-seed",
-      "valuation_label": null,
-      "investors": [
-        "Kadmos Capital",
-        "Exceptional Ventures"
-      ],
-      "area": "Generative AI for cancer combination therapy",
-      "summary": "A generative model predicts which cancer drug combinations are worth testing before any wet-lab work.",
-      "why_it_matters": "An early-stage signal: drug-combination prediction is a less crowded niche than single-target design.",
-      "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news",
-      "source_name": "New Market Pitch",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "A small, early bet on predicting drug combinations, a less crowded problem than single-target design.",
-      "whats_next": "Wet-lab validation of predicted combinations, then a seed round.",
-      "links": [
-        {
-          "title": "New Market Pitch: healthcare AI funding, Sept–Oct 2026",
-          "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-17-altis-labs-series-a",
-      "date": "2026-09-17",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "Altis Labs",
-      "counterparty": "OrbiMed, Qiming (co-leads)",
-      "amount_usd": 25000000,
-      "amount_label": "$25M",
-      "round": "Series A",
-      "valuation_label": null,
-      "investors": [
-        "OrbiMed",
-        "Qiming Venture Partners USA"
-      ],
-      "area": "Imaging AI for oncology trials",
-      "summary": "Altis trains models on medical images and patient outcomes so drug developers can read treatment effects earlier in cancer trials.",
-      "why_it_matters": "Clinical-trial AI is drawing specialist biotech investors, not only tech VCs.",
-      "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news",
-      "source_name": "New Market Pitch",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "Specialist biotech funds (OrbiMed) are backing a model that shortens oncology trials by reading imaging endpoints earlier, which saves money for every sponsor.",
-      "whats_next": "Signing drug developers as customers. Watch for named pharma trial partners.",
-      "links": [
-        {
-          "title": "New Market Pitch: healthcare AI funding, Sept–Oct 2026",
-          "url": "https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news"
-        }
-      ]
     }
   ]
 }
