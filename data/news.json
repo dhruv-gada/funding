@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-02T21:47:25+00:00",
-  "run_label": "Evening brief · Nov 2, 2026",
+  "last_updated": "2026-11-03T13:47:48+00:00",
+  "run_label": "Morning brief · Nov 3, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers while pharma and big tech now pay for biology's training data: GSK, Pfizer and Sanofi signed onto Parse and Nomic's 100M-cell Cascade immune dataset, a week after DeepMind, Isomorphic and Meta funded Biohub's open cell atlas",
@@ -260,13 +260,13 @@
       }
     ],
     "watchlist": [
-      "Recursion's REC-4881 FAP webinar on Nov 3, after Q3 results showed polyp-burden cuts in 13 of 15 patients and a runway into 2029: does the market start paying for first-generation AI-biotech clinical data?",
-      "Anthropic IPO: price range, any disclosure of life-sciences revenue or R&D spend, and whether its two to five preclinical programs get their own risk factors",
+      "Recursion's REC-4881 FAP webinar today (Nov 3), after Q3 showed polyp-burden cuts in 13 of 15 patients and cash near $749M: does the market start paying for first-generation AI-biotech clinical data?",
+      "Anthropic IPO: price range and final valuation (investors reportedly want the low end of $1.5–2T after Q3), any disclosure of life-sciences revenue or R&D spend, and whether its two to five preclinical programs get their own risk factors",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Data coalitions: Cascade's first release date and new members, and whether Biohub's open data or pharma's licensed data wins more partners",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding"
     ],
-    "since_last_run": "Quiet again today: fresh sweeps of AI drug-discovery funding, M&A, pharma licensing, protein design, lab automation, virtual-cell and China financings, and the named leaders turned up no new qualifying round, acquisition, partnership or IPO since this morning. The one update is Recursion's Q3 report after the close: revenue rose to $18.6M (from $5.2M a year ago), the net loss narrowed to $119M, cash stands near $749M including October's $200M offering, and REC-4881 cut polyp burden in 13 of 15 FAP patients; the Sanofi $10M option it highlights was already logged on Oct 15. Out-of-scope rounds this week included Samplix's €25M first close for droplet-based antibody screening, which has no AI angle. No item aged out and no prediction resolved: Isomorphic's round is still unconfirmed, and no new alumni launch, AI-lab acquisition or AI-biotech IPO filing appeared."
+    "since_last_run": "Quiet overnight: fresh sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, lab automation, computational biology, China financings and the named leaders found no new qualifying round, acquisition, partnership or IPO since last evening. The closest call was Vitroscope, a Trondheim startup that raised $7M ($5M seed co-led by Cerberus Ventures and YZR Capital, plus $2M in Norwegian grants) for perfusion systems that keep living human tissue running for longitudinal experiments; its backers pitch it as a data source for AI, but the product itself has no AI or modelling, so it stays out. Setara Biosciences' $90M Series A (genetics-led rare disease, no AI) and Trajectory's $45M (general AI model training) are also out of scope. Context for the Anthropic watch item: its Q3 report showed revenue up nearly 47% on the quarter, with investors reportedly pushing its IPO toward the low end of a $1.5–2 trillion valuation range; no price range or life-sciences revenue was disclosed. No item aged out and no prediction resolved: Isomorphic's round is still unconfirmed, and Recursion's REC-4881 webinar is later today."
   },
   "items": [
     {
