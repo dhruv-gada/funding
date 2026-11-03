@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-03T13:47:48+00:00",
-  "run_label": "Morning brief · Nov 3, 2026",
+  "last_updated": "2026-11-03T21:47:38+00:00",
+  "run_label": "Evening brief · Nov 3, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers while pharma and big tech now pay for biology's training data: GSK, Pfizer and Sanofi signed onto Parse and Nomic's 100M-cell Cascade immune dataset, a week after DeepMind, Isomorphic and Meta funded Biohub's open cell atlas",
@@ -260,13 +260,13 @@
       }
     ],
     "watchlist": [
-      "Recursion's REC-4881 FAP webinar today (Nov 3), after Q3 showed polyp-burden cuts in 13 of 15 patients and cash near $749M: does the market start paying for first-generation AI-biotech clinical data?",
-      "Anthropic IPO: price range and final valuation (investors reportedly want the low end of $1.5–2T after Q3), any disclosure of life-sciences revenue or R&D spend, and whether its two to five preclinical programs get their own risk factors",
+      "Anthropic IPO: price range and roadshow (listing possibly the week of Nov 16), whether the amended filing's Q3 operating loss pushes valuation toward the low end of $1.5–2T, and any life-sciences revenue or R&D disclosure",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Data coalitions: Cascade's first release date and new members, and whether Biohub's open data or pharma's licensed data wins more partners",
-      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding"
+      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
+      "Recursion: FDA alignment on a registrational REC-4881 study and the next partner milestones from Sanofi and Genentech, the clearest test of whether first-generation AI biotechs get paid for clinical data"
     ],
-    "since_last_run": "Quiet overnight: fresh sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, lab automation, computational biology, China financings and the named leaders found no new qualifying round, acquisition, partnership or IPO since last evening. The closest call was Vitroscope, a Trondheim startup that raised $7M ($5M seed co-led by Cerberus Ventures and YZR Capital, plus $2M in Norwegian grants) for perfusion systems that keep living human tissue running for longitudinal experiments; its backers pitch it as a data source for AI, but the product itself has no AI or modelling, so it stays out. Setara Biosciences' $90M Series A (genetics-led rare disease, no AI) and Trajectory's $45M (general AI model training) are also out of scope. Context for the Anthropic watch item: its Q3 report showed revenue up nearly 47% on the quarter, with investors reportedly pushing its IPO toward the low end of a $1.5–2 trillion valuation range; no price range or life-sciences revenue was disclosed. No item aged out and no prediction resolved: Isomorphic's round is still unconfirmed, and Recursion's REC-4881 webinar is later today."
+    "since_last_run": "Quiet day: afternoon sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, virtual-cell and lab-automation raises, China deals and the named leaders found no new qualifying round, acquisition, partnership or IPO since this morning. Two existing items were updated. Recursion held its REC-4881 webinar after a Q3 call that added detail: the Sanofi-optioned drug is an AI-designed oral dual-target inflammation molecule worth up to $343M in milestones, Genentech optioned a first neuroscience target from Recursion's maps, partner cash received now tops $535M, and a registrational FAP study is targeted for the second half of 2027 pending the FDA. Anthropic's amended prospectus (Nov 2) showed Q3 revenue near $17B but a $567M operating loss and about $895B in compute commitments, still with no price range. Checked and left out: BioStack's $9.5M seed (de-identified clinical records sold as AI training data, health data rather than biology), Samplix's €25M first close (microfluidic antibody screening with no AI angle), Caravel Bio's $1.25M (AI enzymes for carbon capture, not bio-medicine), Resurrect Bio's $10.3M (AI crop immunity) and Dren Bio's $350M (antibodies, no AI). No item aged out and no prediction resolved; Isomorphic's round is still unconfirmed."
   },
   "items": [
     {
@@ -666,7 +666,7 @@
       "area": "Frontier AI lab moving into drug R&D",
       "summary": "Anthropic filed its S-1 for a Nasdaq listing under the ticker ANT. The filing presents drug discovery and disease detection as core uses of its models, describes plans to let future models run lab equipment and robots, and confirms in-house discovery work on neglected diseases following July's Claude Science launch. Pharma customers named include Novo Nordisk, BMS, AbbVie and Sanofi. No price range was set; the New York Times reported a raise of about $100B.",
       "why_invested": "Not a bio deal in itself. Likely: Anthropic puts science, and drug R&D in particular, at the center of its long-term story to justify a very large valuation. Owning programs such as Mithril's antibodies gives that story concrete assets, and existing pharma contracts show enterprise demand beyond coding.",
-      "whats_next": "Price range and roadshow; any segment disclosure of life-sciences revenue or R&D spend; whether the drug programs carry their own risk factors (the filing already flags that models could act in unintended or autonomous ways). After listing, watch whether public money lets Anthropic buy more biotech assets.",
+      "whats_next": "An amended prospectus (Nov 2) added Q3: revenue of about $17B, up 47% on the quarter, but a swing to a $567M operating loss and about $895B in compute commitments. There is still no price range; a roadshow could start next week with a listing around the week of Nov 16. Watch for any segment disclosure of life-sciences revenue or R&D spend, whether the drug programs carry their own risk factors, and whether public money lets Anthropic buy more biotech assets.",
       "why_it_matters": "The first frontier lab to file for an IPO is pitching public investors on drug discovery, so bio is now part of the core equity story for AI labs, not a side project.",
       "links": [
         {
@@ -680,6 +680,10 @@
         {
           "title": "Nate's Newsletter: S-1 financials (H1 2026 revenue, margins, R&D)",
           "url": "https://natesnewsletter.substack.com/p/anthropic-ipo-s1-analysis"
+        },
+        {
+          "title": "Euronews: Anthropic swings to operating loss in updated IPO filing",
+          "url": "https://www.euronews.com/2026/11/03/anthropic-swings-back-to-operating-loss-as-895-billion-compute-bill-looms-over-ipo"
         }
       ],
       "url": "https://www.pharmaceutical-technology.com/news/anthropic-ipo-drug-development-pharma/",
@@ -1213,7 +1217,7 @@
       "area": "AI drug discovery platform",
       "summary": "Recursion sold about 61.5M shares at $3.25 to raise roughly $200M, on the same day Sanofi picked the first development candidate from their AI small-molecule collaboration, an oral drug for inflammatory disease that triggers a $10M milestone. The shares jumped more than 16% on the Sanofi news.",
       "why_invested": "Likely: specialist holders such as Janus Henderson, ARK and Driehaus bought in on the first pharma-picked candidate from the platform, which adds validation and lifts total Sanofi payments to $144M.",
-      "whats_next": "Recursion's Q3 report (Nov 2) put cash at about $562M at quarter end, roughly $749M counting the October offering, and kept the runway into 2029. Sanofi is paying for the optioned immunology program and Phase 1 is planned for 2027, with more than $300M in further milestones possible. Clinically, REC-4881 shrank polyp burden in 13 of 15 FAP patients at 12 weeks (median cut 47%), and REC-1245 showed three partial responses in solid tumours at 45 mg and above. Fred Hassan became board chair on Oct 31. Next: the REC-4881 webinar on Nov 3 and how the stock trades on the data.",
+      "whats_next": "Recursion's Q3 report (Nov 2) put cash at about $562M at quarter end, roughly $749M counting the October offering, with runway into 2029. On the call, management said the Sanofi-optioned molecule is an oral dual-target inflammation drug that its AI platform helped design; Sanofi now leads and funds it, Phase 1 is planned for 2027, and each such program carries up to $343M in milestones plus royalties. Genentech has also optioned a first neuroscience target from Recursion's biological maps, and total partner cash received now tops $535M. Clinically, REC-4881 cut polyp burden in 13 of 15 FAP patients at 12 weeks (median 47%), and the Nov 3 investor webinar walked through that data; a registrational study is targeted for the second half of 2027 if the FDA agrees on design, and analysts were told it will likely need to show hard outcomes. Watch more partner milestones in 2027 and how the stock holds after the data.",
       "why_it_matters": "First-generation AI biotechs can still raise from public markets, but at a discount and only when a pharma partner backs a molecule.",
       "links": [
         {
@@ -1231,6 +1235,10 @@
         {
           "title": "BioPharmaWatch: Recursion Q3 2026 results and clinical data",
           "url": "https://www.biopharmawatch.com/news/RXRX/recursion-reports-q3-2026-results-and-clinical-data"
+        },
+        {
+          "title": "Motley Fool: Recursion Q3 2026 earnings call transcript",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/03/recursion-rxrx-q3-2026-earnings-call-transcript/"
         }
       ],
       "url": "https://www.utahbusiness.com/industry/2026/10/15/recursion-prices-200m-stock-offering-as-sanofi-picks-a-partnered-drug-candidate/",
