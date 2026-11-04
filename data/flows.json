@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-04T13:49:31+00:00",
+ "last_updated": "2026-11-04T21:49:34+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -110,9 +110,19 @@
      "label": "Anthropic reveals it owns Mithril's drug programs",
      "amount": "Undisclosed",
      "deal": "a-anthropic-mithril"
+    },
+    {
+     "label": "OpenAI's fund leads Biossil's round",
+     "amount": "$153M",
+     "deal": "v-biossil"
+    },
+    {
+     "label": "Biossil buys Theriva's shelved enzymes",
+     "amount": "$350K upfront · up to ~$91M",
+     "deal": "l-biossil-theriva"
     }
    ],
-   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and owning drug programs outright (Anthropic–Mithril). Anthropic's S-1 now pitches that bio push to public investors. Most terms stay undisclosed."
+   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and owning drug programs outright (Anthropic–Mithril), now also via portfolio companies like Biossil that buy shelved clinical drugs. Anthropic's S-1 now pitches that bio push to public investors. Most terms stay undisclosed."
   },
   {
    "id": "c-nvidia",
@@ -2739,6 +2749,69 @@
    "url": "https://biospace.com/press-releases/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration",
    "source_name": "BioSpace (PR Newswire release)",
    "note": "Software-access deal; no financial terms, duration or programs disclosed."
+  },
+  {
+   "id": "v-biossil",
+   "date": "2026-09-28",
+   "type": "Venture",
+   "company": "Biossil",
+   "sector": "Clinical & development AI",
+   "round": "Equity round (series not named)",
+   "cash_usd": 153000000,
+   "headline_usd": 153000000,
+   "amount_label": "$153M",
+   "payers": [
+    {
+     "name": "OpenAI",
+     "kind": "Big tech & AI labs"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Founders Fund",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Quiet Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Golden Ventures",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Panache Ventures",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Abu Dhabi Investment Council",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://betakit.com/biossil-hits-unicorn-status-with-new-openai-led-financing/",
+   "source_name": "BetaKit",
+   "note": "Lead per BetaKit (OpenAI Startup Fund); The Logic names OpenAI as a backer without a lead. Reported $1B valuation."
+  },
+  {
+   "id": "l-biossil-theriva",
+   "date": "2026-11-02",
+   "type": "In-licensing",
+   "company": "Theriva Biologics",
+   "sector": null,
+   "round": "SYN-004 (ribaxamase) portfolio purchase (Biossil pays)",
+   "cash_usd": 350000,
+   "headline_usd": 91350000,
+   "amount_label": "$350K upfront · up to ~$91M",
+   "payers": [
+    {
+     "name": "Biossil",
+     "kind": "AI biotech"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393092/0/en/theriva-biologics-announces-sale-of-syn-004-ribaxamase-and-related-antibiotic-degrading-enzyme-portfolio-to-biossil-labs-inc.html",
+   "source_name": "GlobeNewswire (Theriva release)",
+   "note": "Asset purchase: $3M regulatory + $88M sales milestones, low single-digit royalties capped at $250M."
   }
  ]
 }

@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-11-04T13:49:31+00:00",
-  "run_label": "Morning brief · Nov 4, 2026",
+  "last_updated": "2026-11-04T21:49:34+00:00",
+  "run_label": "Evening brief · Nov 4, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers while pharma and big tech now pay for biology's training data: GSK, Pfizer and Sanofi signed onto Parse and Nomic's 100M-cell Cascade immune dataset, a week after DeepMind, Isomorphic and Meta funded Biohub's open cell atlas",
-    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it owns Mithril's antibodies; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, plus adsilico's £10M), Formation Bio raised a $600M fund to in-license clinical drugs, and two data coalitions formed: big tech's $300M toward Biohub's open $1.8B effort and a pharma-backed, licensed Cascade dataset (terms undisclosed). Pharma licensing still pays mostly in milestones, and UCB's new Cradle deal (terms undisclosed) adds to a run of software-style antibody-design licences: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
+    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it owns Mithril's antibodies; OpenAI bought Orchestra Bio and its startup fund's portfolio company Biossil (backed with $153M in September) just bought Theriva's shelved SYN-004 enzymes for $350K upfront, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, plus adsilico's £10M), Formation Bio raised a $600M fund to in-license clinical drugs, and two data coalitions formed: big tech's $300M toward Biohub's open $1.8B effort and a pharma-backed, licensed Cascade dataset (terms undisclosed). Pharma licensing still pays mostly in milestones, and UCB's new Cradle deal (terms undisclosed) adds to a run of software-style antibody-design licences: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Isomorphic is in talks at $40B or more."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Isomorphic is in talks at $40B or more."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
-        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, adsilico raised £10M to test medical devices on AI-built virtual patients, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads."
+        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, adsilico raised £10M to test medical devices on AI-built virtual patients, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads. Biossil is running the same buy-don't-discover play at a smaller scale, picking up Theriva's paused Phase 1b/2a transplant-gut enzyme for $350K upfront and up to ~$91M in milestones."
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
@@ -27,14 +27,16 @@
       {
         "player": "OpenAI",
         "kind": "AI lab",
-        "direction": "From models to owning life-sciences workflows",
-        "detail": "OpenAI bought Orchestra Bio to put pharma-operations agents into Rosalind and is an investor in Chai, which just widened its GSK deal. It also works with Formation Bio (with Sanofi), which just raised a $600M drug-acquisition fund. Alumni are spinning out bio companies: Kevin Weil's Warp, and Miles Wang reportedly raising about $200M.",
+        "direction": "From models to owning life-sciences workflows, and now backing clinical-asset buyers",
+        "detail": "OpenAI bought Orchestra Bio to put pharma-operations agents into Rosalind and is an investor in Chai, which just widened its GSK deal. It also works with Formation Bio (with Sanofi), which just raised a $600M drug-acquisition fund. Alumni are spinning out bio companies: Kevin Weil's Warp, and Miles Wang reportedly raising about $200M. Its startup fund led Biossil's $153M round at a reported $1B, and Biossil has started buying shelved clinical drugs (Theriva's SYN-004 on Nov 2).",
         "evidence": [
           "2026-10-20-openai-orchestra-bio",
           "2026-10-22-warp-sciences-launch",
           "2026-10-22-miles-wang-raise-talks",
           "2026-10-09-gsk-chai",
-          "2026-10-28-formation-bio-600m-fund"
+          "2026-10-28-formation-bio-600m-fund",
+          "2026-09-28-biossil-153m",
+          "2026-11-02-biossil-theriva-enzymes"
         ]
       },
       {
@@ -186,7 +188,7 @@
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
         "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
-        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort.",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort.",
         "evidence": [
           "2026-10-15-iambic-ipo",
           "2026-10-15-recursion-offering-sanofi",
@@ -194,7 +196,8 @@
           "2026-10-23-hexagon-bio-series-c",
           "2026-09-23-basecamp-series-c",
           "2026-10-23-abudhabi-isomorphic",
-          "2026-10-07-biohub-virtual-biology-1-8b"
+          "2026-10-07-biohub-virtual-biology-1-8b",
+          "2026-09-28-biossil-153m"
         ]
       },
       {
@@ -264,10 +267,10 @@
       "Anthropic IPO: price range and roadshow (listing possibly the week of Nov 16), whether the amended filing's Q3 operating loss pushes valuation toward the low end of $1.5–2T, and any life-sciences revenue or R&D disclosure",
       "Isomorphic Labs Series C: final size, lead investor and whether the $40B+ valuation holds",
       "Data coalitions: Cascade's first release date and new members, and whether Biohub's open data or pharma's licensed data wins more partners",
-      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
+      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
       "Recursion: FDA alignment on a registrational REC-4881 study and the next partner milestones from Sanofi and Genentech, the clearest test of whether first-generation AI biotechs get paid for clinical data"
     ],
-    "since_last_run": "One new qualifying deal: on Nov 4 UCB signed a strategic collaboration with Cradle to use its AI protein-engineering platform on selected antibody and biologics discovery projects, with no financial terms disclosed. It is Cradle's fourth pharma platform deal this year (Bayer, Lundbeck, Hansa) and is added to the mid-size pharma mover and the make-and-test theme. Morning sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, virtual-cell, genomics, clinical-trial AI and lab-automation raises, plus the named leaders, found nothing else in scope since last night. Checked and left out: Setara Biosciences' $90M Series A (Oct 31; rare-disease small molecules spun out of Jazz's Actio deal, no AI angle), nPhase's $30M Series D led by Viking (clinical data-management software, closer to clinical operations than biology), VivoSim Labs' pairing with Indian CRDMO Chemveda to test AI-designed compounds in human liver and gut models (no terms, small), and Google DeepMind's new cheminformatics agent skills for its Antigravity platform (a product update with no partner money, reported only by a minor outlet). Isomorphic's president spoke to Bloomberg on Nov 2 but no round was confirmed, and Anthropic still has no IPO price range. No item aged out and no prediction resolved."
+    "since_last_run": "One new qualifying deal, plus a missed round now backfilled. On Nov 2 Biossil, the Toronto AI-native drug-repurposing company, agreed to buy Theriva Biologics' antibiotic-degrading enzyme portfolio (SYN-004 ribaxamase and related assets) for $350K at closing and up to about $91M in regulatory and sales milestones, plus capped royalties; it plans to restart a paused transplant trial. Because Biossil was not yet tracked, its $153M round at a reported $1B (Sep 28, led by the OpenAI Startup Fund per BetaKit, with Founders Fund and the Abu Dhabi Investment Council) is added too; it is dated outside the 7-day venture window so the dashboard's weekly total is unchanged. Both feed the OpenAI and crossover/sovereign movers and the AI-labs and clinical-assets themes. Afternoon sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, genomics/virtual-cell, lab automation and the named leaders found nothing else in scope. Checked and left out again: nPhase's $30M Series D (clinical data-management software), Sigma Biotech's Series A+ led by China Life (organoid drug discovery with only a light AI angle, amount undisclosed) and QUANTRO's Austrian research grant (a grant, not a deal). Recursion's Q3 Sanofi milestone was already in the Recursion item. Isomorphic's round and Anthropic's IPO price range are still unconfirmed. No item aged out and no prediction resolved."
   },
   "items": [
     {
@@ -310,6 +313,43 @@
       "url": "https://biospace.com/press-releases/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration",
       "source_name": "BioSpace (PR Newswire release)",
       "first_seen": "2026-11-04T13:49:31+00:00"
+    },
+    {
+      "id": "2026-11-02-biossil-theriva-enzymes",
+      "date": "2026-11-02",
+      "type": "Acquisition",
+      "status": "Signed",
+      "company": "Biossil",
+      "counterparty": "Theriva Biologics",
+      "amount_usd": 91350000,
+      "amount_label": "$350K upfront · up to ~$91M in milestones",
+      "round": "Asset purchase (SYN-004 ribaxamase portfolio)",
+      "valuation_label": null,
+      "investors": [
+        "Biossil"
+      ],
+      "area": "AI drug repurposing / clinical assets",
+      "summary": "Toronto-based Biossil, an AI-native company that hunts for shelved drug candidates and develops them itself, agreed to buy Theriva Biologics' antibiotic-degrading enzyme portfolio, led by SYN-004 (ribaxamase), plus SYN-007 and SYN-006-related assets. Theriva gets $350K at closing, up to $3M in regulatory and $88M in sales milestones, and capped low single-digit royalties; Biossil takes on all further costs.",
+      "why_invested": "Likely: the asset fits Biossil's model of buying molecules that stalled for business reasons rather than failed on biology, here a Phase 1b/2a enzyme meant to protect the gut microbiome of stem-cell transplant patients. Theriva says the sale keeps the program alive while it focuses on its oncolytic virus VCN-01. The near-zero upfront shows the seller had little leverage.",
+      "whats_next": "Biossil plans to restart the paused Washington University Phase 1b/2a trial in allogeneic transplant patients (two of three cohorts done, with a third planned on IV cefepime, up to 36 evaluable patients). Watch for the trial reopening, and for more cheap buys of shelved assets with the $153M it raised in September.",
+      "why_it_matters": "OpenAI-backed capital is now flowing through AI-native developers into the clinic by buying shelved assets for almost nothing upfront, the same play Formation Bio is funding with $600M.",
+      "links": [
+        {
+          "title": "GlobeNewswire: Theriva announces sale of SYN-004 portfolio to Biossil",
+          "url": "https://www.globenewswire.com/news-release/2026/11/02/3393092/0/en/theriva-biologics-announces-sale-of-syn-004-ribaxamase-and-related-antibiotic-degrading-enzyme-portfolio-to-biossil-labs-inc.html"
+        },
+        {
+          "title": "Fierce Biotech: OpenAI-funded Biossil buys Theriva's degrader portfolio for up to $91M",
+          "url": "https://www.fiercebiotech.com/biotech/openai-funded-biossil-snags-therivas-antibiotic-degrader-portfolio-91m"
+        },
+        {
+          "title": "Investing.com: Theriva sells enzyme portfolio to Biossil",
+          "url": "https://ca.investing.com/news/stock-market-news/theriva-sells-antibioticdegrading-enzyme-portfolio-to-biossil-93CH-4922040"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/11/02/3393092/0/en/theriva-biologics-announces-sale-of-syn-004-ribaxamase-and-related-antibiotic-degrading-enzyme-portfolio-to-biossil-labs-inc.html",
+      "source_name": "GlobeNewswire (Theriva release)",
+      "first_seen": "2026-11-04T21:49:34+00:00"
     },
     {
       "id": "2026-10-29-flagship-etcelera",
@@ -1595,6 +1635,50 @@
       "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
       "source_name": "Axios Pro",
       "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-09-28-biossil-153m",
+      "date": "2026-09-28",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Biossil",
+      "counterparty": "OpenAI Startup Fund",
+      "amount_usd": 153000000,
+      "amount_label": "$153M",
+      "round": "Equity round (series not named)",
+      "valuation_label": "$1B (reported)",
+      "investors": [
+        "OpenAI Startup Fund",
+        "Founders Fund",
+        "Quiet Capital",
+        "Modern Capital",
+        "Golden Ventures",
+        "Panache Ventures",
+        "Duke University endowment",
+        "Abu Dhabi Investment Council"
+      ],
+      "area": "AI drug repurposing / clinical assets",
+      "summary": "Biossil, which uses language models to find drug candidates that pharma dropped after clinical setbacks and then buys or licenses them, raised $153M at a reported $1B valuation, five months after leaving stealth with $70M. BetaKit reports the OpenAI Startup Fund led; The Logic lists OpenAI among the backers without naming a lead.",
+      "why_invested": "The CEO's stated case is that AI insight only helps patients if a company has the clinical infrastructure to act on it. Likely: OpenAI wants a showcase where its models drive real drug programs, and backers see shelved assets as cheaper and faster to develop than new discovery.",
+      "whats_next": "Funds go to clinical development capacity in the US and Canada and to buying more candidates; its first public buy came Nov 2 (Theriva's SYN-004 enzymes). Current work spans sickle cell, IPF, glioblastoma, breast cancer and Alzheimer's. Watch for further asset deals and trial starts.",
+      "why_it_matters": "AI-lab money is backing companies that own clinical assets, not just discovery software.",
+      "links": [
+        {
+          "title": "BetaKit: Biossil hits unicorn status with OpenAI-led financing",
+          "url": "https://betakit.com/biossil-hits-unicorn-status-with-new-openai-led-financing/"
+        },
+        {
+          "title": "The Logic: OpenAI backs Biossil in US$153M round",
+          "url": "https://thelogic.co/briefing/openai-backs-biossil-in-us153m-funding-round-report/"
+        },
+        {
+          "title": "Dealroom: OpenAI leads $150M round for drug-reviving Biossil",
+          "url": "https://dealroom.co/news/157312-openai-leads-150m-round-for-drug-reviving-startup-biossil/"
+        }
+      ],
+      "url": "https://betakit.com/biossil-hits-unicorn-status-with-new-openai-led-financing/",
+      "source_name": "BetaKit",
+      "first_seen": "2026-11-04T21:49:34+00:00"
     },
     {
       "id": "2026-09-24-bighat-series-c",
