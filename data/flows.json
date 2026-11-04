@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-01T13:55:00+00:00",
+ "last_updated": "2026-11-04T13:49:31+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -2718,6 +2718,27 @@
    "url": "https://tech.eu/2026/10/26/leeds-ai-spinout-adsilico-raises-ps10m-to-test-medical-devices-on-virtual-patients/",
    "source_name": "Tech.eu",
    "note": "Reported in GBP only (£10M); USD not given by source, so left out of totals."
+  },
+  {
+   "id": "p-ucb-cradle",
+   "date": "2026-11-04",
+   "type": "Partnership",
+   "company": "Cradle",
+   "sector": "Protein & antibody design",
+   "round": "Platform collaboration: AI antibody and biologics engineering",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "UCB",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://biospace.com/press-releases/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration",
+   "source_name": "BioSpace (PR Newswire release)",
+   "note": "Software-access deal; no financial terms, duration or programs disclosed."
   }
  ]
 }

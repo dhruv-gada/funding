@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-03T21:47:38+00:00",
-  "run_label": "Evening brief · Nov 3, 2026",
+  "last_updated": "2026-11-04T13:49:31+00:00",
+  "run_label": "Morning brief · Nov 4, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Frontier AI labs are turning into drug developers while pharma and big tech now pay for biology's training data: GSK, Pfizer and Sanofi signed onto Parse and Nomic's 100M-cell Cascade immune dataset, a week after DeepMind, Isomorphic and Meta funded Biohub's open cell atlas",
-    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it owns Mithril's antibodies; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, plus adsilico's £10M), Formation Bio raised a $600M fund to in-license clinical drugs, and two data coalitions formed: big tech's $300M toward Biohub's open $1.8B effort and a pharma-backed, licensed Cascade dataset (terms undisclosed). Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
+    "summary": "Anthropic's S-1 puts drug discovery at the center of its IPO pitch and it owns Mithril's antibodies; OpenAI bought Orchestra Bio, and Pfizer signed a pipeline-wide deal (terms undisclosed) for Edison Scientific's Kosmos AI scientist. Disclosed bio×AI venture since Oct 22 is about $575M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, plus adsilico's £10M), Formation Bio raised a $600M fund to in-license clinical drugs, and two data coalitions formed: big tech's $300M toward Biohub's open $1.8B effort and a pharma-backed, licensed Cascade dataset (terms undisclosed). Pharma licensing still pays mostly in milestones, and UCB's new Cradle deal (terms undisclosed) adds to a run of software-style antibody-design licences: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
@@ -16,7 +16,7 @@
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
-        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots."
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle is the software version of the same idea: its antibody-design models retrain on each batch of UCB lab results."
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma both now pay for the data layer",
@@ -126,11 +126,12 @@
         ]
       },
       {
-        "player": "Mid-size pharma (Astellas, Zealand, GSK, Boehringer)",
+        "player": "Mid-size pharma (Astellas, Zealand, GSK, Boehringer, UCB)",
         "kind": "Pharma",
         "direction": "Renting AI platforms in their core areas rather than building them",
-        "detail": "Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK widened its Chai deal after lab tests and joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins.",
+        "detail": "Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK widened its Chai deal after lab tests and joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. UCB signed Cradle (Nov 4) to run its AI antibody-engineering software on selected discovery projects, joining Bayer, Lundbeck and Hansa as Cradle customers this year.",
         "evidence": [
+          "2026-11-04-ucb-cradle",
           "2026-10-21-astellas-ai-proteins",
           "2026-10-13-zealand-generate",
           "2026-10-09-gsk-chai",
@@ -266,9 +267,50 @@
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
       "Recursion: FDA alignment on a registrational REC-4881 study and the next partner milestones from Sanofi and Genentech, the clearest test of whether first-generation AI biotechs get paid for clinical data"
     ],
-    "since_last_run": "Quiet day: afternoon sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, virtual-cell and lab-automation raises, China deals and the named leaders found no new qualifying round, acquisition, partnership or IPO since this morning. Two existing items were updated. Recursion held its REC-4881 webinar after a Q3 call that added detail: the Sanofi-optioned drug is an AI-designed oral dual-target inflammation molecule worth up to $343M in milestones, Genentech optioned a first neuroscience target from Recursion's maps, partner cash received now tops $535M, and a registrational FAP study is targeted for the second half of 2027 pending the FDA. Anthropic's amended prospectus (Nov 2) showed Q3 revenue near $17B but a $567M operating loss and about $895B in compute commitments, still with no price range. Checked and left out: BioStack's $9.5M seed (de-identified clinical records sold as AI training data, health data rather than biology), Samplix's €25M first close (microfluidic antibody screening with no AI angle), Caravel Bio's $1.25M (AI enzymes for carbon capture, not bio-medicine), Resurrect Bio's $10.3M (AI crop immunity) and Dren Bio's $350M (antibodies, no AI). No item aged out and no prediction resolved; Isomorphic's round is still unconfirmed."
+    "since_last_run": "One new qualifying deal: on Nov 4 UCB signed a strategic collaboration with Cradle to use its AI protein-engineering platform on selected antibody and biologics discovery projects, with no financial terms disclosed. It is Cradle's fourth pharma platform deal this year (Bayer, Lundbeck, Hansa) and is added to the mid-size pharma mover and the make-and-test theme. Morning sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, virtual-cell, genomics, clinical-trial AI and lab-automation raises, plus the named leaders, found nothing else in scope since last night. Checked and left out: Setara Biosciences' $90M Series A (Oct 31; rare-disease small molecules spun out of Jazz's Actio deal, no AI angle), nPhase's $30M Series D led by Viking (clinical data-management software, closer to clinical operations than biology), VivoSim Labs' pairing with Indian CRDMO Chemveda to test AI-designed compounds in human liver and gut models (no terms, small), and Google DeepMind's new cheminformatics agent skills for its Antigravity platform (a product update with no partner money, reported only by a minor outlet). Isomorphic's president spoke to Bloomberg on Nov 2 but no round was confirmed, and Anthropic still has no IPO price range. No item aged out and no prediction resolved."
   },
   "items": [
+    {
+      "id": "2026-11-04-ucb-cradle",
+      "date": "2026-11-04",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Cradle",
+      "counterparty": "UCB",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": "Strategic collaboration (antibody and biologics engineering)",
+      "valuation_label": null,
+      "investors": [
+        "UCB"
+      ],
+      "area": "AI protein & antibody engineering",
+      "summary": "Amsterdam-based Cradle, which sells an AI protein-engineering platform that learns from each round of lab results, signed a strategic collaboration with Belgian drugmaker UCB. UCB will run Cradle's software on selected antibody and biologics discovery projects, from first hits through lead optimization to preclinical readiness; no financial terms, duration or programs were disclosed.",
+      "why_invested": "UCB's research chief frames AI as a support tool for its scientists, with the payoff coming from pairing model predictions with wet-lab testing to reach better molecules faster. Likely also: UCB is assembling a set of outside AI tools around its in-house digital antibody program (it already licenses XtalPi's Ailux structure software and runs the DARC antibody-AI effort with the University of Southampton) rather than betting on one vendor.",
+      "whats_next": "Watch for which UCB programs (immunology or CNS) move onto the platform, whether the deal is later widened across the biologics pipeline, as Cradle's CEO suggested, and whether any financial terms or a first candidate surface. For Cradle, this is a fourth pharma software deal in 2026 after Bayer (January), Lundbeck (June) and Hansa (October); a new funding round would be the next signal.",
+      "why_it_matters": "Antibody-design AI is turning into licensed software that mid-size pharma rolls out program by program, a recurring-seat model that sits apart from the milestone-heavy drug-discovery deals.",
+      "links": [
+        {
+          "title": "BioSpace (PR Newswire): UCB and Cradle collaboration release",
+          "url": "https://biospace.com/press-releases/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration"
+        },
+        {
+          "title": "ADVFN: UCB–Cradle release (wire copy)",
+          "url": "https://uk.advfn.com/stock-market/share-news/UCB-advances-its-digital-antibody-engineering-prog/99625609"
+        },
+        {
+          "title": "Cradle: Bayer three-year platform deal (Jan 2026)",
+          "url": "https://www.cradle.bio/blog/bayer-collaboration"
+        },
+        {
+          "title": "Cradle: Lundbeck CNS antibody deal (Jun 2026)",
+          "url": "https://cradle.bio/blog/lundbeck"
+        }
+      ],
+      "url": "https://biospace.com/press-releases/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration",
+      "source_name": "BioSpace (PR Newswire release)",
+      "first_seen": "2026-11-04T13:49:31+00:00"
+    },
     {
       "id": "2026-10-29-flagship-etcelera",
       "date": "2026-10-29",
