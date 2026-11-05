@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-05T13:47:21+00:00",
+ "last_updated": "2026-11-05T21:54:31+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -87,9 +87,14 @@
      "deal": "v-chai"
     },
     {
-     "label": "Chai signs BMS, then GSK",
+     "label": "Chai signs BMS and GSK",
      "amount": "Undisclosed",
      "deal": "p-gsk-chai"
+    },
+    {
+     "label": "OpenAI-backed Chai adds Roche",
+     "amount": "Undisclosed",
+     "deal": "p-roche-chai"
     },
     {
      "label": "Anthropic's Anthology Fund backs Basecamp",
@@ -122,7 +127,7 @@
      "deal": "l-biossil-theriva"
     }
    ],
-   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and owning drug programs outright (Anthropic–Mithril), now also via portfolio companies like Biossil that buy shelved clinical drugs. Anthropic's S-1 now pitches that bio push to public investors. Most terms stay undisclosed."
+   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and owning drug programs outright (Anthropic–Mithril), now also via portfolio companies like Biossil that buy shelved clinical drugs. Anthropic's S-1 now pitches that bio push to public investors. Most terms stay undisclosed. Chai's Roche deal (Nov 5) makes seven pharma or biotech partners this year for one OpenAI-backed model company."
   },
   {
    "id": "c-nvidia",
@@ -257,6 +262,11 @@
      "deal": "v-basecamp"
     },
     {
+     "label": "UK Sovereign AI co-leads Potential Sciences' seed, plus supercomputer time",
+     "amount": "Eight-figure seed",
+     "deal": "v-potential-sciences"
+    },
+    {
      "label": "MGX & Temasek in Isomorphic",
      "amount": "$2.1B round",
      "deal": "v-isomorphic"
@@ -277,7 +287,7 @@
      "deal": "v-drugfarm"
     }
    ],
-   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals. The pattern looks like industrial policy, with each country backing its own champions."
+   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions."
   },
   {
    "id": "c-downstream",
@@ -2842,6 +2852,69 @@
    "url": "https://www.business-standard.com/companies/news/venomics-ai-raises-2-7-million-to-discover-drugs-from-animal-venom-126110501178_1.html",
    "source_name": "Business Standard",
    "note": null
+  },
+  {
+   "id": "p-roche-chai",
+   "date": "2026-11-05",
+   "type": "Partnership",
+   "company": "Chai Discovery",
+   "sector": "Foundation models & platforms",
+   "round": "Enterprise platform access (Chai-3) across discovery programs",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Roche",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://hitconsultant.net/2026/11/05/chai-discovery-roche-partner-ai-protein-therapeutics-chai-3/",
+   "source_name": "HIT Consultant",
+   "note": "No financial terms disclosed."
+  },
+  {
+   "id": "v-potential-sciences",
+   "date": "2026-11-05",
+   "type": "Venture",
+   "company": "Potential Sciences",
+   "sector": "Foundation models & platforms",
+   "round": "Seed",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Eight-figure seed (undisclosed)",
+   "payers": [
+    {
+     "name": "Twin Path Ventures",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "UK Sovereign AI",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Nauta Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Odyssey",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Lightfield Equity",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Patrick Collison (angel)",
+     "kind": "Undisclosed"
+    }
+   ],
+   "url": "https://www.gov.uk/government/news/sovereign-ai-puts-cash-and-compute-behind-uk-startup-using-ai-to-redefine-chemistry",
+   "source_name": "GOV.UK",
+   "note": "Exact round size undisclosed; Sovereign AI also provides Isambard-AI compute."
   }
  ]
 }

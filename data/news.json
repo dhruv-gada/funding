@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-05T13:47:21+00:00",
-  "run_label": "Morning brief · Nov 5, 2026",
+  "last_updated": "2026-11-05T21:54:31+00:00",
+  "run_label": "Evening brief · Nov 5, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Isomorphic Labs is reportedly in talks to raise about $5B at a $50B valuation, more than double what was floated a month ago, as frontier AI labs turn into drug developers and pharma and big tech pay for biology's training data",
-    "summary": "Bloomberg reports Isomorphic is seeking about $5B at roughly $50B with no human data yet, while Anthropic's S-1 puts drug discovery at the center of its IPO pitch and OpenAI owns Orchestra Bio and backs Biossil, which just bought Theriva's shelved SYN-004 enzymes for $350K upfront. Disclosed bio×AI venture since Oct 22 is about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, Venomics AI $2.7M, plus adsilico's £10M), Formation Bio raised a $600M fund to in-license clinical drugs, and two data coalitions formed (big tech's $300M toward Biohub's open $1.8B effort and the pharma-backed Cascade dataset). Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), with UCB–Cradle terms undisclosed.",
+    "headline": "Isomorphic's reported ~$5B raise at ~$50B still sets the tone, and Chai's new Roche deal, its seventh pharma partner in about ten months, shows big pharma now buys generative design models as standard kit",
+    "summary": "Bloomberg reports Isomorphic is seeking about $5B at roughly $50B with no human data yet, Anthropic's S-1 puts drug discovery at the center of its IPO pitch, and OpenAI-backed Chai signed Roche on Nov 5 (terms undisclosed) after GSK in October. Disclosed bio×AI venture since Oct 22 is about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, Venomics AI $2.7M, plus adsilico's £10M), with undisclosed rounds for BioGeometry and the UK state-backed Potential Sciences; Formation Bio raised a $600M fund to in-license clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), while platform deals such as UCB–Cradle and Roche–Chai disclose no terms at all.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
@@ -16,11 +16,11 @@
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
-        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle is the software version of the same idea: its antibody-design models retrain on each batch of UCB lab results."
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle and Roche's Nov 5 deal with Chai are the software side of the same split: pharma keeps the wet lab and licenses the design models (Cradle's retrain on each batch of UCB results; Chai-3 goes across Roche's discovery programs)."
       },
       {
-        "title": "Scale of data over number of platforms: big tech and pharma both now pay for the data layer",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own."
+        "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data too",
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data."
       }
     ],
     "movers": [
@@ -28,7 +28,7 @@
         "player": "OpenAI",
         "kind": "AI lab",
         "direction": "From models to owning life-sciences workflows, and now backing clinical-asset buyers",
-        "detail": "OpenAI bought Orchestra Bio to put pharma-operations agents into Rosalind and is an investor in Chai, which just widened its GSK deal. It also works with Formation Bio (with Sanofi), which just raised a $600M drug-acquisition fund. Alumni are spinning out bio companies: Kevin Weil's Warp, and Miles Wang reportedly raising about $200M. Its startup fund led Biossil's $153M round at a reported $1B, and Biossil has started buying shelved clinical drugs (Theriva's SYN-004 on Nov 2).",
+        "detail": "OpenAI bought Orchestra Bio to put pharma-operations agents into Rosalind and is an investor in Chai, which added Roche on Nov 5 after GSK in October. It also works with Formation Bio (with Sanofi), which just raised a $600M drug-acquisition fund. Alumni are spinning out bio companies: Kevin Weil's Warp, and Miles Wang reportedly raising about $200M. Its startup fund led Biossil's $153M round at a reported $1B, and Biossil has started buying shelved clinical drugs (Theriva's SYN-004 on Nov 2).",
         "evidence": [
           "2026-10-20-openai-orchestra-bio",
           "2026-10-22-warp-sciences-launch",
@@ -36,7 +36,8 @@
           "2026-10-09-gsk-chai",
           "2026-10-28-formation-bio-600m-fund",
           "2026-09-28-biossil-153m",
-          "2026-11-02-biossil-theriva-enzymes"
+          "2026-11-02-biossil-theriva-enzymes",
+          "2026-11-05-roche-chai"
         ]
       },
       {
@@ -128,11 +129,12 @@
         ]
       },
       {
-        "player": "Mid-size pharma (Astellas, Zealand, GSK, Boehringer, UCB)",
+        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB)",
         "kind": "Pharma",
-        "direction": "Renting AI platforms in their core areas rather than building them",
-        "detail": "Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK widened its Chai deal after lab tests and joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. UCB signed Cradle (Nov 4) to run its AI antibody-engineering software on selected discovery projects, joining Bayer, Lundbeck and Hansa as Cradle customers this year.",
+        "direction": "Licensing AI design platforms across their pipelines rather than building them",
+        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins.",
         "evidence": [
+          "2026-11-05-roche-chai",
           "2026-11-04-ucb-cradle",
           "2026-10-21-astellas-ai-proteins",
           "2026-10-13-zealand-generate",
@@ -188,7 +190,7 @@
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
         "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
-        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort.",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, the UK's Sovereign AI fund co-led Potential Sciences' seed and added supercomputer time, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort.",
         "evidence": [
           "2026-10-15-iambic-ipo",
           "2026-10-15-recursion-offering-sanofi",
@@ -197,7 +199,8 @@
           "2026-09-23-basecamp-series-c",
           "2026-10-23-abudhabi-isomorphic",
           "2026-10-07-biohub-virtual-biology-1-8b",
-          "2026-09-28-biossil-153m"
+          "2026-09-28-biossil-153m",
+          "2026-11-05-potential-sciences-seed"
         ]
       },
       {
@@ -260,17 +263,17 @@
         "call": "At least one more pharma-funded or big tech-funded biological data consortium of 10M+ cells (or a comparable perturbation atlas) is announced",
         "timeframe": "Next 3 months",
         "confidence": "Medium",
-        "based_on": "Biohub's $1.8B open coalition (Oct 7) and the Cascade consortium with GSK, Pfizer and Sanofi (Oct 29) landing three weeks apart"
+        "based_on": "Biohub's $1.8B open coalition (Oct 7) and the Cascade consortium with GSK, Pfizer and Sanofi (Oct 29) landing three weeks apart; adjacent: Potential Sciences' seed for physics-simulated chemistry data (Nov 5)"
       }
     ],
     "watchlist": [
-      "Anthropic IPO: price range and roadshow (listing possibly the week of Nov 16), whether the amended filing's Q3 operating loss pushes valuation toward the low end of $1.5–2T, and any life-sciences revenue or R&D disclosure",
-      "Isomorphic Labs: whether the reported ~$5B at ~$50B closes, who leads, how much Alphabet takes, and whether a first clinical program is disclosed by year-end",
-      "Data coalitions: Cascade's first release date and new members, and whether Biohub's open data or pharma's licensed data wins more partners",
+      "Anthropic IPO: price range and roadshow (listing possibly before Thanksgiving), whether the amended filing's Q3 operating loss pushes valuation toward the low end of $1.5–2T, and any life-sciences revenue or R&D disclosure",
+      "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
+      "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, and whether Potential Sciences' physics-generated data lands a first pharma customer",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
-      "Recursion: FDA alignment on a registrational REC-4881 study and the next partner milestones from Sanofi and Genentech, the clearest test of whether first-generation AI biotechs get paid for clinical data"
+      "Recursion: FDA alignment on a registrational REC-4881 study after its Nov 3 data update, and the next partner milestones from Sanofi and Genentech, the clearest test of whether first-generation AI biotechs get paid for clinical data"
     ],
-    "since_last_run": "One update and one small new deal. Bloomberg reported on Nov 4 that Isomorphic Labs is in talks to raise about $5B at roughly a $50B valuation, more than double the $2B+ at $40B+ reported on Oct 8; terms are not final and no lead is named. The existing Isomorphic item is updated (still In talks, now dated Nov 4), the Alphabet mover and AI-labs theme are revised, and the Isomorphic prediction is restated to the new terms rather than marked resolved, since nothing has closed. New: Venomics AI, a Bengaluru IISc spinout building an AI-ranked venom-molecule atlas, closed a $2.7M pre-seed co-led by Speciale Invest and South Park Commons (adds about $2.7M to the 7-day venture total). Morning sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein and antibody design, foundation models, lab automation and the named leaders found nothing else in scope. Left out: the Armada Acquisition Corp. III–Brains Bioceutical SPAC (no AI angle) and QUANTRO's Austrian grant (a grant). Anthropic's IPO price range is still not public. No item aged out and no prediction resolved."
+    "since_last_run": "Two new deals since the morning brief. Roche signed an enterprise collaboration with OpenAI-backed Chai Discovery (Nov 5) to use Chai-3 and its protein-design software across several discovery programs; no terms were disclosed, and by our count it is Chai's seventh pharma or biotech partner since January. Potential Sciences, a year-old UK startup rebuilding quantum chemistry for GPUs, emerged from stealth with an eight-figure seed (exact size undisclosed) co-led by Twin Path Ventures and the UK's Sovereign AI fund, with Patrick Collison as an angel; because the amount is undisclosed it does not change the 7-day venture total. The headline, the make-and-test and data themes, and the OpenAI, crossover/sovereign and pharma movers are updated (the 'mid-size pharma' mover is now 'other big & mid-size pharma' to include Roche). Evening sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, lab automation, clinical-trial AI and the named leaders found nothing else in scope. Left out again: nPhase's $30M Series D (clinical data software) and Sigma Biotech's undisclosed Series A+ (organoid-led, light AI angle). Anthropic's IPO price range is still not public. No item aged out and no prediction resolved."
   },
   "items": [
     {
@@ -307,6 +310,87 @@
       "url": "https://www.business-standard.com/companies/news/venomics-ai-raises-2-7-million-to-discover-drugs-from-animal-venom-126110501178_1.html",
       "source_name": "Business Standard",
       "first_seen": "2026-11-05T13:47:21+00:00"
+    },
+    {
+      "id": "2026-11-05-roche-chai",
+      "date": "2026-11-05",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Chai Discovery",
+      "counterparty": "Roche",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": null,
+      "valuation_label": null,
+      "investors": [],
+      "area": "Protein design foundation models",
+      "summary": "Roche signed an enterprise-wide collaboration to use Chai Discovery's models, including its Chai-3 generative model and protein-therapeutics design software, across several of its research and early-development discovery programs. No financial terms were disclosed.",
+      "why_invested": "Likely: Roche wants frontier protein-design models without building them itself, while keeping wet-lab work and program ownership in house; Chai's record of wet-lab validation at GSK and other partners lowers the risk of a platform-wide rollout.",
+      "whats_next": "Chai's tools go into multiple Roche programs. Watch for disclosed terms, whether Genentech is included, the first Roche program credited to Chai designs, and a new Chai raise on the back of its partner list.",
+      "why_it_matters": "Chai now has seven big-pharma and biotech partners in about ten months (Lilly, Pfizer, Novartis, argenx, BMS, GSK and now Roche), so licensing a generative design model is becoming standard procurement at top pharma rather than an experiment.",
+      "links": [
+        {
+          "title": "HIT Consultant: Roche to deploy Chai-3 across discovery pipelines",
+          "url": "https://hitconsultant.net/2026/11/05/chai-discovery-roche-partner-ai-protein-therapeutics-chai-3/"
+        },
+        {
+          "title": "Business Wire (via FinancialContent): Chai announces Roche collaboration",
+          "url": "https://www.financialcontent.com/article/bizwire-2026-11-5-chai-discovery-announces-collaboration-with-roche-in-ai-driven-drug-discovery"
+        },
+        {
+          "title": "Chai Discovery: news and partner history",
+          "url": "https://www.chaidiscovery.com/news"
+        }
+      ],
+      "url": "https://hitconsultant.net/2026/11/05/chai-discovery-roche-partner-ai-protein-therapeutics-chai-3/",
+      "source_name": "HIT Consultant",
+      "first_seen": "2026-11-05T21:54:31+00:00"
+    },
+    {
+      "id": "2026-11-05-potential-sciences-seed",
+      "date": "2026-11-05",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Potential Sciences",
+      "counterparty": "Twin Path Ventures & UK Sovereign AI",
+      "amount_usd": null,
+      "amount_label": "Eight-figure seed (exact size undisclosed)",
+      "round": "Seed",
+      "valuation_label": null,
+      "investors": [
+        "Twin Path Ventures",
+        "UK Sovereign AI",
+        "Odyssey",
+        "Portfolio Ventures",
+        "Blue Wire Capital",
+        "rule30",
+        "Nauta Capital",
+        "Lightfield Equity",
+        "Patrick Collison (angel)",
+        "Chris Gibson (angel)"
+      ],
+      "area": "Physics-based AI chemistry / quantum chemistry on GPUs",
+      "summary": "Potential Sciences, a UK startup founded a year ago by former Graphcore executive Hatem Helal, came out of stealth with an eight-figure seed round co-led by Twin Path Ventures and the government's Sovereign AI fund. It rebuilds quantum-chemistry simulation for GPUs so its drug-design models can train on physics-generated data rather than past lab experiments.",
+      "why_invested": "Sovereign AI says it wants the company to become a frontier lab for chemistry and is adding compute on the Isambard-AI supercomputer; the company's pitch is that AI chemistry models are short of good data and that physics-based calculation could cut the cost of that data by about 100x.",
+      "whats_next": "Use of funds was not detailed. Watch for its first model release or benchmarks, a first pharma or materials partner, and how much Isambard-AI compute it is allotted.",
+      "why_it_matters": "A third answer to biology's data shortage is getting funded: alongside open coalitions (Biohub) and pharma-shared datasets (Cascade), investors are now backing startups that generate training data by simulation, with the UK state backing it directly.",
+      "links": [
+        {
+          "title": "GOV.UK: Sovereign AI backs Potential Sciences with cash and compute",
+          "url": "https://www.gov.uk/government/news/sovereign-ai-puts-cash-and-compute-behind-uk-startup-using-ai-to-redefine-chemistry"
+        },
+        {
+          "title": "pharmaphorum: UK backs Potential Sciences' AI drug hunt",
+          "url": "https://pharmaphorum.com/news/uk-backs-start-potential-sciences-ai-powered-drug-hunt"
+        },
+        {
+          "title": "Tech.eu: Sovereign AI fund and Stripe CEO back Potential Sciences",
+          "url": "https://tech.eu/2026/11/05/uk-sovereign-ai-fund-and-stripe-ceo-back-potential-sciences-in-multi-million-dollar-raise"
+        }
+      ],
+      "url": "https://www.gov.uk/government/news/sovereign-ai-puts-cash-and-compute-behind-uk-startup-using-ai-to-redefine-chemistry",
+      "source_name": "GOV.UK",
+      "first_seen": "2026-11-05T21:54:31+00:00"
     },
     {
       "id": "2026-11-04-ucb-cradle",
