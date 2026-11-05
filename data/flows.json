@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-04T21:49:34+00:00",
+ "last_updated": "2026-11-05T13:47:21+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -59,8 +59,8 @@
      "deal": "p-biohub-virtualbio"
     },
     {
-     "label": "Next round in talks at a $40B+ valuation",
-     "amount": "$2B+ (talks)",
+     "label": "Next round in talks: ~$5B at ~$50B (up from $2B+ at $40B+ in October)",
+     "amount": "~$5B (talks)",
      "deal": null
     },
     {
@@ -69,7 +69,7 @@
      "deal": "p-parse-nomic-cascade"
     }
    ],
-   "insight": "Big tech money plus sovereign money (MGX, Temasek, UK Sovereign AI Fund) are funding the platform before it has clinical data. Pharma pays for access, Gulf states offer data, and Alphabet is now also paying for shared biology data with an early-access window. Three weeks after Alphabet's units funded Biohub's open data, GSK, Pfizer and Sanofi joined a licensed rival dataset (Cascade), so the data race now has an open and a closed track."
+   "insight": "Big tech money plus sovereign money (MGX, Temasek, UK Sovereign AI Fund) are funding the platform before it has clinical data, and the price keeps rising: the next round is now reportedly about $5B at roughly $50B. Pharma pays for access, Gulf states offer data, and Alphabet is also paying for shared biology data with an early-access window, while GSK, Pfizer and Sanofi joined a licensed rival dataset (Cascade), so the data race has an open and a closed track."
   },
   {
    "id": "c-ailabs",
@@ -2812,6 +2812,36 @@
    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393092/0/en/theriva-biologics-announces-sale-of-syn-004-ribaxamase-and-related-antibiotic-degrading-enzyme-portfolio-to-biossil-labs-inc.html",
    "source_name": "GlobeNewswire (Theriva release)",
    "note": "Asset purchase: $3M regulatory + $88M sales milestones, low single-digit royalties capped at $250M."
+  },
+  {
+   "id": "v-venomics-ai",
+   "date": "2026-11-05",
+   "type": "Venture",
+   "company": "Venomics AI",
+   "sector": "Small molecule & peptide design",
+   "round": "Pre-seed",
+   "cash_usd": 2700000,
+   "headline_usd": 2700000,
+   "amount_label": "$2.7M",
+   "payers": [
+    {
+     "name": "Speciale Invest",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "South Park Commons",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Operators Studio",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.business-standard.com/companies/news/venomics-ai-raises-2-7-million-to-discover-drugs-from-animal-venom-126110501178_1.html",
+   "source_name": "Business Standard",
+   "note": null
   }
  ]
 }
