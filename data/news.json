@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-05T21:54:31+00:00",
-  "run_label": "Evening brief · Nov 5, 2026",
+  "last_updated": "2026-11-06T13:49:09+00:00",
+  "run_label": "Morning brief · Nov 6, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Isomorphic's reported ~$5B raise at ~$50B still sets the tone, and Chai's new Roche deal, its seventh pharma partner in about ten months, shows big pharma now buys generative design models as standard kit",
@@ -271,9 +271,9 @@
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, and whether Potential Sciences' physics-generated data lands a first pharma customer",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
-      "Recursion: FDA alignment on a registrational REC-4881 study after its Nov 3 data update, and the next partner milestones from Sanofi and Genentech, the clearest test of whether first-generation AI biotechs get paid for clinical data"
+      "BIO-Europe in Cologne (Nov 9–11): pharma–AI licensing and platform deals announced around the meeting, and whether upfronts stay under ~5% of headline value"
     ],
-    "since_last_run": "Two new deals since the morning brief. Roche signed an enterprise collaboration with OpenAI-backed Chai Discovery (Nov 5) to use Chai-3 and its protein-design software across several discovery programs; no terms were disclosed, and by our count it is Chai's seventh pharma or biotech partner since January. Potential Sciences, a year-old UK startup rebuilding quantum chemistry for GPUs, emerged from stealth with an eight-figure seed (exact size undisclosed) co-led by Twin Path Ventures and the UK's Sovereign AI fund, with Patrick Collison as an angel; because the amount is undisclosed it does not change the 7-day venture total. The headline, the make-and-test and data themes, and the OpenAI, crossover/sovereign and pharma movers are updated (the 'mid-size pharma' mover is now 'other big & mid-size pharma' to include Roche). Evening sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design, lab automation, clinical-trial AI and the named leaders found nothing else in scope. Left out again: nPhase's $30M Series D (clinical data software) and Sigma Biotech's undisclosed Series A+ (organoid-led, light AI angle). Anthropic's IPO price range is still not public. No item aged out and no prediction resolved."
+    "since_last_run": "Quiet overnight: no new qualifying deals since the Nov 5 evening brief. Morning sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design and computational-biology raises, lab automation, clinical-trial AI and the named leaders (Isomorphic, Xaira, insitro, Recursion, Insilico, Chai, Generate, Lila, Enveda) turned up only deals already in the brief or items outside scope. Left out: bit.bio's $25M Series D (stem-cell-derived cell models with no stated AI core), Vitroscope's $5M seed plus $2M grant (live human-tissue testing hardware), FluoRok's Series A (industrial fluorochemistry), and two older rounds that resurfaced (Aureka's $100M Series B from August and Accipiter Bio's $10.5M seed extension from July). Isomorphic's reported ~$5B raise and Anthropic's IPO timing (roadshow possibly from the week of Nov 9, price range still not public) are unchanged. BIO-Europe runs in Cologne Nov 9–11 and is the next likely burst of pharma–AI licensing news. Headline, themes, movers, predictions and watchlist carry over unchanged; no item aged out and no prediction resolved. The two Sept 23 items (Enveda, Basecamp) leave the 45-day window after today."
   },
   "items": [
     {
