@@ -215,15 +215,18 @@ function switchTab(tab, btn) {
   btn.classList.add("active");
   const isNews = tab === "news";
   const isMoney = tab === "money";
-  document.body.classList.toggle("news-mode", isNews || isMoney);
+  const isIdeas = tab === "ideas";
+  document.body.classList.toggle("news-mode", isNews || isMoney || isIdeas);
   document.body.classList.toggle("money-mode", isMoney);
-  const wantHash = isNews ? "#deals" : isMoney ? "#money" : "";
+  document.body.classList.toggle("ideas-mode", isIdeas);
+  const wantHash = isNews ? "#deals" : isMoney ? "#money" : isIdeas ? "#ideas" : "";
   try {
     if (wantHash && location.hash !== wantHash) history.replaceState(null, "", wantHash);
     if (!wantHash && location.hash) history.replaceState(null, "", location.pathname + location.search);
   } catch (e) {}
   if (isNews) { if (typeof showNews === "function") showNews(); return; }
   if (isMoney) { if (typeof showMoney === "function") showMoney(); return; }
+  if (isIdeas) { if (typeof showIdeas === "function") showIdeas(); return; }
   applyFilters();
 }
 

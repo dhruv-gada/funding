@@ -217,12 +217,13 @@ const _origLoadData = loadData;
 loadData = function () {
   if (activeTab === "news") return showNews(true);
   if (activeTab === "money" && typeof showMoney === "function") return showMoney(true);
+  if (activeTab === "ideas" && typeof showIdeas === "function") return showIdeas(true);
   return _origLoadData();
 };
 
 // Deep link: /#deals opens the Bio × AI tab (on load and when a #deals link is clicked)
 function syncHash() {
-  const map = { "#deals": ["news", ".tab-news"], "#money": ["money", ".tab-money"] };
+  const map = { "#deals": ["news", ".tab-news"], "#money": ["money", ".tab-money"], "#ideas": ["ideas", ".tab-ideas"] };
   const hit = map[location.hash];
   if (hit && activeTab !== hit[0]) {
     const btn = document.querySelector(hit[1]);

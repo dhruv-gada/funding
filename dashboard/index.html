@@ -38,6 +38,7 @@
       </div>
       <div class="header-right">
         <a href="#deals" class="deals-link">Bio × AI Deals →</a>
+        <a href="#ideas" class="deals-link">Research Ideas →</a>
         <a href="https://tripathi.engin.brown.edu" target="_blank" class="lab-link">Tripathi Lab ↗</a>
         <button class="refresh-btn" onclick="loadData()">↻ Refresh</button>
       </div>
@@ -109,6 +110,7 @@
       <button class="tab" onclick="switchTab('bookmarks', this)">★ Saved</button>
       <button class="tab tab-news" onclick="switchTab('news', this)">Bio × AI Deals <span class="tab-new">NEW</span></button>
       <button class="tab tab-money" onclick="switchTab('money', this)">Money Map 2026</button>
+      <button class="tab tab-ideas" onclick="switchTab('ideas', this)">Research Ideas <span class="tab-new">NEW</span></button>
     </div>
   </div>
 
@@ -127,6 +129,7 @@
     <div id="grid" class="grid" style="display:none"></div>
     <section id="newsView" class="news-view" style="display:none" aria-live="polite"></section>
     <section id="moneyView" class="news-view money-view" style="display:none"></section>
+    <section id="ideasView" class="news-view ideas-view" style="display:none"></section>
     <div id="emptyState" class="state-box" style="display:none">
       <p>No opportunities match your current filters.</p>
       <button class="clear-btn" onclick="resetFilters()">Clear All Filters</button>
@@ -165,5 +168,6 @@
   <script src="app.js"></script>
   <script src="news.js"></script>
   <script src="money.js"></script>
+  <script src="ideas.js"></script>
 </body>
 </html>

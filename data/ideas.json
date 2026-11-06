@@ -1,0 +1,326 @@
+{
+  "last_updated": "2026-11-06T14:40:00+00:00",
+  "run_label": "Morning brief · Nov 6, 2026",
+  "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
+  "since_last_run": "First edition: six ideas built on the last 45 days of deals, covering virtual-cell scaling, preclinical tox pathology, digital-twin control arms, binder-design metrics, small-budget self-driving labs and shelved-drug rescue.",
+  "ideas": [
+    {
+      "id": "virtual-cell-scaling-test",
+      "status": "New",
+      "first_seen": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-06T14:40:00+00:00",
+      "title": "Does more perturbation data actually help? A scaling test for virtual-cell models",
+      "kind": "Benchmark",
+      "area": "Virtual cell / perturbation prediction",
+      "difficulty": "Intermediate",
+      "question": "As training data grows from thousands to millions of perturbed cells, do perturbation-response models beat a simple mean-shift baseline on genes and cell lines they have not seen, and where does the curve flatten?",
+      "why_now": "Big tech and pharma are paying for perturbation data at scale: Google DeepMind, Isomorphic and Meta put $300M into Biohub's open virtual-cell coalition, GSK, Pfizer and Sanofi joined Parse and Nomic's 100M-cell Cascade dataset, and Flagship rebuilt Etcelera around a 150M-cell model. Several published evaluations have found that simple baselines are hard to beat, so a clean scaling curve on open data would tell everyone whether the money is buying accuracy. Arc's 2026 Virtual Cell Challenge (zero-shot prediction in unseen cell lines) closed on Nov 5 and names winners in mid-to-late November, which gives you fresh methods to compare against.",
+      "evidence": [
+        "2026-10-07-biohub-virtual-biology-1-8b",
+        "2026-10-29-parse-nomic-cascade",
+        "2026-10-29-flagship-etcelera",
+        "2026-10-28-biogeometry-series-a-plus"
+      ],
+      "datasets": [
+        {
+          "name": "Tahoe-100M",
+          "url": "https://huggingface.co/datasets/vevotx/Tahoe-100M/tree/main",
+          "what": "About 100M single cells from cancer cell lines treated with small molecules; drug perturbation atlas from Vevo (now Tahoe) and Arc",
+          "access": "Open (CC0)",
+          "size": "~429 GB; work from a subset"
+        },
+        {
+          "name": "Replogle 2022 genome-wide Perturb-seq (via pertpy)",
+          "url": "https://pertpy.readthedocs.io/en/stable/usage/data/pertpy.data.replogle_2022_k562_gwps.html",
+          "what": "Genome-scale CRISPRi Perturb-seq in K562 (plus an RPE1 essential-gene screen), loadable in one line from pertpy",
+          "access": "Open",
+          "size": "Several GB per screen"
+        },
+        {
+          "name": "Arc Virtual Cell Atlas",
+          "url": "https://arcinstitute.org/tools/virtualcellatlas",
+          "what": "Arc's collection of public perturbation data, including the full 2025 Virtual Cell Challenge dataset",
+          "access": "Open",
+          "size": "Varies"
+        }
+      ],
+      "approach": [
+        "Fix the evaluation first: hold out whole perturbations and, separately, a whole cell line; score with differential-expression overlap and correlation of predicted vs. observed shifts on the top changed genes.",
+        "Build two baselines: the mean perturbation effect, and a linear model on gene embeddings (e.g. from gene co-expression).",
+        "Train one mid-size learned model (a fine-tuned single-cell foundation model or a published perturbation model) at 1%, 3%, 10%, 30% and 100% of the training cells and perturbations.",
+        "Plot accuracy against data size for each split, and compare where the curves cross the baselines."
+      ],
+      "first_milestone": "Two weeks: reproduce the mean-baseline result on Replogle K562 with your evaluation code, and write down the gap a learned model has to close.",
+      "compute": "One 24–48 GB GPU is enough for the Replogle work; stream or subset Tahoe rather than downloading all of it.",
+      "skills": [
+        "Python",
+        "scanpy / AnnData",
+        "PyTorch",
+        "Single-cell basics"
+      ],
+      "who_cares": "Biohub and its partners, the Cascade pharma members, Etcelera, and every startup selling a proprietary atlas. A clear scaling answer tells them whether more cells or better models is the bottleneck.",
+      "risks": "Metrics in this field are disputed; publish the evaluation code and report several metrics so the result is not an artifact of one score."
+    },
+    {
+      "id": "rat-toxpath-benchmark",
+      "status": "New",
+      "first_seen": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-06T14:40:00+00:00",
+      "title": "Can AI read preclinical tox slides? An open rat liver and kidney benchmark",
+      "kind": "Benchmark",
+      "area": "Preclinical safety / digital pathology",
+      "difficulty": "Intermediate",
+      "question": "Do pathology foundation models trained mostly on human tissue transfer to rat tox studies, and can they flag findings for compounds they have never seen?",
+      "why_now": "AstraZeneca signed Tremont AI to speed up preclinical toxicology-pathology reads, a step that sits right before every IND. There is no widely used open benchmark for this, but Japan's Open TG-GATEs project released more than 53,000 rat liver and kidney slides covering 160 compounds, with recorded findings.",
+      "evidence": [
+        "2026-10-28-astrazeneca-tremont-ai",
+        "2026-10-28-formation-bio-600m-fund"
+      ],
+      "datasets": [
+        {
+          "name": "Open TG-GATEs Pathological Image Database",
+          "url": "https://dbarchive.biosciencedbc.jp/en/open-tggates-pathological-images/desc.html",
+          "what": "More than 53,000 whole-slide images of rat liver and kidney from 160 compounds, viewable alongside the recorded pathology findings",
+          "access": "Open (CC BY-SA)",
+          "size": "Large; start with one organ and a few dozen compounds"
+        },
+        {
+          "name": "Open TG-GATEs (main database)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4384023/",
+          "what": "The paper describing the matching gene expression, dose and time-course data, so morphology can be linked to transcriptomics",
+          "access": "Open",
+          "size": "Varies"
+        }
+      ],
+      "approach": [
+        "Pick liver, a handful of common findings (e.g. necrosis, hypertrophy, vacuolation) and a compound split where test compounds never appear in training.",
+        "Tile slides and extract features with two or three open pathology foundation models, plus an ImageNet model as a control.",
+        "Train attention-based multiple-instance learning per finding; report AUROC on held-out compounds and dose levels.",
+        "Stretch: predict the matching gene expression signature from the slide, or vice versa."
+      ],
+      "first_milestone": "Two weeks: download 200 liver slides from 10 compounds, tile them, and get a first feature-plus-MIL baseline for one finding.",
+      "compute": "Feature extraction is the heavy step: one GPU, several days, with a few TB of scratch disk.",
+      "skills": [
+        "Python",
+        "Whole-slide image tooling (OpenSlide)",
+        "PyTorch",
+        "Some pathology input"
+      ],
+      "who_cares": "AstraZeneca and Tremont AI, CROs that run GLP tox studies, and AI drug developers moving assets into the clinic (Formation Bio, Biossil).",
+      "risks": "Findings were recorded by different pathologists over many years; check label consistency on a sample before trusting the numbers."
+    },
+    {
+      "id": "als-digital-twin-control-arm",
+      "status": "New",
+      "first_seen": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-06T14:40:00+00:00",
+      "title": "How many placebo patients can a digital twin replace? A test on past ALS trials",
+      "kind": "Research project",
+      "area": "Clinical trial AI / synthetic control arms",
+      "difficulty": "Intermediate",
+      "question": "If you train a disease-progression model on placebo arms from older ALS trials, how much does adjusting for its predictions shrink the sample size a new trial needs, without biasing the treatment effect?",
+      "why_now": "Trial-stage AI is drawing money and partners: Boehringer is testing Microsoft's digital patient twins and synthetic control arms, AstraZeneca and Oracle are working on AI-driven recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, and Formation Bio raised $600M to run drugs through an AI-native development platform. The open question for all of them is how many patients a model can stand in for, measured on real trials.",
+      "evidence": [
+        "2026-10-24-boehringer-microsoft-twins",
+        "2026-10-27-atlas-bio-seed",
+        "2026-10-20-astrazeneca-oracle-trials",
+        "2026-10-28-formation-bio-600m-fund"
+      ],
+      "datasets": [
+        {
+          "name": "PRO-ACT (Pooled Resource Open-Access ALS Clinical Trials)",
+          "url": "https://ncri1.partners.org/ProACT/Home/Index",
+          "what": "Pooled patient-level data from many completed ALS trials: ALSFRS-R scores over time, vitals, labs, demographics and treatment arm",
+          "access": "Free with registration and a data-use agreement",
+          "size": "Small (tabular)"
+        },
+        {
+          "name": "Project Data Sphere",
+          "url": "https://www.projectdatasphere.org/",
+          "what": "Shared patient-level oncology trial data, mostly comparator arms, for repeating the analysis in cancer",
+          "access": "Free with registration",
+          "size": "Small (tabular)"
+        }
+      ],
+      "approach": [
+        "Split by trial, not by patient: train on placebo arms from some trials and test on placebo arms from trials the model never saw.",
+        "Predict each patient's ALSFRS-R slope from baseline data with a few model types (mixed effects, gradient boosting, a small sequence model).",
+        "Use the prediction as a prognostic covariate in the primary analysis (the PROCOVA-style approach) and compute the variance reduction, which translates into equivalent patients saved.",
+        "Check type I error by re-running on placebo-vs-placebo comparisons."
+      ],
+      "first_milestone": "Two weeks: get PRO-ACT access, rebuild a standard ALSFRS-R slope model, and report its error on one held-out trial.",
+      "compute": "A laptop is enough.",
+      "skills": [
+        "Python or R",
+        "Biostatistics (ANCOVA, mixed models)",
+        "Clinical trial basics"
+      ],
+      "who_cares": "Microsoft and Boehringer, AstraZeneca, Atlas Bio, Formation Bio, and rare-disease sponsors who struggle to recruit placebo patients.",
+      "risks": "Older trials used different inclusion rules than current ones; report how performance changes with trial era."
+    },
+    {
+      "id": "binder-metrics-audit",
+      "status": "New",
+      "first_seen": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-06T14:40:00+00:00",
+      "title": "Do in-silico confidence scores predict which designed binders actually bind?",
+      "kind": "Analysis",
+      "area": "Protein and antibody design",
+      "difficulty": "Starter",
+      "question": "Across hundreds of community-designed binders that were tested in a lab, which computed scores (interface confidence, pLDDT, energy terms, sequence novelty) predict binding and expression, and how much do they add over each other?",
+      "why_now": "Pharma is now licensing design models as standard tools: Roche and GSK signed Chai, UCB signed Cradle, Astellas licensed AI Proteins' miniproteins, and BigHat raised $75M for design plus wet-lab testing. All of them pick which designs to make using model confidence scores. Adaptyv Bio's open EGFR binder competitions released designs with lab measurements, and Cradle won one of the rounds, so the data comes from the same kind of tools these deals pay for.",
+      "evidence": [
+        "2026-11-05-roche-chai",
+        "2026-11-04-ucb-cradle",
+        "2026-10-09-gsk-chai",
+        "2026-10-21-astellas-ai-proteins",
+        "2026-09-24-bighat-series-c"
+      ],
+      "datasets": [
+        {
+          "name": "Adaptyv EGFR binder competition, round 2",
+          "url": "https://github.com/adaptyvbio/egfr_competition_2",
+          "what": "Designed EGFR binders with lab binding results, sequence-similarity checks and links to predicted structures",
+          "access": "Open (data ODbL, code Apache 2.0)",
+          "size": "Hundreds of designs"
+        },
+        {
+          "name": "Adaptyv EGFR binder competition, round 1",
+          "url": "https://github.com/adaptyvbio/egfr_competition_1",
+          "what": "The first round of the same competition, a second independent test set if its lab results line up with round 2",
+          "access": "Open",
+          "size": "See repo"
+        },
+        {
+          "name": "Crowdsourced Protein Design: lessons from the Adaptyv EGFR competition",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.17.648362.full.pdf",
+          "what": "The organisers' write-up, useful for understanding how the designs were selected and measured",
+          "access": "Open",
+          "size": "Paper"
+        }
+      ],
+      "approach": [
+        "Assemble one table per round: sequence, design method, binding call or KD, expression.",
+        "Recompute a consistent set of scores for every design with one or two open structure predictors, so the scores are comparable across teams.",
+        "Measure how well each score ranks binders (AUROC, precision in the top 10%), then fit a simple combined model and test it from round 1 to round 2.",
+        "Report which scores carry real signal and which are redundant."
+      ],
+      "first_milestone": "Two weeks: a clean merged table for round 2 with the competition's own metrics, and a first AUROC per metric.",
+      "compute": "One GPU for re-running structure prediction on a few hundred complexes.",
+      "skills": [
+        "Python",
+        "Basic structural biology",
+        "Running AlphaFold-class models"
+      ],
+      "who_cares": "Chai, Cradle, Generate, AI Proteins, BigHat and their pharma partners, all of whom choose what to synthesise from these scores.",
+      "risks": "One target (EGFR) may not generalise; say so, and add other public design-plus-assay sets if you find them."
+    },
+    {
+      "id": "small-budget-self-driving-lab",
+      "status": "New",
+      "first_seen": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-06T14:40:00+00:00",
+      "title": "A self-driving loop on a benchtop robot: what works when you can only run 96 samples a round?",
+      "kind": "Lab project",
+      "area": "Lab automation / active learning",
+      "difficulty": "Ambitious",
+      "question": "Which active-learning strategies reach a target fastest when each round is small (8–96 samples) and noisy, and can a $10K-class liquid handler run the loop on its own?",
+      "why_now": "Money is flowing to the make-and-test layer: Opentrons raised a $40M Series E for AI-driven benchtop robots, Warp launched with $215M for automated chemistry, Multiply Labs raised $75M for robotic manufacturing, Danaher is building NVIDIA AI into its instruments, and Xaira introduced X-Automate. Most published closed-loop work assumes big robots and big batches; small academic labs need to know what works at their scale.",
+      "evidence": [
+        "2026-10-29-opentrons-series-e",
+        "2026-10-22-warp-sciences-launch",
+        "2026-10-07-multiply-labs-series-b",
+        "2026-10-15-danaher-nvidia-autonomous-lab",
+        "2026-10-23-xaira-x-automate"
+      ],
+      "datasets": [
+        {
+          "name": "ProteinGym",
+          "url": "https://github.com/OATML-Markslab/ProteinGym",
+          "what": "More than 200 deep mutational scanning assays with measured fitness for each variant, ideal for simulating active-learning campaigns before touching the robot",
+          "access": "Open",
+          "size": "A few GB"
+        },
+        {
+          "name": "FLIP (Fitness Landscape Inference for Proteins)",
+          "url": "https://github.com/J-SNACKKB/FLIP",
+          "what": "Protein fitness splits designed to test generalisation, as a second simulation set",
+          "access": "Open",
+          "size": "Small"
+        }
+      ],
+      "approach": [
+        "Simulate first: on ProteinGym assays, compare random sampling, greedy, upper-confidence-bound and Thompson sampling with protein language model embeddings, at batch sizes of 8, 24 and 96 with added measurement noise.",
+        "Pick the best strategy for small, noisy batches.",
+        "Build the real loop on an Opentrons robot with a cheap plate-reader readout, such as optimising a cell-free expression or enzyme assay buffer, with the model choosing each next plate.",
+        "Compare rounds-to-target against a random or grid-search control run on the same robot."
+      ],
+      "first_milestone": "Two weeks: the simulation study on 10 ProteinGym assays, with a plot of rounds-to-top-1% for each strategy and batch size.",
+      "compute": "CPU or one GPU for the simulations; a liquid handler and plate reader for the wet-lab phase.",
+      "skills": [
+        "Python",
+        "Bayesian optimisation",
+        "Opentrons Python API",
+        "Assay development"
+      ],
+      "who_cares": "Opentrons and other benchtop robot makers, core facilities, and the automation-focused startups above, who want evidence that closed loops pay off in ordinary labs.",
+      "risks": "The wet-lab phase depends on a robust, cheap assay; pick one with low plate-to-plate variation before automating it."
+    },
+    {
+      "id": "shelved-drug-rescue-scan",
+      "status": "New",
+      "first_seen": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-06T14:40:00+00:00",
+      "title": "Shelf scan: which stopped trials were dropped for business reasons but have strong biology?",
+      "kind": "Dataset build",
+      "area": "Drug repurposing / clinical assets",
+      "difficulty": "Starter",
+      "question": "Among Phase 1–2 trials that were stopped early, which were stopped for funding or strategy rather than safety or efficacy, and which of those hit targets with strong human genetic support?",
+      "why_now": "Buying shelved drugs has become an AI business model. Biossil raised $153M in a round led by OpenAI's startup fund and has started buying paused assets (Theriva's transplant-gut enzyme for $350K upfront), and Formation Bio raised a $600M fund to buy and develop Phase 1–2 drugs. Published analyses have found that drugs aimed at genetically supported targets succeed more often. A public, ranked list of rescue candidates does not exist.",
+      "evidence": [
+        "2026-09-28-biossil-153m",
+        "2026-11-02-biossil-theriva-enzymes",
+        "2026-10-28-formation-bio-600m-fund"
+      ],
+      "datasets": [
+        {
+          "name": "AACT (ClinicalTrials.gov as a database)",
+          "url": "https://aact.ctti-clinicaltrials.org/",
+          "what": "Every ClinicalTrials.gov record in Postgres or flat files, including overall status and the free-text reason a trial was stopped",
+          "access": "Free; registration for the cloud database",
+          "size": "A few GB"
+        },
+        {
+          "name": "Open Targets Platform downloads",
+          "url": "https://platform.opentargets.org/downloads",
+          "what": "Target–disease association scores, with genetic evidence broken out, plus known drugs and their targets",
+          "access": "Open",
+          "size": "Tens of GB in full; the association tables are much smaller"
+        },
+        {
+          "name": "ChEMBL",
+          "url": "https://www.ebi.ac.uk/chembl/",
+          "what": "Drug mechanisms and targets to link trial interventions to the genes they hit",
+          "access": "Open",
+          "size": "A few GB"
+        }
+      ],
+      "approach": [
+        "Pull terminated, suspended and withdrawn interventional drug trials from AACT, Phase 1 to Phase 2/3.",
+        "Classify each stop reason into business or funding, safety, efficacy, enrollment, or other, using an LLM, and check it against 300 trials you label by hand.",
+        "Map interventions to targets through ChEMBL and pull genetic support for the trial's indication from Open Targets.",
+        "Rank the business-stopped, genetically supported programs and check whether any were later restarted or licensed, as a sanity test."
+      ],
+      "first_milestone": "Two weeks: the classified list of stopped trials with your hand-label accuracy, and the first 50 ranked candidates.",
+      "compute": "A laptop plus modest LLM API use.",
+      "skills": [
+        "SQL",
+        "Python",
+        "LLM prompting and evaluation",
+        "Pharmacology basics"
+      ],
+      "who_cares": "Biossil, Formation Bio, OpenAI's startup fund, and pharma business-development teams looking to out-license or rescue assets.",
+      "risks": "Stop reasons are often vague or missing, and owners may hold the rights tightly; treat the output as a lead list, not a buy list."
+    }
+  ]
+}

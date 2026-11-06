@@ -36,7 +36,8 @@ Out of scope: healthcare admin/billing AI, generic hospital software, pure biote
 7. Save a snapshot: `data/news-history/YYYY-MM-DD-am.json` or `-pm.json` containing `{last_updated, run_label, analysis, item_ids}`.
 8. Validate: `python3 -m json.tool data/news.json > /dev/null`.
 9. **Update the money map** (`data/flows.json`, see the section below): append every new deal from this run, update any whose status or terms changed, and add or extend a `chains` entry when a deal continues a chain (same backer or company moving again). Validate it too: `python3 -m json.tool data/flows.json > /dev/null`.
-10. Commit `data/news.json`, `data/flows.json` and the snapshot with message `chore: bio×ai deals brief [YYYY-MM-DD am|pm]`, then push to `main`.
+10. **Update the research ideas** (`data/ideas.json`, see the section below).
+11. Commit `data/news.json`, `data/flows.json`, `data/ideas.json` and the snapshot with message `chore: bio×ai deals brief [YYYY-MM-DD am|pm]`, then push to `main`.
 
 ## Writing rules
 
@@ -108,3 +109,44 @@ Rules:
 - Corporate venture arms count as their parent's kind (NVentures → Big tech & AI labs; Lilly Ventures, Merck GHI → Pharma). Use one consistent name per backer (e.g. always "Eli Lilly", always "NVIDIA (NVentures)") so the hubs ranking counts correctly.
 - Chains: `{"id","title","kind","steps":[{"label","amount","deal": "<deal id or null>"}],"insight"}`. Keep 5–8 chains, focused on where money is moving next. Update the insight when a new step lands.
 - Update `last_updated`. If a market-context figure gets a newer report (e.g. a Q3 or full-year review), replace it and keep the source link.
+
+
+## Research ideas (`data/ideas.json`)
+
+This file powers the **Research Ideas** tab (`/#ideas`): research and project ideas for a PhD researcher in AI and biomedical engineering, drawn from where the bio x AI money is going. Every idea must name real, open datasets and a concrete first step.
+
+Each run:
+
+1. Re-read the active ideas against this run's deals. When a new deal strengthens an idea, add its id to `evidence`, refresh `why_now`, and set `updated`.
+2. Add a new idea only when the deals open an angle no current idea covers, ideally backed by two or more deals or one large one. Most runs add nothing; aim for 0-2 new ideas a run and keep roughly 6-10 active.
+3. Retire an idea (`status: "Retired"` plus a one-line `retired_reason`) when it stops being timely, a dataset disappears, or someone publishes the answer. Keep retired ideas in the file; the tab shows them collapsed. Drop ones retired more than 90 days ago.
+4. **Datasets must be real.** Find each one with web search, open its page with WebFetch, and take the description, size and licence from that page. Never invent a dataset, URL, size or licence; leave out anything you cannot confirm. Prefer open data, and say in `access` when it needs registration. Re-check the links on any idea you touch.
+5. Write `since_last_run` (what was added, updated or retired, or "No changes to the ideas this run."), and set `last_updated` and `run_label` to match `news.json`.
+6. Validate: `python3 -m json.tool data/ideas.json > /dev/null`.
+
+Idea schema:
+
+```json
+{
+  "id": "short-kebab-slug",
+  "status": "New | Active | Retired",
+  "first_seen": "UTC ISO time this run first added it",
+  "updated": "UTC ISO time it last changed",
+  "title": "The idea in one line",
+  "kind": "Benchmark | Research project | Analysis | Dataset build | Lab project | Tool",
+  "area": "Short sub-field label",
+  "difficulty": "Starter | Intermediate | Ambitious",
+  "question": "The research question, one or two sentences",
+  "why_now": "Which deals make this timely, named with their amounts",
+  "evidence": ["news.json item ids"],
+  "datasets": [{"name": "...", "url": "https://...", "what": "What is in it", "access": "Open (licence) | Free with registration | Controlled | Commercial", "size": "Rough size, or null"}],
+  "approach": ["3-5 steps, the first one concrete"],
+  "first_milestone": "Something finishable in about two weeks",
+  "compute": "What hardware it needs",
+  "skills": ["..."],
+  "who_cares": "Which companies or funders would want the answer",
+  "risks": "The main way this goes wrong, and what to check first"
+}
+```
+
+Writing rules: same as the deals brief. Own words, no copied sentences, and no claim about a dataset that its own page does not support.
