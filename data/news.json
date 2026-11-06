@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-06T13:49:09+00:00",
-  "run_label": "Morning brief · Nov 6, 2026",
+  "last_updated": "2026-11-06T21:49:14+00:00",
+  "run_label": "Evening brief · Nov 6, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Isomorphic's reported ~$5B raise at ~$50B still sets the tone, and Chai's new Roche deal, its seventh pharma partner in about ten months, shows big pharma now buys generative design models as standard kit",
-    "summary": "Bloomberg reports Isomorphic is seeking about $5B at roughly $50B with no human data yet, Anthropic's S-1 puts drug discovery at the center of its IPO pitch, and OpenAI-backed Chai signed Roche on Nov 5 (terms undisclosed) after GSK in October. Disclosed bio×AI venture since Oct 22 is about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, Venomics AI $2.7M, plus adsilico's £10M), with undisclosed rounds for BioGeometry and the UK state-backed Potential Sciences; Formation Bio raised a $600M fund to in-license clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), while platform deals such as UCB–Cradle and Roche–Chai disclose no terms at all.",
+    "summary": "Bloomberg reports Isomorphic is seeking about $5B at roughly $50B with no human data yet, Anthropic's S-1 puts drug discovery at the center of its IPO pitch, and OpenAI-backed Chai signed Roche on Nov 5 (terms undisclosed) after GSK in October. Disclosed bio×AI venture since Oct 22 is about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, Venomics AI $2.7M, plus adsilico's £10M), with undisclosed cheques for BioGeometry, Potential Sciences and Kos's stake in Fathom's $55M Series A; Formation Bio raised a $600M fund to in-license clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), while platform deals such as UCB–Cradle and Roche–Chai disclose no terms at all.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
@@ -19,8 +19,8 @@
         "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle and Roche's Nov 5 deal with Chai are the software side of the same split: pharma keeps the wet lab and licenses the design models (Cradle's retrain on each batch of UCB results; Chai-3 goes across Roche's discovery programs)."
       },
       {
-        "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data too",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data."
+        "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days."
       }
     ],
     "movers": [
@@ -88,10 +88,11 @@
         "player": "Eli Lilly",
         "kind": "Pharma",
         "direction": "Licensing AI platforms for delivery, and holding equity in AI biologics developers",
-        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B) and re-upped in BigHat's $75M Series C alongside Amgen and Merck's fund, adding to its run of AI deals this year.",
+        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B) and re-upped in BigHat's $75M Series C alongside Amgen and Merck's fund, adding to its run of AI deals this year. Lilly Ventures is also in Fathom Therapeutics' $55M Series A for physics-plus-AI small-molecule design, which added Kos as an investor on Nov 6.",
         "evidence": [
           "2026-10-19-lilly-metis",
-          "2026-09-24-bighat-series-c"
+          "2026-09-24-bighat-series-c",
+          "2026-11-06-fathom-series-a-kos"
         ]
       },
       {
@@ -177,13 +178,14 @@
         "player": "European early-stage investors",
         "kind": "VC",
         "direction": "Backing data-first and trial-simulation bets",
-        "detail": "Creandum led Atlas Bio's $10M seed, HV Capital led Rivercell's €22M seed, AVP led WhiteLab's $26M Series B, Asabys led ALLOX's $10.5M seed and PXN Ventures led adsilico's £10M Series A, so European funds are writing larger early cheques for data-first AI biology and virtual-patient simulation.",
+        "detail": "Creandum led Atlas Bio's $10M seed, HV Capital led Rivercell's €22M seed, AVP led WhiteLab's $26M Series B, Asabys led ALLOX's $10.5M seed and PXN Ventures led adsilico's £10M Series A, so European funds are writing larger early cheques for data-first AI biology and virtual-patient simulation. Greek-American Kos Biotechnology Partners took its first AI-discovery stake on Nov 6, joining Fathom's US Series A.",
         "evidence": [
           "2026-10-27-atlas-bio-seed",
           "2026-10-07-rivercell-seed",
           "2026-10-05-whitelab-series-b",
           "2026-10-29-allox-seed",
-          "2026-10-26-adsilico-series-a"
+          "2026-10-26-adsilico-series-a",
+          "2026-11-06-fathom-series-a-kos"
         ]
       },
       {
@@ -269,13 +271,59 @@
     "watchlist": [
       "Anthropic IPO: price range and roadshow (listing possibly before Thanksgiving), whether the amended filing's Q3 operating loss pushes valuation toward the low end of $1.5–2T, and any life-sciences revenue or R&D disclosure",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
-      "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, and whether Potential Sciences' physics-generated data lands a first pharma customer",
+      "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, and whether physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer or program",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
       "BIO-Europe in Cologne (Nov 9–11): pharma–AI licensing and platform deals announced around the meeting, and whether upfronts stay under ~5% of headline value"
     ],
-    "since_last_run": "Quiet overnight: no new qualifying deals since the Nov 5 evening brief. Morning sweeps of AI drug-discovery funding, AI-biotech M&A, pharma licensing, protein design and computational-biology raises, lab automation, clinical-trial AI and the named leaders (Isomorphic, Xaira, insitro, Recursion, Insilico, Chai, Generate, Lila, Enveda) turned up only deals already in the brief or items outside scope. Left out: bit.bio's $25M Series D (stem-cell-derived cell models with no stated AI core), Vitroscope's $5M seed plus $2M grant (live human-tissue testing hardware), FluoRok's Series A (industrial fluorochemistry), and two older rounds that resurfaced (Aureka's $100M Series B from August and Accipiter Bio's $10.5M seed extension from July). Isomorphic's reported ~$5B raise and Anthropic's IPO timing (roadshow possibly from the week of Nov 9, price range still not public) are unchanged. BIO-Europe runs in Cologne Nov 9–11 and is the next likely burst of pharma–AI licensing news. Headline, themes, movers, predictions and watchlist carry over unchanged; no item aged out and no prediction resolved. The two Sept 23 items (Enveda, Basecamp) leave the 45-day window after today."
+    "since_last_run": "Light afternoon. Two small new items since the morning brief: Kos Biotechnology Partners joined Fathom Therapeutics' Sutter Hill-led Series A, now put at $55M (Kos's cheque undisclosed), for physics-simulation-plus-AI small-molecule design; and iSpecimen closed its $4.5M purchase of two AI target-and-trend products from Foldlab AI ($750K cash, up to $1.25M milestones, $2.5M stock). Fathom adds a physics-first data point to the data theme next to Potential Sciences, and Lilly (via Lilly Ventures) and the European early-stage movers pick up a new evidence line. Left out: Network Bio's undisclosed biobank data collaboration with Duke (academic, no money), Anaheim Bio's €40M Series A (arthritis drug, no AI core), and items already screened out earlier this week (nPhase's $30M Series D, Sigma Biotech's Series A+). Isomorphic's reported ~$5B raise and Anthropic's IPO pricing are unchanged; no prediction resolved. BIO-Europe in Cologne (Nov 9–11) is next. Aged out of the 45-day window: none."
   },
   "items": [
+    {
+      "id": "2026-11-06-fathom-series-a-kos",
+      "date": "2026-11-06",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Fathom Therapeutics",
+      "counterparty": "Sutter Hill Ventures (lead); Kos Biotechnology Partners joins",
+      "amount_usd": null,
+      "amount_label": "Undisclosed (Kos stake in a $55M Series A)",
+      "round": "Series A (extension)",
+      "valuation_label": null,
+      "investors": [
+        "Sutter Hill Ventures",
+        "Kos Biotechnology Partners (Kos BioVentures)",
+        "Lilly Ventures",
+        "Chemistry",
+        "Alexandria Venture Investments",
+        "NY Ventures"
+      ],
+      "area": "Physics-based simulation + AI / small-molecule design",
+      "summary": "Fathom Therapeutics (formerly Atommap), whose team includes people behind the Anton molecular-dynamics supercomputer, designs small molecules with its Microcosmos platform, which mixes quantum chemistry, physics-based simulation of protein motion and machine learning. Greek-American fund Kos Biotechnology Partners said on Nov 6 it has joined Fathom's Sutter Hill-led Series A, now put at $55M; Kos's own cheque was not disclosed.",
+      "why_invested": "Kos says it is betting that simulation-plus-AI raises discovery productivity and opens targets that static-structure methods cannot reach; earlier backers include Lilly Ventures, which ties a large pharma to the approach.",
+      "whats_next": "Fathom hired Bret Williams (ex-Magnet Biomedicine, Relay, Sanofi) as CSO on Oct 29 to turn Microcosmos designs into named programs, so watch for its first disclosed targets, a first pharma partnership, and a Series B once programs reach candidate stage.",
+      "why_it_matters": "A second physics-first chemistry bet in two days (after Potential Sciences) suggests investors now see simulated molecular dynamics, not just more lab data, as a way to beat static structure models on hard targets.",
+      "links": [
+        {
+          "title": "PR Newswire: Kos Biotechnology Partners invests in Fathom Therapeutics",
+          "url": "https://www.prnewswire.com/news-releases/kos-biotechnology-partners-announces-investment-in-fathom-therapeutics-to-advance-novel-ai-driven-drug-discovery-platform-302931959.html"
+        },
+        {
+          "title": "PR Newswire: Fathom names Bret Williams CSO, notes $55M Series A with Lilly Ventures",
+          "url": "https://www.prnewswire.com/news-releases/fathom-therapeutics-appoints-bret-williams-as-chief-scientific-officer-to-translate-microcosmos-insights-into-a-therapeutic-portfolio-302923780.html"
+        },
+        {
+          "title": "Pulse: Fathom's original $47M Series A led by Sutter Hill (April)",
+          "url": "https://www.pulse.bot/venture-capital/news/fathom-therapeutics-scores-47-million-series-a-4768524d-f805-4e7b-aac4-b46bf3276bc1/"
+        },
+        {
+          "title": "BioWorld: Financing supports Fathom's Microcosmos engine",
+          "url": "https://www.bioworld.com/articles/730719-financing-supports-fathom-therapeutics-microcosmos-drug-design-engine"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kos-biotechnology-partners-announces-investment-in-fathom-therapeutics-to-advance-novel-ai-driven-drug-discovery-platform-302931959.html",
+      "source_name": "PR Newswire",
+      "first_seen": "2026-11-06T21:49:14+00:00"
+    },
     {
       "id": "2026-11-05-venomics-ai-pre-seed",
       "date": "2026-11-05",
@@ -391,6 +439,39 @@
       "url": "https://www.gov.uk/government/news/sovereign-ai-puts-cash-and-compute-behind-uk-startup-using-ai-to-redefine-chemistry",
       "source_name": "GOV.UK",
       "first_seen": "2026-11-05T21:54:31+00:00"
+    },
+    {
+      "id": "2026-11-05-ispecimen-foldlab",
+      "date": "2026-11-05",
+      "type": "Acquisition",
+      "status": "Closed",
+      "company": "Foldlab AI (AI products)",
+      "counterparty": "iSpecimen",
+      "amount_usd": 4500000,
+      "amount_label": "$4.5M ($750K cash, up to $1.25M milestones, $2.5M stock)",
+      "round": "Asset purchase",
+      "valuation_label": null,
+      "investors": [
+        "iSpecimen"
+      ],
+      "area": "AI target identification / biospecimen data",
+      "summary": "Nasdaq microcap iSpecimen, which runs a marketplace for human biospecimens, closed its purchase of two AI products from Canada's Foldlab AI: an agent that flags disease-linked proteins and a model that forecasts disease trends. It paid $750K cash, up to $1.25M on delivery milestones and $2.5M in locked-up stock, and took the code, model weights and data rights.",
+      "why_invested": "iSpecimen says it wants to move from supplying samples to helping researchers choose protein targets, pairing its specimen network with the acquired models and adding software revenue.",
+      "whats_next": "Two $625K payments fall due once the products pass acceptance tests; watch whether iSpecimen launches a paid target-discovery product and whether any pharma customer signs up.",
+      "why_it_matters": "Small, but the pattern is the same as in larger deals: companies that hold human biological samples are trying to sell AI insight on top of them rather than just the samples.",
+      "links": [
+        {
+          "title": "BioSpace: iSpecimen acquires Foldlab AI products",
+          "url": "https://biospace.com/press-releases/ispecimen-expands-into-ai-powered-drug-discovery-and-disease-trend-monitoring-with-acquisition-of-foldlab-ai-products"
+        },
+        {
+          "title": "Panabee: iSpecimen to acquire AI assets in $4.5M deal (Sept agreement)",
+          "url": "https://www.panabee.com/news/ispecimen-to-acquire-ai-assets-in-4-5-million-deal"
+        }
+      ],
+      "url": "https://biospace.com/press-releases/ispecimen-expands-into-ai-powered-drug-discovery-and-disease-trend-monitoring-with-acquisition-of-foldlab-ai-products",
+      "source_name": "BioSpace (GlobeNewswire release)",
+      "first_seen": "2026-11-06T21:49:14+00:00"
     },
     {
       "id": "2026-11-04-ucb-cradle",

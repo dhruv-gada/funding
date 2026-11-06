@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-06T14:40:00+00:00",
-  "run_label": "Morning brief · Nov 6, 2026",
+  "last_updated": "2026-11-06T21:49:14+00:00",
+  "run_label": "Evening brief · Nov 6, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "First edition: six ideas built on the last 45 days of deals, covering virtual-cell scaling, preclinical tox pathology, digital-twin control arms, binder-design metrics, small-budget self-driving labs and shelved-drug rescue.",
+  "since_last_run": "Added one idea: testing whether molecular-dynamics data beats a single static structure for predicting ligand binding, prompted by Fathom's $55M physics-plus-AI Series A (Kos joined Nov 6) and Potential Sciences' simulation-first seed (Nov 5), using MISATO, PLINDER and mdCATH. The six existing ideas are unchanged.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -321,6 +321,61 @@
       ],
       "who_cares": "Biossil, Formation Bio, OpenAI's startup fund, and pharma business-development teams looking to out-license or rescue assets.",
       "risks": "Stop reasons are often vague or missing, and owners may hold the rights tightly; treat the output as a lead list, not a buy list."
+    },
+    {
+      "id": "dynamics-vs-static-affinity",
+      "status": "New",
+      "first_seen": "2026-11-06T21:49:14+00:00",
+      "updated": "2026-11-06T21:49:14+00:00",
+      "title": "Does molecular-dynamics information beat a single static structure for predicting ligand binding?",
+      "kind": "Research project",
+      "area": "Physics-based simulation + ML / small-molecule design",
+      "difficulty": "Intermediate",
+      "question": "For protein–ligand complexes with measured affinities, do features or embeddings learned from MD trajectories improve affinity and pose-stability prediction over models that see only one crystal structure, and on which kinds of targets (flexible pockets, cryptic sites) does the gain show up?",
+      "why_now": "Investors backed two physics-first chemistry companies in two days: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry, and Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6). Both pitch simulation as the fix for data-starved, static-structure models, but there is little open, leakage-controlled evidence on when dynamics actually helps.",
+      "evidence": [
+        "2026-11-06-fathom-series-a-kos",
+        "2026-11-05-potential-sciences-seed"
+      ],
+      "datasets": [
+        {
+          "name": "MISATO",
+          "url": "https://zenodo.org/record/7711953",
+          "what": "Almost 20,000 experimental protein–ligand complexes with MD traces in explicit water plus semi-empirical quantum-mechanics refinement and electronic-property files",
+          "access": "Open (CC BY 4.0)",
+          "size": "About 193 GB (MD file about 133 GB)"
+        },
+        {
+          "name": "PLINDER",
+          "url": "https://pypi.org/project/plinder/",
+          "what": "More than 400k protein–ligand systems with leakage-reducing train/val/test splits stratified by novel ligand, pocket or protein, linked apo chains and an evaluation harness; installs with pip",
+          "access": "Open (Apache 2.0 for PLINDER-curated data; BindingDB parts CC BY 4.0, ChEMBL parts CC BY-SA 4.0)",
+          "size": "400k+ systems"
+        },
+        {
+          "name": "mdCATH",
+          "url": "https://www.huggingface.co/datasets/compsciencelab/mdCATH",
+          "what": "All-atom MD of 5,398 CATH protein domains, five replicas at five temperatures (320–450 K), 134,950 trajectories, for pretraining a dynamics-aware protein encoder",
+          "access": "Open (CC BY 4.0)",
+          "size": "About 3.3 TB"
+        }
+      ],
+      "approach": [
+        "Download MISATO's structure and affinity subset (skip the full 133 GB MD file at first), map each complex to its PLINDER system, and keep only test complexes that fall in PLINDER's novel-pocket or novel-protein splits.",
+        "Train a static baseline (a graph network on the single structure) and a dynamics model that pools features over MISATO MD frames (pocket RMSF, contact persistence, frame-averaged embeddings).",
+        "Compare on the leakage-controlled split, then stratify the gain by pocket flexibility measured from the trajectories.",
+        "Optionally pretrain the protein encoder on mdCATH and test whether that transfers without per-complex MD."
+      ],
+      "first_milestone": "Two weeks: a joined MISATO–PLINDER table with a split assignment for each complex and a static-structure baseline score on the novel-pocket test set.",
+      "compute": "One 24–48 GB GPU and about 0.5 TB of disk for MISATO; mdCATH pretraining needs multi-GPU time and several TB, so leave it for later.",
+      "skills": [
+        "Python",
+        "PyTorch / graph neural networks",
+        "MD analysis (MDAnalysis or mdtraj)",
+        "Structural biology basics"
+      ],
+      "who_cares": "Fathom, Potential Sciences and other physics-plus-AI shops, their pharma partners (Lilly Ventures is in Fathom), and structure-model builders such as Isomorphic and Chai deciding whether to add dynamics.",
+      "risks": "MISATO's trajectories may be too short to sample slow pocket motions, and its affinity labels are a subset of the complexes; check first how many complexes have both MD and a measured affinity after the PLINDER split filter."
     }
   ]
 }

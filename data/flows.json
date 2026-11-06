@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-05T21:54:31+00:00",
+ "last_updated": "2026-11-06T21:49:14+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -178,8 +178,8 @@
    "kind": "Pharma",
    "steps": [
     {
-     "label": "Equity in Alchemab, NewLimit, Superluminal and BigHat",
-     "amount": "4 rounds",
+     "label": "Equity in Alchemab, NewLimit, Superluminal, BigHat and Fathom",
+     "amount": "5 rounds",
      "deal": "v-newlimit"
     },
     {
@@ -198,7 +198,7 @@
      "deal": "p-lilly-metis"
     }
    ],
-   "insight": "Lilly shows up in 8 deals on this map, more than anyone else. It takes small equity stakes early, then signs licensing deals with large milestone totals."
+   "insight": "Lilly shows up in 8 deals on this map, more than anyone else. It takes small equity stakes early (most recently Fathom's $55M physics-plus-AI Series A), then signs licensing deals with large milestone totals."
   },
   {
    "id": "c-passthrough",
@@ -2915,6 +2915,53 @@
    "url": "https://www.gov.uk/government/news/sovereign-ai-puts-cash-and-compute-behind-uk-startup-using-ai-to-redefine-chemistry",
    "source_name": "GOV.UK",
    "note": "Exact round size undisclosed; Sovereign AI also provides Isambard-AI compute."
+  },
+  {
+   "id": "v-fathom",
+   "date": "2026-04-27",
+   "type": "Venture",
+   "company": "Fathom Therapeutics",
+   "sector": "Small molecule & peptide design",
+   "round": "Series A",
+   "cash_usd": 47000000.0,
+   "headline_usd": 47000000.0,
+   "amount_label": "$47M",
+   "payers": [
+    {
+     "name": "Sutter Hill Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Alexandria",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://wewillcure.com/insights/news/ai-and-machine-learning/ai-drug-discovery-venture-funding-tracker-2026",
+   "source_name": "Cure tracker",
+   "note": null
+  },
+  {
+   "id": "a-ispecimen-foldlab",
+   "date": "2026-11-05",
+   "type": "Acquisition",
+   "company": "Foldlab AI",
+   "sector": "Targets, delivery & biology",
+   "round": "AI products acquired by iSpecimen",
+   "cash_usd": 750000,
+   "headline_usd": 4500000,
+   "amount_label": "$4.5M ($750K cash, up to $1.25M milestones, $2.5M stock)",
+   "payers": [
+    {
+     "name": "iSpecimen",
+     "kind": "Public markets"
+    }
+   ],
+   "participants": [],
+   "url": "https://biospace.com/press-releases/ispecimen-expands-into-ai-powered-drug-discovery-and-disease-trend-monitoring-with-acquisition-of-foldlab-ai-products",
+   "source_name": "BioSpace (GlobeNewswire release)",
+   "note": "Asset purchase of two AI products; $2.5M paid in locked-up iSpecimen stock. Closed Nov 2, announced Nov 5. Payer kind set to Public markets because iSpecimen is a Nasdaq-listed buyer that fits no other category."
   }
  ]
 }
