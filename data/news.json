@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T13:47:58+00:00",
-  "run_label": "Morning brief · Nov 7, 2026",
+  "last_updated": "2026-11-07T21:46:11+00:00",
+  "run_label": "Evening brief · Nov 7, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Isomorphic's reported ~$5B raise at ~$50B still sets the tone, and Chai's new Roche deal, its seventh pharma partner in about ten months, shows big pharma now buys generative design models as standard kit",
@@ -47,8 +47,7 @@
         "detail": "Anthropic's S-1 (Oct 26) frames drug discovery and model-run labs as core uses and names Novo Nordisk, BMS, AbbVie and Sanofi as customers. It disclosed buying Mithril Medicine in July (after Coefficient Bio this spring), is taking its rare-disease antibodies toward candidates in 2027, and its drug R&D head now describes two to five active preclinical programs; its Anthology Fund joined Basecamp's $140M.",
         "evidence": [
           "2026-10-26-anthropic-s1-drug-rd",
-          "2026-10-27-anthropic-mithril",
-          "2026-09-23-basecamp-series-c"
+          "2026-10-27-anthropic-mithril"
         ]
       },
       {
@@ -78,7 +77,6 @@
         "direction": "In the cap tables and now inside lab instruments",
         "detail": "NVentures joined Basecamp's $140M Series C, NVIDIA-backed Iambic raised $150M in its IPO, and Danaher is building NVIDIA computing and BioNeMo models into its lab instruments. NVIDIA rarely leads, but it now spans model companies, public drug developers and lab hardware. It is also supplying compute in kind to Biohub's virtual-cell coalition.",
         "evidence": [
-          "2026-09-23-basecamp-series-c",
           "2026-10-15-iambic-ipo",
           "2026-10-15-danaher-nvidia-autonomous-lab",
           "2026-10-07-biohub-virtual-biology-1-8b"
@@ -167,11 +165,10 @@
         "player": "Lux Capital",
         "kind": "VC",
         "direction": "Owning the make-and-test layer end to end",
-        "detail": "Lux is in Warp (automated chemistry), Multiply Labs (robotic manufacturing) and Enveda (AI natural-product discovery, now clinical).",
+        "detail": "Lux is in Warp (automated chemistry) and Multiply Labs (robotic manufacturing), and earlier this autumn backed Enveda (AI natural-product discovery, now clinical).",
         "evidence": [
           "2026-10-22-warp-sciences-launch",
-          "2026-10-07-multiply-labs-series-b",
-          "2026-09-23-enveda-series-e"
+          "2026-10-07-multiply-labs-series-b"
         ]
       },
       {
@@ -192,13 +189,11 @@
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
         "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
-        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, T. Rowe Price and a sovereign fund joined Enveda's Series E, CPP Investments is in Hexagon's Series C, the NATO Innovation Fund joined Basecamp, the UK's Sovereign AI fund co-led Potential Sciences' seed and added supercomputer time, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort.",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, CPP Investments is in Hexagon's Series C, the UK's Sovereign AI fund co-led Potential Sciences' seed and added supercomputer time, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort.",
         "evidence": [
           "2026-10-15-iambic-ipo",
           "2026-10-15-recursion-offering-sanofi",
-          "2026-09-23-enveda-series-e",
           "2026-10-23-hexagon-bio-series-c",
-          "2026-09-23-basecamp-series-c",
           "2026-10-23-abudhabi-isomorphic",
           "2026-10-07-biohub-virtual-biology-1-8b",
           "2026-09-28-biossil-153m",
@@ -269,13 +264,13 @@
       }
     ],
     "watchlist": [
-      "Anthropic IPO: no price range on EDGAR as of Nov 5; the roadshow could start as early as the week of Nov 9, with a debut reported for before Thanksgiving. Watch the range, whether valuation lands toward the low end of $1.5–2T, and any life-sciences revenue or R&D disclosure",
+      "Anthropic IPO: still no price range on EDGAR; reports point to a roadshow from the week of Nov 9 and pricing as soon as the week of Nov 16 (Renaissance Capital estimates a ~$75B raise). Watch the range, where valuation lands, and any life-sciences revenue or R&D disclosure",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, and whether physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer or program",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
       "BIO-Europe in Cologne (Nov 9–11): pharma–AI licensing and platform deals announced around the meeting, and whether upfronts stay under ~5% of headline value"
     ],
-    "since_last_run": "Quiet Saturday morning: no new qualifying deals since the evening brief. Searches across AI drug-discovery funding, acquisitions, pharma licensing, protein design, lab automation and the named leaders turned up only items already tracked or out of scope (bit.bio's $25M Series D for stem-cell-derived cell models, T-Therapeutics' $133M and Alethio's $90M, none with an AI core; Laza Medical's GE HealthCare-led robotic-imaging round is medtech). One correction-style note: a later funding listing puts Atlas Bio's Creandum-led seed at $11M ($13.2M total, Berlin) versus the $10M ($12.5M total) we carry; the original figure stays until a primary source settles it, and the second link is added. Anthropic's amended S-1 still has no price range, and reports point to a roadshow from the week of Nov 9; Isomorphic's reported ~$5B raise is unchanged. No prediction resolved. BIO-Europe in Cologne (Nov 9–11) is the next likely deal cluster. Aged out of the 45-day window: none (Sep 23 items drop on the next run)."
+    "since_last_run": "Quiet Saturday: no new qualifying deals since the morning brief. Fresh searches across AI drug-discovery funding, acquisitions, pharma licensing, protein design and foundation models, lab automation, trial AI, China out-licensing and the named leaders surfaced only items already tracked (Roche–Chai, Isomorphic's reported ~$5B talks, Potential Sciences, Venomics AI) or older deals outside the window (Aureka's $100M Series B in August, XtalPi's $400M+ GPCR pact in June, Envisagenics–Boehringer in September). Anthropic's IPO still has no price range; the roadshow is reported for the week of Nov 9 with pricing possibly the week of Nov 16. No prediction resolved. Aged out of the 45-day window: Enveda's $311M Series E and Basecamp Research's $140M Series C (both Sep 23); they stay in the Money Map, and the movers that cited them (Anthropic, NVIDIA, Lux, crossover & sovereign funds) now rest on later deals. BIO-Europe in Cologne (Nov 9–11) is the next likely deal cluster."
   },
   "items": [
     {
@@ -1931,81 +1926,6 @@
       "url": "https://dealroom.co/news/156012-bighat-biosciences-raises-75m-series-c-for-ai-designed-drugs",
       "source_name": "Dealroom",
       "first_seen": "2026-10-31T12:47:33+00:00"
-    },
-    {
-      "id": "2026-09-23-enveda-series-e",
-      "date": "2026-09-23",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "Enveda Biosciences",
-      "counterparty": "Catalio Capital (lead)",
-      "amount_usd": 311000000,
-      "amount_label": "$311M",
-      "round": "Series E",
-      "valuation_label": null,
-      "investors": [
-        "Catalio Capital Management",
-        "T. Rowe Price",
-        "Lux Capital",
-        "Surveyor Capital"
-      ],
-      "area": "AI natural-product drug discovery",
-      "summary": "Enveda uses AI to find and characterize bioactive molecules from plants and microbes. It has three candidates in human testing, including ENV-294 (now in Phase 2 for eczema and asthma) and ENV-308 (for keeping weight off after stopping GLP-1 drugs).",
-      "why_it_matters": "Crossover investors like T. Rowe Price joining suggests an IPO path for clinical-stage AI biotechs.",
-      "url": "https://www.biopharmadive.com/news/enveda-ai-drug-discovery-series-e/831161/",
-      "source_name": "BioPharma Dive",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "With three candidates in human testing, Enveda is no longer a platform bet. Crossover funds (T. Rowe Price) and a sovereign fund joining usually signal positioning ahead of an IPO.",
-      "whats_next": "Phase 2 for ENV-294 (eczema, asthma); ENV-308 for maintaining weight after GLP-1s; ENV-6949 (TL1A) in IBD. An IPO filing is the likely next financing step.",
-      "links": [
-        {
-          "title": "BioPharma Dive: Enveda $311M Series E",
-          "url": "https://www.biopharmadive.com/news/enveda-ai-drug-discovery-series-e/831161/"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-23-basecamp-series-c",
-      "date": "2026-09-23",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "Basecamp Research",
-      "counterparty": "S32 (lead)",
-      "amount_usd": 140000000,
-      "amount_label": "$140M",
-      "round": "Series C",
-      "valuation_label": "$800M",
-      "investors": [
-        "S32",
-        "NVIDIA (NVentures)",
-        "Anthropic Anthology Fund",
-        "Catalio",
-        "NATO Innovation Fund",
-        "Rockefeller Foundation",
-        "Singular"
-      ],
-      "area": "Biological foundation models",
-      "summary": "London's Basecamp Research trains its EDEN design models on a proprietary genomic dataset gathered through partnerships in more than 30 countries. S32 led an oversubscribed $140M Series C at an $800M valuation, with NVIDIA and Anthropic's Anthology Fund joining.",
-      "why_invested": "Likely: backers are paying for a proprietary data moat that model companies relying on public sequence databases lack; Anthropic and NVIDIA also gain a showcase for frontier-model and GPU use in biology.",
-      "whats_next": "Training the next EDEN models and pushing toward in vivo cell therapies. Watch for a first pharma partnership tied to EDEN designs.",
-      "why_it_matters": "Anthropic is now on a bio cap table, which puts both leading AI labs into biology investing.",
-      "links": [
-        {
-          "title": "Tech.eu: Anthropic and NVIDIA back Basecamp's $140M Series C",
-          "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
-        },
-        {
-          "title": "AI Weekly: round led by S32 at $800M",
-          "url": "https://aiweekly.co/alerts/basecamp-research-raises-140m-series-c-at-800m-led-by-s32-anthropic-and-nvidia"
-        },
-        {
-          "title": "Dealroom: Basecamp lands $140M",
-          "url": "https://dealroom.co/news/155746-basecamp-research-lands-140m-series-c-to-test-ai-designed-drugs"
-        }
-      ],
-      "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
-      "source_name": "Tech.eu",
-      "first_seen": "2026-10-27T20:55:00+00:00"
     }
   ]
 }
