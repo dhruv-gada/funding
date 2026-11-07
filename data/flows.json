@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-06T21:49:14+00:00",
+ "last_updated": "2026-11-07T13:47:58+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -2270,7 +2270,7 @@
    ],
    "url": "https://techfundingnews.com/atlas-bio-12-5m-ai-simulate-phase-ii-drug-trials/",
    "source_name": "Tech Funding News",
-   "note": "$12.5M total includes an earlier $2.5M pre-seed; only the $10M seed is counted."
+   "note": "$12.5M total includes an earlier $2.5M pre-seed; only the $10M seed is counted. A later listing (Fundz) reports $11M seed / $13.2M total; kept at the originally reported figure."
   },
   {
    "id": "p-boehringer-microsoft",

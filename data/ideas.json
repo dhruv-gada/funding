@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-06T21:49:14+00:00",
-  "run_label": "Evening brief · Nov 6, 2026",
+  "last_updated": "2026-11-07T13:47:58+00:00",
+  "run_label": "Morning brief · Nov 7, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "Added one idea: testing whether molecular-dynamics data beats a single static structure for predicting ligand binding, prompted by Fathom's $55M physics-plus-AI Series A (Kos joined Nov 6) and Potential Sciences' simulation-first seed (Nov 5), using MISATO, PLINDER and mdCATH. The six existing ideas are unchanged.",
+  "since_last_run": "No changes to the ideas this run. No new qualifying deals landed, so the seven active ideas, their evidence and datasets stand as of the Nov 6 evening brief.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
