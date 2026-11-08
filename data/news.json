@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T13:46:16+00:00",
-  "run_label": "Morning brief · Nov 8, 2026",
+  "last_updated": "2026-11-08T21:48:24+00:00",
+  "run_label": "Evening brief · Nov 8, 2026",
   "window_days": 45,
   "analysis": {
     "headline": "Isomorphic's reported ~$5B raise at ~$50B still sets the tone, and Chai's new Roche deal, its seventh pharma partner in about ten months, shows big pharma now buys generative design models as standard kit",
@@ -264,13 +264,13 @@
       }
     ],
     "watchlist": [
-      "Anthropic IPO: still no price range on EDGAR. Reuters says potential investors doubt the roadshow can start the week of Nov 9, and the reported $1.5T target is under pressure after the Nov 5 tech selloff. Watch for a price-range amendment or a formal delay, where valuation lands, and any life-sciences revenue or R&D disclosure",
+      "Anthropic IPO: still no price range on EDGAR and no announced delay. Reuters says potential investors doubt the roadshow can start on schedule for a listing pencilled in for the week of Nov 16, and investors cited by the WSJ see the reported $1.5T target falling, possibly nearer $1T and possibly with a smaller raise. Watch for a price-range amendment or a formal delay, where valuation lands, and any life-sciences revenue or R&D disclosure",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, and whether physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer or program",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
       "BIO-Europe in Cologne (Nov 9–11): pharma–AI licensing and platform deals announced around the meeting, and whether upfronts stay under ~5% of headline value"
     ],
-    "since_last_run": "Quiet Sunday morning: no new qualifying deals since last night's brief. Fresh searches across AI drug-discovery funding, acquisitions, pharma licensing, protein design, lab automation, trial AI, China out-licensing and the named leaders turned up only items already tracked or older rounds outside the window (Faro AI's $37.3M Series B and Network Bio's $50M launch, both August; Pumpkinseed's $20M, May). Screened out: Alethio's $90M Series A (blood-cancer antibody, no AI core), Cancer Research UK's backing for Harvard's £8M AURORA AI co-scientist project (academic grant, no company deal), and again nPhase's $30M Series D (clinical data software). The one real change is Anthropic's IPO timing: Reuters reported on Nov 6 that potential investors doubt the roadshow can start next week in time for a November listing, and investors cited by the Wall Street Journal expect the reported $1.5T target to fall, one suggesting nearer $1T and another raising a postponement. Anthropic has announced no delay and the Nov 2 S-1/A still leaves the price range blank. No prediction resolved, and nothing aged out of the 45-day window. BIO-Europe in Cologne opens tomorrow (Nov 9–11) and is the next likely deal cluster."
+    "since_last_run": "Quiet Sunday evening: no new qualifying deals since this morning's brief, and the deal list, movers and predictions are unchanged. Searches across AI drug-discovery funding, acquisitions, pharma licensing, protein design, lab automation, trial AI, China out-licensing and the named leaders found only items already tracked or older news. Screened out for lack of an AI core: T-Therapeutics' $133M Series B (T-cell receptor bispecifics, with Lilly and J&J's venture arm among backers; no AI in the coverage), bit.bio's $25M Series D (programmed human cell models), and Biograil's €20M (oral delivery). Laza Medical's Series B of up to $160M, led by GE HealthCare, is an AI-guided cath-lab imaging robot, so it falls under medical devices rather than drug discovery. Context only: OpenAI has reportedly raised $11B so far at $1.25T, short of its first $30B target, and has pushed listing plans into next year, while Anthropic's IPO still has no price range or announced delay (the watchlist now carries the week-of-Nov-16 target and the possibility of a smaller raise). Neither report touches life sciences directly. No prediction resolved and nothing aged out of the 45-day window, though BigHat's Sept 24 round is the next to drop. BIO-Europe in Cologne opens tomorrow (Nov 9–11) and is the next likely deal cluster."
   },
   "items": [
     {
