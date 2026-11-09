@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-08T21:48:24+00:00",
-  "run_label": "Evening brief · Nov 8, 2026",
+  "last_updated": "2026-11-09T22:03:21+00:00",
+  "run_label": "Evening brief · Nov 9, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No changes to the ideas this run. No new qualifying deals landed this evening, so the seven active ideas, their evidence and datasets stand.",
+  "since_last_run": "No new ideas this run. The binder-metrics idea dropped BigHat's Series C from its evidence after that round aged out of the deals window; its dataset links could not be re-checked this run because the pages were not reachable, so they are unchanged from their last check. Candidate held back: argenx's $550M Unnatural Products deal points to an idea on predicting cyclic-peptide permeability, but the CycPeptMPDB dataset page could not be opened to confirm it, so it waits for a later run.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -162,19 +162,18 @@
       "id": "binder-metrics-audit",
       "status": "New",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-09T22:03:21+00:00",
       "title": "Do in-silico confidence scores predict which designed binders actually bind?",
       "kind": "Analysis",
       "area": "Protein and antibody design",
       "difficulty": "Starter",
       "question": "Across hundreds of community-designed binders that were tested in a lab, which computed scores (interface confidence, pLDDT, energy terms, sequence novelty) predict binding and expression, and how much do they add over each other?",
-      "why_now": "Pharma is now licensing design models as standard tools: Roche and GSK signed Chai, UCB signed Cradle, Astellas licensed AI Proteins' miniproteins, and BigHat raised $75M for design plus wet-lab testing. All of them pick which designs to make using model confidence scores. Adaptyv Bio's open EGFR binder competitions released designs with lab measurements, and Cradle won one of the rounds, so the data comes from the same kind of tools these deals pay for.",
+      "why_now": "Pharma is now licensing design models as standard tools: Roche and GSK signed Chai, UCB signed Cradle, and Astellas licensed AI Proteins' miniproteins. All of them pick which designs to make using model confidence scores. Adaptyv Bio's open EGFR binder competitions released designs with lab measurements, and Cradle won one of the rounds, so the data comes from the same kind of tools these deals pay for.",
       "evidence": [
         "2026-11-05-roche-chai",
         "2026-11-04-ucb-cradle",
         "2026-10-09-gsk-chai",
-        "2026-10-21-astellas-ai-proteins",
-        "2026-09-24-bighat-series-c"
+        "2026-10-21-astellas-ai-proteins"
       ],
       "datasets": [
         {

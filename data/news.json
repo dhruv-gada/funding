@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-08T21:48:24+00:00",
-  "run_label": "Evening brief · Nov 8, 2026",
+  "last_updated": "2026-11-09T22:03:21+00:00",
+  "run_label": "Evening brief · Nov 9, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Isomorphic's reported ~$5B raise at ~$50B still sets the tone, and Chai's new Roche deal, its seventh pharma partner in about ten months, shows big pharma now buys generative design models as standard kit",
-    "summary": "Bloomberg reports Isomorphic is seeking about $5B at roughly $50B with no human data yet, Anthropic's S-1 puts drug discovery at the center of its IPO pitch, and OpenAI-backed Chai signed Roche on Nov 5 (terms undisclosed) after GSK in October. Disclosed bio×AI venture since Oct 22 is about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, Venomics AI $2.7M, plus adsilico's £10M), with undisclosed cheques for BioGeometry, Potential Sciences and Kos's stake in Fathom's $55M Series A; Formation Bio raised a $600M fund to in-license clinical drugs. Pharma licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B), AstraZeneca–insitro ($40M of $1.5B), while platform deals such as UCB–Cradle and Roche–Chai disclose no terms at all.",
+    "headline": "argenx's $550M cash buyout of Unnatural Products opened BIO-Europe with about half the $1.15B value paid up front, a sharp contrast with milestone-heavy AI licences, while Isomorphic's reported ~$5B raise at ~$50B remains the biggest number pending",
+    "summary": "argenx agreed on Nov 9 to pay $550M in cash, plus up to $595M in milestones, for the machine-learning-guided macrocyclic peptide maker it had worked with for over two years, and Pierre Fabre signed XtalPi the same day on undisclosed terms. Bloomberg's report of Isomorphic seeking about $5B at roughly $50B with no human data yet still sets the top of the market, Anthropic's S-1 puts drug discovery at the center of its IPO pitch, and Chai added Roche on Nov 5. Disclosed bio×AI venture since Oct 22 is about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, Venomics AI $2.7M, plus adsilico's £10M and Sanyou's nearly RMB 100M), and licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B) and AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
@@ -16,7 +16,7 @@
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
-        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate, Rivercell (€22M) and BigHat ($75M Series C, wet lab plus autonomous experimentation behind a Phase 1 ADC) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle and Roche's Nov 5 deal with Chai are the software side of the same split: pharma keeps the wet lab and licenses the design models (Cradle's retrain on each batch of UCB results; Chai-3 goes across Roche's discovery programs)."
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate and Rivercell (€22M) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle and Roche's Nov 5 deal with Chai are the software side of the same split: pharma keeps the wet lab and licenses the design models (Cradle's retrain on each batch of UCB results; Chai-3 goes across Roche's discovery programs). The Nov 9 argenx deal puts a price on a working make-and-test loop: $550M in cash for machine learning tied to massively parallel peptide synthesis and direct-to-biology screening, bought by a partner that had watched it run for more than two years. XtalPi's Pierre Fabre deal the same day also sells AI and robotics as one package."
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
@@ -86,10 +86,9 @@
         "player": "Eli Lilly",
         "kind": "Pharma",
         "direction": "Licensing AI platforms for delivery, and holding equity in AI biologics developers",
-        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B) and re-upped in BigHat's $75M Series C alongside Amgen and Merck's fund, adding to its run of AI deals this year. Lilly Ventures is also in Fathom Therapeutics' $55M Series A for physics-plus-AI small-molecule design, which added Kos as an investor on Nov 6.",
+        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B), adding to its run of AI deals this year. Lilly Ventures is also in Fathom Therapeutics' $55M Series A for physics-plus-AI small-molecule design, which added Kos as an investor on Nov 6.",
         "evidence": [
           "2026-10-19-lilly-metis",
-          "2026-09-24-bighat-series-c",
           "2026-11-06-fathom-series-a-kos"
         ]
       },
@@ -118,6 +117,15 @@
         ]
       },
       {
+        "player": "argenx",
+        "kind": "Pharma",
+        "direction": "Buying its way beyond antibodies with an ML-guided oral peptide platform",
+        "detail": "After more than two years of collaboration and a minority stake, argenx is paying $550M in cash and up to $595M in milestones for Unnatural Products, which will become its peptide discovery hub. It follows the $2.2B Forte Biosciences purchase in July, which was not an AI deal.",
+        "evidence": [
+          "2026-11-09-argenx-unnatural-products"
+        ]
+      },
+      {
         "player": "Pfizer",
         "kind": "Pharma",
         "direction": "Buying AI scientists and shared training data rather than owning AI companies",
@@ -128,11 +136,12 @@
         ]
       },
       {
-        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB)",
+        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB, Pierre Fabre)",
         "kind": "Pharma",
         "direction": "Licensing AI design platforms across their pipelines rather than building them",
-        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins.",
+        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms.",
         "evidence": [
+          "2026-11-09-pierre-fabre-xtalpi",
           "2026-11-05-roche-chai",
           "2026-11-04-ucb-cradle",
           "2026-10-21-astellas-ai-proteins",
@@ -239,10 +248,10 @@
         "based_on": "Bloomberg's Nov 4 report of ~$5B at ~$50B (up from $2B+ at $40B+ on Oct 8); Pathos's valuation nearly doubling since 2025"
       },
       {
-        "call": "Pharma–AI discovery deals keep upfronts below ~5% of headline value",
+        "call": "Pharma–AI discovery licensing deals (not outright acquisitions) keep upfronts below ~5% of headline value",
         "timeframe": "Ongoing",
         "confidence": "High",
-        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B)"
+        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call"
       },
       {
         "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
@@ -264,15 +273,145 @@
       }
     ],
     "watchlist": [
-      "Anthropic IPO: still no price range on EDGAR and no announced delay. Reuters says potential investors doubt the roadshow can start on schedule for a listing pencilled in for the week of Nov 16, and investors cited by the WSJ see the reported $1.5T target falling, possibly nearer $1T and possibly with a smaller raise. Watch for a price-range amendment or a formal delay, where valuation lands, and any life-sciences revenue or R&D disclosure",
+      "Anthropic IPO: as of Nov 9 still no price range on file (latest amendment Nov 2) and no confirmed roadshow or listing date. Reports point to a listing around the week of Nov 16 and before Thanksgiving (Nov 26), with the FT citing $1.25T–$1.75T and $80B–$100B raised, while some investors talk nearer $1.2T–$1.3T. Watch for the price-range amendment or a formal delay, and any life-sciences revenue or R&D disclosure",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, and whether physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer or program",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
-      "BIO-Europe in Cologne (Nov 9–11): pharma–AI licensing and platform deals announced around the meeting, and whether upfronts stay under ~5% of headline value"
+      "BIO-Europe in Cologne (through Nov 11): day one brought argenx–Unnatural Products and Pierre Fabre–XtalPi. Watch for more pharma–AI deals, whether licensing upfronts stay under ~5% of headline value, argenx's close by year-end, and what happens to Unnatural Products' Novartis and Merck partnerships"
     ],
-    "since_last_run": "Quiet Sunday evening: no new qualifying deals since this morning's brief, and the deal list, movers and predictions are unchanged. Searches across AI drug-discovery funding, acquisitions, pharma licensing, protein design, lab automation, trial AI, China out-licensing and the named leaders found only items already tracked or older news. Screened out for lack of an AI core: T-Therapeutics' $133M Series B (T-cell receptor bispecifics, with Lilly and J&J's venture arm among backers; no AI in the coverage), bit.bio's $25M Series D (programmed human cell models), and Biograil's €20M (oral delivery). Laza Medical's Series B of up to $160M, led by GE HealthCare, is an AI-guided cath-lab imaging robot, so it falls under medical devices rather than drug discovery. Context only: OpenAI has reportedly raised $11B so far at $1.25T, short of its first $30B target, and has pushed listing plans into next year, while Anthropic's IPO still has no price range or announced delay (the watchlist now carries the week-of-Nov-16 target and the possibility of a smaller raise). Neither report touches life sciences directly. No prediction resolved and nothing aged out of the 45-day window, though BigHat's Sept 24 round is the next to drop. BIO-Europe in Cologne opens tomorrow (Nov 9–11) and is the next likely deal cluster."
+    "since_last_run": "BIO-Europe's opening day ended the weekend lull; compared with the Nov 8 evening brief there are four new items. argenx is buying Unnatural Products ($550M cash, up to about $1.15B), the largest disclosed M&A upfront in the current window and a new entry under who's moving. Pierre Fabre signed XtalPi on undisclosed terms. Sanyou closed a Series C of nearly RMB 100M, and Quanome agreed a $5M all-stock swap for about 5% of QAI Labs, a low-signal deal between small companies. BigHat's Sept 24 round aged out of the 45-day window, so it left the Lilly evidence and the make-and-test theme. No prediction resolved; the upfront-share call now says explicitly that it covers licensing, not acquisitions. No close on Isomorphic and no price range for Anthropic. Screened out for lack of an AI core: T-Therapeutics' $133M Series B and KyDo's seed extension. This is the first brief since last night, as no Nov 9 morning snapshot exists in the history folder."
   },
   "items": [
+    {
+      "id": "2026-11-09-argenx-unnatural-products",
+      "date": "2026-11-09",
+      "type": "Acquisition",
+      "status": "Signed",
+      "company": "Unnatural Products",
+      "counterparty": "argenx",
+      "amount_usd": 1145000000,
+      "amount_label": "$550M upfront · up to ~$1.15B",
+      "round": "Acquisition (remaining shares; argenx already held a minority stake)",
+      "valuation_label": null,
+      "investors": [
+        "argenx"
+      ],
+      "area": "ML-guided macrocyclic peptide design",
+      "summary": "argenx agreed to buy the rest of Santa Cruz-based Unnatural Products for $550M in cash plus up to $595M in development and regulatory milestones. The target combines machine learning with massively parallel synthesis and direct-to-biology screening to make macrocyclic peptides that can be taken orally.",
+      "why_invested": "argenx says the peptide chemistry complements its antibody engineering and gives it a route to oral and long-acting immunology medicines. It had more than two years of collaboration data before buying, and joined the target's $45M Series B in March. A Leerink analyst read the move as longer-term pipeline diversification.",
+      "whats_next": "Closing is expected by the end of 2026, subject to customary conditions. Santa Cruz becomes argenx's peptide discovery hub. No named programs or clinic dates have been given. Watch what happens to Unnatural Products' other partnerships (Novartis, Merck & Co., BridgeBio) under a new owner, and whether oral delivery clears the known permeability and gut-stability hurdles for this drug class.",
+      "why_it_matters": "A buyer that had seen the platform's results from the inside paid about 48% of the headline value in cash up front, far above the 2–3% typical of AI discovery licences, which suggests pharma pays real money once a design-and-make loop is proven on its own targets.",
+      "links": [
+        {
+          "title": "argenx: acquisition announcement (SEC 6-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001697862/000110465926124060/tm2629301d2_ex99-1.htm"
+        },
+        {
+          "title": "BioPharma Dive: argenx to buy peptide platform",
+          "url": "https://www.biopharmadive.com/news/argenx-unnatural-products-acquisition-deal-peptides-protein-macrocyclic-immune/874119/"
+        },
+        {
+          "title": "PharmTech: AI-guided macrocycle discovery lands at argenx",
+          "url": "https://www.pharmtech.com/view/ai-guided-macrocycle-discovery-lands-at-argenx-in-1-15b-deal"
+        },
+        {
+          "title": "BioXconomy: argenx buys into macrocyclic peptides",
+          "url": "https://www.bioxconomy.com/partnering/argenx-buys-into-macrocyclic-peptides-with-1-15bn-unp-deal"
+        }
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/0001697862/000110465926124060/tm2629301d2_ex99-1.htm",
+      "source_name": "argenx (SEC 6-K)",
+      "first_seen": "2026-11-09T22:03:21+00:00"
+    },
+    {
+      "id": "2026-11-09-pierre-fabre-xtalpi",
+      "date": "2026-11-09",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "XtalPi",
+      "counterparty": "Pierre Fabre Laboratories",
+      "amount_usd": null,
+      "amount_label": "Undisclosed (upfront, milestones and downstream economics)",
+      "round": "De novo small-molecule discovery collaboration",
+      "valuation_label": null,
+      "investors": [],
+      "area": "AI + robotics small-molecule design",
+      "summary": "Hong Kong-listed XtalPi will use its AI and robotics platform to design new small molecules against undisclosed hard-to-drug targets for Pierre Fabre, mainly in oncology with possible work in dermatology and rare disease. Amounts were not given, though the deal includes an upfront payment and milestones.",
+      "why_invested": "Pierre Fabre says it is adding discovery capacity for targets its own chemistry struggles with; XtalPi gets another Western pharma partner for its design-plus-robotics offer.",
+      "whats_next": "The partners will try to nominate clinical candidates across several programs, with Pierre Fabre taking over clinical and commercial development. No timelines or program count were given, so watch for a first candidate nomination.",
+      "why_it_matters": "Mid-size European pharma is now buying AI design from Chinese platforms too, and from more than one vendor at a time.",
+      "links": [
+        {
+          "title": "PR Newswire via Manila Times: Pierre Fabre and XtalPi collaboration",
+          "url": "https://manilatimes.net/2026/11/09/tmt-newswire/pr-newswire/laboratoires-pierre-fabre-and-xtalpi-announce-an-ai-driven-collaboration-focused-on-drug-discovery/2465036"
+        }
+      ],
+      "url": "https://manilatimes.net/2026/11/09/tmt-newswire/pr-newswire/laboratoires-pierre-fabre-and-xtalpi-announce-an-ai-driven-collaboration-focused-on-drug-discovery/2465036",
+      "source_name": "PR Newswire",
+      "first_seen": "2026-11-09T22:03:21+00:00"
+    },
+    {
+      "id": "2026-11-09-sanyou-series-c",
+      "date": "2026-11-09",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Sanyou Biopharmaceuticals",
+      "counterparty": "Zero2IPO Industry Investment Fund",
+      "amount_usd": null,
+      "amount_label": "Nearly RMB 100M",
+      "round": "Series C",
+      "valuation_label": null,
+      "investors": [
+        "Zero2IPO Industry Investment Fund"
+      ],
+      "area": "AI-enabled biologics discovery (China)",
+      "summary": "Shanghai-based Sanyou closed a Series C of nearly RMB 100M with Zero2IPO's industry fund as sole investor. It pitches an AI-based discovery system built on its AI-STAL molecular library and SAI-DA computational-plus-wet-lab accelerator, offered to outside partners through an open platform.",
+      "why_invested": "Likely: Zero2IPO is backing a services-and-platform model with existing R&D and GMP facilities rather than a single asset; no investor rationale was published.",
+      "whats_next": "Use of proceeds was not disclosed; coverage expects spending on R&D and GMP capacity and the AI platforms. Watch for partner deals on the open platform.",
+      "why_it_matters": "A small domestic round, but it shows Chinese biologics service companies now repositioning and raising around AI.",
+      "links": [
+        {
+          "title": "FLCube: Sanyou Series C of nearly RMB 100M",
+          "url": "https://flcube.com/sanyou-biopharmaceuticals-completes-series-c-financing-of-nearly-rmb-100-million-zero2ipo-industry-investment-fund-backs-ai-driven-drug-discovery-platform/"
+        }
+      ],
+      "url": "https://flcube.com/sanyou-biopharmaceuticals-completes-series-c-financing-of-nearly-rmb-100-million-zero2ipo-industry-investment-fund-backs-ai-driven-drug-discovery-platform/",
+      "source_name": "FLCube",
+      "first_seen": "2026-11-09T22:03:21+00:00"
+    },
+    {
+      "id": "2026-11-09-quanome-qai-labs",
+      "date": "2026-11-09",
+      "type": "Funding",
+      "status": "Signed",
+      "company": "QAI Labs",
+      "counterparty": "Quanome Technologies",
+      "amount_usd": 5000000,
+      "amount_label": "$5M (all-stock share swap for ~5%)",
+      "round": "Strategic stake",
+      "valuation_label": "~$100M (implied by the swap)",
+      "investors": [
+        "Quanome Technologies"
+      ],
+      "area": "AI multi-specific antibody design",
+      "summary": "Nasdaq-listed Quanome agreed to take about 5% of early-stage QAI Labs, developer of the NOVA-3 AI platform for multi-specific antibodies, in a share swap valued at $5M. Quanome is issuing about 16% of its post-deal shares to QAI, and no cash changes hands.",
+      "why_invested": "Likely: the stake gives Quanome a life-sciences leg for its quantum strategy; the two plan a collaboration on AI drug discovery after closing. Quantum algorithms are so far being explored only on classical simulators.",
+      "whats_next": "Closing is subject to customary conditions and the shares are unregistered. QAI is pre-commercial, with candidates still needing lab validation.",
+      "why_it_matters": "Low signal on its own: a stock-for-stock valuation between two small companies, included mostly as a marker of how far the AI-drug label now stretches.",
+      "links": [
+        {
+          "title": "The Quantum Insider: Quanome to take 5% of QAI Labs",
+          "url": "https://thequantuminsider.com/2026/11/09/quanome-acquire-5-percent-stake-qai-labs/"
+        },
+        {
+          "title": "Dealroom: background on Quanome's quantum strategy",
+          "url": "https://dealroom.co/news/158339-quanome-ceo-backs-quantum-pivot-with-15m-insider-loan/"
+        }
+      ],
+      "url": "https://thequantuminsider.com/2026/11/09/quanome-acquire-5-percent-stake-qai-labs/",
+      "source_name": "The Quantum Insider",
+      "first_seen": "2026-11-09T22:03:21+00:00"
+    },
     {
       "id": "2026-11-06-fathom-series-a-kos",
       "date": "2026-11-06",
@@ -1886,54 +2025,6 @@
       "url": "https://betakit.com/biossil-hits-unicorn-status-with-new-openai-led-financing/",
       "source_name": "BetaKit",
       "first_seen": "2026-11-04T21:49:34+00:00"
-    },
-    {
-      "id": "2026-09-24-bighat-series-c",
-      "date": "2026-09-24",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "BigHat Biosciences",
-      "counterparty": "DFJ Growth, Premji Invest",
-      "amount_usd": 75000000,
-      "amount_label": "$75M",
-      "round": "Series C",
-      "valuation_label": null,
-      "investors": [
-        "DFJ Growth",
-        "Premji Invest",
-        "Catalio Capital Management",
-        "LG Technology Ventures",
-        "Sigmas Group",
-        "8VC",
-        "Andreessen Horowitz",
-        "Amgen Ventures",
-        "Eli Lilly",
-        "Merck Global Health Innovation Fund",
-        "Section 32",
-        "Alexandria Venture Investments"
-      ],
-      "area": "AI antibody & protein design",
-      "summary": "BigHat, which pairs machine-learning design with its own wet lab and an agentic data platform for protein drugs, raised a $75M Series C co-led by DFJ Growth and Premji Invest, taking total funding to about $223M. Added late: the round fell inside the tracking window but was missed by earlier runs.",
-      "why_invested": "The company says the money backs both its clinical pipeline and the design-and-test platform behind it. Likely for investors: BigHat now has a drug in patients, so its AI-designed biologics are moving from platform promise to clinical readout, and pharma backers Lilly, Amgen and Merck re-upping signals strategic interest.",
-      "whats_next": "BHB810, a CDH17 antibody-drug conjugate for gastrointestinal cancers, is dosing in Phase 1; BHB299, a CEACAM6 T-cell engager, is finishing preclinical work with human trials planned for 2027. Watch for first Phase 1 data, the BHB299 IND and any pharma licensing of either asset.",
-      "why_it_matters": "Growth investors are now funding AI protein-design companies on the strength of clinical assets, with pharma corporate funds staying in the cap table.",
-      "links": [
-        {
-          "title": "Dealroom: BigHat raises $75M Series C for AI-designed drugs",
-          "url": "https://dealroom.co/news/156012-bighat-biosciences-raises-75m-series-c-for-ai-designed-drugs"
-        },
-        {
-          "title": "HedgeCo: BigHat Series C co-led by DFJ Growth and Premji Invest",
-          "url": "https://hedgeco.net/news/09/2026/bighat-biosciences-raised-75-million-series-c-co-led-by-dfj-growth-and-premji-invest.html"
-        },
-        {
-          "title": "Inforcapital: BigHat raises $75M Series C",
-          "url": "https://inforcapital.com/news/bighat-biosciences-raises-75-million-series-c-co-led-by-dfj-growth-and-premji-invest/"
-        }
-      ],
-      "url": "https://dealroom.co/news/156012-bighat-biosciences-raises-75m-series-c-for-ai-designed-drugs",
-      "source_name": "Dealroom",
-      "first_seen": "2026-10-31T12:47:33+00:00"
     }
   ]
 }

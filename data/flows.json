@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T21:48:24+00:00",
+  "last_updated": "2026-11-09T22:03:21+00:00",
   "since": "2026-01-01",
   "method": {
     "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -343,9 +343,14 @@
           "label": "adsilico raises £10M for virtual-patient device trials",
           "amount": "£10M",
           "deal": "v-adsilico"
+        },
+        {
+          "label": "argenx buys Unnatural Products' ML-plus-parallel-synthesis peptide platform",
+          "amount": "$550M upfront",
+          "deal": "a-argenx-unnatural"
         }
       ],
-      "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic."
+      "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic. argenx's Nov 9 deal shows the exit route: a pharma partner that has seen the design-and-make loop work pays mostly in cash to own it."
     }
   ],
   "deals": [
@@ -2962,6 +2967,90 @@
       "url": "https://biospace.com/press-releases/ispecimen-expands-into-ai-powered-drug-discovery-and-disease-trend-monitoring-with-acquisition-of-foldlab-ai-products",
       "source_name": "BioSpace (GlobeNewswire release)",
       "note": "Asset purchase of two AI products; $2.5M paid in locked-up iSpecimen stock. Closed Nov 2, announced Nov 5. Payer kind set to Public markets because iSpecimen is a Nasdaq-listed buyer that fits no other category."
+    },
+    {
+      "id": "a-argenx-unnatural",
+      "date": "2026-11-09",
+      "type": "Acquisition",
+      "company": "Unnatural Products",
+      "sector": "Small molecule & peptide design",
+      "round": "Acquired by argenx",
+      "cash_usd": 550000000,
+      "headline_usd": 1145000000,
+      "amount_label": "$550M upfront · up to ~$1.15B",
+      "payers": [
+        {
+          "name": "argenx",
+          "kind": "Pharma"
+        }
+      ],
+      "participants": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/0001697862/000110465926124060/tm2629301d2_ex99-1.htm",
+      "source_name": "argenx (SEC 6-K)",
+      "note": "Signed, expected to close by end of 2026. argenx already held a minority stake and is buying the remaining shares; upfront paid from cash on hand, with up to $595M in milestones."
+    },
+    {
+      "id": "p-pierrefabre-xtalpi",
+      "date": "2026-11-09",
+      "type": "Partnership",
+      "company": "XtalPi",
+      "sector": "Small molecule & peptide design",
+      "round": "De novo small-molecule discovery collaboration",
+      "cash_usd": null,
+      "headline_usd": null,
+      "amount_label": "Undisclosed (upfront, milestones, downstream economics)",
+      "payers": [
+        {
+          "name": "Pierre Fabre",
+          "kind": "Pharma"
+        }
+      ],
+      "participants": [],
+      "url": "https://manilatimes.net/2026/11/09/tmt-newswire/pr-newswire/laboratoires-pierre-fabre-and-xtalpi-announce-an-ai-driven-collaboration-focused-on-drug-discovery/2465036",
+      "source_name": "PR Newswire",
+      "note": "An upfront payment exists but no amounts were disclosed."
+    },
+    {
+      "id": "v-sanyou",
+      "date": "2026-11-09",
+      "type": "Venture",
+      "company": "Sanyou Biopharmaceuticals",
+      "sector": "Protein & antibody design",
+      "round": "Series C",
+      "cash_usd": null,
+      "headline_usd": null,
+      "amount_label": "Nearly RMB 100M",
+      "payers": [
+        {
+          "name": "Zero2IPO Industry Investment Fund",
+          "kind": "Venture capital"
+        }
+      ],
+      "participants": [],
+      "url": "https://flcube.com/sanyou-biopharmaceuticals-completes-series-c-financing-of-nearly-rmb-100-million-zero2ipo-industry-investment-fund-backs-ai-driven-drug-discovery-platform/",
+      "source_name": "FLCube",
+      "note": "Exact amount not disclosed and no USD figure reported, so not counted in totals."
+    },
+    {
+      "id": "v-qai-labs",
+      "date": "2026-11-09",
+      "type": "Venture",
+      "company": "QAI Labs",
+      "sector": "Protein & antibody design",
+      "round": "Strategic stake (~5%)",
+      "cash_usd": 5000000,
+      "headline_usd": 5000000,
+      "amount_label": "$5M (all-stock share swap)",
+      "payers": [
+        {
+          "name": "Quanome Technologies",
+          "kind": "Public markets"
+        }
+      ],
+      "participants": [],
+      "url": "https://thequantuminsider.com/2026/11/09/quanome-acquire-5-percent-stake-qai-labs/",
+      "source_name": "The Quantum Insider",
+      "note": "Paid in stock, not cash; not yet closed. Payer kind set to Public markets because Quanome is a Nasdaq-listed buyer that fits no other category."
     }
   ]
 }
