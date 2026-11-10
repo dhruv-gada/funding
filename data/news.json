@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-09T22:03:21+00:00",
-  "run_label": "Evening brief · Nov 9, 2026",
+  "last_updated": "2026-11-10T13:58:23+00:00",
+  "run_label": "Morning brief · Nov 10, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "argenx's $550M cash buyout of Unnatural Products opened BIO-Europe with about half the $1.15B value paid up front, a sharp contrast with milestone-heavy AI licences, while Isomorphic's reported ~$5B raise at ~$50B remains the biggest number pending",
-    "summary": "argenx agreed on Nov 9 to pay $550M in cash, plus up to $595M in milestones, for the machine-learning-guided macrocyclic peptide maker it had worked with for over two years, and Pierre Fabre signed XtalPi the same day on undisclosed terms. Bloomberg's report of Isomorphic seeking about $5B at roughly $50B with no human data yet still sets the top of the market, Anthropic's S-1 puts drug discovery at the center of its IPO pitch, and Chai added Roche on Nov 5. Disclosed bio×AI venture since Oct 22 is about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, ALLOX $10.5M, Atlas Bio $10M, Venomics AI $2.7M, plus adsilico's £10M and Sanyou's nearly RMB 100M), and licensing still pays mostly in milestones: Zealand–Generate ($30M of ~$1.2B) and AstraZeneca–insitro ($40M of $1.5B).",
+    "headline": "Anthropic, the AI lab that put drug discovery at the centre of its IPO pitch, set a $70 to $78 range on Nov 10 that values it at up to about $1.02T, a long way below the $1.5T once floated, while BIO-Europe's second day added only small, undisclosed AI-biology deals after argenx's $550M buyout",
+    "summary": "Anthropic's roadshow seeks up to $64.4B in the offering plus a $26B private placement, with trading reported for around Nov 19, so the first public test of an AI lab selling drug R&D lands next week. Among biology deals, argenx's $550M in cash (up to about $1.15B) for Unnatural Products is still the largest M&A upfront in the window and Isomorphic's reported roughly $5B at about $50B is still unclosed, while Nov 9 and 10 added only DeepLife–3billion and a Mitsui Chemicals stake in iORGANBIO, both undisclosed. Disclosed bio×AI venture since Oct 22 therefore stays at about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, plus smaller rounds), and licensing still pays mostly in milestones: Zealand–Generate ($30M of about $1.2B) and AstraZeneca–insitro ($40M of $1.5B).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic is now reportedly in talks for about $5B at around $50B, up from $2B+ at $40B+ in October, with first human trials said to be targeted around year-end."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range implying up to about $1.02T; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic is now reportedly in talks for about $5B at around $50B, up from $2B+ at $40B+ in October, with first human trials said to be targeted around year-end."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
@@ -16,11 +16,11 @@
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
-        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate and Rivercell (€22M) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle and Roche's Nov 5 deal with Chai are the software side of the same split: pharma keeps the wet lab and licenses the design models (Cradle's retrain on each batch of UCB results; Chai-3 goes across Roche's discovery programs). The Nov 9 argenx deal puts a price on a working make-and-test loop: $550M in cash for machine learning tied to massively parallel peptide synthesis and direct-to-biology screening, bought by a partner that had watched it run for more than two years. XtalPi's Pierre Fabre deal the same day also sells AI and robotics as one package."
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate and Rivercell (€22M) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle and Roche's Nov 5 deal with Chai are the software side of the same split: pharma keeps the wet lab and licenses the design models (Cradle's retrain on each batch of UCB results; Chai-3 goes across Roche's discovery programs). The Nov 9 argenx deal puts a price on a working make-and-test loop: $550M in cash for machine learning tied to massively parallel peptide synthesis and direct-to-biology screening, bought by a partner that had watched it run for more than two years. XtalPi's Pierre Fabre deal the same day also sells AI and robotics as one package. Automation is also reaching the cell supply itself: on Nov 10 Mitsui Chemicals took a stake in iORGANBIO, which makes human cells and organoids for drug testing in a closed loop of AI, single-cell readouts and robots, and will co-develop culture conditions with it."
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days."
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets."
       }
     ],
     "movers": [
@@ -44,7 +44,7 @@
         "player": "Anthropic",
         "kind": "AI lab",
         "direction": "From selling Claude to pharma to owning drug programs, now part of its IPO story",
-        "detail": "Anthropic's S-1 (Oct 26) frames drug discovery and model-run labs as core uses and names Novo Nordisk, BMS, AbbVie and Sanofi as customers. It disclosed buying Mithril Medicine in July (after Coefficient Bio this spring), is taking its rare-disease antibodies toward candidates in 2027, and its drug R&D head now describes two to five active preclinical programs; its Anthology Fund joined Basecamp's $140M.",
+        "detail": "Anthropic's S-1 (Oct 26) frames drug discovery and model-run labs as core uses and names Novo Nordisk, BMS, AbbVie and Sanofi as customers. It disclosed buying Mithril Medicine in July (after Coefficient Bio this spring), is taking its rare-disease antibodies toward candidates in 2027, and its drug R&D head now describes two to five active preclinical programs; its Anthology Fund joined Basecamp's $140M. On Nov 10 it opened the roadshow at $70 to $78 a share, up to $64.4B plus a $26B private placement, which puts it at up to about $1.02T; trading is reported for around Nov 19.",
         "evidence": [
           "2026-10-26-anthropic-s1-drug-rd",
           "2026-10-27-anthropic-mithril"
@@ -273,15 +273,48 @@
       }
     ],
     "watchlist": [
-      "Anthropic IPO: as of Nov 9 still no price range on file (latest amendment Nov 2) and no confirmed roadshow or listing date. Reports point to a listing around the week of Nov 16 and before Thanksgiving (Nov 26), with the FT citing $1.25T–$1.75T and $80B–$100B raised, while some investors talk nearer $1.2T–$1.3T. Watch for the price-range amendment or a formal delay, and any life-sciences revenue or R&D disclosure",
+      "Anthropic IPO: the final price and first trade, reported for around Nov 19, against the $70 to $78 range, whether demand pushes it past about $1.02T, and any life-sciences revenue or R&D disclosure. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
-      "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, and whether physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer or program",
+      "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
-      "BIO-Europe in Cologne (through Nov 11): day one brought argenx–Unnatural Products and Pierre Fabre–XtalPi. Watch for more pharma–AI deals, whether licensing upfronts stay under ~5% of headline value, argenx's close by year-end, and what happens to Unnatural Products' Novartis and Merck partnerships"
+      "BIO-Europe in Cologne, which ends Nov 11: two days in, argenx–Unnatural Products is the only large AI-linked deal, and Pierre Fabre–XtalPi and DeepLife–3billion both came with no terms. Watch the final day for more pharma–AI licences, whether upfronts stay under about 5% of headline value, argenx's close by year-end, and what happens to Unnatural Products' Novartis and Merck partnerships"
     ],
-    "since_last_run": "BIO-Europe's opening day ended the weekend lull; compared with the Nov 8 evening brief there are four new items. argenx is buying Unnatural Products ($550M cash, up to about $1.15B), the largest disclosed M&A upfront in the current window and a new entry under who's moving. Pierre Fabre signed XtalPi on undisclosed terms. Sanyou closed a Series C of nearly RMB 100M, and Quanome agreed a $5M all-stock swap for about 5% of QAI Labs, a low-signal deal between small companies. BigHat's Sept 24 round aged out of the 45-day window, so it left the Lilly evidence and the make-and-test theme. No prediction resolved; the upfront-share call now says explicitly that it covers licensing, not acquisitions. No close on Isomorphic and no price range for Anthropic. Screened out for lack of an AI core: T-Therapeutics' $133M Series B and KyDo's seed extension. This is the first brief since last night, as no Nov 9 morning snapshot exists in the history folder."
+    "since_last_run": "Against the Nov 9 evening brief: one major update and two small new items. Anthropic opened its IPO roadshow on Nov 10 at $70 to $78 a share, up to $64.4B plus a $26B private placement, implying up to about $1.02T, below the $1.5T once floated and close to the $1T some investors had predicted; trading is reported for around Nov 19, so the IPO watch item moves from 'no price range' to pricing. New deals: DeepLife and 3billion signed an undisclosed co-development deal on genetic-modifier targets (Nov 9), and Mitsui Chemicals took an undisclosed stake in iORGANBIO's autonomous cell and organoid lab (Nov 10). Neither changes who is moving where; both feed the data and make-and-test themes. No prediction resolved, no item aged out of the 45-day window, the venture total is unchanged because neither new deal disclosed an amount, and Isomorphic still has not closed. Screened out: Network Bio's biobank collaboration with Duke (academic, no money disclosed), Bitwise's AI drug discovery ETF filing (a fund product, noted in the watchlist instead), and two Chinese AI drug-design and synthetic-biology Pre-A rounds from a Huxiu digest that no primary source confirmed."
   },
   "items": [
+    {
+      "id": "2026-11-10-iorganbio-mitsui",
+      "date": "2026-11-10",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "iORGANBIO",
+      "counterparty": "Mitsui Chemicals (321Catalyst)",
+      "amount_usd": null,
+      "amount_label": "Undisclosed (corporate venture investment)",
+      "round": "Strategic investment",
+      "valuation_label": null,
+      "investors": [
+        "Mitsui Chemicals (321Catalyst)"
+      ],
+      "area": "Autonomous lab for human cells and organoids",
+      "summary": "iORGANBIO, a North Carolina startup founded in 2024, makes human cells and organoids that drug companies use to test candidates, running production through a closed loop of AI, single-cell analysis and robotics. Mitsui Chemicals invested through its 321Catalyst venture fund on undisclosed terms, and the two will work together on culture conditions using Mitsui's materials and its InnoCell plates.",
+      "why_invested": "Likely: Mitsui gets a showcase and a data feedback loop for its cell-culture materials inside an automated cell factory, plus a stake in human-cell models that could stand in for some animal testing. The release frames the work around better cell uniformity and cell types that have been hard to produce.",
+      "whats_next": "The companies say only that they will explore joint development, with no timelines, milestones or definitive agreements. Watch for named pharma customers, organoid-based safety or efficacy assays, and whether a priced round follows this strategic cheque.",
+      "why_it_matters": "Closed-loop automation is spreading from chemistry and protein testing into making the human cells drugs are tested on, and materials suppliers are now buying positions in it.",
+      "links": [
+        {
+          "title": "GlobeNewswire: iORGANBIO and Mitsui Chemicals collaborate on AI-driven cell and organoid manufacturing",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399347/0/en/iorganbio-and-mitsui-chemicals-collaborate-to-advance-ai-driven-human-cell-and-organoid-manufacturing.html"
+        },
+        {
+          "title": "Manila Times: wire copy of the same release",
+          "url": "https://www.manilatimes.net/2026/11/10/tmt-newswire/globenewswire/iorganbio-and-mitsui-chemicals-collaborate-to-advance-ai-driven-human-cell-and-organoid-manufacturing/2466276"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399347/0/en/iorganbio-and-mitsui-chemicals-collaborate-to-advance-ai-driven-human-cell-and-organoid-manufacturing.html",
+      "source_name": "GlobeNewswire",
+      "first_seen": "2026-11-10T13:58:23+00:00"
+    },
     {
       "id": "2026-11-09-argenx-unnatural-products",
       "date": "2026-11-09",
@@ -411,6 +444,37 @@
       "url": "https://thequantuminsider.com/2026/11/09/quanome-acquire-5-percent-stake-qai-labs/",
       "source_name": "The Quantum Insider",
       "first_seen": "2026-11-09T22:03:21+00:00"
+    },
+    {
+      "id": "2026-11-09-deeplife-3billion",
+      "date": "2026-11-09",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "DeepLife",
+      "counterparty": "3billion",
+      "amount_usd": null,
+      "amount_label": "Undisclosed (co-development)",
+      "round": "Co-development collaboration",
+      "valuation_label": null,
+      "investors": [],
+      "area": "Causal virtual cell plus patient genomics",
+      "summary": "Paris-based DeepLife, whose TwinCell causal cell model is built on single-cell multi-omics data, signed a co-development deal with KOSDAQ-listed Korean genomics company 3billion to find small molecules against genetic modifiers, the genes that change how severely a disease shows up in people carrying the same mutation. No financial terms were disclosed.",
+      "why_invested": "Stated: each side holds half of the path. DeepLife's model nominates causal targets, 3billion checks them against the genomes from its rare-disease testing business, which the release puts at more than 110,000 people, and designs compounds with its own AI chemistry tools. Modifier targets offer a way in when the disease gene itself resists drugging.",
+      "whats_next": "The partners plan to carry programs through preclinical and IND-enabling work and then license them to larger pharma. No indications, timelines or milestones were named. Watch for a first disclosed target and whether a pharma partner joins.",
+      "why_it_matters": "Two mid-size AI companies are pooling a virtual-cell model with a proprietary patient-genome cohort to own the assets themselves, a sign that data holders outside big pharma would rather take a stake in drugs than sell access.",
+      "links": [
+        {
+          "title": "GlobeNewswire (Manila Times copy): DeepLife and 3billion partner on genetic modifier targets",
+          "url": "https://manilatimes.net/2026/11/09/tmt-newswire/globenewswire/deeplife-and-3billion-partner-to-discover-small-molecule-therapeutics-against-genetic-modifier-targets-across-multiple-diseases/2465052"
+        },
+        {
+          "title": "Seoul Economic Daily: 3billion signs AI drug discovery research deal with DeepLife",
+          "url": "https://en.sedaily.com/market/2026/11/10/3billion-signs-ai-drug-discovery-research-deal-with-frances"
+        }
+      ],
+      "url": "https://manilatimes.net/2026/11/09/tmt-newswire/globenewswire/deeplife-and-3billion-partner-to-discover-small-molecule-therapeutics-against-genetic-modifier-targets-across-multiple-diseases/2465052",
+      "source_name": "GlobeNewswire",
+      "first_seen": "2026-11-10T13:58:23+00:00"
     },
     {
       "id": "2026-11-06-fathom-series-a-kos",
@@ -1118,14 +1182,14 @@
       "company": "Anthropic",
       "counterparty": "Public market investors (Nasdaq: ANT)",
       "amount_usd": null,
-      "amount_label": "Not priced (NYT-reported ~$100B raise)",
-      "round": "IPO filing (S-1)",
-      "valuation_label": null,
+      "amount_label": "$70–$78 a share · up to $64.4B offering (plus $26B private placement)",
+      "round": "IPO (roadshow launched Nov 10)",
+      "valuation_label": "Up to ~$1.02T at the top of the range",
       "investors": [],
       "area": "Frontier AI lab moving into drug R&D",
-      "summary": "Anthropic filed its S-1 for a Nasdaq listing under the ticker ANT. The filing presents drug discovery and disease detection as core uses of its models, describes plans to let future models run lab equipment and robots, and confirms in-house discovery work on neglected diseases following July's Claude Science launch. Pharma customers named include Novo Nordisk, BMS, AbbVie and Sanofi. No price range was set; the New York Times reported a raise of about $100B.",
+      "summary": "Anthropic filed its S-1 for a Nasdaq listing under the ticker ANT, presenting drug discovery and disease detection as core uses of its models, describing plans to let future models run lab equipment and robots, and confirming in-house discovery work on neglected diseases. Pharma customers named include Novo Nordisk, BMS, AbbVie and Sanofi. On Nov 10 it opened its roadshow at $70 to $78 a share for 825M shares, up to $64.4B, alongside a $26B private placement with anchor investors including Google, NVIDIA and Microsoft.",
       "why_invested": "Not a bio deal in itself. Likely: Anthropic puts science, and drug R&D in particular, at the center of its long-term story to justify a very large valuation. Owning programs such as Mithril's antibodies gives that story concrete assets, and existing pharma contracts show enterprise demand beyond coding.",
-      "whats_next": "An amended prospectus (Nov 2) added Q3: revenue of about $17B, up 47% on the quarter, but a swing to a $567M operating loss and about $895B in compute commitments. There is still no price range. A roadshow had been expected from the week of Nov 9 with a listing around the week of Nov 16, but Reuters reported on Nov 6 that potential investors doubt it can start on time, and investors quoted by the Wall Street Journal expect the reported $1.5T target to come down, with one floating about $1T; Anthropic has announced no delay. Watch for any segment disclosure of life-sciences revenue or R&D spend, whether the drug programs carry their own risk factors, and whether public money lets Anthropic buy more biotech assets.",
+      "whats_next": "The Nov 2 amendment showed Q3 revenue of about $17B but a swing to a $567M operating loss and about $895B in compute commitments. The range set on Nov 10 implies up to about $1.02T, far below the $1.5T once floated and in line with the investors who had said the number would come down; CNBC, citing sources, reported trading could start Nov 19. Watch the final price and first-day trading, any segment disclosure of life-sciences revenue or R&D spend, and whether public money funds more biotech purchases after Mithril and Coefficient Bio.",
       "why_it_matters": "The first frontier lab to file for an IPO is pitching public investors on drug discovery, so bio is now part of the core equity story for AI labs, not a side project.",
       "links": [
         {
@@ -1135,6 +1199,14 @@
         {
           "title": "Fierce Biotech: Anthropic lays out drug R&D ambitions and risks in IPO filing",
           "url": "https://www.fiercebiotech.com/biotech/anthropic-extols-ais-drug-rd-potential-including-risks-mammoth-ipo-filing"
+        },
+        {
+          "title": "The Decoder: Anthropic opens roadshow at $70 to $78 a share",
+          "url": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/"
+        },
+        {
+          "title": "CNBC: Anthropic sets price range, eyes a Nov 19 trading start",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
         },
         {
           "title": "Nate's Newsletter: S-1 financials (H1 2026 revenue, margins, R&D)",

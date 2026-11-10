@@ -1,25 +1,26 @@
 {
-  "last_updated": "2026-11-09T22:03:21+00:00",
-  "run_label": "Evening brief · Nov 9, 2026",
+  "last_updated": "2026-11-10T13:58:23+00:00",
+  "run_label": "Morning brief · Nov 10, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No new ideas this run. The binder-metrics idea dropped BigHat's Series C from its evidence after that round aged out of the deals window; its dataset links could not be re-checked this run because the pages were not reachable, so they are unchanged from their last check. Candidate held back: argenx's $550M Unnatural Products deal points to an idea on predicting cyclic-peptide permeability, but the CycPeptMPDB dataset page could not be opened to confirm it, so it waits for a later run.",
+  "since_last_run": "One new idea and two refreshed. New: a permeability benchmark for cyclic peptides, prompted by argenx's $550M cash purchase of Unnatural Products and Zealand's AI-designed peptide deal with Generate, which asks how much accuracy published models lose when the test set is split by source publication and scaffold instead of at random. This is the candidate held back last run, now that the CycPeptMPDB contents could be confirmed from the Institute of Science Tokyo announcement of the database; the database's own site did not load this run, so the access note says only what that announcement supports. The self-driving-lab idea added the Mitsui Chemicals and iORGANBIO deal, which makes small-batch cell-culture optimisation a live target, and the virtual-cell scaling test added DeepLife and 3billion. Nothing was retired, and the dataset links on the binder-metrics idea still could not be re-checked because those pages did not load.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
-      "status": "New",
+      "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-10T13:58:23+00:00",
       "title": "Does more perturbation data actually help? A scaling test for virtual-cell models",
       "kind": "Benchmark",
       "area": "Virtual cell / perturbation prediction",
       "difficulty": "Intermediate",
       "question": "As training data grows from thousands to millions of perturbed cells, do perturbation-response models beat a simple mean-shift baseline on genes and cell lines they have not seen, and where does the curve flatten?",
-      "why_now": "Big tech and pharma are paying for perturbation data at scale: Google DeepMind, Isomorphic and Meta put $300M into Biohub's open virtual-cell coalition, GSK, Pfizer and Sanofi joined Parse and Nomic's 100M-cell Cascade dataset, and Flagship rebuilt Etcelera around a 150M-cell model. Several published evaluations have found that simple baselines are hard to beat, so a clean scaling curve on open data would tell everyone whether the money is buying accuracy. Arc's 2026 Virtual Cell Challenge (zero-shot prediction in unseen cell lines) closed on Nov 5 and names winners in mid-to-late November, which gives you fresh methods to compare against.",
+      "why_now": "Big tech and pharma are paying for perturbation data at scale: Google DeepMind, Isomorphic and Meta put $300M into Biohub's open virtual-cell coalition, GSK, Pfizer and Sanofi joined Parse and Nomic's 100M-cell Cascade dataset, and Flagship rebuilt Etcelera around a 150M-cell model. Several published evaluations have found that simple baselines are hard to beat, so a clean scaling curve on open data would tell everyone whether the money is buying accuracy. Arc's 2026 Virtual Cell Challenge (zero-shot prediction in unseen cell lines) closed on Nov 5 and names winners in mid-to-late November, which gives you fresh methods to compare against. Smaller players are betting on these models too: on Nov 9 DeepLife, whose TwinCell virtual-cell model its partner describes as built on more than 100 million single-cell data points, signed 3billion to pick drug targets with it.",
       "evidence": [
         "2026-10-07-biohub-virtual-biology-1-8b",
         "2026-10-29-parse-nomic-cascade",
         "2026-10-29-flagship-etcelera",
-        "2026-10-28-biogeometry-series-a-plus"
+        "2026-10-28-biogeometry-series-a-plus",
+        "2026-11-09-deeplife-3billion"
       ],
       "datasets": [
         {
@@ -63,7 +64,7 @@
     },
     {
       "id": "rat-toxpath-benchmark",
-      "status": "New",
+      "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
       "updated": "2026-11-06T14:40:00+00:00",
       "title": "Can AI read preclinical tox slides? An open rat liver and kidney benchmark",
@@ -111,7 +112,7 @@
     },
     {
       "id": "als-digital-twin-control-arm",
-      "status": "New",
+      "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
       "updated": "2026-11-06T14:40:00+00:00",
       "title": "How many placebo patients can a digital twin replace? A test on past ALS trials",
@@ -160,7 +161,7 @@
     },
     {
       "id": "binder-metrics-audit",
-      "status": "New",
+      "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
       "updated": "2026-11-09T22:03:21+00:00",
       "title": "Do in-silico confidence scores predict which designed binders actually bind?",
@@ -216,21 +217,22 @@
     },
     {
       "id": "small-budget-self-driving-lab",
-      "status": "New",
+      "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-10T13:58:23+00:00",
       "title": "A self-driving loop on a benchtop robot: what works when you can only run 96 samples a round?",
       "kind": "Lab project",
       "area": "Lab automation / active learning",
       "difficulty": "Ambitious",
       "question": "Which active-learning strategies reach a target fastest when each round is small (8–96 samples) and noisy, and can a $10K-class liquid handler run the loop on its own?",
-      "why_now": "Money is flowing to the make-and-test layer: Opentrons raised a $40M Series E for AI-driven benchtop robots, Warp launched with $215M for automated chemistry, Multiply Labs raised $75M for robotic manufacturing, Danaher is building NVIDIA AI into its instruments, and Xaira introduced X-Automate. Most published closed-loop work assumes big robots and big batches; small academic labs need to know what works at their scale.",
+      "why_now": "Money is flowing to the make-and-test layer: Opentrons raised a $40M Series E for AI-driven benchtop robots, Warp launched with $215M for automated chemistry, Multiply Labs raised $75M for robotic manufacturing, Danaher is building NVIDIA AI into its instruments, and Xaira introduced X-Automate. Most published closed-loop work assumes big robots and big batches; small academic labs need to know what works at their scale. On Nov 10 Mitsui Chemicals invested in iORGANBIO, which runs a closed loop of AI, single-cell readouts and robots to make human cells and organoids, and will co-develop culture conditions with it. That is exactly the small-batch optimisation problem this project tests, and it fits a benchtop robot.",
       "evidence": [
         "2026-10-29-opentrons-series-e",
         "2026-10-22-warp-sciences-launch",
         "2026-10-07-multiply-labs-series-b",
         "2026-10-15-danaher-nvidia-autonomous-lab",
-        "2026-10-23-xaira-x-automate"
+        "2026-10-23-xaira-x-automate",
+        "2026-11-10-iorganbio-mitsui"
       ],
       "datasets": [
         {
@@ -267,7 +269,7 @@
     },
     {
       "id": "shelved-drug-rescue-scan",
-      "status": "New",
+      "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
       "updated": "2026-11-06T14:40:00+00:00",
       "title": "Shelf scan: which stopped trials were dropped for business reasons but have strong biology?",
@@ -323,7 +325,7 @@
     },
     {
       "id": "dynamics-vs-static-affinity",
-      "status": "New",
+      "status": "Active",
       "first_seen": "2026-11-06T21:49:14+00:00",
       "updated": "2026-11-06T21:49:14+00:00",
       "title": "Does molecular-dynamics information beat a single static structure for predicting ligand binding?",
@@ -375,6 +377,55 @@
       ],
       "who_cares": "Fathom, Potential Sciences and other physics-plus-AI shops, their pharma partners (Lilly Ventures is in Fathom), and structure-model builders such as Isomorphic and Chai deciding whether to add dynamics.",
       "risks": "MISATO's trajectories may be too short to sample slow pocket motions, and its affinity labels are a subset of the complexes; check first how many complexes have both MD and a measured affinity after the PLINDER split filter."
+    },
+    {
+      "id": "cyclic-peptide-permeability",
+      "status": "New",
+      "first_seen": "2026-11-10T13:58:23+00:00",
+      "updated": "2026-11-10T13:58:23+00:00",
+      "title": "Will it get into the cell? Permeability prediction for cyclic peptides tested on unseen chemistry",
+      "kind": "Benchmark",
+      "area": "Macrocyclic peptides / ADME prediction",
+      "difficulty": "Starter",
+      "question": "How far do cyclic-peptide permeability models fall when the test peptides come from scaffolds and source papers the model never saw, and does conformer information beat plain 2D descriptors once the split is honest?",
+      "why_now": "argenx agreed on Nov 9 to pay $550M in cash, up to about $1.15B, for Unnatural Products, whose machine-learning-guided macrocyclic peptides are meant to work as pills, and in October Zealand paid Generate $30M upfront of about $1.2B for AI-designed obesity proteins. Crossing the membrane is the main obstacle for oral and intracellular peptide drugs, and published models are mostly scored on random or diversity-based splits rather than on new chemical series, so the reported accuracy may not survive the way these companies would actually use it.",
+      "evidence": [
+        "2026-11-09-argenx-unnatural-products",
+        "2026-10-13-zealand-generate"
+      ],
+      "datasets": [
+        {
+          "name": "CycPeptMPDB",
+          "url": "http://cycpeptmpdb.com/",
+          "what": "Membrane permeability values for 7,334 structurally varied cyclic peptides gathered from more than 40 papers and pharmaceutical patents, each with physical parameters such as lipophilicity, a computed most-likely 3D conformation and a HELM structure string; the platform offers search, visualisation and download, per the Institute of Science Tokyo announcement of the database",
+          "access": "Open web database (no licence stated on the announcement page)",
+          "size": "7,334 peptides"
+        },
+        {
+          "name": "LiteFold/CycPepMPDB (Hugging Face)",
+          "url": "https://huggingface.co/datasets/LiteFold/CycPepMPDB",
+          "what": "A tabular Parquet dataset repo tagged cycpeptmpdb, whose latest commit is described as a normalised Parquet train/test table; useful as a ready-to-load mirror, but check it against the source database before trusting it, since the repo page does not state its provenance",
+          "access": "Free download (licence listed only as 'other')",
+          "size": "Listed in the 1K to 10K rows band"
+        }
+      ],
+      "approach": [
+        "Rebuild the published baseline first: take the PAMPA subset of CycPeptMPDB and reproduce a simple descriptor model (random forest or SVM on 2D plus 3D descriptors), which the CycPeptMP paper reports at around 0.42 MAE on its own diversity-based test split, so you know your pipeline is sane.",
+        "Then re-split the same data by source publication and by scaffold, so no peptide series appears in both training and test, and re-score the same models.",
+        "Add a conformer-aware model (3D descriptors or a graph model over the computed conformation) and ask whether its advantage survives the harder splits.",
+        "Report the error gap between split types per metric, and publish the split files so others can reuse them.",
+        "Optional extension: check calibration, i.e. whether predicted uncertainty actually flags the series the model gets wrong, which is what a design team needs."
+      ],
+      "first_milestone": "Two weeks: the PAMPA baseline reproduced, plus the same model scored on a leave-one-publication-out split, with one plot of the accuracy drop.",
+      "compute": "A laptop is enough for descriptor models; one GPU if you add a graph or conformer network.",
+      "skills": [
+        "Python",
+        "RDKit",
+        "scikit-learn",
+        "Peptide chemistry basics"
+      ],
+      "who_cares": "argenx and Unnatural Products, Generate and Zealand, and every team designing macrocycles or oral peptides, all of whom need to know whether a permeability model generalises to the series they are about to make.",
+      "risks": "The database pools assays from many papers, so measurement differences between labs can masquerade as a generalisation gap; restrict to one assay type first and report how many peptides survive that filter."
     }
   ]
 }
