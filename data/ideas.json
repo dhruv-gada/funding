@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-10T13:58:23+00:00",
-  "run_label": "Morning brief · Nov 10, 2026",
+  "last_updated": "2026-11-10T21:51:52+00:00",
+  "run_label": "Evening brief · Nov 10, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "One new idea and two refreshed. New: a permeability benchmark for cyclic peptides, prompted by argenx's $550M cash purchase of Unnatural Products and Zealand's AI-designed peptide deal with Generate, which asks how much accuracy published models lose when the test set is split by source publication and scaffold instead of at random. This is the candidate held back last run, now that the CycPeptMPDB contents could be confirmed from the Institute of Science Tokyo announcement of the database; the database's own site did not load this run, so the access note says only what that announcement supports. The self-driving-lab idea added the Mitsui Chemicals and iORGANBIO deal, which makes small-batch cell-culture optimisation a live target, and the virtual-cell scaling test added DeepLife and 3billion. Nothing was retired, and the dataset links on the binder-metrics idea still could not be re-checked because those pages did not load.",
+  "since_last_run": "One idea refreshed, none added or retired. The binder-metrics audit now cites Third Rock's deal of up to about $2.16B with Funnel Biosciences, whose pitch rests on zero-shot antibody design scored by AI and physics, which makes checking whether computed scores predict lab binding more pressing. Its round 2 dataset was re-checked from the repository README (400 selected designs; data ODbL, code Apache 2.0) and the description now lists the neutralisation assay, structures and embeddings it contains; the preprint link now points to the bioRxiv abstract page confirmed via Twist Bioscience's listing. The round 1 repository still could not be opened directly this run. Proximal Ventures' fund for AI development services was considered but opens no angle the shelved-drug and trial ideas do not already cover.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -163,14 +163,15 @@
       "id": "binder-metrics-audit",
       "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-09T22:03:21+00:00",
+      "updated": "2026-11-10T21:51:52+00:00",
       "title": "Do in-silico confidence scores predict which designed binders actually bind?",
       "kind": "Analysis",
       "area": "Protein and antibody design",
       "difficulty": "Starter",
       "question": "Across hundreds of community-designed binders that were tested in a lab, which computed scores (interface confidence, pLDDT, energy terms, sequence novelty) predict binding and expression, and how much do they add over each other?",
-      "why_now": "Pharma is now licensing design models as standard tools: Roche and GSK signed Chai, UCB signed Cradle, and Astellas licensed AI Proteins' miniproteins. All of them pick which designs to make using model confidence scores. Adaptyv Bio's open EGFR binder competitions released designs with lab measurements, and Cradle won one of the rounds, so the data comes from the same kind of tools these deals pay for.",
+      "why_now": "Pharma, and now venture firms, are licensing design models as standard tools: Roche and GSK signed Chai, UCB signed Cradle, Astellas licensed AI Proteins' miniproteins, and on Nov 6 Third Rock committed up to about $2.16B to Beijing's Funnel Biosciences, which claims zero-shot picomolar antibodies without lab affinity maturation. All of them pick which designs to make using computed scores, and claims like Funnel's are only as good as those scores. Adaptyv Bio's open EGFR binder competitions released designs with lab measurements, and Cradle won one of the rounds, so the data comes from the same kind of tools these deals pay for.",
       "evidence": [
+        "2026-11-06-third-rock-funnel",
         "2026-11-05-roche-chai",
         "2026-11-04-ucb-cradle",
         "2026-10-09-gsk-chai",
@@ -180,9 +181,9 @@
         {
           "name": "Adaptyv EGFR binder competition, round 2",
           "url": "https://github.com/adaptyvbio/egfr_competition_2",
-          "what": "Designed EGFR binders with lab binding results, sequence-similarity checks and links to predicted structures",
+          "what": "Round 2 results: processed binding-affinity data, kinetic curves, an EGF-blocking neutralisation assay, AlphaFold2 predicted structures, protein-language-model embeddings and DE-STRESS property tables",
           "access": "Open (data ODbL, code Apache 2.0)",
-          "size": "Hundreds of designs"
+          "size": "400 selected designs"
         },
         {
           "name": "Adaptyv EGFR binder competition, round 1",
@@ -193,7 +194,7 @@
         },
         {
           "name": "Crowdsourced Protein Design: lessons from the Adaptyv EGFR competition",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.04.17.648362.full.pdf",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.17.648362.abstract",
           "what": "The organisers' write-up, useful for understanding how the designs were selected and measured",
           "access": "Open",
           "size": "Paper"
@@ -212,7 +213,7 @@
         "Basic structural biology",
         "Running AlphaFold-class models"
       ],
-      "who_cares": "Chai, Cradle, Generate, AI Proteins, BigHat and their pharma partners, all of whom choose what to synthesise from these scores.",
+      "who_cares": "Chai, Cradle, Generate, AI Proteins, BigHat, Funnel and their pharma and venture partners, all of whom choose what to synthesise from these scores.",
       "risks": "One target (EGFR) may not generalise; say so, and add other public design-plus-assay sets if you find them."
     },
     {

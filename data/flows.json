@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-10T13:58:23+00:00",
+ "last_updated": "2026-11-10T21:51:52+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -3072,6 +3072,27 @@
    "url": "https://www.globenewswire.com/news-release/2026/11/10/3399347/0/en/iorganbio-and-mitsui-chemicals-collaborate-to-advance-ai-driven-human-cell-and-organoid-manufacturing.html",
    "source_name": "GlobeNewswire",
    "note": "Corporate venture arm of a chemicals maker; amount, valuation and stake all undisclosed, so it is not counted in totals."
+  },
+  {
+   "id": "p-thirdrock-funnel",
+   "date": "2026-11-06",
+   "type": "Partnership",
+   "company": "Funnel Biosciences",
+   "sector": "Protein & antibody design",
+   "round": "Multi-target AI antibody discovery collaboration",
+   "cash_usd": null,
+   "headline_usd": 2160000000,
+   "amount_label": "Undisclosed platform-access fee · up to ~$2.16B",
+   "payers": [
+    {
+     "name": "Third Rock Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://endpoints.news/third-rock-enters-2b-partnership-with-ai-focused-chinese-biotech/",
+   "source_name": "Endpoints News",
+   "note": "A venture firm, not a pharma, is the licensee; targets are nominated by Third Rock for its own company creation. Upfront and milestone split undisclosed."
   }
  ]
 }

@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-11-10T13:58:23+00:00",
-  "run_label": "Morning brief · Nov 10, 2026",
+  "last_updated": "2026-11-10T21:51:52+00:00",
+  "run_label": "Evening brief · Nov 10, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Anthropic, the AI lab that put drug discovery at the centre of its IPO pitch, set a $70 to $78 range on Nov 10 that values it at up to about $1.02T, a long way below the $1.5T once floated, while BIO-Europe's second day added only small, undisclosed AI-biology deals after argenx's $550M buyout",
-    "summary": "Anthropic's roadshow seeks up to $64.4B in the offering plus a $26B private placement, with trading reported for around Nov 19, so the first public test of an AI lab selling drug R&D lands next week. Among biology deals, argenx's $550M in cash (up to about $1.15B) for Unnatural Products is still the largest M&A upfront in the window and Isomorphic's reported roughly $5B at about $50B is still unclosed, while Nov 9 and 10 added only DeepLife–3billion and a Mitsui Chemicals stake in iORGANBIO, both undisclosed. Disclosed bio×AI venture since Oct 22 therefore stays at about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, plus smaller rounds), and licensing still pays mostly in milestones: Zealand–Generate ($30M of about $1.2B) and AstraZeneca–insitro ($40M of $1.5B).",
+    "headline": "Third Rock Ventures agreed to pay Beijing's Funnel Biosciences up to about $2.16B to design antibodies for its own targets, the largest headline value of BIO-Europe week and a sign that US venture money, not just pharma, is now buying AI-designed biologics from China",
+    "summary": "Funnel's deal with Third Rock tops argenx's $550M cash buyout of Unnatural Products (up to about $1.15B) on headline value but discloses no upfront, so it fits the pattern of back-loaded licensing. Anthropic's IPO, priced at $70 to $78 for up to about $1.02T with trading reported for around Nov 19, and Isomorphic's still-unclosed ~$5B at ~$50B remain the big capital events. Disclosed bio×AI venture since Oct 22 stays at about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M and smaller rounds); Proximal Ventures' new $27.5M fund for AI drug-development services is fund capital and not counted.",
     "themes": [
       {
-        "title": "AI labs move from vendor to drug owner, and AI scientists move into pharma pipelines",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range implying up to about $1.02T; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic is now reportedly in talks for about $5B at around $50B, up from $2B+ at $40B+ in October, with first human trials said to be targeted around year-end."
+        "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range implying up to about $1.02T; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic is now reportedly in talks for about $5B at around $50B, up from $2B+ at $40B+ in October, with first human trials said to be targeted around year-end. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
-        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, adsilico raised £10M to test medical devices on AI-built virtual patients, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads. Biossil is running the same buy-don't-discover play at a smaller scale, picking up Theriva's paused Phase 1b/2a transplant-gut enzyme for $350K upfront and up to ~$91M in milestones."
+        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, adsilico raised £10M to test medical devices on AI-built virtual patients, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads. Biossil is running the same buy-don't-discover play at a smaller scale, picking up Theriva's paused Phase 1b/2a transplant-gut enzyme for $350K upfront and up to ~$91M in milestones. The services layer is drawing its own seed money too: on Nov 10 Proximal Ventures closed a $27.5M debut fund, backed by SignalFire and Kleiner Perkins, for startups automating the development work pharma outsources."
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
@@ -226,6 +226,15 @@
         "evidence": [
           "2026-10-28-formation-bio-600m-fund"
         ]
+      },
+      {
+        "player": "Third Rock Ventures",
+        "kind": "VC",
+        "direction": "Buying AI-designed molecules from Chinese platforms to seed its own companies",
+        "detail": "Third Rock committed up to about $2.16B, with an undisclosed platform fee upfront, for Funnel Biosciences to design antibodies against targets it nominates; it is the firm's second such deal with a Chinese AI designer after a peptide pact with Perpetual Medicine that has already produced a development candidate. A venture firm acting like a pharma licensee is new on this map.",
+        "evidence": [
+          "2026-11-06-third-rock-funnel"
+        ]
       }
     ],
     "predictions": [
@@ -251,7 +260,7 @@
         "call": "Pharma–AI discovery licensing deals (not outright acquisitions) keep upfronts below ~5% of headline value",
         "timeframe": "Ongoing",
         "confidence": "High",
-        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call"
+        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it"
       },
       {
         "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
@@ -277,9 +286,9 @@
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
-      "BIO-Europe in Cologne, which ends Nov 11: two days in, argenx–Unnatural Products is the only large AI-linked deal, and Pierre Fabre–XtalPi and DeepLife–3billion both came with no terms. Watch the final day for more pharma–AI licences, whether upfronts stay under about 5% of headline value, argenx's close by year-end, and what happens to Unnatural Products' Novartis and Merck partnerships"
+      "BIO-Europe in Cologne ends Nov 11: so far argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) are the large AI-linked deals, while Pierre Fabre–XtalPi and DeepLife–3billion came with no terms. Watch the final day for more pharma–AI licences, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers"
     ],
-    "since_last_run": "Against the Nov 9 evening brief: one major update and two small new items. Anthropic opened its IPO roadshow on Nov 10 at $70 to $78 a share, up to $64.4B plus a $26B private placement, implying up to about $1.02T, below the $1.5T once floated and close to the $1T some investors had predicted; trading is reported for around Nov 19, so the IPO watch item moves from 'no price range' to pricing. New deals: DeepLife and 3billion signed an undisclosed co-development deal on genetic-modifier targets (Nov 9), and Mitsui Chemicals took an undisclosed stake in iORGANBIO's autonomous cell and organoid lab (Nov 10). Neither changes who is moving where; both feed the data and make-and-test themes. No prediction resolved, no item aged out of the 45-day window, the venture total is unchanged because neither new deal disclosed an amount, and Isomorphic still has not closed. Screened out: Network Bio's biobank collaboration with Duke (academic, no money disclosed), Bitwise's AI drug discovery ETF filing (a fund product, noted in the watchlist instead), and two Chinese AI drug-design and synthetic-biology Pre-A rounds from a Huxiu digest that no primary source confirmed."
+    "since_last_run": "Against this morning's brief: one large new deal and one small one, no status changes. Third Rock Ventures and Beijing's Funnel Biosciences signed an AI antibody design pact worth up to about $2.16B with an undisclosed platform fee (announced in Beijing on Nov 6, reported by Endpoints and pharmaphorum on Nov 9 and 10); it adds Third Rock as a new mover and the largest headline value of BIO-Europe week. Proximal Ventures closed a $27.5M debut fund for AI drug-development services startups (Nov 10), which feeds the trial-and-development theme but is not counted as venture. No prediction resolved: Funnel's upfront is undisclosed, so the sub-5% upfront call is untested, and Anthropic's IPO and Isomorphic's round are unchanged. No item aged out, and the disclosed venture total stays at about $580M. Screened out: Oyster Therapeutics' $60M Series A led by 4BIO with Eli Lilly joining (protein degraders, but its release makes no AI or computational claim), and older items that resurfaced in search (Automata's $45M from January, Scala Biodesign's $16M from March, reported Lila and Chai raise talks from mid-year)."
   },
   "items": [
     {
@@ -314,6 +323,40 @@
       "url": "https://www.globenewswire.com/news-release/2026/11/10/3399347/0/en/iorganbio-and-mitsui-chemicals-collaborate-to-advance-ai-driven-human-cell-and-organoid-manufacturing.html",
       "source_name": "GlobeNewswire",
       "first_seen": "2026-11-10T13:58:23+00:00"
+    },
+    {
+      "id": "2026-11-10-proximal-ventures-fund",
+      "date": "2026-11-10",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Proximal Ventures",
+      "counterparty": "SignalFire, Kleiner Perkins, Bertelsmann Healthcare Investments (LPs)",
+      "amount_usd": null,
+      "amount_label": "$27.5M debut fund (LP commitments)",
+      "round": "Debut venture fund",
+      "valuation_label": null,
+      "investors": [
+        "SignalFire",
+        "Kleiner Perkins",
+        "Bertelsmann Healthcare Investments",
+        "Nan Li",
+        "Zavain Dar",
+        "Amy Abernethy"
+      ],
+      "area": "AI for drug-development services",
+      "summary": "Former SignalFire principal Sahir Raoof closed a $27.5M first fund for pre-seed and seed startups using AI to automate the tools, infrastructure and outsourced services pharma buys for drug development, writing $500K to $1.5M cheques. It has six companies so far, including ChronicleBio, co-founded by former OpenAI executive Fidji Simo.",
+      "why_invested": "Stated by Raoof: pharma has long outsourced development services, and AI can deliver much of that work faster and cheaper, a pattern he compares to AI in legal and finance services. Likely for the LPs: SignalFire and Kleiner get early sight of companies they could lead later, and the Dimension founders and former FDA official Amy Abernethy add regulatory and techbio networks.",
+      "whats_next": "Watch the remaining portfolio names as they are disclosed, which services they target (CRO work, regulatory writing, trial operations), and whether SignalFire or Kleiner lead their Series A rounds. Not counted in the venture total because it is fund capital, not money raised by a company.",
+      "why_it_matters": "Specialist seed money is now forming around AI for the unglamorous development-services layer rather than molecule design, matching Formation Bio's and Biossil's bet that the bottleneck is downstream.",
+      "links": [
+        {
+          "title": "TechCrunch: Proximal Ventures raises debut fund for AI in drug development",
+          "url": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/"
+        }
+      ],
+      "url": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
+      "source_name": "TechCrunch",
+      "first_seen": "2026-11-10T21:51:52+00:00"
     },
     {
       "id": "2026-11-09-argenx-unnatural-products",
@@ -521,6 +564,43 @@
       "url": "https://www.prnewswire.com/news-releases/kos-biotechnology-partners-announces-investment-in-fathom-therapeutics-to-advance-novel-ai-driven-drug-discovery-platform-302931959.html",
       "source_name": "PR Newswire",
       "first_seen": "2026-11-06T21:49:14+00:00"
+    },
+    {
+      "id": "2026-11-06-third-rock-funnel",
+      "date": "2026-11-06",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Funnel Biosciences",
+      "counterparty": "Third Rock Ventures",
+      "amount_usd": 2160000000,
+      "amount_label": "Undisclosed platform-access fee · up to ~$2.16B",
+      "round": "Multi-target research collaboration",
+      "valuation_label": null,
+      "investors": [
+        "Third Rock Ventures"
+      ],
+      "area": "AI antibody design (China)",
+      "summary": "Funnel Biosciences, a Beijing AI antibody designer co-founded in February 2026 by former MSD researcher Jintan Liu and computational biophysicist Mingchen Chen, will design biologics against several targets picked by Boston venture firm Third Rock. Funnel gets an undisclosed platform-access fee and up to about $2.16B in total if the programs advance; Endpoints and pharmaphorum reported it on Nov 9 and 10.",
+      "why_invested": "Stated by Funnel: its epitope-first generative design, refined with physics-based energy scoring, is meant to crack hard targets such as multi-pass membrane proteins where animal immunisation and phage display struggle, and Third Rock brings translation and company-building. Likely: Third Rock wants de novo antibodies for hard targets to seed its own new companies, sourced from a fast, lower-cost Chinese design shop rather than built in-house.",
+      "whats_next": "No targets, rights split or timelines were disclosed. Watch for the first development candidate (Third Rock's earlier peptide pact with Shanghai's Perpetual Medicine produced one in under 18 months), a Third Rock company launched around a Funnel antibody, Funnel's own first financing, and any US scrutiny of China-sourced biologics.",
+      "why_it_matters": "A US venture firm, not a pharma, is now signing pharma-style biobucks deals with Chinese AI designers to stock its company-creation pipeline, so China's AI biologics shops have a second kind of Western buyer.",
+      "links": [
+        {
+          "title": "Endpoints: Third Rock enters $2B partnership with AI-focused Chinese biotech",
+          "url": "https://endpoints.news/third-rock-enters-2b-partnership-with-ai-focused-chinese-biotech/"
+        },
+        {
+          "title": "pharmaphorum: Third Rock in $2bn drug-hunting pact with China's Funnel",
+          "url": "https://pharmaphorum.com/news/third-rock-2bn-drug-hunting-pact-chinas-funnel"
+        },
+        {
+          "title": "VCBeat: Funnel announces multi-target AI antibody collaboration with Third Rock",
+          "url": "https://www.vcbeathealth.com/article/64158"
+        }
+      ],
+      "url": "https://endpoints.news/third-rock-enters-2b-partnership-with-ai-focused-chinese-biotech/",
+      "source_name": "Endpoints News",
+      "first_seen": "2026-11-10T21:51:52+00:00"
     },
     {
       "id": "2026-11-05-venomics-ai-pre-seed",
