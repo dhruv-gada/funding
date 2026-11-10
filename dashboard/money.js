@@ -29,6 +29,9 @@ async function showMoney(force = false) {
       const res = await fetch(FLOWS_URL + "?t=" + Date.now());
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       flowsData = await res.json();
+      // a deal id must count once, even if a run appended it twice
+      const seen = new Set();
+      flowsData.deals = (flowsData.deals || []).filter(d => !seen.has(d.id) && seen.add(d.id));
     } catch (e) {
       view.innerHTML = `<div class="state-box error"><div class="error-icon">⚠</div><p><strong>Could not load the money map.</strong></p><p class="error-detail">${esc(e.message)}</p></div>`;
       return;
@@ -40,7 +43,7 @@ async function showMoney(force = false) {
 // ─── helpers ───
 const mFmt = n => {
   if (n == null) return "Undisclosed";
-  if (n >= 1e9) return "$" + (n / 1e9).toFixed(n >= 1e10 ? 0 : 1).replace(/\.0$/, "") + "B";
+  if (n >= 1e9) return "$" + (n / 1e9).toFixed(n >= 1e11 ? 0 : 1).replace(/\.0$/, "") + "B";
   if (n >= 1e6) return "$" + (n / 1e6 >= 100 ? Math.round(n / 1e6) : (n / 1e6).toFixed(1).replace(/\.0$/, "")) + "M";
   return "$" + Math.round(n / 1e3) + "K";
 };

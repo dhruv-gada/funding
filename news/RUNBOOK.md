@@ -108,6 +108,7 @@ Rules:
 - **In-licensing:** an AI biotech paying someone else. It shows in the ledger and chains, not in the flow diagram.
 - Corporate venture arms count as their parent's kind (NVentures → Big tech & AI labs; Lilly Ventures, Merck GHI → Pharma). Use one consistent name per backer (e.g. always "Eli Lilly", always "NVIDIA (NVentures)") so the hubs ranking counts correctly.
 - Chains: `{"id","title","kind","steps":[{"label","amount","deal": "<deal id or null>"}],"insight"}`. Keep 5–8 chains, focused on where money is moving next. Update the insight when a new step lands.
+- **Never add a deal whose `id` (or same company + date + type) is already in the file.** Search the file first and update the existing entry instead.
 - Update `last_updated`. If a market-context figure gets a newer report (e.g. a Q3 or full-year review), replace it and keep the source link.
 
 
