@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-11T13:54:00+00:00",
-  "run_label": "Morning brief · Nov 11, 2026",
+  "last_updated": "2026-11-11T21:50:34+00:00",
+  "run_label": "Evening brief · Nov 11, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "One idea refreshed, none added or retired. The cyclic-peptide permeability benchmark now cites Boltz's Nov 11 deal to train its BoltzMol-1 ADMET models on Excelra's curated permeability and solubility data, a commercial bet on the same out-of-distribution generalisation the project tests on open peptide data. Its two dataset links were re-checked: the Institute of Science Tokyo announcement still describes CycPeptMPDB as 7,334 peptides from more than 40 sources with download available, and the LiteFold Hugging Face mirror is live (Parquet, 1K to 10K rows, licence listed as 'other'); the cycpeptmpdb.com site itself could not be opened directly this run. Fauna Bio's second Lilly obesity target and Rakovina's stock-paid Artemis.AI licence were considered but are single small deals that open no new angle.",
+  "since_last_run": "No changes to the ideas this run. No new qualifying deal landed this evening, so no idea's evidence or timing moved and none went stale.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
