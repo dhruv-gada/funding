@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-10T21:51:52+00:00",
-  "run_label": "Evening brief · Nov 10, 2026",
+  "last_updated": "2026-11-11T13:54:00+00:00",
+  "run_label": "Morning brief · Nov 11, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "One idea refreshed, none added or retired. The binder-metrics audit now cites Third Rock's deal of up to about $2.16B with Funnel Biosciences, whose pitch rests on zero-shot antibody design scored by AI and physics, which makes checking whether computed scores predict lab binding more pressing. Its round 2 dataset was re-checked from the repository README (400 selected designs; data ODbL, code Apache 2.0) and the description now lists the neutralisation assay, structures and embeddings it contains; the preprint link now points to the bioRxiv abstract page confirmed via Twist Bioscience's listing. The round 1 repository still could not be opened directly this run. Proximal Ventures' fund for AI development services was considered but opens no angle the shelved-drug and trial ideas do not already cover.",
+  "since_last_run": "One idea refreshed, none added or retired. The cyclic-peptide permeability benchmark now cites Boltz's Nov 11 deal to train its BoltzMol-1 ADMET models on Excelra's curated permeability and solubility data, a commercial bet on the same out-of-distribution generalisation the project tests on open peptide data. Its two dataset links were re-checked: the Institute of Science Tokyo announcement still describes CycPeptMPDB as 7,334 peptides from more than 40 sources with download available, and the LiteFold Hugging Face mirror is live (Parquet, 1K to 10K rows, licence listed as 'other'); the cycpeptmpdb.com site itself could not be opened directly this run. Fauna Bio's second Lilly obesity target and Rakovina's stock-paid Artemis.AI licence were considered but are single small deals that open no new angle.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -383,16 +383,17 @@
       "id": "cyclic-peptide-permeability",
       "status": "New",
       "first_seen": "2026-11-10T13:58:23+00:00",
-      "updated": "2026-11-10T13:58:23+00:00",
+      "updated": "2026-11-11T13:54:00+00:00",
       "title": "Will it get into the cell? Permeability prediction for cyclic peptides tested on unseen chemistry",
       "kind": "Benchmark",
       "area": "Macrocyclic peptides / ADME prediction",
       "difficulty": "Starter",
       "question": "How far do cyclic-peptide permeability models fall when the test peptides come from scaffolds and source papers the model never saw, and does conformer information beat plain 2D descriptors once the split is honest?",
-      "why_now": "argenx agreed on Nov 9 to pay $550M in cash, up to about $1.15B, for Unnatural Products, whose machine-learning-guided macrocyclic peptides are meant to work as pills, and in October Zealand paid Generate $30M upfront of about $1.2B for AI-designed obesity proteins. Crossing the membrane is the main obstacle for oral and intracellular peptide drugs, and published models are mostly scored on random or diversity-based splits rather than on new chemical series, so the reported accuracy may not survive the way these companies would actually use it.",
+      "why_now": "argenx agreed on Nov 9 to pay $550M in cash, up to about $1.15B, for Unnatural Products, whose machine-learning-guided macrocyclic peptides are meant to work as pills, and in October Zealand paid Generate $30M upfront of about $1.2B for AI-designed obesity proteins. Crossing the membrane is the main obstacle for oral and intracellular peptide drugs, and published models are mostly scored on random or diversity-based splits rather than on new chemical series, so the reported accuracy may not survive the way these companies would actually use it. A third signal on Nov 11: Boltz, the open structure-model company, said it is training the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR measurements, including Caco-2 permeability, and claims gains on unfamiliar chemistry. That is the same out-of-distribution test this project runs, but on small molecules and with a commercial dataset; an open, honest-split result on peptides would show whether such claims carry over.",
       "evidence": [
         "2026-11-09-argenx-unnatural-products",
-        "2026-10-13-zealand-generate"
+        "2026-10-13-zealand-generate",
+        "2026-11-11-excelra-boltz-gostar"
       ],
       "datasets": [
         {

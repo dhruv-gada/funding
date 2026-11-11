@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-10T21:51:52+00:00",
-  "run_label": "Evening brief · Nov 10, 2026",
+  "last_updated": "2026-11-11T13:54:00+00:00",
+  "run_label": "Morning brief · Nov 11, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Third Rock Ventures agreed to pay Beijing's Funnel Biosciences up to about $2.16B to design antibodies for its own targets, the largest headline value of BIO-Europe week and a sign that US venture money, not just pharma, is now buying AI-designed biologics from China",
-    "summary": "Funnel's deal with Third Rock tops argenx's $550M cash buyout of Unnatural Products (up to about $1.15B) on headline value but discloses no upfront, so it fits the pattern of back-loaded licensing. Anthropic's IPO, priced at $70 to $78 for up to about $1.02T with trading reported for around Nov 19, and Isomorphic's still-unclosed ~$5B at ~$50B remain the big capital events. Disclosed bio×AI venture since Oct 22 stays at about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M and smaller rounds); Proximal Ventures' new $27.5M fund for AI drug-development services is fund capital and not counted.",
+    "headline": "BIO-Europe week's big AI deals are Third Rock's up-to-~$2.16B antibody pact with Beijing's Funnel Biosciences and argenx's $550M cash buy of Unnatural Products; the final day's news so far is small, with older platform deals paying out in steps and tiny design platforms changing hands for stock",
+    "summary": "Funnel's deal with Third Rock tops argenx's $550M cash buyout of Unnatural Products (up to about $1.15B) on headline value but discloses no upfront, so it fits the pattern of back-loaded licensing. Anthropic's IPO, priced at $70 to $78 for up to about $1.02T with trading reported for around Nov 19 or 20, and Isomorphic's still-unclosed ~$5B at ~$50B remain the big capital events. Disclosed bio×AI venture since Oct 22 stays at about $580M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M and smaller rounds); Proximal Ventures' $27.5M fund is fund capital and not counted.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range implying up to about $1.02T; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic is now reportedly in talks for about $5B at around $50B, up from $2B+ at $40B+ in October, with first human trials said to be targeted around year-end. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range implying up to about $1.02T; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic is now reportedly in talks for about $5B at around $50B, up from $2B+ at $40B+ in October, with first human trials said to be targeted around year-end. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
@@ -20,7 +20,7 @@
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets."
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms."
       }
     ],
     "movers": [
@@ -86,10 +86,11 @@
         "player": "Eli Lilly",
         "kind": "Pharma",
         "direction": "Licensing AI platforms for delivery, and holding equity in AI biologics developers",
-        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B), adding to its run of AI deals this year. Lilly Ventures is also in Fathom Therapeutics' $55M Series A for physics-plus-AI small-molecule design, which added Kos as an investor on Nov 6.",
+        "detail": "Lilly signed METiS for AI-designed lipid nanoparticles (low double-digit millions upfront, up to $1.1B), adding to its run of AI deals this year. Lilly Ventures is also in Fathom Therapeutics' $55M Series A for physics-plus-AI small-molecule design, which added Kos as an investor on Nov 6. Its older AI-target bets are paying out in steps: on Nov 11 Fauna Bio named a second obesity target from its hibernator-genomics platform under their 2023 pact (up to $494M in milestones), triggering an undisclosed payment.",
         "evidence": [
           "2026-10-19-lilly-metis",
-          "2026-11-06-fathom-series-a-kos"
+          "2026-11-06-fathom-series-a-kos",
+          "2026-11-11-lilly-fauna-second-target"
         ]
       },
       {
@@ -260,7 +261,7 @@
         "call": "Pharma–AI discovery licensing deals (not outright acquisitions) keep upfronts below ~5% of headline value",
         "timeframe": "Ongoing",
         "confidence": "High",
-        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it"
+        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down"
       },
       {
         "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
@@ -286,11 +287,108 @@
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, and whether AstraZeneca–Oracle becomes binding",
-      "BIO-Europe in Cologne ends Nov 11: so far argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) are the large AI-linked deals, while Pierre Fabre–XtalPi and DeepLife–3billion came with no terms. Watch the final day for more pharma–AI licences, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers"
+      "BIO-Europe in Cologne closes today (Nov 11): so far argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) are the large AI-linked deals, while Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz came with no terms. Watch for late pharma–AI licences announced after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers"
     ],
-    "since_last_run": "Against this morning's brief: one large new deal and one small one, no status changes. Third Rock Ventures and Beijing's Funnel Biosciences signed an AI antibody design pact worth up to about $2.16B with an undisclosed platform fee (announced in Beijing on Nov 6, reported by Endpoints and pharmaphorum on Nov 9 and 10); it adds Third Rock as a new mover and the largest headline value of BIO-Europe week. Proximal Ventures closed a $27.5M debut fund for AI drug-development services startups (Nov 10), which feeds the trial-and-development theme but is not counted as venture. No prediction resolved: Funnel's upfront is undisclosed, so the sub-5% upfront call is untested, and Anthropic's IPO and Isomorphic's round are unchanged. No item aged out, and the disclosed venture total stays at about $580M. Screened out: Oyster Therapeutics' $60M Series A led by 4BIO with Eli Lilly joining (protein degraders, but its release makes no AI or computational claim), and older items that resurfaced in search (Automata's $45M from January, Scala Biodesign's $16M from March, reported Lila and Chai raise talks from mid-year)."
+    "since_last_run": "Against last night's brief: a quiet morning with three small items and no status changes. Fauna Bio named a second Lilly obesity target from its hibernator-genomics AI platform (Nov 11, undisclosed milestone under a 2023 deal worth up to $494M in milestones), which adds to Lilly's mover entry. Boltz signed on to train its BoltzMol-1 ADMET models on Excelra's curated GOSTAR property data (Nov 11, no terms), feeding the data-layer theme. Rakovina Therapeutics licensed the Artemis.AI design platform for DNA-damage-response cancer targets for C$1M in stock and no cash (Nov 10, related-party, pending TSXV acceptance). No prediction resolved, Anthropic's IPO (trading reported for around Nov 19 or 20) and Isomorphic's round are unchanged, no item aged out, and the disclosed venture total stays at about $580M. Screened out: Oura's $625M purchase of Counsel Health (consumer health services, not bio×AI), Recursion's Nov 2 Q3 update with a $10M Sanofi option milestone (already reflected through its October offering item), and older rounds that resurfaced in search (Aureka's $100M from August, Astromech's $20M and Bios Life's $25M from August, Envisagenics–Boehringer from September)."
   },
   "items": [
+    {
+      "id": "2026-11-11-lilly-fauna-second-target",
+      "date": "2026-11-11",
+      "type": "Partnership",
+      "status": "Announced",
+      "company": "Fauna Bio",
+      "counterparty": "Eli Lilly",
+      "amount_usd": null,
+      "amount_label": "Undisclosed milestone (deal worth up to $494M in milestones)",
+      "round": "Second target-designation milestone",
+      "valuation_label": null,
+      "investors": [
+        "Eli Lilly"
+      ],
+      "area": "Comparative-genomics target discovery (obesity)",
+      "summary": "Fauna Bio, which mines the genomes of hundreds of mammal species, including hibernators, for drug targets, named a second obesity target under its 2023 collaboration with Eli Lilly. The target sits in a different tissue from the first one, which was designated in March, and was picked by its Convergence AI platform; the milestone triggers an undisclosed payment.",
+      "why_invested": "Likely: Lilly is buying a different route to obesity targets than the incretin biology its franchise rests on, using animals that gain and shed weight naturally each year. Fauna frames the second hit as proof that its platform can repeat, not a one-off.",
+      "whats_next": "The release gives no timeline. Watch whether Lilly moves either target into a named drug program, which would trigger larger development milestones from the up-to-$494M pool, and whether Fauna uses the momentum to raise or sign a second pharma partner.",
+      "why_it_matters": "Older AI-target deals signed in 2023 are now paying out in steps, which is the evidence pharma needs before the next round of platform licences.",
+      "links": [
+        {
+          "title": "Business Wire: Fauna Bio announces second target designation with Lilly",
+          "url": "https://www.financialcontent.com/article/bizwire-2026-11-11-fauna-bio-announces-second-target-designation-in-obesity-discovery-collaboration-with-lilly"
+        },
+        {
+          "title": "Fierce Biotech: Fauna's first Lilly target and the hibernation approach",
+          "url": "https://www.fiercebiotech.com/biotech/lillys-obesity-partner-fauna-gets-cosey-hibernating-mammals-weight-loss-potential"
+        },
+        {
+          "title": "Business Wire: first target-designation milestone (March 2026)",
+          "url": "https://www.businesswire.com/news/home/20260319338005/en/Fauna-Bio-Announces-Target-Designation-Milestone-in-Obesity-Discovery-Collaboration"
+        }
+      ],
+      "url": "https://www.financialcontent.com/article/bizwire-2026-11-11-fauna-bio-announces-second-target-designation-in-obesity-discovery-collaboration-with-lilly",
+      "source_name": "Business Wire",
+      "first_seen": "2026-11-11T13:54:00+00:00"
+    },
+    {
+      "id": "2026-11-11-excelra-boltz-gostar",
+      "date": "2026-11-11",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Boltz",
+      "counterparty": "Excelra",
+      "amount_usd": null,
+      "amount_label": "Undisclosed (data licence)",
+      "round": "Training-data partnership",
+      "valuation_label": null,
+      "investors": [],
+      "area": "ADMET prediction / training data",
+      "summary": "Boltz, the public-benefit company behind the open Boltz structure models, is using Excelra's curated GOSTAR database of measured solubility, lipophilicity and Caco-2 permeability to train the ADMET models in its BoltzMol-1 product. No financial terms were given; the companies say models trained on the data matched or beat a leading open-source ADMET tool on unfamiliar chemistry.",
+      "why_invested": "Stated: Boltz says curated measurements at this scale help its models generalise far outside typical training chemistry and save it time; Excelra argues public sources lack enough curated solubility data. Likely: Boltz needs proprietary-grade property data to sell a commercial filtering product on top of its open models.",
+      "whats_next": "No timeline was given. Watch whether Boltz publishes benchmark numbers beyond the release's claims, signs more data suppliers, and whether pharma customers such as Pfizer, already a Boltz partner, adopt BoltzMol-1 for compound triage.",
+      "why_it_matters": "Even open-model companies now pay for curated experimental data, so the edge in molecular property prediction is shifting to whoever owns clean measurements.",
+      "links": [
+        {
+          "title": "ANI / PRNewswire: Excelra's GOSTAR powers Boltz's AI models",
+          "url": "https://aninews.in/news/business/excelras-gostar8482-powers-boltzs-ai-models-for-drug-discovery20261111102611/"
+        },
+        {
+          "title": "The Tribune: syndicated copy of the release",
+          "url": "https://www.tribuneindia.com/news/business/excelras-gostar-powers-boltzs-ai-models-for-drug-discovery"
+        }
+      ],
+      "url": "https://aninews.in/news/business/excelras-gostar8482-powers-boltzs-ai-models-for-drug-discovery20261111102611/",
+      "source_name": "ANI (PRNewswire)",
+      "first_seen": "2026-11-11T13:54:00+00:00"
+    },
+    {
+      "id": "2026-11-10-rakovina-artemis-ai-licence",
+      "date": "2026-11-10",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Artemis Therapeutics",
+      "counterparty": "Rakovina Therapeutics",
+      "amount_usd": null,
+      "amount_label": "C$1M in Rakovina shares (two tranches, up to ~9.9% of shares)",
+      "round": "Exclusive platform licence",
+      "valuation_label": null,
+      "investors": [
+        "Rakovina Therapeutics"
+      ],
+      "area": "AI small-molecule design (DNA-damage response oncology)",
+      "summary": "Vancouver-listed Rakovina Therapeutics took an exclusive worldwide licence to private Artemis Therapeutics' Artemis.AI design platform for its DNA-damage-response cancer targets, paying only in stock worth a deemed C$1M across two tranches and no cash, royalties or milestones. It is a related-party deal because insiders overlap, and it still needs TSX Venture Exchange acceptance.",
+      "why_invested": "Stated: Rakovina says exclusivity plus future platform upgrades gives it a durable edge in DDR oncology and points to the Artemis team's record of licensed candidates and two CACHE challenge wins. Likely: a cash-light micro-cap is swapping equity for AI design capacity it could not build itself.",
+      "whats_next": "TSXV must accept the share issuance; Artemis has 60 days to opt into co-developing any compound Rakovina designates, and the licence turns non-exclusive if Rakovina runs no platform program for 18 months. Watch its brain-penetrant ATR inhibitor data at the Society for Neuro-Oncology meeting.",
+      "why_it_matters": "At the small end of the market, AI design platforms are being paid for in stock rather than cash, the same pattern as iSpecimen's FoldLab buy last week.",
+      "links": [
+        {
+          "title": "GlobeNewswire: Rakovina secures exclusive licence to Artemis.AI",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399648/0/en/rakovina-therapeutics-secures-exclusive-worldwide-licence-to-artemis-ai-platform-for-dna-damage-response-oncology-drug-discovery.html"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399648/0/en/rakovina-therapeutics-secures-exclusive-worldwide-licence-to-artemis-ai-platform-for-dna-damage-response-oncology-drug-discovery.html",
+      "source_name": "GlobeNewswire",
+      "first_seen": "2026-11-11T13:54:00+00:00"
+    },
     {
       "id": "2026-11-10-iorganbio-mitsui",
       "date": "2026-11-10",

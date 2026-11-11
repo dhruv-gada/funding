@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-10T21:51:52+00:00",
+ "last_updated": "2026-11-11T13:54:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -196,9 +196,14 @@
      "label": "METiS delivery deal",
      "amount": "~$1.1B",
      "deal": "p-lilly-metis"
+    },
+    {
+     "label": "Fauna Bio names a second obesity target",
+     "amount": "Undisclosed milestone",
+     "deal": "p-lilly-fauna"
     }
    ],
-   "insight": "Lilly shows up in 8 deals on this map, more than anyone else. It takes small equity stakes early (most recently Fathom's $55M physics-plus-AI Series A), then signs licensing deals with large milestone totals."
+   "insight": "Lilly shows up in more deals on this map than anyone else. It takes small equity stakes early (most recently Fathom's $55M physics-plus-AI Series A), signs licences with large milestone totals, and then pays them out step by step, as with Fauna Bio's second obesity target on Nov 11."
   },
   {
    "id": "c-passthrough",
@@ -3093,6 +3098,69 @@
    "url": "https://endpoints.news/third-rock-enters-2b-partnership-with-ai-focused-chinese-biotech/",
    "source_name": "Endpoints News",
    "note": "A venture firm, not a pharma, is the licensee; targets are nominated by Third Rock for its own company creation. Upfront and milestone split undisclosed."
+  },
+  {
+   "id": "p-lilly-fauna",
+   "date": "2026-11-11",
+   "type": "Partnership",
+   "company": "Fauna Bio",
+   "sector": "Targets, delivery & biology",
+   "round": "Second target-designation milestone (2023 obesity collaboration)",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed milestone · deal up to $494M in milestones",
+   "payers": [
+    {
+     "name": "Eli Lilly",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.financialcontent.com/article/bizwire-2026-11-11-fauna-bio-announces-second-target-designation-in-obesity-discovery-collaboration-with-lilly",
+   "source_name": "Business Wire",
+   "note": "Milestone payment under a December 2023 deal; the $494M total belongs to the 2023 signing, so it is not counted as new 2026 headline value."
+  },
+  {
+   "id": "l-boltz-excelra",
+   "date": "2026-11-11",
+   "type": "In-licensing",
+   "company": "Excelra",
+   "sector": "Small molecule & peptide design",
+   "round": "GOSTAR training-data licence for BoltzMol-1 ADMET models",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Boltz",
+     "kind": "AI biotech"
+    }
+   ],
+   "participants": [],
+   "url": "https://aninews.in/news/business/excelras-gostar8482-powers-boltzs-ai-models-for-drug-discovery20261111102611/",
+   "source_name": "ANI (PRNewswire)",
+   "note": "AI model company paying a data curator; terms undisclosed and source is a syndicated press release."
+  },
+  {
+   "id": "l-rakovina-artemis",
+   "date": "2026-11-10",
+   "type": "In-licensing",
+   "company": "Artemis Therapeutics",
+   "sector": "Small molecule & peptide design",
+   "round": "Exclusive Artemis.AI platform licence (DDR oncology)",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "C$1M in Rakovina shares",
+   "payers": [
+    {
+     "name": "Rakovina Therapeutics",
+     "kind": "AI biotech"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399648/0/en/rakovina-therapeutics-secures-exclusive-worldwide-licence-to-artemis-ai-platform-for-dna-damage-response-oncology-drug-discovery.html",
+   "source_name": "GlobeNewswire",
+   "note": "Paid entirely in stock (deemed C$1M, two tranches, up to ~9.9% of shares); related-party deal pending TSXV acceptance. Left out of USD totals since it is stock in Canadian dollars."
   }
  ]
 }
