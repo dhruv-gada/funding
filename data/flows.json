@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-11T21:50:34+00:00",
+ "last_updated": "2026-11-12T13:55:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -125,9 +125,14 @@
      "label": "Biossil buys Theriva's shelved enzymes",
      "amount": "$350K upfront · up to ~$91M",
      "deal": "l-biossil-theriva"
+    },
+    {
+     "label": "Anthropic works on agentic CAR-T design with Generate Biomedicines",
+     "amount": "Undisclosed",
+     "deal": "p-generate-anthropic"
     }
    ],
-   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and owning drug programs outright (Anthropic–Mithril), now also via portfolio companies like Biossil that buy shelved clinical drugs. Anthropic's S-1 now pitches that bio push to public investors. Most terms stay undisclosed. Chai's Roche deal (Nov 5) makes seven pharma or biotech partners this year for one OpenAI-backed model company."
+   "insight": "AI labs reach bio four ways: buying small teams, investing in model companies that sell to pharma, alumni who found companies, and owning drug programs outright (Anthropic–Mithril), now also via portfolio companies like Biossil that buy shelved clinical drugs. Anthropic's S-1 now pitches that bio push to public investors. Most terms stay undisclosed. Chai's Roche deal (Nov 5) makes seven pharma or biotech partners this year for one OpenAI-backed model company. Anthropic's collaboration with Generate, a public AI biotech, shows a lab working inside someone else's pipeline as well as building its own."
   },
   {
    "id": "c-nvidia",
@@ -358,9 +363,14 @@
      "label": "Mitsui Chemicals backs iORGANBIO's AI-run cell and organoid lab",
      "amount": "Undisclosed",
      "deal": "v-iorganbio"
+    },
+    {
+     "label": "Unlearn models untreated outcomes for Structure's oral GLP-1 study",
+     "amount": "Undisclosed",
+     "deal": "p-structure-unlearn"
     }
    ],
-   "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic. argenx's Nov 9 deal shows the exit route: a pharma partner that has seen the design-and-make loop work pays mostly in cash to own it. The loop now reaches the cells the drugs are tested on: Mitsui Chemicals' Nov 10 stake puts a materials supplier inside iORGANBIO's automated cell factory."
+   "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic. argenx's Nov 9 deal shows the exit route: a pharma partner that has seen the design-and-make loop work pays mostly in cash to own it. The loop now reaches the cells the drugs are tested on: Mitsui Chemicals' Nov 10 stake puts a materials supplier inside iORGANBIO's automated cell factory. On Nov 12 digital twins reached a mid-size obesity developer, Structure Therapeutics, through Unlearn."
   }
  ],
  "deals": [
@@ -3161,6 +3171,82 @@
    "url": "https://www.globenewswire.com/news-release/2026/11/10/3399648/0/en/rakovina-therapeutics-secures-exclusive-worldwide-licence-to-artemis-ai-platform-for-dna-damage-response-oncology-drug-discovery.html",
    "source_name": "GlobeNewswire",
    "note": "Paid entirely in stock (deemed C$1M, two tranches, up to ~9.9% of shares); related-party deal pending TSXV acceptance. Left out of USD totals since it is stock in Canadian dollars."
+  },
+  {
+   "id": "v-biomatter",
+   "date": "2026-11-12",
+   "type": "Venture",
+   "company": "Biomatter",
+   "sector": "Protein & antibody design",
+   "round": "Series A",
+   "cash_usd": 18000000,
+   "headline_usd": 18000000,
+   "amount_label": "$18M",
+   "payers": [
+    {
+     "name": "Astanor",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "UVC Partners",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Inventure",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Metaplanet",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.financialcontent.com/article/bizwire-2026-11-12-biomatter-raises-18m-series-a-to-scale-its-ai-powered-enzyme-design-for-global-industry-leaders",
+   "source_name": "Business Wire",
+   "note": "AI enzyme design; customers span pharma (AstraZeneca, Sanofi) and industrial chemistry (BASF)."
+  },
+  {
+   "id": "p-structure-unlearn",
+   "date": "2026-11-12",
+   "type": "Partnership",
+   "company": "Unlearn",
+   "sector": "Clinical & development AI",
+   "round": "Digital-twin analysis of aleniglipron extension study",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Structure Therapeutics",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.newswire.com/news/unlearn-and-structure-therapeutics-collaborate-to-apply-ai-generated-22887459",
+   "source_name": "Newswire",
+   "note": "Retrospective analysis; no financial terms disclosed."
+  },
+  {
+   "id": "p-generate-anthropic",
+   "date": "2026-10-27",
+   "type": "Partnership",
+   "company": "Generate Biomedicines",
+   "sector": "Protein & antibody design",
+   "round": "Research collaboration on agentic CAR-T design",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Anthropic",
+     "kind": "Big tech & AI labs"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401445/0/en/generate-biomedicines-reports-third-quarter-2026-financial-results-and-provides-business-update.html",
+   "source_name": "GlobeNewswire",
+   "note": "Research collaboration with no disclosed payment; confirmed in Generate's Q3 report. Direction of money unclear."
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-11T21:50:34+00:00",
-  "run_label": "Evening brief · Nov 11, 2026",
+  "last_updated": "2026-11-12T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 12, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No changes to the ideas this run. No new qualifying deal landed this evening, so no idea's evidence or timing moved and none went stale.",
+  "since_last_run": "Updated one idea, added none, retired none. The ALS digital-twin control-arm project now cites Unlearn's Nov 12 digital-twin analysis for Structure Therapeutics, and its PRO-ACT link and size were re-checked against the database's home page (13,717 patient records from 44 trials). Biomatter's $18M enzyme-design round is a single small deal, so it does not yet justify a new enzyme-design idea.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -114,26 +114,27 @@
       "id": "als-digital-twin-control-arm",
       "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-12T13:55:00+00:00",
       "title": "How many placebo patients can a digital twin replace? A test on past ALS trials",
       "kind": "Research project",
       "area": "Clinical trial AI / synthetic control arms",
       "difficulty": "Intermediate",
       "question": "If you train a disease-progression model on placebo arms from older ALS trials, how much does adjusting for its predictions shrink the sample size a new trial needs, without biasing the treatment effect?",
-      "why_now": "Trial-stage AI is drawing money and partners: Boehringer is testing Microsoft's digital patient twins and synthetic control arms, AstraZeneca and Oracle are working on AI-driven recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, and Formation Bio raised $600M to run drugs through an AI-native development platform. The open question for all of them is how many patients a model can stand in for, measured on real trials.",
+      "why_now": "Trial-stage AI is drawing money and partners: Boehringer is testing Microsoft's digital patient twins and synthetic control arms, AstraZeneca and Oracle are working on AI-driven recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, Formation Bio raised $600M to run drugs through an AI-native development platform, and on Nov 12 Unlearn began modelling untreated outcomes for Structure Therapeutics' oral GLP-1 extension study. The open question for all of them is how many patients a model can stand in for, measured on real trials.",
       "evidence": [
         "2026-10-24-boehringer-microsoft-twins",
         "2026-10-27-atlas-bio-seed",
         "2026-10-20-astrazeneca-oracle-trials",
-        "2026-10-28-formation-bio-600m-fund"
+        "2026-10-28-formation-bio-600m-fund",
+        "2026-11-12-unlearn-structure-twins"
       ],
       "datasets": [
         {
           "name": "PRO-ACT (Pooled Resource Open-Access ALS Clinical Trials)",
-          "url": "https://ncri1.partners.org/ProACT/Home/Index",
+          "url": "https://ncri1.partners.org/proact",
           "what": "Pooled patient-level data from many completed ALS trials: ALSFRS-R scores over time, vitals, labs, demographics and treatment arm",
           "access": "Free with registration and a data-use agreement",
-          "size": "Small (tabular)"
+          "size": "13,717 anonymized patient records from 44 Phase II/III trials"
         },
         {
           "name": "Project Data Sphere",
@@ -156,7 +157,7 @@
         "Biostatistics (ANCOVA, mixed models)",
         "Clinical trial basics"
       ],
-      "who_cares": "Microsoft and Boehringer, AstraZeneca, Atlas Bio, Formation Bio, and rare-disease sponsors who struggle to recruit placebo patients.",
+      "who_cares": "Microsoft and Boehringer, AstraZeneca, Atlas Bio, Formation Bio, Unlearn and obesity developers such as Structure Therapeutics, and rare-disease sponsors who struggle to recruit placebo patients.",
       "risks": "Older trials used different inclusion rules than current ones; report how performance changes with trial era."
     },
     {
