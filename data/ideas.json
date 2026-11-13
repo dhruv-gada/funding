@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-13T15:30:00+00:00",
-  "run_label": "Morning brief · Nov 13, 2026",
+  "last_updated": "2026-11-13T22:05:00+00:00",
+  "run_label": "Evening brief · Nov 13, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No new ideas and none retired. Housekeeping only: the shelved-drug rescue idea drops Biossil's Sep 28 $153M round from its evidence because the deal aged out of the 45-day news window; it still cites Biossil's Nov 2 Theriva asset buy and Formation Bio's $600M fund, and its rationale is unchanged. No new deal this run opens an angle the current ideas miss.",
+  "since_last_run": "No new ideas and none retired. Two ideas updated: the cyclic-peptide permeability benchmark adds Hansoh–AilsynBio (Nov 13, up to RMB317M for AI-found oral cyclic peptides) as a second buyer of the drug class this week, and the shelved-drug rescue scan adds ChronicleBio–Prolong (Nov 12), where an existing drug with human data is matched to an AI-defined ME/CFS subgroup. Dataset links on both were re-checked (AACT, Open Targets downloads, the LiteFold CycPepMPDB mirror); no dataset changed.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -274,16 +274,17 @@
       "id": "shelved-drug-rescue-scan",
       "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-13T15:30:00+00:00",
+      "updated": "2026-11-13T22:05:00+00:00",
       "title": "Shelf scan: which stopped trials were dropped for business reasons but have strong biology?",
       "kind": "Dataset build",
       "area": "Drug repurposing / clinical assets",
       "difficulty": "Starter",
       "question": "Among Phase 1–2 trials that were stopped early, which were stopped for funding or strategy rather than safety or efficacy, and which of those hit targets with strong human genetic support?",
-      "why_now": "Buying shelved drugs has become an AI business model. Biossil raised $153M in a round led by OpenAI's startup fund and has started buying paused assets (Theriva's transplant-gut enzyme for $350K upfront), and Formation Bio raised a $600M fund to buy and develop Phase 1–2 drugs. Published analyses have found that drugs aimed at genetically supported targets succeed more often. A public, ranked list of rescue candidates does not exist.",
+      "why_now": "Buying shelved drugs has become an AI business model. Biossil raised $153M in a round led by OpenAI's startup fund and has started buying paused assets (Theriva's transplant-gut enzyme for $350K upfront), and Formation Bio raised a $600M fund to buy and develop Phase 1–2 drugs. Published analyses have found that drugs aimed at genetically supported targets succeed more often. A public, ranked list of rescue candidates does not exist. A related route appeared on Nov 12: Prolong is funding a Phase 2a of PP-007, an oxygen carrier already tested in more than 300 people, in ME/CFS patients that ChronicleBio's multi-omic models place in a matching subtype. Matching existing assets to biologically defined patient groups is the same scan run from the patient side.",
       "evidence": [
         "2026-11-02-biossil-theriva-enzymes",
-        "2026-10-28-formation-bio-600m-fund"
+        "2026-10-28-formation-bio-600m-fund",
+        "2026-11-12-chroniclebio-prolong"
       ],
       "datasets": [
         {
@@ -384,17 +385,18 @@
       "id": "cyclic-peptide-permeability",
       "status": "New",
       "first_seen": "2026-11-10T13:58:23+00:00",
-      "updated": "2026-11-11T13:54:00+00:00",
+      "updated": "2026-11-13T22:05:00+00:00",
       "title": "Will it get into the cell? Permeability prediction for cyclic peptides tested on unseen chemistry",
       "kind": "Benchmark",
       "area": "Macrocyclic peptides / ADME prediction",
       "difficulty": "Starter",
       "question": "How far do cyclic-peptide permeability models fall when the test peptides come from scaffolds and source papers the model never saw, and does conformer information beat plain 2D descriptors once the split is honest?",
-      "why_now": "argenx agreed on Nov 9 to pay $550M in cash, up to about $1.15B, for Unnatural Products, whose machine-learning-guided macrocyclic peptides are meant to work as pills, and in October Zealand paid Generate $30M upfront of about $1.2B for AI-designed obesity proteins. Crossing the membrane is the main obstacle for oral and intracellular peptide drugs, and published models are mostly scored on random or diversity-based splits rather than on new chemical series, so the reported accuracy may not survive the way these companies would actually use it. A third signal on Nov 11: Boltz, the open structure-model company, said it is training the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR measurements, including Caco-2 permeability, and claims gains on unfamiliar chemistry. That is the same out-of-distribution test this project runs, but on small molecules and with a commercial dataset; an open, honest-split result on peptides would show whether such claims carry over.",
+      "why_now": "argenx agreed on Nov 9 to pay $550M in cash, up to about $1.15B, for Unnatural Products, whose machine-learning-guided macrocyclic peptides are meant to work as pills, and in October Zealand paid Generate $30M upfront of about $1.2B for AI-designed obesity proteins. Crossing the membrane is the main obstacle for oral and intracellular peptide drugs, and published models are mostly scored on random or diversity-based splits rather than on new chemical series, so the reported accuracy may not survive the way these companies would actually use it. A third signal on Nov 11: Boltz, the open structure-model company, said it is training the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR measurements, including Caco-2 permeability, and claims gains on unfamiliar chemistry. That is the same out-of-distribution test this project runs, but on small molecules and with a commercial dataset; an open, honest-split result on peptides would show whether such claims carry over. A fourth signal on Nov 13: Hansoh signed Hong Kong spin-off AilsynBio, for up to RMB317M plus royalties, to find oral cyclic peptides with AI, so two buyers in one week are paying for exactly the class where permeability decides success.",
       "evidence": [
         "2026-11-09-argenx-unnatural-products",
         "2026-10-13-zealand-generate",
-        "2026-11-11-excelra-boltz-gostar"
+        "2026-11-11-excelra-boltz-gostar",
+        "2026-11-13-hansoh-ailsynbio"
       ],
       "datasets": [
         {
