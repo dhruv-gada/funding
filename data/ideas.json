@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-12T21:55:00+00:00",
-  "run_label": "Evening brief · Nov 12, 2026",
+  "last_updated": "2026-11-13T15:30:00+00:00",
+  "run_label": "Morning brief · Nov 13, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "Updated one idea, added none, retired none. The ALS digital-twin control-arm project now cites Orakl Oncology's $34M Series A (Nov 12) for AI trial-outcome forecasting, which strengthens its oncology extension on Project Data Sphere; the PRO-ACT page was re-checked (13,717 records from 44 Phase II/III trials). Orakl, Switchpoint Bio's $5.3M pre-seed and BioMap's partner slate are not yet enough for a new organoid- or biomarker-response idea; one more such deal would justify it.",
+  "since_last_run": "No new ideas and none retired. Housekeeping only: the shelved-drug rescue idea drops Biossil's Sep 28 $153M round from its evidence because the deal aged out of the 45-day news window; it still cites Biossil's Nov 2 Theriva asset buy and Formation Bio's $600M fund, and its rationale is unchanged. No new deal this run opens an angle the current ideas miss.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -274,7 +274,7 @@
       "id": "shelved-drug-rescue-scan",
       "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-06T14:40:00+00:00",
+      "updated": "2026-11-13T15:30:00+00:00",
       "title": "Shelf scan: which stopped trials were dropped for business reasons but have strong biology?",
       "kind": "Dataset build",
       "area": "Drug repurposing / clinical assets",
@@ -282,7 +282,6 @@
       "question": "Among Phase 1–2 trials that were stopped early, which were stopped for funding or strategy rather than safety or efficacy, and which of those hit targets with strong human genetic support?",
       "why_now": "Buying shelved drugs has become an AI business model. Biossil raised $153M in a round led by OpenAI's startup fund and has started buying paused assets (Theriva's transplant-gut enzyme for $350K upfront), and Formation Bio raised a $600M fund to buy and develop Phase 1–2 drugs. Published analyses have found that drugs aimed at genetically supported targets succeed more often. A public, ranked list of rescue candidates does not exist.",
       "evidence": [
-        "2026-09-28-biossil-153m",
         "2026-11-02-biossil-theriva-enzymes",
         "2026-10-28-formation-bio-600m-fund"
       ],

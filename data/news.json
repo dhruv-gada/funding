@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-12T21:55:00+00:00",
-  "run_label": "Evening brief · Nov 12, 2026",
+  "last_updated": "2026-11-13T15:30:00+00:00",
+  "run_label": "Morning brief · Nov 13, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Orakl Oncology's $34M Series A for tumour-organoid trial forecasting led a light evening alongside a $5.3M blood-biomarker pre-seed and BioMap's no-terms partner slate, so the week's big money is still Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash) ahead of Anthropic's Nov 18 IPO pricing",
-    "summary": "The largest deals of the past week remain back-loaded: Funnel's pact with Third Rock heads the list on headline value (up to ~$2.16B, no upfront disclosed), while argenx is paying $550M in cash for Unnatural Products (up to ~$1.15B). Anthropic's IPO prices Nov 18 at $70 to $78 (up to about $1.02T on outstanding shares, about $1.4T fully diluted) and Isomorphic's reported ~$5B at ~$50B is still unclosed. Disclosed bio×AI venture since Oct 22 is now about $635M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, Orakl $34M, Biomatter $18M and smaller rounds); Proximal Ventures' $27.5M fund is fund capital and not counted.",
+    "headline": "A quiet morning with no new qualifying deals, so the week still belongs to Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash), and attention shifts to Anthropic's Nov 18 IPO pricing, which bankers are reportedly weighing above the $70–$78 range",
+    "summary": "No new AI-and-biology deal surfaced since last night's brief. On headline value the past week is led by Funnel's licensing pact with Third Rock (up to ~$2.16B, upfront undisclosed), and on cash by argenx's $550M upfront for Unnatural Products (up to ~$1.15B). Disclosed bio×AI venture since Oct 22 stays at about $635M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, Orakl $34M, Biomatter $18M and smaller rounds), while Anthropic's IPO (pricing Nov 18, $70 to $78, up to about $1.4T fully diluted) and Isomorphic's reported ~$5B raise at ~$50B remain the two big pending money events.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
@@ -35,7 +35,6 @@
           "2026-10-22-miles-wang-raise-talks",
           "2026-10-09-gsk-chai",
           "2026-10-28-formation-bio-600m-fund",
-          "2026-09-28-biossil-153m",
           "2026-11-02-biossil-theriva-enzymes",
           "2026-11-05-roche-chai"
         ]
@@ -211,7 +210,6 @@
           "2026-10-23-hexagon-bio-series-c",
           "2026-10-23-abudhabi-isomorphic",
           "2026-10-07-biohub-virtual-biology-1-8b",
-          "2026-09-28-biossil-153m",
           "2026-11-05-potential-sciences-seed"
         ]
       },
@@ -289,13 +287,13 @@
       }
     ],
     "watchlist": [
-      "Anthropic IPO: pricing on Nov 18 and the first Nasdaq trade on Nov 19 against the $70 to $78 range (up to about $1.02T on outstanding shares, about $1.4T fully diluted), any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
+      "Anthropic IPO: pricing on Nov 18 (the FT reports bankers are weighing a price above the range) and the first Nasdaq trade on Nov 19 against the $70 to $78 range (up to about $1.02T on outstanding shares, about $1.4T fully diluted), any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (Nov 14–17), and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
       "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers"
     ],
-    "since_last_run": "Against this morning's brief: three small additions and no status changes. Orakl Oncology closed a $34M Series A co-led by Norrsken VC and Singular for AI trial-outcome forecasting from tumour organoids (Nov 12), Switchpoint Bio raised a $5.3M pre-seed for AI-interpreted blood methylation biomarkers of treatment response (Nov 11), and BioMap announced collaborations with ten named partners including Harbour BioMed, Revvity and Temasek Life Sciences Laboratory, with no terms (Nov 12). The disclosed venture total since Oct 22 rises to about $635M. No prediction resolved: Orakl is adjacent to the trial-AI call but under its $50M bar. Isomorphic's round and Anthropic's Nov 18 pricing are unchanged, and no item aged out (Biossil's Sep 28 round is at the 45-day edge and drops tomorrow). Screened out: Absci's Q3 update (no new deal), Recursion's $10M Sanofi option from its Nov 2 Q3 report (a milestone inside an existing deal), and older deals resurfacing in search (Takeda–Iambic from February, Lilly–Insilico from March, Automata's $45M from January)."
+    "since_last_run": "Quiet run: no new qualifying deal since the Nov 12 evening brief and no status changes. Biossil's $153M round (Sep 28) aged out of the 45-day window and was removed from the item list and from the OpenAI and crossover-fund mover evidence; its Nov 2 Theriva asset buy keeps Biossil on the board. One update to the watchlist: Fortune (Nov 11), citing the Financial Times, reports that Anthropic's bankers are weighing a price above the filed $70 to $78 range ahead of Nov 18. No prediction resolved, and Isomorphic's reported round is still unclosed. Screened out: Rakovina's new advisory contract with Artemis co-founder Artem Cherkasov (Nov 12, a $160K-a-year consulting deal, not a new licence), Mirendil's $1B Series A (Nov 12, general AI R&D tooling with no stated biology focus), Oura's $625M purchase of Counsel Health and Google's Gemini health launch (healthcare AI, out of scope), Neurosterix's $105M Series B (no AI angle), and older rounds resurfacing in search (Enveda, BigHat, Aureka, Anew Labs and Accipiter from July to September)."
   },
   "items": [
     {
@@ -2453,50 +2451,6 @@
       "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
       "source_name": "Axios Pro",
       "first_seen": "2026-10-27T20:55:00+00:00"
-    },
-    {
-      "id": "2026-09-28-biossil-153m",
-      "date": "2026-09-28",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "Biossil",
-      "counterparty": "OpenAI Startup Fund",
-      "amount_usd": 153000000,
-      "amount_label": "$153M",
-      "round": "Equity round (series not named)",
-      "valuation_label": "$1B (reported)",
-      "investors": [
-        "OpenAI Startup Fund",
-        "Founders Fund",
-        "Quiet Capital",
-        "Modern Capital",
-        "Golden Ventures",
-        "Panache Ventures",
-        "Duke University endowment",
-        "Abu Dhabi Investment Council"
-      ],
-      "area": "AI drug repurposing / clinical assets",
-      "summary": "Biossil, which uses language models to find drug candidates that pharma dropped after clinical setbacks and then buys or licenses them, raised $153M at a reported $1B valuation, five months after leaving stealth with $70M. BetaKit reports the OpenAI Startup Fund led; The Logic lists OpenAI among the backers without naming a lead.",
-      "why_invested": "The CEO's stated case is that AI insight only helps patients if a company has the clinical infrastructure to act on it. Likely: OpenAI wants a showcase where its models drive real drug programs, and backers see shelved assets as cheaper and faster to develop than new discovery.",
-      "whats_next": "Funds go to clinical development capacity in the US and Canada and to buying more candidates; its first public buy came Nov 2 (Theriva's SYN-004 enzymes). Current work spans sickle cell, IPF, glioblastoma, breast cancer and Alzheimer's. Watch for further asset deals and trial starts.",
-      "why_it_matters": "AI-lab money is backing companies that own clinical assets, not just discovery software.",
-      "links": [
-        {
-          "title": "BetaKit: Biossil hits unicorn status with OpenAI-led financing",
-          "url": "https://betakit.com/biossil-hits-unicorn-status-with-new-openai-led-financing/"
-        },
-        {
-          "title": "The Logic: OpenAI backs Biossil in US$153M round",
-          "url": "https://thelogic.co/briefing/openai-backs-biossil-in-us153m-funding-round-report/"
-        },
-        {
-          "title": "Dealroom: OpenAI leads $150M round for drug-reviving Biossil",
-          "url": "https://dealroom.co/news/157312-openai-leads-150m-round-for-drug-reviving-startup-biossil/"
-        }
-      ],
-      "url": "https://betakit.com/biossil-hits-unicorn-status-with-new-openai-led-financing/",
-      "source_name": "BetaKit",
-      "first_seen": "2026-11-04T21:49:34+00:00"
     }
   ]
 }
