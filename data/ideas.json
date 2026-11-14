@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-13T22:05:00+00:00",
-  "run_label": "Evening brief · Nov 13, 2026",
+  "last_updated": "2026-11-14T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 14, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No new ideas and none retired. Two ideas updated: the cyclic-peptide permeability benchmark adds Hansoh–AilsynBio (Nov 13, up to RMB317M for AI-found oral cyclic peptides) as a second buyer of the drug class this week, and the shelved-drug rescue scan adds ChronicleBio–Prolong (Nov 12), where an existing drug with human data is matched to an AI-defined ME/CFS subgroup. Dataset links on both were re-checked (AACT, Open Targets downloads, the LiteFold CycPepMPDB mirror); no dataset changed.",
+  "since_last_run": "No changes to the ideas this run. The only new item, Tourson Intelligence's undisclosed Pre-A rounds for AI protein design, is already covered by the binder-metrics audit and small-budget self-driving lab ideas and does not add enough to change either.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",

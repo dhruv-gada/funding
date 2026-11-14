@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-13T22:05:00+00:00",
+ "last_updated": "2026-11-14T13:55:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -305,9 +305,14 @@
      "label": "Bpifrance's patient fund joins Orakl's Series A",
      "amount": "$34M round",
      "deal": "v-orakl"
+    },
+    {
+     "label": "Shanghai state tech investor leads Tourson's Pre-A",
+     "amount": "Several hundred million yuan (two rounds)",
+     "deal": "v-tourson"
     }
    ],
-   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern."
+   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern. Shanghai's state tech investor leading Tourson Intelligence's Pre-A (Nov 9) is another local-lead case, two weeks after China Life Capital led BioGeometry's A+."
   },
   {
    "id": "c-downstream",
@@ -3407,6 +3412,36 @@
    "url": "https://www.tipranks.com/news/company-announcements/hansoh-enters-collaboration-development-agreement-with-ailsynbio",
    "source_name": "TipRanks (HKEX announcement)",
    "note": "Total reported only in RMB with no USD figure or upfront split, so left out of USD totals. Hansoh picks targets and owns the IP."
+  },
+  {
+   "id": "v-tourson",
+   "date": "2026-11-09",
+   "type": "Venture",
+   "company": "Tourson Intelligence",
+   "sector": "Protein & antibody design",
+   "round": "Pre-A + Pre-A+",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Several hundred million yuan (two rounds, undisclosed)",
+   "payers": [
+    {
+     "name": "Shanghai Science and Technology Innovation Group",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Golden Tripod Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "MegaRobo",
+     "kind": "Undisclosed"
+    }
+   ],
+   "url": "https://m.chinaventure.com.cn/news/111-20261109-393954.html",
+   "source_name": "ChinaVenture",
+   "note": "Shanghai state tech investor led the Pre-A; Golden Tripod and lab-automation maker MegaRobo joined the Pre-A+. Size only given as several hundred million yuan, so not counted in totals."
   }
  ]
 }
