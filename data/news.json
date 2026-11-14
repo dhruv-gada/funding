@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-14T13:55:00+00:00",
-  "run_label": "Morning brief · Nov 14, 2026",
+  "last_updated": "2026-11-14T21:55:00+00:00",
+  "run_label": "Evening brief · Nov 14, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "A quiet Friday night into Saturday: no new AI-bio deal of size, Anthropic's IPO book is reportedly about six times covered ahead of Nov 18 pricing, and a late-found Chinese raise (Tourson Intelligence, several hundred million yuan for AI protein design) extends the run of state-backed design shops",
-    "summary": "Since last night the only new qualifying item is Tourson Intelligence's Pre-A and Pre-A+ (Nov 9, several hundred million yuan, size undisclosed), led by a Shanghai state tech investor with lab-robot maker MegaRobo joining. The week's big money is unchanged: Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) on headline value and argenx–Unnatural Products ($550M cash, up to ~$1.15B) on cash; disclosed bio×AI venture since Oct 22 stays at about $635M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, Orakl $34M, Biomatter $18M and smaller rounds). Anthropic's IPO (pricing Nov 18 at $70 to $78, book reportedly ~6x covered) and Isomorphic's reported ~$5B raise at ~$50B remain the two big pending money events.",
+    "headline": "A quiet Saturday with no new AI-bio deal of size: the one addition is a late find, PsiThera's $25M with AbbVie Ventures joining for oral immune drugs found by simulating protein motion, while Anthropic's IPO (pricing Nov 18) and Isomorphic's reported ~$5B raise remain the money events to watch",
+    "summary": "Since this morning the only new qualifying item is PsiThera's $25M (Nov 10), from AbbVie Ventures, Lumination and its Series A co-leads, for ML-plus-physics design of oral TNFα and TL1A drugs; it lifts disclosed bio×AI venture since Oct 22 to about $660M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, Orakl $34M, PsiThera $25M, Biomatter $18M and smaller rounds). The week's big money is unchanged: Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) on headline value and argenx–Unnatural Products ($550M cash, up to ~$1.15B) on cash. Anthropic prices on Nov 18 at $70 to $78 with a book reportedly about six times covered, and Isomorphic's ~$5B at ~$50B is still unclosed.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
@@ -20,7 +20,7 @@
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms."
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms. PsiThera made it three protein-motion or physics-first chemistry raises in a week: its $25M (Nov 10), with AbbVie Ventures taking a board seat, funds an oral TNFα candidate found with ML plus simulation of transient pockets."
       }
     ],
     "movers": [
@@ -139,11 +139,12 @@
         ]
       },
       {
-        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB, Pierre Fabre, Hansoh)",
+        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB, Pierre Fabre, Hansoh, AbbVie)",
         "kind": "Pharma",
         "direction": "Licensing AI design platforms across their pipelines rather than building them",
-        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms. Chinese pharma is on the same path: Hansoh signed AilsynBio on Nov 13 for AI-found oral cyclic peptides, up to RMB317M plus royalties, keeping target choice and IP.",
+        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms. Chinese pharma is on the same path: Hansoh signed AilsynBio on Nov 13 for AI-found oral cyclic peptides, up to RMB317M plus royalties, keeping target choice and IP. Venture arms are buying in earlier as well: AbbVie Ventures joined PsiThera's $25M on Nov 10 and took a board seat, backing oral small molecules aimed at immune targets AbbVie now hits with antibodies.",
         "evidence": [
+          "2026-11-10-psithera-financing",
           "2026-11-13-hansoh-ailsynbio",
           "2026-11-09-pierre-fabre-xtalpi",
           "2026-11-05-roche-chai",
@@ -292,46 +293,13 @@
     "watchlist": [
       "Anthropic IPO: pricing on Nov 18 (the FT reports bankers are weighing a price above the range, and Bloomberg puts the book at about six times covered) and the first Nasdaq trade on Nov 19 against the $70 to $78 range (up to about $1.02T on outstanding shares, about $1.4T fully diluted), any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
-      "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner",
-      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (opens today, Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
+      "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner; and whether PsiThera, now with AbbVie Ventures on its board, names its oral TNFα development candidate",
+      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (running Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
       "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size"
     ],
-    "since_last_run": "Quiet run: no new AI-bio deal was announced between last night's brief and this morning. One item added from a late find: Tourson Intelligence's Pre-A and Pre-A+ (reported Nov 9, several hundred million yuan, exact size undisclosed, so it does not change the ~$635M disclosed venture total), added to the Chinese state-linked capital mover and the make-and-test theme. Updated: Anthropic's IPO item and mover now note Bloomberg's Nov 12 report of a book about six times covered; range ($70 to $78) and the Nov 18 pricing date are unchanged. No prediction resolved and none replaced; Isomorphic's round is still unclosed. No item aged out. Screened out: Mirendil's $1B Series A (Nov 13, AI that speeds up AI research, no biology angle), Phrontline Biopharma's ~$40M Series A (ADCs, no AI angle), Araceli Biosciences' $4.5M convertible (still only about $2.53M sold per the latest filing), Octopath AI's £1.5M pathology seed (Nov 2, below the bar, screened earlier), and older rounds resurfacing in search (Astromech and Network Bio from August, Anew Labs from September, Aureka from April)."
+    "since_last_run": "Quiet run: no new AI-bio deal was announced between this morning's brief and this evening. One item added from a late find: PsiThera's $25M financing (Nov 10; AbbVie Ventures and Lumination Capital new, Samsara and Lightstone returning), added to the physics-and-simulated-data theme and the other-pharma mover (AbbVie added); it lifts disclosed bio×AI venture since Oct 22 from about $635M to about $660M. No prediction resolved and none replaced; Anthropic's range and Nov 18 pricing date are unchanged, and Isomorphic's round is still unclosed. No item aged out. Screened out: VectorY Therapeutics' €30M EIB convertible (Nov 13) and $83.5M extension (no AI angle), Neurosterix's $105M Series B, Oyster Therapeutics' $60M Series A-2, Windward Bio's IPO and Sanofi placement, and Blackstone's up-to-$1.5B Pfizer GLP-1 co-funding (none with an AI angle); Recursion's $10M Sanofi option milestone (Nov 2, an existing collaboration, already reflected in its Oct item); and older rounds resurfacing in search (Antiverse from March, Perceptic and Inherent from May, 10x Science from April, Octopath AI from Nov 2)."
   },
   "items": [
-    {
-      "id": "2026-11-09-tourson-pre-a-plus",
-      "date": "2026-11-09",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "Tourson Intelligence (途深智合)",
-      "counterparty": "Shanghai Science and Technology Innovation Group (Pre-A lead)",
-      "amount_usd": null,
-      "amount_label": "Several hundred million yuan across Pre-A and Pre-A+ (exact size undisclosed)",
-      "round": "Pre-A + Pre-A+",
-      "valuation_label": null,
-      "investors": [
-        "Shanghai Science and Technology Innovation Group",
-        "Zhongsheng Leading (中生引领)",
-        "Zhoushan Tuyi (舟山途毅)",
-        "Golden Tripod Capital (金鼎资本)",
-        "MegaRobo (镁伽科技)"
-      ],
-      "area": "AI protein design (agent + dry-wet closed loop)",
-      "summary": "Wuxi-based Tourson Intelligence, founded in 2023, calls itself an AI biopharma factory: an agent-driven design platform (ToursynClaw) tied to its own wet lab and a library of designed proteins. It disclosed two back-to-back rounds totalling several hundred million yuan, the first led by a Shanghai state-owned tech investor and the second joined by Golden Tripod and lab-automation maker MegaRobo.",
-      "why_invested": "No investor rationale was published. Likely: Shanghai's state tech fund is backing a local AI protein-design champion in the same way China Life Capital backed BioGeometry, while MegaRobo's stake reads as a strategic bet that closed-loop design shops will be heavy users of its robots.",
-      "whats_next": "The company says the money goes to pushing its own programs toward IND filings, upgrading the platform, and growing AI, R&D and business-development teams for licensing and co-development deals. Watch for a first named pharma licence (Hansoh-style back-loaded terms would be typical), a disclosed round size, and IND timing.",
-      "why_it_matters": "Chinese AI protein-design startups are now raising sizeable early rounds with state-fund leads and robotics makers on the cap table, which feeds the pipeline of China-sourced AI molecules that Western buyers like Third Rock are already licensing.",
-      "links": [
-        {
-          "title": "ChinaVenture: Tourson Intelligence completes Pre-A and Pre-A+ rounds (Chinese)",
-          "url": "https://m.chinaventure.com.cn/news/111-20261109-393954.html"
-        }
-      ],
-      "url": "https://m.chinaventure.com.cn/news/111-20261109-393954.html",
-      "source_name": "ChinaVenture",
-      "first_seen": "2026-11-14T13:55:00+00:00"
-    },
     {
       "id": "2026-11-13-hansoh-ailsynbio",
       "date": "2026-11-13",
@@ -742,6 +710,79 @@
       "url": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
       "source_name": "TechCrunch",
       "first_seen": "2026-11-10T21:51:52+00:00"
+    },
+    {
+      "id": "2026-11-10-psithera-financing",
+      "date": "2026-11-10",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "PsiThera",
+      "counterparty": "AbbVie Ventures (new investor; no round lead named)",
+      "amount_usd": 25000000,
+      "amount_label": "$25M",
+      "round": "Private financing (series not disclosed)",
+      "valuation_label": null,
+      "investors": [
+        "AbbVie Ventures",
+        "Lumination Capital",
+        "Samsara BioCapital",
+        "Lightstone Ventures"
+      ],
+      "area": "ML + physics small-molecule design (protein motion, oral immunology)",
+      "summary": "PsiThera, the former Psivant spun out of Roivant, designs oral small molecules for immune targets usually hit with injected antibodies, using its QUAISAR platform, which pairs machine learning with physics-based simulation of how proteins move to expose short-lived binding pockets. It added $25M from new backers AbbVie Ventures and Lumination Capital plus its Series A co-leads Samsara and Lightstone, about eleven months after a $47.5M Series A.",
+      "why_invested": "No investor rationale was published beyond AbbVie Ventures taking a board seat. Likely: AbbVie, whose immunology franchise is built on injected TNF-class antibodies, wants an early look at oral drugs that could match them, and the company's claim of going from hit to lead optimization on TNFα in about four months is the kind of speed a pharma venture arm pays to watch from inside.",
+      "whats_next": "The company plans to name a development candidate for its oral TNFα inhibitor and start IND-enabling work, and to push its oral TL1A molecules into lead optimization; an IL-6 program is earlier. Watch for the TNFα candidate nomination, whether AbbVie's stake turns into an option or licence, and a larger Series B once IND studies start.",
+      "why_it_matters": "A third protein-motion, physics-plus-ML chemistry company has drawn fresh money in a week (after Fathom and Potential Sciences), and this time a top pharma venture arm is on the board, a sign that simulation-led design is being backed for specific pills against validated immune targets rather than as a platform pitch.",
+      "links": [
+        {
+          "title": "Startup Researcher: PsiThera raises $25M for oral immunology drugs (Nov 10)",
+          "url": "https://www.startupresearcher.com/news/psithera-raises-25-million-for-oral-immunology-therapies"
+        },
+        {
+          "title": "BioPharma Dive: PsiThera's 2025 launch from Psivant and its AI approach to protein motion",
+          "url": "https://www.biopharmadive.com/news/psithera-psivant-therapeutics-immune-ai-design-small-molecules/807475/"
+        },
+        {
+          "title": "BioBucks: 2026 biotech funding tracker entry (Nov 10)",
+          "url": "https://www.biobucks.co/biotech-vc-funding-tracker-2026"
+        }
+      ],
+      "url": "https://www.startupresearcher.com/news/psithera-raises-25-million-for-oral-immunology-therapies",
+      "source_name": "Startup Researcher",
+      "first_seen": "2026-11-14T21:55:00+00:00"
+    },
+    {
+      "id": "2026-11-09-tourson-pre-a-plus",
+      "date": "2026-11-09",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Tourson Intelligence (途深智合)",
+      "counterparty": "Shanghai Science and Technology Innovation Group (Pre-A lead)",
+      "amount_usd": null,
+      "amount_label": "Several hundred million yuan across Pre-A and Pre-A+ (exact size undisclosed)",
+      "round": "Pre-A + Pre-A+",
+      "valuation_label": null,
+      "investors": [
+        "Shanghai Science and Technology Innovation Group",
+        "Zhongsheng Leading (中生引领)",
+        "Zhoushan Tuyi (舟山途毅)",
+        "Golden Tripod Capital (金鼎资本)",
+        "MegaRobo (镁伽科技)"
+      ],
+      "area": "AI protein design (agent + dry-wet closed loop)",
+      "summary": "Wuxi-based Tourson Intelligence, founded in 2023, calls itself an AI biopharma factory: an agent-driven design platform (ToursynClaw) tied to its own wet lab and a library of designed proteins. It disclosed two back-to-back rounds totalling several hundred million yuan, the first led by a Shanghai state-owned tech investor and the second joined by Golden Tripod and lab-automation maker MegaRobo.",
+      "why_invested": "No investor rationale was published. Likely: Shanghai's state tech fund is backing a local AI protein-design champion in the same way China Life Capital backed BioGeometry, while MegaRobo's stake reads as a strategic bet that closed-loop design shops will be heavy users of its robots.",
+      "whats_next": "The company says the money goes to pushing its own programs toward IND filings, upgrading the platform, and growing AI, R&D and business-development teams for licensing and co-development deals. Watch for a first named pharma licence (Hansoh-style back-loaded terms would be typical), a disclosed round size, and IND timing.",
+      "why_it_matters": "Chinese AI protein-design startups are now raising sizeable early rounds with state-fund leads and robotics makers on the cap table, which feeds the pipeline of China-sourced AI molecules that Western buyers like Third Rock are already licensing.",
+      "links": [
+        {
+          "title": "ChinaVenture: Tourson Intelligence completes Pre-A and Pre-A+ rounds (Chinese)",
+          "url": "https://m.chinaventure.com.cn/news/111-20261109-393954.html"
+        }
+      ],
+      "url": "https://m.chinaventure.com.cn/news/111-20261109-393954.html",
+      "source_name": "ChinaVenture",
+      "first_seen": "2026-11-14T13:55:00+00:00"
     },
     {
       "id": "2026-11-09-argenx-unnatural-products",

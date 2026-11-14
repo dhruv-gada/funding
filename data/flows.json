@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-14T13:55:00+00:00",
+ "last_updated": "2026-11-14T21:55:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -3442,6 +3442,44 @@
    "url": "https://m.chinaventure.com.cn/news/111-20261109-393954.html",
    "source_name": "ChinaVenture",
    "note": "Shanghai state tech investor led the Pre-A; Golden Tripod and lab-automation maker MegaRobo joined the Pre-A+. Size only given as several hundred million yuan, so not counted in totals."
+  },
+  {
+   "id": "v-psithera",
+   "date": "2026-11-10",
+   "type": "Venture",
+   "company": "PsiThera",
+   "sector": "Small molecule & peptide design",
+   "round": "Private financing (series not disclosed)",
+   "cash_usd": 25000000,
+   "headline_usd": 25000000,
+   "amount_label": "$25M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [
+    {
+     "name": "AbbVie",
+     "kind": "Pharma"
+    },
+    {
+     "name": "Lumination Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Samsara BioCapital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Lightstone Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.startupresearcher.com/news/psithera-raises-25-million-for-oral-immunology-therapies",
+   "source_name": "Startup Researcher",
+   "note": "AbbVie participated through AbbVie Ventures and took a board seat; Samsara and Lightstone co-led the $47.5M Series A in Dec 2025."
   }
  ]
 }

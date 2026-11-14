@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-14T13:55:00+00:00",
-  "run_label": "Morning brief · Nov 14, 2026",
+  "last_updated": "2026-11-14T21:55:00+00:00",
+  "run_label": "Evening brief · Nov 14, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No changes to the ideas this run. The only new item, Tourson Intelligence's undisclosed Pre-A rounds for AI protein design, is already covered by the binder-metrics audit and small-budget self-driving lab ideas and does not add enough to change either.",
+  "since_last_run": "Updated one idea, added none and retired none. The molecular-dynamics vs static-structure idea now cites PsiThera's $25M (Nov 10, AbbVie Ventures joining) as a third protein-motion chemistry raise in a week, and its dataset links (MISATO, PLINDER, mdCATH) were re-checked; mdCATH's link was normalised and its size note now reflects the two figures on its page.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -330,14 +330,15 @@
       "id": "dynamics-vs-static-affinity",
       "status": "Active",
       "first_seen": "2026-11-06T21:49:14+00:00",
-      "updated": "2026-11-06T21:49:14+00:00",
+      "updated": "2026-11-14T21:55:00+00:00",
       "title": "Does molecular-dynamics information beat a single static structure for predicting ligand binding?",
       "kind": "Research project",
       "area": "Physics-based simulation + ML / small-molecule design",
       "difficulty": "Intermediate",
       "question": "For protein–ligand complexes with measured affinities, do features or embeddings learned from MD trajectories improve affinity and pose-stability prediction over models that see only one crystal structure, and on which kinds of targets (flexible pockets, cryptic sites) does the gain show up?",
-      "why_now": "Investors backed two physics-first chemistry companies in two days: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry, and Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6). Both pitch simulation as the fix for data-starved, static-structure models, but there is little open, leakage-controlled evidence on when dynamics actually helps.",
+      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps.",
       "evidence": [
+        "2026-11-10-psithera-financing",
         "2026-11-06-fathom-series-a-kos",
         "2026-11-05-potential-sciences-seed"
       ],
@@ -358,10 +359,10 @@
         },
         {
           "name": "mdCATH",
-          "url": "https://www.huggingface.co/datasets/compsciencelab/mdCATH",
+          "url": "https://huggingface.co/datasets/compsciencelab/mdCATH",
           "what": "All-atom MD of 5,398 CATH protein domains, five replicas at five temperatures (320–450 K), 134,950 trajectories, for pretraining a dynamics-aware protein encoder",
           "access": "Open (CC BY 4.0)",
-          "size": "About 3.3 TB"
+          "size": "About 3.3 TB in the dataset-size table (the page sidebar shows 3.61 TB)"
         }
       ],
       "approach": [
@@ -378,7 +379,7 @@
         "MD analysis (MDAnalysis or mdtraj)",
         "Structural biology basics"
       ],
-      "who_cares": "Fathom, Potential Sciences and other physics-plus-AI shops, their pharma partners (Lilly Ventures is in Fathom), and structure-model builders such as Isomorphic and Chai deciding whether to add dynamics.",
+      "who_cares": "Fathom, Potential Sciences, PsiThera and other physics-plus-AI shops, their pharma backers (Lilly Ventures in Fathom, AbbVie Ventures in PsiThera), and structure-model builders such as Isomorphic and Chai deciding whether to add dynamics.",
       "risks": "MISATO's trajectories may be too short to sample slow pocket motions, and its affinity labels are a subset of the complexes; check first how many complexes have both MD and a measured affinity after the PLINDER split filter."
     },
     {
