@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-15T13:50:00+00:00",
-  "run_label": "Morning brief · Nov 15, 2026",
+  "last_updated": "2026-11-15T21:50:00+00:00",
+  "run_label": "Evening brief · Nov 15, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No changes to the ideas this run. No new deals landed since the last brief, so no idea gained evidence, none was added and none was retired.",
+  "since_last_run": "No changes to the ideas this run. No new qualifying deals landed since the morning brief, so no idea gained evidence, none was added and none was retired.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
