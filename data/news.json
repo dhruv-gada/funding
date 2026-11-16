@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-15T21:50:00+00:00",
-  "run_label": "Evening brief · Nov 15, 2026",
+  "last_updated": "2026-11-16T13:49:00+00:00",
+  "run_label": "Morning brief · Nov 16, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "A quiet weekend with no new AI-bio deal since Friday: the week's money story still runs through argenx's $550M cash buy of Unnatural Products and Third Rock–Funnel (up to ~$2.16B), while Anthropic's IPO pricing on Nov 18 and Isomorphic's reported ~$5B raise are the next events to move the field",
-    "summary": "No qualifying deal landed over the weekend. Disclosed bio×AI venture since Oct 22 is about $660M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, Orakl $34M, PsiThera $25M, Biomatter $18M and smaller rounds). The week's big money is unchanged: Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) on headline value and argenx–Unnatural Products ($550M cash, up to ~$1.15B) on cash. Anthropic prices on Nov 18 at $70 to $78 with a book reportedly about six times covered, and Isomorphic's ~$5B at ~$50B is still unclosed.",
+    "headline": "A quiet Monday morning for AI-bio deals: both of today's big biotech headlines, Lilly's up-to-$1.5B buy of Calytrix and Seawolf's $100M launch with a Sanofi licence, have no AI angle, so the next event to move the field is Anthropic's IPO pricing on Wednesday, with Isomorphic's reported ~$5B raise still unclosed",
+    "summary": "No qualifying deal landed since Friday. Disclosed bio×AI venture since Oct 22 is about $660M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, Orakl $34M, PsiThera $25M, Biomatter $18M and smaller rounds), and the biggest recent money is still Third Rock–Funnel (up to ~$2.16B) on headline value and argenx–Unnatural Products ($550M cash) on cash. Iambic's first quarterly report confirms its IPO raised $172.5M gross with the overallotment and that AbbVie paid about $47M upfront, while Anthropic prices on Nov 18 at $70 to $78.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
@@ -77,7 +77,7 @@
         "player": "NVIDIA",
         "kind": "Big tech",
         "direction": "In the cap tables and now inside lab instruments",
-        "detail": "NVentures joined Basecamp's $140M Series C, NVIDIA-backed Iambic raised $150M in its IPO, and Danaher is building NVIDIA computing and BioNeMo models into its lab instruments. NVIDIA rarely leads, but it now spans model companies, public drug developers and lab hardware. It is also supplying compute in kind to Biohub's virtual-cell coalition.",
+        "detail": "NVentures joined Basecamp's $140M Series C, NVIDIA-backed Iambic raised $172.5M in its IPO (with the overallotment), and Danaher is building NVIDIA computing and BioNeMo models into its lab instruments. NVIDIA rarely leads, but it now spans model companies, public drug developers and lab hardware. It is also supplying compute in kind to Biohub's virtual-cell coalition.",
         "evidence": [
           "2026-10-15-iambic-ipo",
           "2026-10-15-danaher-nvidia-autonomous-lab",
@@ -269,7 +269,7 @@
         "call": "Pharma–AI discovery licensing deals (not outright acquisitions) keep upfronts below ~5% of headline value",
         "timeframe": "Ongoing",
         "confidence": "High",
-        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down; Hansoh–AilsynBio (Nov 13, up to RMB317M, upfront not split out) neither confirms nor breaks it"
+        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down; Hansoh–AilsynBio (Nov 13, up to RMB317M, upfront not split out) neither confirms nor breaks it; Iambic disclosed on Nov 16 that AbbVie paid about $47M upfront for its September deal, but with no headline total it cannot be scored; Recursion's Nov 2 update shows Sanofi has paid $144M to date against more than $300M still in milestones"
       },
       {
         "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
@@ -281,7 +281,7 @@
         "call": "Another AI-native drug developer files publicly for a US IPO",
         "timeframe": "By end of Q1 2027",
         "confidence": "Medium",
-        "based_on": "Iambic's $150M IPO priced at the midpoint with insider support; Generate Biomedicines' $400M IPO in February"
+        "based_on": "Iambic's $172.5M IPO (with overallotment) priced at the midpoint with insider support; Generate Biomedicines' $400M IPO in February"
       },
       {
         "call": "At least one more pharma-funded or big tech-funded biological data consortium of 10M+ cells (or a comparable perturbation atlas) is announced",
@@ -291,13 +291,14 @@
       }
     ],
     "watchlist": [
-      "Anthropic IPO: pricing on Nov 18 (the FT reports bankers are weighing a price above the range, and Bloomberg puts the book at about six times covered) and the first Nasdaq trade on Nov 19 against the $70 to $78 range (up to about $1.02T on outstanding shares, about $1.4T fully diluted), any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
+      "Anthropic IPO: pricing on Wednesday, Nov 18 at $70 to $78 (reports of a book about six times covered and talk of pricing above the range) and the first Nasdaq trade on Thursday, Nov 19; any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner; and whether PsiThera, now with AbbVie Ventures on its board, names its oral TNFα development candidate",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (running Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
-      "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size"
+      "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size",
+      "Listed AI drug developers this week: Iambic's IAM217 (KIF18A) preclinical data at EORTC-NCI-AACR (Nov 18–20) and its IAM-C1 IND due this quarter; Recursion's next Sanofi development-candidate milestones after the $10M option on Nov 2; and whether Lilly, now 15 acquisitions and more than $30B into 2026 with Calytrix, buys an AI-native developer rather than single assets"
     ],
-    "since_last_run": "Quiet run: no new qualifying AI-bio deal was announced between this morning's brief and this evening, which fits a Sunday. No items added, updated or aged out (the oldest item, Whitelab's Oct 5 Series B, is still inside the 45-day window). No prediction resolved and none replaced. Anthropic's IPO terms are unchanged since the last brief: still set to price on Nov 18 at $70 to $78, with reports of an oversubscribed book and talk of pricing above the range, and Nasdaq trading from Nov 19. Isomorphic's reported ~$5B round is still unclosed. Screened out this run: Mirendil's $1B Series A (Nov 13, Kleiner Perkins and Clearlake; multi-agent research tooling with no stated biology focus); Windward Bio's ~$225M IPO including Sanofi's $50M placement (Nov 12–13; antibody developer with no AI angle); Phrontline Biopharma's ~$40M Series A (ADCs, no AI angle); Araceli Biosciences' $4.5M convertible, still reported as in progress with about $2.5M sold and no investors named; and older items resurfacing in search (Helical's $10M seed from April, Sightera's €3M pre-seed from July, Cellular Intelligence's Novo cell-therapy buy from May)."
+    "since_last_run": "Quiet run: no new qualifying AI-bio deal was announced between last night's brief and this morning. No items added and none aged out (the oldest item, Whitelab's Oct 5 Series B, is still inside the 45-day window). One item updated: Iambic's Nov 16 third-quarter release confirms the underwriters fully exercised their option, so its IPO raised $172.5M gross (about $156M net) rather than the $150M base deal, and it discloses that AbbVie paid about $47M upfront in October for the September collaboration; pro forma cash is about $455M. No prediction resolved and none replaced. Anthropic's IPO is unchanged: pricing Nov 18 at $70 to $78, Nasdaq trading from Nov 19. Isomorphic's reported ~$5B round is still unclosed. Context: Menlo Ventures' 2026 healthcare AI report (Nov 16) puts US life-sciences AI spending at about $700M, up 23x in a year. Screened out this run: Lilly's up-to-$1.5B acquisition of Calytrix Bio (Nov 16; a CALR-mutation antibody for blood cancers with no AI angle, Lilly's 15th buyout of the year); Seawolf Therapeutics' $100M Series A with a Sanofi licence worth up to $1.2B in milestones (Nov 16; non-viral DNA delivery, no AI angle); Oxford BioDynamics' undisclosed EpiSwitch Orion biomarker study for J&J in IBD (Nov 5; no AI stated); Telesis Bio repositioning to sell on-site DNA synthesis to AI discovery teams (a strategy change, not a deal); and OneX Intelligence's Series A of tens of millions of yuan for a life-science reasoning model (Nov 6, found late; size and investors undisclosed). Found late and noted only: Recursion's Nov 2 update that Sanofi optioned a first development candidate, paying a $10M milestone."
   },
   "items": [
     {
@@ -2214,8 +2215,8 @@
       "status": "Closed",
       "company": "Iambic Therapeutics",
       "counterparty": "Public market investors",
-      "amount_usd": 150000000,
-      "amount_label": "$150M",
+      "amount_usd": 172500000,
+      "amount_label": "$172.5M (incl. full overallotment)",
       "round": "IPO (Nasdaq: IAM)",
       "valuation_label": "$800M+ (reported at pricing)",
       "investors": [
@@ -2223,14 +2224,18 @@
         "Duquesne Family Office (indicated)"
       ],
       "area": "AI small-molecule design",
-      "summary": "NVIDIA-backed Iambic, which designs small-molecule cancer drugs with its own AI platform, priced its Nasdaq IPO at $16, the middle of its range, selling 9.375M shares for $150M gross.",
+      "summary": "NVIDIA-backed Iambic, which designs small-molecule cancer drugs with its own AI platform, priced its Nasdaq IPO at $16, the middle of its range. With the underwriters' option fully exercised it sold about 10.8M shares for $172.5M gross (about $156M net).",
       "why_invested": "Likely: public investors get a clinical-stage AI drug developer with a Phase 1 asset (IAM1363, a brain-penetrant HER2 inhibitor) and a long list of pharma partners. Existing holders ARK and Duquesne signalled they would take about 40% of the deal, which de-risked the book.",
-      "whats_next": "About $75M goes to mid-stage work on IAM1363, about $15M each to IAM217 (KIF18A) and IAM-C1 (CDK2/4), and about $20M to the AI platform. Watch first public-company results and the IAM1363 Phase 1 readout.",
+      "whats_next": "About $75M goes to mid-stage work on IAM1363, about $15M each to IAM217 (KIF18A) and IAM-C1 (CDK2/4), and about $20M to the AI platform. Its first public quarterly report (Nov 16) put pro forma cash at about $455M including AbbVie's roughly $47M upfront; watch IAM217 preclinical data at EORTC-NCI-AACR (Nov 18–20), the IAM-C1 IND this quarter, and a registrational HER2+ breast cancer study for IAM1363 planned for 2027.",
       "why_it_matters": "The IPO window is open again for AI-native drugmakers with clinical assets, giving late-stage private rounds a public exit to price against.",
       "links": [
         {
           "title": "Iambic (BioSpace): pricing of IPO",
           "url": "https://www.biospace.com/press-releases/iambic-announces-pricing-of-initial-public-offering"
+        },
+        {
+          "title": "Iambic (GlobeNewswire): Q3 2026 results, IPO close and AbbVie upfront",
+          "url": "https://www.globenewswire.com/news-release/2026/11/16/3403472/0/en/iambic-provides-business-updates-and-third-quarter-2026-financial-results.html"
         },
         {
           "title": "pharmaphorum: Iambic sets IPO terms, use of proceeds",

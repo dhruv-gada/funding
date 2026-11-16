@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-15T21:50:00+00:00",
+ "last_updated": "2026-11-16T13:49:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -30,6 +30,12 @@
    "value": "More than $6B",
    "source": "Crunchbase News",
    "url": "https://news.crunchbase.com/health-wellness-biotech/startup-investment-exits-steady-ai-2026/"
+  },
+  {
+   "label": "US life-sciences AI spending, 2026",
+   "value": "About $700M, up 23x year on year",
+   "source": "Menlo Ventures, State of AI in Healthcare 2026",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403313/0/en/menlo-ventures-2026-state-of-ai-in-healthcare-report-healthcare-ai-spending-hits-3-7b-up-2-5x-as-growth-shifts-from-paperwork-to-drug-discovery-and-patient-care.html"
   }
  ],
  "chains": [
@@ -171,7 +177,7 @@
     },
     {
      "label": "NVIDIA-backed Iambic IPOs",
-     "amount": "$150M IPO",
+     "amount": "$172.5M IPO",
      "deal": "i-iambic"
     },
     {
@@ -1823,9 +1829,9 @@
    "company": "Iambic",
    "sector": "Small molecule & peptide design",
    "round": "Immunology, neuro, oncology",
-   "cash_usd": null,
+   "cash_usd": 47000000.0,
    "headline_usd": null,
-   "amount_label": "Undisclosed",
+   "amount_label": "~$47M upfront · milestones + royalties",
    "payers": [
     {
      "name": "AbbVie",
@@ -1833,9 +1839,9 @@
     }
    ],
    "participants": [],
-   "url": "https://www.biobucks.co/biotech-bdl-tracker-2026",
-   "source_name": "BioBucks BD&L tracker",
-   "note": null
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403472/0/en/iambic-provides-business-updates-and-third-quarter-2026-financial-results.html",
+   "source_name": "Iambic Q3 2026 release (GlobeNewswire)",
+   "note": "Upfront of about $47M received in October 2026 per Iambic's Q3 report; total milestone value undisclosed"
   },
   {
    "id": "p-bi-envisagenics",
@@ -2244,9 +2250,9 @@
    "company": "Iambic Therapeutics",
    "sector": "Small molecule & peptide design",
    "round": "Nasdaq: IAM",
-   "cash_usd": 150000000.0,
-   "headline_usd": 150000000.0,
-   "amount_label": "$150M",
+   "cash_usd": 172500000.0,
+   "headline_usd": 172500000.0,
+   "amount_label": "$172.5M",
    "payers": [
     {
      "name": "Public market investors",
@@ -2256,7 +2262,7 @@
    "participants": [],
    "url": "https://www.biospace.com/press-releases/iambic-announces-pricing-of-initial-public-offering",
    "source_name": "BioSpace (company release)",
-   "note": "Gross proceeds before underwriter option; ARK and Duquesne indicated ~40%"
+   "note": "Gross proceeds including the fully exercised underwriter option (base deal $150M); ARK and Duquesne indicated ~40%"
   },
   {
    "id": "v-rivercell",
