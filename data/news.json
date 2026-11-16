@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-16T13:49:00+00:00",
-  "run_label": "Morning brief · Nov 16, 2026",
+  "last_updated": "2026-11-16T21:54:00+00:00",
+  "run_label": "Evening brief · Nov 16, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "A quiet Monday morning for AI-bio deals: both of today's big biotech headlines, Lilly's up-to-$1.5B buy of Calytrix and Seawolf's $100M launch with a Sanofi licence, have no AI angle, so the next event to move the field is Anthropic's IPO pricing on Wednesday, with Isomorphic's reported ~$5B raise still unclosed",
-    "summary": "No qualifying deal landed since Friday. Disclosed bio×AI venture since Oct 22 is about $660M (Pathos $237M, Warp $215M, Hexagon $62M, Opentrons $40M, Orakl $34M, PsiThera $25M, Biomatter $18M and smaller rounds), and the biggest recent money is still Third Rock–Funnel (up to ~$2.16B) on headline value and argenx–Unnatural Products ($550M cash) on cash. Iambic's first quarterly report confirms its IPO raised $172.5M gross with the overallotment and that AbbVie paid about $47M upfront, while Anthropic prices on Nov 18 at $70 to $78.",
+    "headline": "Flagship takes its company factory abroad for the first time, committing £100M to a London lab that will build AI-native biotechs on UK patient data, while two Chinese rounds (INFevo's virtual cell, CataX's agent-run clinic) show Asia copying the same playbooks, two days before Anthropic prices its IPO",
+    "summary": "Three qualifying deals landed on Nov 16: Flagship's £100M (~$132M) UK origination lab, which aims to draw £500M+ from partners; INFevo's Pre-A of more than RMB 100M for an XtalPi-incubated virtual-cell model; and CataX AI's RMB 40M seed from Qiming to run clinical development with AI agents. Disclosed bio×AI venture since Oct 22 is still about $660M (Pathos $237M, Warp $215M, Hexagon $62M and smaller rounds), the biggest recent money is Third Rock–Funnel (up to ~$2.16B) on headline value and argenx–Unnatural Products ($550M cash) on cash, and Anthropic prices on Nov 18 at $70 to $78.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
@@ -12,7 +12,7 @@
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
-        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, adsilico raised £10M to test medical devices on AI-built virtual patients, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads. Biossil is running the same buy-don't-discover play at a smaller scale, picking up Theriva's paused Phase 1b/2a transplant-gut enzyme for $350K upfront and up to ~$91M in milestones. The services layer is drawing its own seed money too: on Nov 10 Proximal Ventures closed a $27.5M debut fund, backed by SignalFire and Kleiner Perkins, for startups automating the development work pharma outsources. Digital twins are reaching obesity too: on Nov 12 Unlearn said it is modelling untreated outcomes for Structure Therapeutics' oral GLP-1 extension study, with results at ObesityWeek (Nov 14–17). On Nov 12 Paris-based Orakl Oncology raised a $34M Series A, co-led by Norrsken VC and Singular with Bpifrance's patient fund joining, to forecast cancer-trial outcomes from patient tumour organoids plus clinical records, with four Sanofi assets as its first live test; a day earlier Switchpoint Bio raised a $5.3M pre-seed for AI-read blood methylation tests that track treatment response. Patient selection is becoming a deal of its own: on Nov 12 Prolong agreed to fund a Phase 2a of its oxygen-carrying drug PP-007 in ME/CFS, enrolling only patients whom ChronicleBio's multi-omic models place in an impaired-oxygen-delivery subtype; it is the first pharma deal for the startup led by former OpenAI executive Fidji Simo."
+        "detail": "In one week Boehringer and Microsoft agreed to test digital patient twins, AstraZeneca and Oracle signed a term sheet for AI trial recruitment, Atlas Bio raised a $10M seed to simulate Phase II trials, adsilico raised £10M to test medical devices on AI-built virtual patients, and BMS is using Claude to judge trial plans. Formation Bio went further, raising $600M to buy Phase 1–2 drugs and run them through its AI-native development platform, and Pathos's $237M also funds AI-led trials. Upstream of the clinic, AstraZeneca is also testing Tremont AI's toxicology-pathology models to speed preclinical safety reads. Biossil is running the same buy-don't-discover play at a smaller scale, picking up Theriva's paused Phase 1b/2a transplant-gut enzyme for $350K upfront and up to ~$91M in milestones. The services layer is drawing its own seed money too: on Nov 10 Proximal Ventures closed a $27.5M debut fund, backed by SignalFire and Kleiner Perkins, for startups automating the development work pharma outsources. Digital twins are reaching obesity too: on Nov 12 Unlearn said it is modelling untreated outcomes for Structure Therapeutics' oral GLP-1 extension study, with results at ObesityWeek (Nov 14–17). On Nov 12 Paris-based Orakl Oncology raised a $34M Series A, co-led by Norrsken VC and Singular with Bpifrance's patient fund joining, to forecast cancer-trial outcomes from patient tumour organoids plus clinical records, with four Sanofi assets as its first live test; a day earlier Switchpoint Bio raised a $5.3M pre-seed for AI-read blood methylation tests that track treatment response. Patient selection is becoming a deal of its own: on Nov 12 Prolong agreed to fund a Phase 2a of its oxygen-carrying drug PP-007 in ME/CFS, enrolling only patients whom ChronicleBio's multi-omic models place in an impaired-oxygen-delivery subtype; it is the first pharma deal for the startup led by former OpenAI executive Fidji Simo. The buy-and-develop model now has a Chinese seed-stage copy: on Nov 16 Qiming put RMB 40M into Shanghai's CataX AI, which will license early assets and take them to proof of concept with one clinical lead directing AI agents."
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
@@ -20,7 +20,7 @@
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms. PsiThera made it three protein-motion or physics-first chemistry raises in a week: its $25M (Nov 10), with AbbVie Ventures taking a board seat, funds an oral TNFα candidate found with ML plus simulation of transient pockets."
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms. PsiThera made it three protein-motion or physics-first chemistry raises in a week: its $25M (Nov 10), with AbbVie Ventures taking a board seat, funds an oral TNFα candidate found with ML plus simulation of transient pockets. Virtual-cell money is spreading to China: on Nov 16 XtalPi-incubated INFevo raised more than RMB 100M, with Aramco's Prosperity7 among new backers, for a multi-omics cell model checked in its own automated lab. And the data argument is now driving where companies get built: Flagship's £100M London origination lab (Nov 16) is explicitly pitched on access to NHS patient data, with UK Biobank and the MHRA among its partners."
       }
     ],
     "movers": [
@@ -159,9 +159,10 @@
       {
         "player": "Flagship Pioneering",
         "kind": "VC",
-        "direction": "Consolidating its own AI platforms instead of funding them separately",
-        "detail": "Flagship merged Cellarity, Etiome and Empress (together $374M raised) into Etcelera with no new capital disclosed, spun Cellarity's sickle cell drug into its own company, and is lining up a big-pharma alliance for the combined platform.",
+        "direction": "Consolidating its US AI platforms and exporting its company factory to the UK for its patient data",
+        "detail": "Flagship merged Cellarity, Etiome and Empress (together $374M raised) into Etcelera with no new capital disclosed, spun Cellarity's sickle cell drug into its own company, and is lining up a big-pharma alliance for the combined platform. On Nov 16 it committed an initial £100M (~$132M) to its first origination lab outside Massachusetts, in London, to build AI-native biotechs around NHS data with partners including UK Biobank, the Crick and the MHRA, and hopes to draw £500M or more from others.",
         "evidence": [
+          "2026-11-16-flagship-uk-origination-lab",
           "2026-10-29-flagship-etcelera"
         ]
       },
@@ -206,14 +207,15 @@
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
         "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
-        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, CPP Investments is in Hexagon's Series C, the UK's Sovereign AI fund co-led Potential Sciences' seed and added supercomputer time, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort.",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, CPP Investments is in Hexagon's Series C, the UK's Sovereign AI fund co-led Potential Sciences' seed and added supercomputer time, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort. Aramco's venture arm Prosperity7 joined INFevo's Chinese virtual-cell Pre-A (more than RMB 100M) on Nov 16.",
         "evidence": [
           "2026-10-15-iambic-ipo",
           "2026-10-15-recursion-offering-sanofi",
           "2026-10-23-hexagon-bio-series-c",
           "2026-10-23-abudhabi-isomorphic",
           "2026-10-07-biohub-virtual-biology-1-8b",
-          "2026-11-05-potential-sciences-seed"
+          "2026-11-05-potential-sciences-seed",
+          "2026-11-16-infevo-pre-a"
         ]
       },
       {
@@ -243,6 +245,18 @@
         "detail": "Third Rock committed up to about $2.16B, with an undisclosed platform fee upfront, for Funnel Biosciences to design antibodies against targets it nominates; it is the firm's second such deal with a Chinese AI designer after a peptide pact with Perpetual Medicine that has already produced a development candidate. A venture firm acting like a pharma licensee is new on this map.",
         "evidence": [
           "2026-11-06-third-rock-funnel"
+        ]
+      },
+      {
+        "player": "Chinese venture firms & AI incubators (Qiming, HongShan, Shunwei, XtalPi)",
+        "kind": "VC",
+        "direction": "Incubating domestic copies of US AI-bio models: virtual cells and agent-run clinical development",
+        "detail": "On Nov 16 Qiming incubated and solely funded CataX AI's RMB 40M seed for agent-run early clinical development, and XtalPi-incubated INFevo raised more than RMB 100M for a virtual-cell model, with HongShan, Shunwei and Songhe adding to their stakes. They follow Golden Tripod's place in Tourson Intelligence's Pre-A rounds and Zero2IPO's fund in Sanyou's Series C (Nov 9). Rounds are small in dollars and mostly undisclosed in USD, but the bets mirror Formation Bio and the US virtual-cell push.",
+        "evidence": [
+          "2026-11-16-catax-ai-seed",
+          "2026-11-16-infevo-pre-a",
+          "2026-11-09-tourson-pre-a-plus",
+          "2026-11-09-sanyou-series-c"
         ]
       }
     ],
@@ -287,20 +301,139 @@
         "call": "At least one more pharma-funded or big tech-funded biological data consortium of 10M+ cells (or a comparable perturbation atlas) is announced",
         "timeframe": "Next 3 months",
         "confidence": "Medium",
-        "based_on": "Biohub's $1.8B open coalition (Oct 7) and the Cascade consortium with GSK, Pfizer and Sanofi (Oct 29) landing three weeks apart; adjacent: Potential Sciences' seed for physics-simulated chemistry data (Nov 5)"
+        "based_on": "Biohub's $1.8B open coalition (Oct 7) and the Cascade consortium with GSK, Pfizer and Sanofi (Oct 29) landing three weeks apart; adjacent: Potential Sciences' seed for physics-simulated chemistry data (Nov 5); adjacent: INFevo's Pre-A (Nov 16) funds a company-owned automated perturbation lab, not a consortium, so it does not count"
       }
     ],
     "watchlist": [
-      "Anthropic IPO: pricing on Wednesday, Nov 18 at $70 to $78 (reports of a book about six times covered and talk of pricing above the range) and the first Nasdaq trade on Thursday, Nov 19; any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
+      "Anthropic IPO: pricing on Wednesday, Nov 18 at $70 to $78 (Bloomberg reported a book about six times covered) and the first Nasdaq trade on Thursday, Nov 19; any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
       "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner; and whether PsiThera, now with AbbVie Ventures on its board, names its oral TNFα development candidate",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (running Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
       "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size",
-      "Listed AI drug developers this week: Iambic's IAM217 (KIF18A) preclinical data at EORTC-NCI-AACR (Nov 18–20) and its IAM-C1 IND due this quarter; Recursion's next Sanofi development-candidate milestones after the $10M option on Nov 2; and whether Lilly, now 15 acquisitions and more than $30B into 2026 with Calytrix, buys an AI-native developer rather than single assets"
+      "Listed AI drug developers this week: Iambic's IAM217 (KIF18A) preclinical data at EORTC-NCI-AACR (Nov 18–20) and its IAM-C1 IND due this quarter; Recursion's next Sanofi development-candidate milestones after the $10M option on Nov 2; and whether Lilly, now 15 acquisitions and more than $30B into 2026 with Calytrix, buys an AI-native developer rather than single assets",
+      "UK and China company creation: the first companies out of Flagship's London lab, which partners commit toward its £500M goal and whether a formal NHS data deal follows; CataX AI's first in-licensed asset; and whether INFevo names a pharma partner or publishes OCOO benchmarks on open perturbation data"
     ],
-    "since_last_run": "Quiet run: no new qualifying AI-bio deal was announced between last night's brief and this morning. No items added and none aged out (the oldest item, Whitelab's Oct 5 Series B, is still inside the 45-day window). One item updated: Iambic's Nov 16 third-quarter release confirms the underwriters fully exercised their option, so its IPO raised $172.5M gross (about $156M net) rather than the $150M base deal, and it discloses that AbbVie paid about $47M upfront in October for the September collaboration; pro forma cash is about $455M. No prediction resolved and none replaced. Anthropic's IPO is unchanged: pricing Nov 18 at $70 to $78, Nasdaq trading from Nov 19. Isomorphic's reported ~$5B round is still unclosed. Context: Menlo Ventures' 2026 healthcare AI report (Nov 16) puts US life-sciences AI spending at about $700M, up 23x in a year. Screened out this run: Lilly's up-to-$1.5B acquisition of Calytrix Bio (Nov 16; a CALR-mutation antibody for blood cancers with no AI angle, Lilly's 15th buyout of the year); Seawolf Therapeutics' $100M Series A with a Sanofi licence worth up to $1.2B in milestones (Nov 16; non-viral DNA delivery, no AI angle); Oxford BioDynamics' undisclosed EpiSwitch Orion biomarker study for J&J in IBD (Nov 5; no AI stated); Telesis Bio repositioning to sell on-site DNA synthesis to AI discovery teams (a strategy change, not a deal); and OneX Intelligence's Series A of tens of millions of yuan for a life-science reasoning model (Nov 6, found late; size and investors undisclosed). Found late and noted only: Recursion's Nov 2 update that Sanofi optioned a first development candidate, paying a $10M milestone."
+    "since_last_run": "Three new items, all dated Nov 16: Flagship Pioneering's £100M (~$132M) commitment to its first non-US origination lab, in London, to build AI-native biotechs on UK patient data (logged as an announced commitment, so it does not count toward closed venture); INFevo's Pre-A of more than RMB 100M for an XtalPi-incubated virtual-cell model, with Aramco's Prosperity7 among new investors; and CataX AI's RMB 40M seed, solely from Qiming, for agent-run early clinical development. The two yuan rounds have no reported USD figure, so they are not in the dollar totals. Movers: Flagship updated (UK lab), Prosperity7 added to crossover and sovereign funds, and a new entry for Chinese venture firms and AI incubators. No items aged out, no prediction resolved and none replaced; Anthropic's IPO is unchanged (pricing Nov 18 at $70 to $78) and Isomorphic's reported ~$5B round is still unclosed. Screened out: J&J's up-to-$3.3B buy of Ollin Biosciences, Blackstone's $750M co-funding of its Phase 3, Novartis–OBI Pharma's ADC licence ($30M upfront, more than $2B total) and Asimov's cell-line deal with Emergent for Ebola antibodies (all Nov 16, no AI angle stated); Octopath AI's £1.5M seed for pathology foundation models (Nov 2, found late, below the bar)."
   },
   "items": [
+    {
+      "id": "2026-11-16-flagship-uk-origination-lab",
+      "date": "2026-11-16",
+      "type": "Funding",
+      "status": "Announced",
+      "company": "Flagship Pioneering (Flagship Origination Lab, UK)",
+      "counterparty": null,
+      "amount_usd": 131940000,
+      "amount_label": "£100M (~$132M) initial commitment; aims to draw £500M+ from partners",
+      "round": "Company-creation lab commitment (Flagship's own capital)",
+      "valuation_label": null,
+      "investors": [
+        "Flagship Pioneering"
+      ],
+      "area": "AI-native biotech company creation",
+      "summary": "Flagship Pioneering, the company-builder behind Moderna, is opening its first origination lab outside Massachusetts, anchored at its London office, and has committed an initial £100M to conceive and build AI-native biotech companies in the UK. It plans to recruit about 50 scientist-entrepreneurs and to bring in partners such as the MHRA, UK Biobank and the Crick Institute rather than buy into existing UK companies.",
+      "why_invested": "Per Reuters, Noubar Afeyan's main draw is the NHS and its patient data, which lets teams pick disease targets from real-world evidence before any molecule is made; Flagship also cites UK AI talent and a regulator it sees as forward-leaning. It hopes its £100M will pull in £500M or more from universities, corporates and other funders.",
+      "whats_next": "Watch for the first UK-born Flagship companies and their founding datasets, which partners actually put money in toward the £500M goal, any formal NHS or UK Biobank data agreement, and whether UK state funds (Sovereign AI, British Business Bank) co-invest. Generate Biomedicines' early asthma trial in Manchester is the existing UK foothold.",
+      "why_it_matters": "The largest US company-creation firm is now treating national patient data as the scarce input for AI drug discovery and moving its factory to where that data sits.",
+      "links": [
+        {
+          "title": "Reuters (via 93.3 The Drive): Flagship bets £100M to build AI-driven drug companies in Britain",
+          "url": "https://www.933thedrive.com/2026/11/16/venture-firm-flagship-bets-100-million-to-build-ai-driven-drug-companies-in-britain/"
+        },
+        {
+          "title": "Pharmaceutical Technology: Flagship expands to UK with £100M AI-native lab",
+          "url": "https://www.pharmaceutical-technology.com/news/flagship-pioneering-uk-expansion-100m-ai-native-lab/"
+        },
+        {
+          "title": "Yahoo News: Reuters report on the Flagship UK lab",
+          "url": "https://www.yahoo.com/news/articles/venture-firm-flagship-bets-100-191856697.html"
+        }
+      ],
+      "url": "https://www.933thedrive.com/2026/11/16/venture-firm-flagship-bets-100-million-to-build-ai-driven-drug-companies-in-britain/",
+      "source_name": "Reuters",
+      "first_seen": "2026-11-16T21:54:00+00:00"
+    },
+    {
+      "id": "2026-11-16-catax-ai-seed",
+      "date": "2026-11-16",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "CataX AI",
+      "counterparty": "Qiming Venture Partners",
+      "amount_usd": null,
+      "amount_label": "RMB 40M",
+      "round": "Seed",
+      "valuation_label": null,
+      "investors": [
+        "Qiming Venture Partners"
+      ],
+      "area": "Agentic AI for clinical development",
+      "summary": "Shanghai-based CataX AI, incubated by Qiming Venture Partners, raised a RMB 40M seed with Qiming as the only investor. Instead of discovering molecules, it plans to license or co-develop preclinical and early clinical assets and run them to clinical proof of concept with a small team in which one clinical lead directs AI agents for literature review, document drafting and data work.",
+      "why_invested": "Likely: Qiming is betting that the cost and speed of early clinical development, not molecule design, is where agents can save the most, and that China's deep supply of licensable early assets gives a lean asset-buyer plenty to choose from. The founders pair Microsoft Research Asia AI experience with more than 15 years in clinical development.",
+      "whats_next": "Watch for its first in-licensed or co-developed asset, the first IND or trial run under its one-lead-plus-agents model, and a larger round once a program reaches proof of concept; an out-licence to a Western partner would be the exit route.",
+      "why_it_matters": "The buy-and-develop model of Formation Bio and Biossil now has a Chinese seed-stage version, which suggests agent-run clinical development is becoming its own category on both sides of the Pacific.",
+      "links": [
+        {
+          "title": "TechNode: CataX AI raises RMB 40M to bring AI agents into clinical drug development",
+          "url": "https://technode.com/2026/11/16/catax-ai-raises-rmb-40-million-to-bring-ai-agents-into-clinical-drug-development/"
+        },
+        {
+          "title": "Dealroom: Qiming backs AI-native biotech CataX AI in sole seed bet",
+          "url": "https://dealroom.co/news/172821-qiming-backs-ai-native-biotech-catax-ai-in-sole-seed-bet/"
+        },
+        {
+          "title": "PEdaily (Chinese): CataX AI completes seed round, Qiming sole investor",
+          "url": "https://news.pedaily.cn/202611/571895.shtml"
+        }
+      ],
+      "url": "https://technode.com/2026/11/16/catax-ai-raises-rmb-40-million-to-bring-ai-agents-into-clinical-drug-development/",
+      "source_name": "TechNode",
+      "first_seen": "2026-11-16T21:54:00+00:00"
+    },
+    {
+      "id": "2026-11-16-infevo-pre-a",
+      "date": "2026-11-16",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "INFevo (Boundless Evolution)",
+      "counterparty": null,
+      "amount_usd": null,
+      "amount_label": "Over RMB 100M",
+      "round": "Pre-A",
+      "valuation_label": null,
+      "investors": [
+        "Xinglian Capital",
+        "Prosperity7 Ventures",
+        "Huagai Capital",
+        "Huakong Fund",
+        "DT Capital",
+        "Shunwei Capital",
+        "HongShan",
+        "Songhe Capital"
+      ],
+      "area": "Virtual cell foundation model + automated wet lab",
+      "summary": "Beijing-based INFevo, incubated by XtalPi and co-founded by XtalPi's chief innovation officer Lai Lipeng, raised more than RMB 100M in a Pre-A, five months after a tens-of-millions-yuan angel round. It builds OCOO, a multi-omics virtual-cell foundation model that predicts how cells respond to drugs and gene perturbations, and checks those predictions in its own automated cell-experiment lab.",
+      "why_invested": "Likely: backers including Aramco's Prosperity7 and returning investors Shunwei, HongShan and Songhe are buying a Chinese entrant in the virtual-cell race with a built-in data engine and XtalPi's industry ties. The company says the money goes to model R&D, a bigger automated dry-wet experiment loop and partnerships; Chinese press call it the largest single round for a Chinese virtual-cell company, a claim not independently checked.",
+      "whats_next": "Watch for a first named pharma or hospital partner, published benchmarks for OCOO against open perturbation datasets, the scale of its in-house perturbation data, and whether XtalPi folds INFevo predictions into its own pharma deals (such as Pierre Fabre).",
+      "why_it_matters": "Virtual-cell models are now drawing money in China as well as the US, and the winning pitch pairs a model with its own data-generating lab rather than a model alone.",
+      "links": [
+        {
+          "title": "PEdaily (Chinese): INFevo closes Pre-A of more than RMB 100M",
+          "url": "https://news.pedaily.cn/202611/571905.shtml"
+        },
+        {
+          "title": "Bytes Europe: Boundless Evolution secures over ¥100M Pre-A",
+          "url": "https://www.byteseu.com/2525439/"
+        },
+        {
+          "title": "Tech Startups: Startup funding news, Nov 16, 2026 (INFevo)",
+          "url": "https://techstartups.com/2026/11/16/startup-funding-news-today-november-16-2026-blackbird-coffee-daisytuner-stark-future-seawolf-stoa-more/"
+        }
+      ],
+      "url": "https://news.pedaily.cn/202611/571905.shtml",
+      "source_name": "PEdaily",
+      "first_seen": "2026-11-16T21:54:00+00:00"
+    },
     {
       "id": "2026-11-13-hansoh-ailsynbio",
       "date": "2026-11-13",

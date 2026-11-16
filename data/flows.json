@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-16T13:49:00+00:00",
+ "last_updated": "2026-11-16T21:54:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -316,6 +316,11 @@
      "label": "Shanghai state tech investor leads Tourson's Pre-A",
      "amount": "Several hundred million yuan (two rounds)",
      "deal": "v-tourson"
+    },
+    {
+     "label": "Aramco's Prosperity7 joins INFevo's Chinese virtual-cell Pre-A",
+     "amount": "Over RMB 100M (round)",
+     "deal": "v-infevo"
     }
    ],
    "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern. Shanghai's state tech investor leading Tourson Intelligence's Pre-A (Nov 9) is another local-lead case, two weeks after China Life Capital led BioGeometry's A+."
@@ -399,9 +404,14 @@
      "label": "Prolong funds a trial in ChronicleBio's AI-selected ME/CFS patients",
      "amount": "Undisclosed",
      "deal": "p-prolong-chroniclebio"
+    },
+    {
+     "label": "Qiming seeds CataX AI's agent-run clinical development in Shanghai",
+     "amount": "RMB 40M",
+     "deal": "v-catax-ai"
     }
    ],
-   "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic. argenx's Nov 9 deal shows the exit route: a pharma partner that has seen the design-and-make loop work pays mostly in cash to own it. The loop now reaches the cells the drugs are tested on: Mitsui Chemicals' Nov 10 stake puts a materials supplier inside iORGANBIO's automated cell factory. On Nov 12 digital twins reached a mid-size obesity developer, Structure Therapeutics, through Unlearn. Europe's early-stage funds are joining at the trial stage too: Orakl's $34M (Nov 12) pays to predict cancer-trial outcomes from patient tumour organoids before pharma commits to a Phase 2. On Nov 12 the money reached patient selection itself: Prolong is paying ChronicleBio to pick which ME/CFS patients get an existing drug in a Phase 2a."
+   "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic. argenx's Nov 9 deal shows the exit route: a pharma partner that has seen the design-and-make loop work pays mostly in cash to own it. The loop now reaches the cells the drugs are tested on: Mitsui Chemicals' Nov 10 stake puts a materials supplier inside iORGANBIO's automated cell factory. On Nov 12 digital twins reached a mid-size obesity developer, Structure Therapeutics, through Unlearn. Europe's early-stage funds are joining at the trial stage too: Orakl's $34M (Nov 12) pays to predict cancer-trial outcomes from patient tumour organoids before pharma commits to a Phase 2. On Nov 12 the money reached patient selection itself: Prolong is paying ChronicleBio to pick which ME/CFS patients get an existing drug in a Phase 2a. The model is now being copied in China: CataX AI's Nov 16 seed funds a lean team that licenses early assets and runs them through the clinic with AI agents."
   }
  ],
  "deals": [
@@ -3486,6 +3496,102 @@
    "url": "https://www.startupresearcher.com/news/psithera-raises-25-million-for-oral-immunology-therapies",
    "source_name": "Startup Researcher",
    "note": "AbbVie participated through AbbVie Ventures and took a board seat; Samsara and Lightstone co-led the $47.5M Series A in Dec 2025."
+  },
+  {
+   "id": "v-flagship-uk-lab",
+   "date": "2026-11-16",
+   "type": "Venture",
+   "company": "Flagship Origination Lab (UK)",
+   "sector": "Foundation models & platforms",
+   "round": "Company-creation lab commitment",
+   "cash_usd": 131940000,
+   "headline_usd": 131940000,
+   "amount_label": "£100M (~$132M) initial · aims for £500M+ with partners",
+   "payers": [
+    {
+     "name": "Flagship Pioneering",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.933thedrive.com/2026/11/16/venture-firm-flagship-bets-100-million-to-build-ai-driven-drug-companies-in-britain/",
+   "source_name": "Reuters",
+   "note": "Flagship committing its own capital to build new UK companies, not a round in an existing company; USD figure from Reuters' conversion. Partners named (MHRA, UK Biobank, Crick) are not disclosed as funders."
+  },
+  {
+   "id": "v-catax-ai",
+   "date": "2026-11-16",
+   "type": "Venture",
+   "company": "CataX AI",
+   "sector": "Clinical & development AI",
+   "round": "Seed",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "RMB 40M",
+   "payers": [
+    {
+     "name": "Qiming Venture Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [],
+   "url": "https://technode.com/2026/11/16/catax-ai-raises-rmb-40-million-to-bring-ai-agents-into-clinical-drug-development/",
+   "source_name": "TechNode",
+   "note": "No USD figure reported, so not counted in totals. Qiming incubated the company and was the sole investor."
+  },
+  {
+   "id": "v-infevo",
+   "date": "2026-11-16",
+   "type": "Venture",
+   "company": "INFevo (Boundless Evolution)",
+   "sector": "Foundation models & platforms",
+   "round": "Pre-A",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Over RMB 100M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Prosperity7 Ventures",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Xinglian Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Huagai Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Huakong Fund",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "DT Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Shunwei Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "HongShan",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Songhe Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://news.pedaily.cn/202611/571905.shtml",
+   "source_name": "PEdaily",
+   "note": "Incubated by XtalPi. Prosperity7 is the venture arm of state-owned Saudi Aramco. Size only given as more than RMB 100M, so not counted in totals."
   }
  ]
 }
