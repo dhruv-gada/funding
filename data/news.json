@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-17T13:55:00+00:00",
-  "run_label": "Morning brief · Nov 17, 2026",
+  "last_updated": "2026-11-17T21:53:13+00:00",
+  "run_label": "Evening brief · Nov 17, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Isomorphic Labs closes a $5B Series C co-led by Greenoaks and Sequoia, about 2.4 times its May round and the largest cheque in this tracker, a day before Anthropic prices its IPO; generalist growth investors are now setting the price of AI drug discovery before any human data",
-    "summary": "The one new deal this run is Isomorphic's $5B Series C (Nov 17), with a16z joining and Alphabet, Thrive, MGX, Temasek and the UK Sovereign AI Fund returning; no valuation was stated, though Bloomberg had reported about $50B in talks. Disclosed, closed bio×AI venture since Oct 22 is now about $5.66B, of which Isomorphic is about 88%; without it the figure is still about $660M (Pathos $237M, Warp $215M, Hexagon $62M and smaller rounds). Biggest partnership money remains Third Rock–Funnel (up to ~$2.16B headline) and argenx–Unnatural Products ($550M cash), and Anthropic prices on Nov 18 at $70 to $78.",
+    "headline": "Isomorphic Labs' $5B Series C, co-led by Greenoaks and Sequoia and about 2.4 times its May round, remains the defining deal on the eve of Anthropic's IPO pricing; the evening's only addition is argenx widening its Cradle antibody-AI licence, a sign that pharma now expands design software once early programs work",
+    "summary": "Isomorphic's $5B Series C (Nov 17) dominates the window, with a16z joining and Alphabet, Thrive, MGX, Temasek and the UK Sovereign AI Fund returning; no valuation was stated, though Bloomberg had reported about $50B in talks. Disclosed, closed bio×AI venture since Oct 22 is now about $5.66B, of which Isomorphic is about 88%; without it the figure is still about $660M (Pathos $237M, Warp $215M, Hexagon $62M and smaller rounds). Biggest partnership money remains Third Rock–Funnel (up to ~$2.16B headline) and argenx–Unnatural Products ($550M cash), and Anthropic prices on Nov 18 at $70 to $78. This evening argenx also widened its use of Cradle's antibody-design software (Nov 17, terms undisclosed), Cradle's second pharma announcement in two weeks after UCB.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range (Bloomberg reported a book about six times covered by Nov 12) implying up to about $1.02T on outstanding shares (about $1.4T fully diluted); the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Generate Biomedicines' Q3 report (Nov 12) confirms a research collaboration with Anthropic on agentic CAR-T design, in which Claude helped shrink a key CAR component by about 70%. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic closed a $5B Series C on Nov 17, co-led by Greenoaks and Sequoia with a16z new to the cap table, to take its first oncology and immunology programs toward the clinic and add biologics; it no longer gives a trial date. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before. Chinese pharma is buying the same way at home: on Nov 13 Hansoh signed Hong Kong spin-off AilsynBio to find oral cyclic peptides against targets Hansoh picks, for up to RMB317M in total payments plus royalties, with Hansoh keeping the IP."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range (Bloomberg reported a book about six times covered by Nov 12) implying up to about $1.02T on outstanding shares (about $1.4T fully diluted); the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Generate Biomedicines' Q3 report (Nov 12) confirms a research collaboration with Anthropic on agentic CAR-T design, in which Claude helped shrink a key CAR component by about 70%. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic closed a $5B Series C on Nov 17, co-led by Greenoaks and Sequoia with a16z new to the cap table, to take its first oncology and immunology programs toward the clinic and add biologics; it no longer gives a trial date. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before. Chinese pharma is buying the same way at home: on Nov 13 Hansoh signed Hong Kong spin-off AilsynBio to find oral cyclic peptides against targets Hansoh picks, for up to RMB317M in total payments plus royalties, with Hansoh keeping the IP. Software licences are growing inside pharma once they show results: on Nov 17 argenx extended Cradle's platform to more scientists and antibody programs after a first phase of lead optimisation, eight days after agreeing to buy Unnatural Products."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
@@ -122,9 +122,10 @@
       {
         "player": "argenx",
         "kind": "Pharma",
-        "direction": "Buying its way beyond antibodies with an ML-guided oral peptide platform",
-        "detail": "After more than two years of collaboration and a minority stake, argenx is paying $550M in cash and up to $595M in milestones for Unnatural Products, which will become its peptide discovery hub. It follows the $2.2B Forte Biosciences purchase in July, which was not an AI deal.",
+        "direction": "Buying an ML-guided oral peptide platform and widening AI antibody design in-house",
+        "detail": "After more than two years of collaboration and a minority stake, argenx is paying $550M in cash and up to $595M in milestones for Unnatural Products, which will become its peptide discovery hub. It follows the $2.2B Forte Biosciences purchase in July, which was not an AI deal. On Nov 17 it widened its licence to Cradle's AI protein-engineering software to more antibody programs and scientists after a first phase of lead optimisation, on undisclosed terms, so it is adding AI on both its new peptide side and its core antibody side.",
         "evidence": [
+          "2026-11-17-argenx-cradle-expansion",
           "2026-11-09-argenx-unnatural-products"
         ]
       },
@@ -142,7 +143,7 @@
         "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB, Pierre Fabre, Hansoh, AbbVie)",
         "kind": "Pharma",
         "direction": "Licensing AI design platforms across their pipelines rather than building them",
-        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms. Chinese pharma is on the same path: Hansoh signed AilsynBio on Nov 13 for AI-found oral cyclic peptides, up to RMB317M plus royalties, keeping target choice and IP. Venture arms are buying in earlier as well: AbbVie Ventures joined PsiThera's $25M on Nov 10 and took a board seat, backing oral small molecules aimed at immune targets AbbVie now hits with antibodies.",
+        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year, and argenx widened its own Cradle use on Nov 17. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms. Chinese pharma is on the same path: Hansoh signed AilsynBio on Nov 13 for AI-found oral cyclic peptides, up to RMB317M plus royalties, keeping target choice and IP. Venture arms are buying in earlier as well: AbbVie Ventures joined PsiThera's $25M on Nov 10 and took a board seat, backing oral small molecules aimed at immune targets AbbVie now hits with antibodies.",
         "evidence": [
           "2026-11-10-psithera-financing",
           "2026-11-13-hansoh-ailsynbio",
@@ -293,7 +294,7 @@
         "call": "Pharma–AI discovery licensing deals (not outright acquisitions) keep upfronts below ~5% of headline value",
         "timeframe": "Ongoing",
         "confidence": "High",
-        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down; Hansoh–AilsynBio (Nov 13, up to RMB317M, upfront not split out) neither confirms nor breaks it; Iambic disclosed on Nov 16 that AbbVie paid about $47M upfront for its September deal, but with no headline total it cannot be scored; Recursion's Nov 2 update shows Sanofi has paid $144M to date against more than $300M still in milestones"
+        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down; Hansoh–AilsynBio (Nov 13, up to RMB317M, upfront not split out) neither confirms nor breaks it; Iambic disclosed on Nov 16 that AbbVie paid about $47M upfront for its September deal, but with no headline total it cannot be scored; Recursion's Nov 2 update shows Sanofi has paid $144M to date against more than $300M still in milestones; argenx's wider Cradle licence (Nov 17) is software access with no disclosed terms, so it cannot be scored"
       },
       {
         "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
@@ -319,11 +320,11 @@
       "Isomorphic Labs and Chai: after the $5B close, whether Isomorphic confirms a valuation, names its first clinical candidate or files an IND, signs a biologics partner, or adds pharma partners beyond Lilly, Novartis and J&J; whether Chai discloses Roche terms or Genentech's involvement and raises again on its seven-partner list; and whether other late-stage AI biotechs try to raise off Isomorphic's price",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner; and whether PsiThera, now with AbbVie Ventures on its board, names its oral TNFα development candidate",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (running Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
-      "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size",
+      "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size; and whether argenx names a first Cradle-optimised antibody or discloses terms, and whether Cradle raises after adding UCB and argenx in November",
       "Listed AI drug developers this week: Iambic's IAM217 (KIF18A) preclinical data at EORTC-NCI-AACR (Nov 18–20) and its IAM-C1 IND due this quarter; Recursion's next Sanofi development-candidate milestones after the $10M option on Nov 2; and whether Lilly, now 15 acquisitions and more than $30B into 2026 with Calytrix, buys an AI-native developer rather than single assets",
       "UK and China company creation: the first companies out of Flagship's London lab, which partners commit toward its £500M goal and whether a formal NHS data deal follows; CataX AI's first in-licensed asset; and whether INFevo names a pharma partner or publishes OCOO benchmarks on open perturbation data"
     ],
-    "since_last_run": "One change, no new companies. Isomorphic Labs' reported round (tracked since Oct 8 as talks) closed on Nov 17: a $5B Series C co-led by Greenoaks and Sequoia, with a16z new and Alphabet, Thrive, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund returning. The item moved from In talks to Closed and is dated Nov 17, so it now counts toward closed venture; the 7-day venture figure jumps to about $5.08B. Prediction resolved: the call that Isomorphic would close $4B+ at $45B or more came true on size, but the company stated no valuation, so the $45B half cannot be scored; it is retired and replaced by a call that another AI-native drug developer raises $500M+ with a generalist growth lead within four months. Movers: Alphabet/Isomorphic and crossover & sovereign funds updated; new entry for generalist growth investors (Sequoia, Greenoaks, a16z, Thrive). No items aged out. Anthropic still prices Nov 18. Screened out: Seawolf Therapeutics' $100M seed and Series A for repeat-dose DNA medicines (Nov 16, no AI angle stated); a Variational AI–Merck deal (up to $349M) that BioSpace re-dated to Nov 2 but which was announced in September 2025; Basecamp Research's $140M (Sept 23), Aureka's $100M (Aug) and Accipiter's $10.5M seed top-up (July), all outside the window; and a reported Lilly–Stipple oncology-target deal whose date and AI angle could not be confirmed this run."
+    "since_last_run": "Quiet evening: one new item, no status changes and no resolved predictions. Cradle said on Nov 17 that argenx is widening its use of Cradle's AI antibody-engineering platform to more scientists and programs after a first phase of lead optimisation, with no financial terms; it is logged as a signed partnership and adds to the argenx and other-pharma movers. Isomorphic's $5B Series C (Nov 17, closed) is unchanged, so the 7-day closed-venture figure stays at about $5.08B. Anthropic still prices on Nov 18. No items aged out. Screened out: Neurosterix's $105M Series B and VectorY's $83.5M (no AI angle stated), a $173M sickle cell startup in STAT's Nov 17 newsletter (no AI angle visible), and older deals resurfacing in search (Insilico–Tenacia from March, Owkin–AstraZeneca from May, Living Models' seed from March)."
   },
   "items": [
     {
@@ -2761,6 +2762,47 @@
       "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
       "source_name": "Axios Pro",
       "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-11-17-argenx-cradle-expansion",
+      "date": "2026-11-17",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Cradle",
+      "counterparty": "argenx",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": "Platform expansion (AI antibody engineering)",
+      "valuation_label": null,
+      "investors": [
+        "argenx"
+      ],
+      "area": "AI protein & antibody engineering",
+      "summary": "Cradle said argenx is widening its use of Cradle's AI protein-engineering software to more scientists and antibody discovery programs, after a first phase in which argenx teams used it to improve existing leads and generate new candidates tuned for affinity and selectivity. No financial terms, program count or duration were disclosed.",
+      "why_invested": "argenx's discovery head ties the expansion to speed: each round of lab results makes the next round of designs better, and its scientists can now run the tool themselves, so more ideas get tested per cycle. Likely also: having just agreed to pay $550M in cash for Unnatural Products' ML-guided peptide platform, argenx is building out AI capacity on its core antibody side too, choosing licensed software there rather than another acquisition.",
+      "whats_next": "Watch whether argenx names programs or a first Cradle-optimised candidate in its autoimmune pipeline, whether the Unnatural Products deal closes by year-end as planned, and whether Cradle discloses deal terms or raises a new round. For Cradle this is the second pharma announcement in two weeks after UCB (Nov 4), on top of Bayer, Lundbeck and Hansa earlier this year.",
+      "why_it_matters": "Pharma is expanding AI design software seat by seat once early programs work, which points to a land-and-expand software business for antibody AI rather than one-off milestone deals.",
+      "links": [
+        {
+          "title": "PR Newswire: Cradle release on argenx expansion",
+          "url": "https://www.prnewswire.com/news-releases/cradles-antibody-discovery-platform-for-autoimmune-diseases-supports-scientific-mission-of-argenx-302941511.html"
+        },
+        {
+          "title": "BioSpace: Cradle–argenx release (wire copy)",
+          "url": "https://www.biospace.com/press-releases/cradles-antibody-discovery-platform-for-autoimmune-diseases-supports-scientific-mission-of-argenx"
+        },
+        {
+          "title": "Amsterdam Times: argenx widens Cradle platform use",
+          "url": "https://amsterdamtimes.info/business/argenx-expands-cradle-ai-platform-use-in-amsterdam-2026"
+        },
+        {
+          "title": "Fierce Biotech: argenx's $1.15B Unnatural Products buyout (Nov 9)",
+          "url": "https://fiercebiotech.com/biotech/argenx-inks-115b-unnatural-products-buyout-expand-oral-peptides"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/cradles-antibody-discovery-platform-for-autoimmune-diseases-supports-scientific-mission-of-argenx-302941511.html",
+      "source_name": "PR Newswire (Cradle release)",
+      "first_seen": "2026-11-17T21:53:13+00:00"
     }
   ]
 }

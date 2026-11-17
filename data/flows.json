@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-17T13:55:00+00:00",
+ "last_updated": "2026-11-17T21:53:13+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -3650,6 +3650,27 @@
    "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-announces-5-billion-series-c-funding-302942062.html",
    "source_name": "PR Newswire",
    "note": "Oversubscribed. Valuation not disclosed; Bloomberg had reported about $50B during talks."
+  },
+  {
+   "id": "p-argenx-cradle",
+   "date": "2026-11-17",
+   "type": "Partnership",
+   "company": "Cradle",
+   "sector": "Protein & antibody design",
+   "round": "Platform expansion: AI antibody engineering across more argenx programs",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "argenx",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.prnewswire.com/news-releases/cradles-antibody-discovery-platform-for-autoimmune-diseases-supports-scientific-mission-of-argenx-302941511.html",
+   "source_name": "PR Newswire (Cradle release)",
+   "note": "Expansion of an existing software-access arrangement; no financial terms, duration or program count disclosed."
   }
  ]
 }
