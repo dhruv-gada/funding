@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-16T21:54:00+00:00",
-  "run_label": "Evening brief · Nov 16, 2026",
+  "last_updated": "2026-11-17T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 17, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Flagship takes its company factory abroad for the first time, committing £100M to a London lab that will build AI-native biotechs on UK patient data, while two Chinese rounds (INFevo's virtual cell, CataX's agent-run clinic) show Asia copying the same playbooks, two days before Anthropic prices its IPO",
-    "summary": "Three qualifying deals landed on Nov 16: Flagship's £100M (~$132M) UK origination lab, which aims to draw £500M+ from partners; INFevo's Pre-A of more than RMB 100M for an XtalPi-incubated virtual-cell model; and CataX AI's RMB 40M seed from Qiming to run clinical development with AI agents. Disclosed bio×AI venture since Oct 22 is still about $660M (Pathos $237M, Warp $215M, Hexagon $62M and smaller rounds), the biggest recent money is Third Rock–Funnel (up to ~$2.16B) on headline value and argenx–Unnatural Products ($550M cash) on cash, and Anthropic prices on Nov 18 at $70 to $78.",
+    "headline": "Isomorphic Labs closes a $5B Series C co-led by Greenoaks and Sequoia, about 2.4 times its May round and the largest cheque in this tracker, a day before Anthropic prices its IPO; generalist growth investors are now setting the price of AI drug discovery before any human data",
+    "summary": "The one new deal this run is Isomorphic's $5B Series C (Nov 17), with a16z joining and Alphabet, Thrive, MGX, Temasek and the UK Sovereign AI Fund returning; no valuation was stated, though Bloomberg had reported about $50B in talks. Disclosed, closed bio×AI venture since Oct 22 is now about $5.66B, of which Isomorphic is about 88%; without it the figure is still about $660M (Pathos $237M, Warp $215M, Hexagon $62M and smaller rounds). Biggest partnership money remains Third Rock–Funnel (up to ~$2.16B headline) and argenx–Unnatural Products ($550M cash), and Anthropic prices on Nov 18 at $70 to $78.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range (Bloomberg reported a book about six times covered by Nov 12) implying up to about $1.02T on outstanding shares (about $1.4T fully diluted); the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Generate Biomedicines' Q3 report (Nov 12) confirms a research collaboration with Anthropic on agentic CAR-T design, in which Claude helped shrink a key CAR component by about 70%. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic is now reportedly in talks for about $5B at around $50B, up from $2B+ at $40B+ in October, with first human trials said to be targeted around year-end. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before. Chinese pharma is buying the same way at home: on Nov 13 Hansoh signed Hong Kong spin-off AilsynBio to find oral cyclic peptides against targets Hansoh picks, for up to RMB317M in total payments plus royalties, with Hansoh keeping the IP."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range (Bloomberg reported a book about six times covered by Nov 12) implying up to about $1.02T on outstanding shares (about $1.4T fully diluted); the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Generate Biomedicines' Q3 report (Nov 12) confirms a research collaboration with Anthropic on agentic CAR-T design, in which Claude helped shrink a key CAR component by about 70%. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic closed a $5B Series C on Nov 17, co-led by Greenoaks and Sequoia with a16z new to the cap table, to take its first oncology and immunology programs toward the clinic and add biologics; it no longer gives a trial date. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before. Chinese pharma is buying the same way at home: on Nov 13 Hansoh signed Hong Kong spin-off AilsynBio to find oral cyclic peptides against targets Hansoh picks, for up to RMB317M in total payments plus royalties, with Hansoh keeping the IP."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
@@ -65,8 +65,8 @@
       {
         "player": "Alphabet / Isomorphic Labs (and Meta)",
         "kind": "Big tech",
-        "direction": "Scaling capital toward a $50B valuation and buying early access to biology's training data",
-        "detail": "Isomorphic is reportedly in talks to raise about $5B at roughly $50B (Bloomberg, Nov 4), up from $2B+ at $40B+ a month earlier, which would take outside funding to about $7.7B. It has a data-access roadmap with Abu Dhabi's health department, and with Google DeepMind and Meta put $300M into Biohub's $1.8B open cell-data coalition, reportedly with a one-year head start on the data.",
+        "direction": "Converting the AlphaFold lead into $5B of fresh capital and a clinical push",
+        "detail": "Isomorphic closed a $5B Series C on Nov 17 (Greenoaks and Sequoia co-led; Alphabet kept investing), six months after $2.1B, with the money earmarked for its IsoDDE engine, biologics, partner research and its own clinical development. It also has a data-access roadmap with Abu Dhabi's health department, and with Google DeepMind and Meta put $300M into Biohub's $1.8B open cell-data coalition, reportedly with a one-year head start on the data.",
         "evidence": [
           "2026-10-08-isomorphic-series-c-talks",
           "2026-10-23-abudhabi-isomorphic",
@@ -177,6 +177,15 @@
         ]
       },
       {
+        "player": "Generalist growth investors (Sequoia, Greenoaks, a16z, Thrive)",
+        "kind": "VC",
+        "direction": "Bringing software-scale cheques to a preclinical AI drug developer",
+        "detail": "Greenoaks and Sequoia co-led Isomorphic's $5B Series C on Nov 17, with Andreessen Horowitz joining as a new investor and Thrive, which led the $2.1B Series B in May, returning. These funds usually back software and frontier AI labs, so their entry treats AI drug design as a platform business rather than a pipeline bet.",
+        "evidence": [
+          "2026-10-08-isomorphic-series-c-talks"
+        ]
+      },
+      {
         "player": "Lux Capital",
         "kind": "VC",
         "direction": "Owning the make-and-test layer end to end",
@@ -207,7 +216,7 @@
         "player": "Crossover & sovereign funds",
         "kind": "Public-market / sovereign",
         "direction": "Positioning for AI-biotech IPOs, late rounds and data partnerships",
-        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, CPP Investments is in Hexagon's Series C, the UK's Sovereign AI fund co-led Potential Sciences' seed and added supercomputer time, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort. Aramco's venture arm Prosperity7 joined INFevo's Chinese virtual-cell Pre-A (more than RMB 100M) on Nov 16.",
+        "detail": "ARK and Duquesne indicated about 40% of Iambic's IPO, ARK, Janus Henderson and Driehaus took part in Recursion's $200M follow-on, CPP Investments is in Hexagon's Series C, the UK's Sovereign AI fund co-led Potential Sciences' seed and added supercomputer time, the Abu Dhabi Investment Council and Duke's endowment joined Biossil's $153M round, Abu Dhabi is offering its health data to AI drug companies, and the US Energy Department pledged more than $500M over five years to Biohub's open cell-data effort. Aramco's venture arm Prosperity7 joined INFevo's Chinese virtual-cell Pre-A (more than RMB 100M) on Nov 16. MGX, Temasek and the UK Sovereign AI Fund all returned for Isomorphic's $5B Series C (Nov 17).",
         "evidence": [
           "2026-10-15-iambic-ipo",
           "2026-10-15-recursion-offering-sanofi",
@@ -215,7 +224,8 @@
           "2026-10-23-abudhabi-isomorphic",
           "2026-10-07-biohub-virtual-biology-1-8b",
           "2026-11-05-potential-sciences-seed",
-          "2026-11-16-infevo-pre-a"
+          "2026-11-16-infevo-pre-a",
+          "2026-10-08-isomorphic-series-c-talks"
         ]
       },
       {
@@ -274,10 +284,10 @@
         "based_on": "OpenAI's Orchestra deal; Anthropic's Mithril and Coefficient Bio buys; Microsoft and Oracle trial partnerships"
       },
       {
-        "call": "Isomorphic closes a round of $4B+ at $45B or more, and late-stage AI-biotech rounds price up after it",
-        "timeframe": "Next 1–3 months",
+        "call": "Another AI-native drug developer (not Isomorphic) announces a private round of $500M or more with a generalist growth or crossover investor (such as Sequoia, Greenoaks, a16z, Thrive, General Catalyst or Coatue) leading or co-leading",
+        "timeframe": "Next 4 months",
         "confidence": "Medium",
-        "based_on": "Bloomberg's Nov 4 report of ~$5B at ~$50B (up from $2B+ at $40B+ on Oct 8); Pathos's valuation nearly doubling since 2025"
+        "based_on": "Isomorphic's $5B Series C led by Greenoaks and Sequoia (Nov 17); Pathos's $237M and Warp's $215M at the top of the rest of the market; Anthropic's IPO creating a public comparable"
       },
       {
         "call": "Pharma–AI discovery licensing deals (not outright acquisitions) keep upfronts below ~5% of headline value",
@@ -306,16 +316,66 @@
     ],
     "watchlist": [
       "Anthropic IPO: pricing on Wednesday, Nov 18 at $70 to $78 (Bloomberg reported a book about six times covered) and the first Nasdaq trade on Thursday, Nov 19; any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
-      "Isomorphic Labs and Chai: whether the reported ~$5B at ~$50B closes and who leads; whether Chai discloses Roche terms or Genentech's involvement, and raises again on its seven-partner list",
+      "Isomorphic Labs and Chai: after the $5B close, whether Isomorphic confirms a valuation, names its first clinical candidate or files an IND, signs a biologics partner, or adds pharma partners beyond Lilly, Novartis and J&J; whether Chai discloses Roche terms or Genentech's involvement and raises again on its seven-partner list; and whether other late-stage AI biotechs try to raise off Isomorphic's price",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner; and whether PsiThera, now with AbbVie Ventures on its board, names its oral TNFα development candidate",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (running Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
       "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size",
       "Listed AI drug developers this week: Iambic's IAM217 (KIF18A) preclinical data at EORTC-NCI-AACR (Nov 18–20) and its IAM-C1 IND due this quarter; Recursion's next Sanofi development-candidate milestones after the $10M option on Nov 2; and whether Lilly, now 15 acquisitions and more than $30B into 2026 with Calytrix, buys an AI-native developer rather than single assets",
       "UK and China company creation: the first companies out of Flagship's London lab, which partners commit toward its £500M goal and whether a formal NHS data deal follows; CataX AI's first in-licensed asset; and whether INFevo names a pharma partner or publishes OCOO benchmarks on open perturbation data"
     ],
-    "since_last_run": "Three new items, all dated Nov 16: Flagship Pioneering's £100M (~$132M) commitment to its first non-US origination lab, in London, to build AI-native biotechs on UK patient data (logged as an announced commitment, so it does not count toward closed venture); INFevo's Pre-A of more than RMB 100M for an XtalPi-incubated virtual-cell model, with Aramco's Prosperity7 among new investors; and CataX AI's RMB 40M seed, solely from Qiming, for agent-run early clinical development. The two yuan rounds have no reported USD figure, so they are not in the dollar totals. Movers: Flagship updated (UK lab), Prosperity7 added to crossover and sovereign funds, and a new entry for Chinese venture firms and AI incubators. No items aged out, no prediction resolved and none replaced; Anthropic's IPO is unchanged (pricing Nov 18 at $70 to $78) and Isomorphic's reported ~$5B round is still unclosed. Screened out: J&J's up-to-$3.3B buy of Ollin Biosciences, Blackstone's $750M co-funding of its Phase 3, Novartis–OBI Pharma's ADC licence ($30M upfront, more than $2B total) and Asimov's cell-line deal with Emergent for Ebola antibodies (all Nov 16, no AI angle stated); Octopath AI's £1.5M seed for pathology foundation models (Nov 2, found late, below the bar)."
+    "since_last_run": "One change, no new companies. Isomorphic Labs' reported round (tracked since Oct 8 as talks) closed on Nov 17: a $5B Series C co-led by Greenoaks and Sequoia, with a16z new and Alphabet, Thrive, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund returning. The item moved from In talks to Closed and is dated Nov 17, so it now counts toward closed venture; the 7-day venture figure jumps to about $5.08B. Prediction resolved: the call that Isomorphic would close $4B+ at $45B or more came true on size, but the company stated no valuation, so the $45B half cannot be scored; it is retired and replaced by a call that another AI-native drug developer raises $500M+ with a generalist growth lead within four months. Movers: Alphabet/Isomorphic and crossover & sovereign funds updated; new entry for generalist growth investors (Sequoia, Greenoaks, a16z, Thrive). No items aged out. Anthropic still prices Nov 18. Screened out: Seawolf Therapeutics' $100M seed and Series A for repeat-dose DNA medicines (Nov 16, no AI angle stated); a Variational AI–Merck deal (up to $349M) that BioSpace re-dated to Nov 2 but which was announced in September 2025; Basecamp Research's $140M (Sept 23), Aureka's $100M (Aug) and Accipiter's $10.5M seed top-up (July), all outside the window; and a reported Lilly–Stipple oncology-target deal whose date and AI angle could not be confirmed this run."
   },
   "items": [
+    {
+      "id": "2026-10-08-isomorphic-series-c-talks",
+      "date": "2026-11-17",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Isomorphic Labs",
+      "counterparty": "Greenoaks & Sequoia Capital (co-leads)",
+      "amount_usd": 5000000000,
+      "amount_label": "$5B",
+      "round": "Series C",
+      "valuation_label": "Not disclosed (Bloomberg had reported ~$50B during talks)",
+      "investors": [
+        "Greenoaks",
+        "Sequoia Capital",
+        "Andreessen Horowitz",
+        "Alphabet",
+        "Thrive Capital",
+        "MGX",
+        "GV",
+        "CapitalG",
+        "Temasek",
+        "UK Sovereign AI Fund"
+      ],
+      "area": "AI drug discovery (Alphabet / DeepMind spinout)",
+      "summary": "The Alphabet-backed, DeepMind-spun drug designer announced an oversubscribed $5B Series C on Nov 17, co-led by Greenoaks and Sequoia, with a16z joining as a new investor and Alphabet, Thrive, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund returning. It comes six months after a $2.1B Series B; the company did not state a valuation.",
+      "why_it_matters": "Generalist growth money (Sequoia, Greenoaks, a16z) has now written the largest cheque in this tracker into a preclinical AI drug company, which resets the price anchor for late-stage AI-biotech rounds the day before Anthropic prices its IPO.",
+      "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-announces-5-billion-series-c-funding-302942062.html",
+      "source_name": "PR Newswire (company release)",
+      "first_seen": "2026-10-27T02:45:00+00:00",
+      "why_invested": "Stated: the money goes to maturing its IsoDDE design engine and moving into new biology, building a partner network for disease-mechanism work, global infrastructure for AI-led bioengineering, and in-house translational and clinical capability. Likely: growth investors are paying for the AlphaFold lineage, more than 20 programs and partnerships with Lilly, Novartis and J&J, before any human data.",
+      "whats_next": "First in-house oncology and immunology programs are heading to the clinic; Hassabis no longer gives a date but says regulatory filings are on track and more news comes in 2027, so a first IND or first-in-human disclosure is the milestone to watch. Also watch the planned move from small molecules into biologics, new pharma partners, and whether a valuation is confirmed.",
+      "links": [
+        {
+          "title": "PR Newswire: Isomorphic announces $5B Series C",
+          "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-announces-5-billion-series-c-funding-302942062.html"
+        },
+        {
+          "title": "The Next Web: Sequoia and Greenoaks lead; clinical timing and pipeline",
+          "url": "https://thenextweb.com/news/isomorphic-labs-5bn-series-c-sequoia-greenoaks"
+        },
+        {
+          "title": "Tech.eu: round details and leadership",
+          "url": "https://tech.eu/2026/11/17/sequoia-and-greenoaks-lead-massive-5bn-series-c-funding-round-in-isomorphic-labs"
+        },
+        {
+          "title": "Bloomberg (Nov 4): talks at ~$50B valuation (paywalled)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/isomorphic-labs-in-talks-for-about-5-billion-in-funding"
+        }
+      ]
+    },
     {
       "id": "2026-11-16-flagship-uk-origination-lab",
       "date": "2026-11-16",
@@ -1351,45 +1411,6 @@
       "url": "https://biospace.com/press-releases/ucb-advances-its-digital-antibody-engineering-program-with-new-cradle-collaboration",
       "source_name": "BioSpace (PR Newswire release)",
       "first_seen": "2026-11-04T13:49:31+00:00"
-    },
-    {
-      "id": "2026-10-08-isomorphic-series-c-talks",
-      "date": "2026-11-04",
-      "type": "Funding",
-      "status": "In talks",
-      "company": "Isomorphic Labs",
-      "counterparty": null,
-      "amount_usd": 5000000000,
-      "amount_label": "~$5B (reported)",
-      "round": "Series C (talks)",
-      "valuation_label": "~$50B (reported)",
-      "investors": [],
-      "area": "AI drug discovery (Alphabet / DeepMind spinout)",
-      "summary": "Bloomberg reported on Nov 4 that the Alphabet spinout is in talks to raise about $5B at roughly a $50B valuation, more than double the $2B+ first floated in October and at the top of the earlier $40–50B range. Terms are not final, no lead is named, and Isomorphic has not commented; it raised a $2.1B Series B led by Thrive Capital in May.",
-      "why_it_matters": "A $5B private round would be among the largest ever for a drug-discovery company and sets a price that later-stage AI-biotech rounds and IPOs (Anthropic's included) will be measured against, before any human data.",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-04/isomorphic-labs-in-talks-for-about-5-billion-in-funding",
-      "source_name": "Bloomberg",
-      "first_seen": "2026-10-27T02:45:00+00:00",
-      "why_invested": "Likely: investors are paying for the AlphaFold lineage, Alphabet's backing, and pharma deals with Lilly, Novartis and J&J, and betting that the first in-house programs reach the clinic soon. No new clinical data has been disclosed to justify the step-up, so this is a platform bet.",
-      "whats_next": "Watch for the closing size, lead investor and whether Alphabet funds part of it. Hassabis has said he expects first human trials to start around the end of this year, so a first clinical program disclosure is the key milestone. Total outside funding would reach about $7.7B if it closes.",
-      "links": [
-        {
-          "title": "Bloomberg: Isomorphic in talks for about $5B (paywalled)",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/isomorphic-labs-in-talks-for-about-5-billion-in-funding"
-        },
-        {
-          "title": "Tech Funding News: $5B at $50B, first trial timing",
-          "url": "https://techfundingnews.com/isomorphic-labs-5b-raise-50b-valuation-first-clinical-trial"
-        },
-        {
-          "title": "Resultsense: £3.7bn talks recap",
-          "url": "https://www.resultsense.com/news/2026-11-05-isomorphic-labs-5bn-funding-talks/"
-        },
-        {
-          "title": "Bloomberg (Oct 8): first report, $40B+ valuation",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-08/alphabet-s-isomorphic-labs-in-funding-talks-for-at-least-40-billion-value"
-        }
-      ]
     },
     {
       "id": "2026-11-02-biossil-theriva-enzymes",

@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-16T21:54:00+00:00",
-  "run_label": "Evening brief · Nov 16, 2026",
+  "last_updated": "2026-11-17T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 17, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No ideas added or retired. Two updated: the virtual-cell scaling test now cites INFevo's Pre-A of more than RMB 100M (Nov 16) for a virtual-cell model with its own automated lab, and the shelved-drug rescue scan cites CataX AI's RMB 40M seed (Nov 16) for agent-run development of in-licensed early assets. Dataset links on both ideas were re-checked this run (Tahoe-100M, the pertpy Replogle loader, Arc's Virtual Cell Atlas, AACT, Open Targets downloads and ChEMBL). Flagship's UK lab points at NHS-scale patient data, but no current idea uses UK data and an open dataset was not confirmed this run, so no new idea was added.",
+  "since_last_run": "No ideas added or retired. One updated: the dynamics-vs-static binding idea now cites Isomorphic Labs' $5B Series C (Nov 17), which funds its structure-based IsoDDE engine, and its dataset links (MISATO on Zenodo, PLINDER on PyPI, mdCATH on Hugging Face) were re-checked this run. The only new money this run went to an existing platform, so it opened no new angle.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -332,17 +332,18 @@
       "id": "dynamics-vs-static-affinity",
       "status": "Active",
       "first_seen": "2026-11-06T21:49:14+00:00",
-      "updated": "2026-11-14T21:55:00+00:00",
+      "updated": "2026-11-17T13:55:00+00:00",
       "title": "Does molecular-dynamics information beat a single static structure for predicting ligand binding?",
       "kind": "Research project",
       "area": "Physics-based simulation + ML / small-molecule design",
       "difficulty": "Intermediate",
       "question": "For protein–ligand complexes with measured affinities, do features or embeddings learned from MD trajectories improve affinity and pose-stability prediction over models that see only one crystal structure, and on which kinds of targets (flexible pockets, cryptic sites) does the gain show up?",
-      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps.",
+      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps. On Nov 17 Isomorphic Labs closed a $5B Series C partly to mature its structure-based IsoDDE design engine, so the static-structure side of this comparison now carries the largest private bet in the field; an open test of where dynamics adds signal is worth more, not less.",
       "evidence": [
         "2026-11-10-psithera-financing",
         "2026-11-06-fathom-series-a-kos",
-        "2026-11-05-potential-sciences-seed"
+        "2026-11-05-potential-sciences-seed",
+        "2026-10-08-isomorphic-series-c-talks"
       ],
       "datasets": [
         {

@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-16T21:54:00+00:00",
+ "last_updated": "2026-11-17T13:55:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -65,9 +65,9 @@
      "deal": "p-biohub-virtualbio"
     },
     {
-     "label": "Next round in talks: ~$5B at ~$50B (up from $2B+ at $40B+ in October)",
-     "amount": "~$5B (talks)",
-     "deal": null
+     "label": "Greenoaks and Sequoia co-lead a $5B Series C; a16z joins, Alphabet keeps investing",
+     "amount": "$5B",
+     "deal": "v-isomorphic-c"
     },
     {
      "label": "Pharma answers with its own closed dataset: GSK, Pfizer, Sanofi join Cascade",
@@ -75,7 +75,7 @@
      "deal": "p-parse-nomic-cascade"
     }
    ],
-   "insight": "Big tech money plus sovereign money (MGX, Temasek, UK Sovereign AI Fund) are funding the platform before it has clinical data, and the price keeps rising: the next round is now reportedly about $5B at roughly $50B. Pharma pays for access, Gulf states offer data, and Alphabet is also paying for shared biology data with an early-access window, while GSK, Pfizer and Sanofi joined a licensed rival dataset (Cascade), so the data race has an open and a closed track."
+   "insight": "Isomorphic has now raised $7.1B in six months ($2.1B in May, $5B on Nov 17) without human data, and the buyers have widened from Alphabet, Thrive and sovereign funds (MGX, Temasek, UK Sovereign AI Fund) to generalist growth firms (Greenoaks, Sequoia, a16z). Pharma pays for access, Gulf states offer data, and Alphabet also funds shared cell data with an early-access window, while GSK, Pfizer and Sanofi joined a licensed rival dataset (Cascade). The next step to watch is the first clinical candidate, which is what this price has to be earned against."
   },
   {
    "id": "c-ailabs",
@@ -3592,6 +3592,64 @@
    "url": "https://news.pedaily.cn/202611/571905.shtml",
    "source_name": "PEdaily",
    "note": "Incubated by XtalPi. Prosperity7 is the venture arm of state-owned Saudi Aramco. Size only given as more than RMB 100M, so not counted in totals."
+  },
+  {
+   "id": "v-isomorphic-c",
+   "date": "2026-11-17",
+   "type": "Venture",
+   "company": "Isomorphic Labs",
+   "sector": "Foundation models & platforms",
+   "round": "Series C",
+   "cash_usd": 5000000000,
+   "headline_usd": 5000000000,
+   "amount_label": "$5B",
+   "payers": [
+    {
+     "name": "Greenoaks",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Sequoia Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Andreessen Horowitz",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Alphabet",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Thrive Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "MGX",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "GV",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "CapitalG",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "Temasek",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "UK Sovereign AI Fund",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-announces-5-billion-series-c-funding-302942062.html",
+   "source_name": "PR Newswire",
+   "note": "Oversubscribed. Valuation not disclosed; Bloomberg had reported about $50B during talks."
   }
  ]
 }
