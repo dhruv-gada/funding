@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T16:37:36.392568+00:00",
+  "last_updated": "2026-11-18T16:06:11.729650+00:00",
   "count": 12,
   "items": [
     {
@@ -73,6 +73,23 @@
       ]
     },
     {
+      "id": "9785157f19",
+      "title": "Isabella Wilson on Finding Her Story Through a CIEE Study Abroad Fellowship",
+      "source": "ProFellow",
+      "type": "Fellowship",
+      "url": "https://www.profellow.com/interviews/isabella-wilson-on-finding-her-story-through-a-ciee-study-abroad-fellowship/",
+      "description": "",
+      "deadline": null,
+      "amount": null,
+      "posted": null,
+      "relevance_score": 1,
+      "tags": [
+        "Fellowship",
+        "STEM",
+        "Aggregator"
+      ]
+    },
+    {
       "id": "937531e614",
       "title": "Sahana Shah on Applying Twice to Fulbright Spain and Uniting Research with Advocacy",
       "source": "ProFellow",
@@ -112,23 +129,6 @@
       "source": "ProFellow",
       "type": "Fellowship",
       "url": "https://www.profellow.com/fellowships/full-tuition-mpp-and-mpa-fellowships-and-scholarships/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "24aaec55fc",
-      "title": "Postdoctoral Fellowships in Science with Fall Deadlines",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/fellowships/postdoctoral-fellowships-in-science-with-fall-deadlines/",
       "description": "",
       "deadline": null,
       "amount": null,
