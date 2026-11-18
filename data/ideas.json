@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-18T13:55:00+00:00",
-  "run_label": "Morning brief · Nov 18, 2026",
+  "last_updated": "2026-11-18T21:55:00+00:00",
+  "run_label": "Evening brief · Nov 18, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No changes to the ideas this run. The only new deal, Astromech's $230M all-stock purchase of Form Bio (gene-therapy construct and vector design), points to a gene-medicine design angle that no current idea covers, but its claimed gain is in packaging of intact vector genomes, and no open dataset matching that was confirmed this run (the open AAV capsid-fitness sets in FLIP measure a different property), so no idea was added.",
+  "since_last_run": "Two ideas updated, none added or retired. Boltz's $110M Series A (Nov 18) was added as evidence to the binder-metrics audit, since its paid design models rely on computed scores to pick designs, and to the dynamics-versus-static affinity test, since Boltz-2 predicts affinity from one co-folded structure. Dataset links on both ideas were re-checked through search and still resolve. Tesorai's proteomics-reprocessing seed and Novo Nordisk–nference's real-world-data pact point to angles no idea covers, but each is a single small or undisclosed deal, so no idea was added this run.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -166,20 +166,21 @@
       "id": "binder-metrics-audit",
       "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-17T21:53:13+00:00",
+      "updated": "2026-11-18T21:55:00+00:00",
       "title": "Do in-silico confidence scores predict which designed binders actually bind?",
       "kind": "Analysis",
       "area": "Protein and antibody design",
       "difficulty": "Starter",
       "question": "Across hundreds of community-designed binders that were tested in a lab, which computed scores (interface confidence, pLDDT, energy terms, sequence novelty) predict binding and expression, and how much do they add over each other?",
-      "why_now": "Pharma, and now venture firms, are licensing design models as standard tools: Roche and GSK signed Chai, UCB signed Cradle and, on Nov 17, argenx widened its Cradle licence to more antibody programs after a first phase of lead optimisation, Astellas licensed AI Proteins' miniproteins, and on Nov 6 Third Rock committed up to about $2.16B to Beijing's Funnel Biosciences, which claims zero-shot picomolar antibodies without lab affinity maturation. All of them pick which designs to make using computed scores, and claims like Funnel's are only as good as those scores. Adaptyv Bio's open EGFR binder competitions released designs with lab measurements, and Cradle won one of the rounds, so the data comes from the same kind of tools these deals pay for.",
+      "why_now": "Pharma, and now venture firms, are licensing design models as standard tools: Roche and GSK signed Chai, UCB signed Cradle and, on Nov 17, argenx widened its Cradle licence to more antibody programs after a first phase of lead optimisation, Astellas licensed AI Proteins' miniproteins, and on Nov 6 Third Rock committed up to about $2.16B to Beijing's Funnel Biosciences, which claims zero-shot picomolar antibodies without lab affinity maturation. All of them pick which designs to make using computed scores, and claims like Funnel's are only as good as those scores. Adaptyv Bio's open EGFR binder competitions released designs with lab measurements, and Cradle won one of the rounds, so the data comes from the same kind of tools these deals pay for. On Nov 18 Boltz raised a $110M Series A led by Bessemer to sell paid protein and small-molecule design models (BoltzProt-1, BoltzMol-1) to Pfizer, GSK, Takeda and BMS, so another large funding round now rests on computed design scores being trustworthy.",
       "evidence": [
         "2026-11-17-argenx-cradle-expansion",
         "2026-11-06-third-rock-funnel",
         "2026-11-05-roche-chai",
         "2026-11-04-ucb-cradle",
         "2026-10-09-gsk-chai",
-        "2026-10-21-astellas-ai-proteins"
+        "2026-10-21-astellas-ai-proteins",
+        "2026-11-18-boltz-series-a"
       ],
       "datasets": [
         {
@@ -333,18 +334,19 @@
       "id": "dynamics-vs-static-affinity",
       "status": "Active",
       "first_seen": "2026-11-06T21:49:14+00:00",
-      "updated": "2026-11-17T13:55:00+00:00",
+      "updated": "2026-11-18T21:55:00+00:00",
       "title": "Does molecular-dynamics information beat a single static structure for predicting ligand binding?",
       "kind": "Research project",
       "area": "Physics-based simulation + ML / small-molecule design",
       "difficulty": "Intermediate",
       "question": "For protein–ligand complexes with measured affinities, do features or embeddings learned from MD trajectories improve affinity and pose-stability prediction over models that see only one crystal structure, and on which kinds of targets (flexible pockets, cryptic sites) does the gain show up?",
-      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps. On Nov 17 Isomorphic Labs closed a $5B Series C partly to mature its structure-based IsoDDE design engine, so the static-structure side of this comparison now carries the largest private bet in the field; an open test of where dynamics adds signal is worth more, not less.",
+      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps. On Nov 17 Isomorphic Labs closed a $5B Series C partly to mature its structure-based IsoDDE design engine, so the static-structure side of this comparison now carries the largest private bet in the field; an open test of where dynamics adds signal is worth more, not less. Boltz's $110M Series A (Nov 18), whose Boltz-2 model predicts affinity jointly with a single co-folded structure, adds a second well-funded static-structure approach to compare against.",
       "evidence": [
         "2026-11-10-psithera-financing",
         "2026-11-06-fathom-series-a-kos",
         "2026-11-05-potential-sciences-seed",
-        "2026-10-08-isomorphic-series-c-talks"
+        "2026-10-08-isomorphic-series-c-talks",
+        "2026-11-18-boltz-series-a"
       ],
       "datasets": [
         {

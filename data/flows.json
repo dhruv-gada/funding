@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-18T13:55:00+00:00",
+ "last_updated": "2026-11-18T21:55:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -75,7 +75,7 @@
      "deal": "p-parse-nomic-cascade"
     }
    ],
-   "insight": "Isomorphic has now raised $7.1B in six months ($2.1B in May, $5B on Nov 17) without human data, and the buyers have widened from Alphabet, Thrive and sovereign funds (MGX, Temasek, UK Sovereign AI Fund) to generalist growth firms (Greenoaks, Sequoia, a16z). Pharma pays for access, Gulf states offer data, and Alphabet also funds shared cell data with an early-access window, while GSK, Pfizer and Sanofi joined a licensed rival dataset (Cascade). The next step to watch is the first clinical candidate, which is what this price has to be earned against."
+   "insight": "Isomorphic has now raised $7.1B in six months ($2.1B in May, $5B on Nov 17) without human data, and the buyers have widened from Alphabet, Thrive and sovereign funds (MGX, Temasek, UK Sovereign AI Fund) to generalist growth firms (Greenoaks, Sequoia, a16z). Pharma pays for access, Gulf states offer data, and Alphabet also funds shared cell data with an early-access window, while GSK, Pfizer and Sanofi joined a licensed rival dataset (Cascade). The next step to watch is the first clinical candidate, which is what this price has to be earned against. The open-model alternative is getting funded too: Boltz, whose open structure models compete with AlphaFold-family tools, raised a $110M Series A (Nov 18) led by Bessemer with a16z, also an Isomorphic investor, backing both."
   },
   {
    "id": "c-ailabs",
@@ -321,9 +321,14 @@
      "label": "Aramco's Prosperity7 joins INFevo's Chinese virtual-cell Pre-A",
      "amount": "Over RMB 100M (round)",
      "deal": "v-infevo"
+    },
+    {
+     "label": "IQT backs Tesorai's proteomics-data seed",
+     "amount": "$5.3M (round)",
+     "deal": "v-tesorai"
     }
    ],
-   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern. Shanghai's state tech investor leading Tourson Intelligence's Pre-A (Nov 9) is another local-lead case, two weeks after China Life Capital led BioGeometry's A+."
+   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern. Shanghai's state tech investor leading Tourson Intelligence's Pre-A (Nov 9) is another local-lead case, two weeks after China Life Capital led BioGeometry's A+. The US joins through IQT, the intelligence community's venture arm, which backed Tesorai's $5.3M seed (Nov 18) for re-mining archived proteomics data, after its earlier stake in Lila Sciences."
   },
   {
    "id": "c-downstream",
@@ -3692,6 +3697,117 @@
    "url": "https://lifestyle.middletownlifemagazine.com/story/841481/astromech-acquires-form-bio-bringing-together-evolutionary-ai-and-genetic-medicine-design-under-one-directive/",
    "source_name": "PRNewswire (Astromech release)",
    "note": "All-stock deal for Form Bio's IP, selected contracts, assets and team; no cash disclosed. Both companies are Colossal Biosciences spinouts. Closing status not stated."
+  },
+  {
+   "id": "v-boltz-a",
+   "date": "2026-11-18",
+   "type": "Venture",
+   "company": "Boltz",
+   "sector": "Foundation models & platforms",
+   "round": "Series A",
+   "cash_usd": 110000000,
+   "headline_usd": 110000000,
+   "amount_label": "$110M",
+   "payers": [
+    {
+     "name": "Bessemer Venture Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Andreessen Horowitz",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.bvp.com/news/boltz-building-towards-programmable-molecular-design",
+   "source_name": "Bessemer Venture Partners",
+   "note": null
+  },
+  {
+   "id": "v-tesorai",
+   "date": "2026-11-18",
+   "type": "Venture",
+   "company": "Tesorai",
+   "sector": "Foundation models & platforms",
+   "round": "Seed",
+   "cash_usd": 5300000,
+   "headline_usd": 5300000,
+   "amount_label": "$5.3M",
+   "payers": [
+    {
+     "name": "Lead not named",
+     "kind": "Undisclosed"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Perplexity Fund",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "IQT",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "South Central Ventures",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "NextGen Venture Partners",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.prnewswire.com/news-releases/tesorai-raises-5-3-million-to-put-vast-troves-of-untapped-research-data-to-work-302944021.html",
+   "source_name": "PR Newswire",
+   "note": "Release names no lead; SiliconANGLE describes Perplexity Fund, IQT and South Central Ventures as leading. AI re-analysis of proteomics (mass-spec) data."
+  },
+  {
+   "id": "p-novo-nference",
+   "date": "2026-11-18",
+   "type": "Partnership",
+   "company": "nference",
+   "sector": "Clinical & development AI",
+   "round": "Cardiometabolic real-world-data research collaboration plus venture framework",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed",
+   "payers": [
+    {
+     "name": "Novo Nordisk",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://www.biospace.com/press-releases/nference-and-novo-partner-to-advance-understanding-of-cardiometabolic-disease-and-healthy-ageing",
+   "source_name": "BioSpace (PR Newswire)",
+   "note": "No financial terms disclosed."
+  },
+  {
+   "id": "a-valo-montai",
+   "date": "2026-11-11",
+   "type": "Acquisition",
+   "company": "Montai Therapeutics",
+   "sector": "Small molecule & peptide design",
+   "round": "Merged into Valo Health",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed (merger)",
+   "payers": [
+    {
+     "name": "Valo Health",
+     "kind": "AI biotech"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Flagship Pioneering",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://www.startupresearcher.com/news/valo-health-and-montai-therapeutics-merge",
+   "source_name": "Startup Researcher",
+   "note": "Merger of two Flagship companies under the Valo name; no terms or new financing disclosed. Found late (announced Nov 11)."
   }
  ]
 }
