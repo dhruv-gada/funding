@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-17T21:53:13+00:00",
-  "run_label": "Evening brief · Nov 17, 2026",
+  "last_updated": "2026-11-18T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 18, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No ideas added or retired. One updated: the binder-metrics audit now cites argenx's wider Cradle licence (Nov 17, terms undisclosed), more evidence that pharma picks antibody designs to make from computed scores. Its Adaptyv round 2 data (400 designs, data ODbL, code Apache 2.0) and the organisers' bioRxiv write-up were re-checked this run; round 1 could not be re-opened this run and is unchanged. The evening's only deal is a software expansion, so it opened no new angle.",
+  "since_last_run": "No changes to the ideas this run. The only new deal, Astromech's $230M all-stock purchase of Form Bio (gene-therapy construct and vector design), points to a gene-medicine design angle that no current idea covers, but its claimed gain is in packaging of intact vector genomes, and no open dataset matching that was confirmed this run (the open AAV capsid-fitness sets in FLIP measure a different property), so no idea was added.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",

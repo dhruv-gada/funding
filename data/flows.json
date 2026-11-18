@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-17T21:53:13+00:00",
+ "last_updated": "2026-11-18T13:55:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -3671,6 +3671,27 @@
    "url": "https://www.prnewswire.com/news-releases/cradles-antibody-discovery-platform-for-autoimmune-diseases-supports-scientific-mission-of-argenx-302941511.html",
    "source_name": "PR Newswire (Cradle release)",
    "note": "Expansion of an existing software-access arrangement; no financial terms, duration or program count disclosed."
+  },
+  {
+   "id": "a-astromech-formbio",
+   "date": "2026-11-17",
+   "type": "Acquisition",
+   "company": "Form Bio",
+   "sector": "Targets, delivery & biology",
+   "round": "Acquired by Astromech",
+   "cash_usd": null,
+   "headline_usd": 230000000,
+   "amount_label": "$230M all-stock",
+   "payers": [
+    {
+     "name": "Astromech",
+     "kind": "AI biotech"
+    }
+   ],
+   "participants": [],
+   "url": "https://lifestyle.middletownlifemagazine.com/story/841481/astromech-acquires-form-bio-bringing-together-evolutionary-ai-and-genetic-medicine-design-under-one-directive/",
+   "source_name": "PRNewswire (Astromech release)",
+   "note": "All-stock deal for Form Bio's IP, selected contracts, assets and team; no cash disclosed. Both companies are Colossal Biosciences spinouts. Closing status not stated."
   }
  ]
 }

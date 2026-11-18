@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-17T21:53:13+00:00",
-  "run_label": "Evening brief · Nov 17, 2026",
+  "last_updated": "2026-11-18T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 18, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Isomorphic Labs' $5B Series C, co-led by Greenoaks and Sequoia and about 2.4 times its May round, remains the defining deal on the eve of Anthropic's IPO pricing; the evening's only addition is argenx widening its Cradle antibody-AI licence, a sign that pharma now expands design software once early programs work",
-    "summary": "Isomorphic's $5B Series C (Nov 17) dominates the window, with a16z joining and Alphabet, Thrive, MGX, Temasek and the UK Sovereign AI Fund returning; no valuation was stated, though Bloomberg had reported about $50B in talks. Disclosed, closed bio×AI venture since Oct 22 is now about $5.66B, of which Isomorphic is about 88%; without it the figure is still about $660M (Pathos $237M, Warp $215M, Hexagon $62M and smaller rounds). Biggest partnership money remains Third Rock–Funnel (up to ~$2.16B headline) and argenx–Unnatural Products ($550M cash), and Anthropic prices on Nov 18 at $70 to $78. This evening argenx also widened its use of Cradle's antibody-design software (Nov 17, terms undisclosed), Cradle's second pharma announcement in two weeks after UCB.",
+    "headline": "Isomorphic Labs' $5B Series C still defines the window on the day Anthropic prices its IPO; the morning's one new deal is Astromech's $230M all-stock purchase of fellow Colossal spinout Form Bio, a sign that AI design is reaching gene therapy and that richly valued AI-bio stock is becoming acquisition currency",
+    "summary": "Isomorphic's $5B Series C (Nov 17), co-led by Greenoaks and Sequoia with a16z joining, remains about 88% of the roughly $5.66B of disclosed, closed bio×AI venture since Oct 22; without it the figure is about $660M (Pathos $237M, Warp $215M, Hexagon $62M and smaller rounds). Biggest partnership money is still Third Rock–Funnel (up to ~$2.16B headline) and argenx–Unnatural Products ($550M cash). New this morning: Astromech is buying Form Bio's gene-medicine design tools and team for $230M in stock (Nov 17), and Anthropic prices tonight at a $70 to $78 range.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range (Bloomberg reported a book about six times covered by Nov 12) implying up to about $1.02T on outstanding shares (about $1.4T fully diluted); the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Generate Biomedicines' Q3 report (Nov 12) confirms a research collaboration with Anthropic on agentic CAR-T design, in which Claude helped shrink a key CAR component by about 70%. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic closed a $5B Series C on Nov 17, co-led by Greenoaks and Sequoia with a16z new to the cap table, to take its first oncology and immunology programs toward the clinic and add biologics; it no longer gives a trial date. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before. Chinese pharma is buying the same way at home: on Nov 13 Hansoh signed Hong Kong spin-off AilsynBio to find oral cyclic peptides against targets Hansoh picks, for up to RMB317M in total payments plus royalties, with Hansoh keeping the IP. Software licences are growing inside pharma once they show results: on Nov 17 argenx extended Cradle's platform to more scientists and antibody programs after a first phase of lead optimisation, eight days after agreeing to buy Unnatural Products."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors, and on Nov 10 it set a $70 to $78 range (Bloomberg reported a book about six times covered by Nov 12) implying up to about $1.02T on outstanding shares (about $1.4T fully diluted); the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Generate Biomedicines' Q3 report (Nov 12) confirms a research collaboration with Anthropic on agentic CAR-T design, in which Claude helped shrink a key CAR component by about 70%. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic closed a $5B Series C on Nov 17, co-led by Greenoaks and Sequoia with a16z new to the cap table, to take its first oncology and immunology programs toward the clinic and add biologics; it no longer gives a trial date. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before. Chinese pharma is buying the same way at home: on Nov 13 Hansoh signed Hong Kong spin-off AilsynBio to find oral cyclic peptides against targets Hansoh picks, for up to RMB317M in total payments plus royalties, with Hansoh keeping the IP. Software licences are growing inside pharma once they show results: on Nov 17 argenx extended Cradle's platform to more scientists and antibody programs after a first phase of lead optimisation, eight days after agreeing to buy Unnatural Products. Stock is also becoming the currency for consolidation one rung up: on Nov 17 Astromech, the Church and Lamm evolutionary-AI company valued at a reported $3.8B in August, agreed to buy sister Colossal spinout Form Bio for $230M in shares, adding AI design tools for gene-therapy constructs used by Lilly, Taysha and Solid Biosciences."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
@@ -269,6 +269,15 @@
           "2026-11-09-tourson-pre-a-plus",
           "2026-11-09-sanyou-series-c"
         ]
+      },
+      {
+        "player": "Colossal Biosciences spinouts (Astromech, Form Bio)",
+        "kind": "AI biotech",
+        "direction": "Consolidating sister AI companies into one gene-medicine design platform, paid for in stock",
+        "detail": "Astromech, co-founded by George Church and Ben Lamm and reportedly valued at $3.8B after raising $60M, agreed on Nov 17 to absorb Form Bio's IP, contracts and team for $230M in stock. The combined company pairs cross-species evolutionary models with vector and construct design for human gene therapies and animal health, and inherits Form Bio's pharma users including Eli Lilly.",
+        "evidence": [
+          "2026-11-17-astromech-form-bio"
+        ]
       }
     ],
     "predictions": [
@@ -282,7 +291,7 @@
         "call": "Another frontier AI lab or big tech company announces a new bio acquisition (tooling startup or drug developer), after OpenAI–Orchestra and Anthropic–Mithril",
         "timeframe": "By mid-2027",
         "confidence": "Medium",
-        "based_on": "OpenAI's Orchestra deal; Anthropic's Mithril and Coefficient Bio buys; Microsoft and Oracle trial partnerships"
+        "based_on": "OpenAI's Orchestra deal; Anthropic's Mithril and Coefficient Bio buys; Microsoft and Oracle trial partnerships; Astromech–Form Bio (Nov 17, $230M in stock) is an AI-bio company buying a sister tool maker, not a frontier lab or big tech, so it does not count"
       },
       {
         "call": "Another AI-native drug developer (not Isomorphic) announces a private round of $500M or more with a generalist growth or crossover investor (such as Sequoia, Greenoaks, a16z, Thrive, General Catalyst or Coatue) leading or co-leading",
@@ -316,17 +325,55 @@
       }
     ],
     "watchlist": [
-      "Anthropic IPO: pricing on Wednesday, Nov 18 at $70 to $78 (Bloomberg reported a book about six times covered) and the first Nasdaq trade on Thursday, Nov 19; any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
+      "Anthropic IPO: pricing tonight, Wednesday Nov 18, at a $70 to $78 range (Bloomberg reported a book about six times covered) and the first Nasdaq trade on Thursday, Nov 19; any life-sciences revenue or R&D disclosure, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
       "Isomorphic Labs and Chai: after the $5B close, whether Isomorphic confirms a valuation, names its first clinical candidate or files an IND, signs a biologics partner, or adds pharma partners beyond Lilly, Novartis and J&J; whether Chai discloses Roche terms or Genentech's involvement and raises again on its seven-partner list; and whether other late-stage AI biotechs try to raise off Isomorphic's price",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner; and whether PsiThera, now with AbbVie Ventures on its board, names its oral TNFα development candidate",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (running Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
       "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size; and whether argenx names a first Cradle-optimised antibody or discloses terms, and whether Cradle raises after adding UCB and argenx in November",
       "Listed AI drug developers this week: Iambic's IAM217 (KIF18A) preclinical data at EORTC-NCI-AACR (Nov 18–20) and its IAM-C1 IND due this quarter; Recursion's next Sanofi development-candidate milestones after the $10M option on Nov 2; and whether Lilly, now 15 acquisitions and more than $30B into 2026 with Calytrix, buys an AI-native developer rather than single assets",
-      "UK and China company creation: the first companies out of Flagship's London lab, which partners commit toward its £500M goal and whether a formal NHS data deal follows; CataX AI's first in-licensed asset; and whether INFevo names a pharma partner or publishes OCOO benchmarks on open perturbation data"
+      "UK and China company creation: the first companies out of Flagship's London lab, which partners commit toward its £500M goal and whether a formal NHS data deal follows; CataX AI's first in-licensed asset; and whether INFevo names a pharma partner or publishes OCOO benchmarks on open perturbation data",
+      "Gene-medicine design AI: whether Astromech closes the Form Bio deal, keeps Form Bio's pharma users (Lilly, Taysha, Solid, Coave) and turns the Cure Rare Disease Duchenne construct into an IND-enabling program; whether Astromech raises again on its reported $3.8B valuation; and whether other well-valued AI biotechs start buying tool makers with stock"
     ],
-    "since_last_run": "Quiet evening: one new item, no status changes and no resolved predictions. Cradle said on Nov 17 that argenx is widening its use of Cradle's AI antibody-engineering platform to more scientists and programs after a first phase of lead optimisation, with no financial terms; it is logged as a signed partnership and adds to the argenx and other-pharma movers. Isomorphic's $5B Series C (Nov 17, closed) is unchanged, so the 7-day closed-venture figure stays at about $5.08B. Anthropic still prices on Nov 18. No items aged out. Screened out: Neurosterix's $105M Series B and VectorY's $83.5M (no AI angle stated), a $173M sickle cell startup in STAT's Nov 17 newsletter (no AI angle visible), and older deals resurfacing in search (Insilico–Tenacia from March, Owkin–AstraZeneca from May, Living Models' seed from March)."
+    "since_last_run": "One new deal and no status changes or resolved predictions. Astromech announced on Nov 17 that it is buying fellow Colossal spinout Form Bio's IP, contracts and team in an all-stock deal valued at $230M, adding AI tools for designing gene-therapy constructs and vectors; it is logged as an announced acquisition, adds a new Colossal-spinouts mover, and joins the theme on stock-paid consolidation. The 7-day closed-venture figure is now about $5.06B (Isomorphic $5B plus Orakl, Biomatter and Switchpoint) as PsiThera's Nov 10 round rolled out of the week. Anthropic prices tonight. No items aged out. Screened out: Aevius's $22M launch led by Insight Partners (clinical-data AI for health systems and payers, mainly outside drug R&D), Remedy Robotics' $62M Series B (surgical robotics), Knit Health's round (care-routing AI), and older deals resurfacing in search (Incyte–Genesis expansion from June, Incyte–Edison from May, Automata's Series C from February, Tempus–Personalis from July). Insilico's preliminary cooperation with Luoxin Pharmaceuticals has no disclosed date or terms and is non-binding, so it is held until a definitive agreement appears."
   },
   "items": [
+    {
+      "id": "2026-11-17-astromech-form-bio",
+      "date": "2026-11-17",
+      "type": "Acquisition",
+      "status": "Announced",
+      "company": "Form Bio",
+      "counterparty": "Astromech",
+      "amount_usd": 230000000,
+      "amount_label": "$230M (all stock)",
+      "round": "Acquired by Astromech",
+      "valuation_label": null,
+      "investors": [
+        "Astromech"
+      ],
+      "area": "Gene therapy design AI / evolutionary genomics models",
+      "summary": "Astromech, the Dallas AI company co-founded by George Church and Ben Lamm that models how biological sequences change across species, is taking over Form Bio's IP, selected contracts, assets and team in an all-stock deal valued at $230M. Form Bio, launched inside Colossal Biosciences in 2022 with over $40M raised, builds AI tools for designing gene-therapy constructs and vectors and checking genome quality; both companies come out of Colossal.",
+      "why_invested": "The companies say joining Astromech's evolutionary models to Form Bio's construct-design tools lets researchers go straight from spotting evolutionary patterns to designing and testing genetic constructs, catching quality problems such as unwanted genome fragments at the design stage rather than in purification. They point to a Duchenne program with Cure Rare Disease where promoter redesign lifted full-genome content from 13% to 59% in under 30 days. Likely also: Astromech, which raised $60M by August at a reported $3.8B valuation, is using its richly priced stock to buy a team and paying customers rather than building them.",
+      "whats_next": "Andrew Busey, Form Bio's co-founder and CEO, becomes Astromech's chief AI officer and head of technology, taking the headcount to about 65. No closing conditions or timeline were given. Watch whether Form Bio's gene-medicine customers (Eli Lilly, Taysha, Solid Biosciences, Coave, Stanford) stay on and widen their contracts, whether the Duchenne construct reaches IND-enabling work, and whether Astromech raises again or launches its own human or animal-health programs.",
+      "why_it_matters": "AI design is reaching genetic medicines, not just small molecules and antibodies, and well-valued AI-bio companies are starting to use their stock as acquisition currency to consolidate smaller tool makers.",
+      "links": [
+        {
+          "title": "Dallas Innovates: Colossal spinout Astromech acquires sister company Form Bio for $230M",
+          "url": "https://dallasinnovates.com/colossal-spinout-astromech-acquires-sister-company-form-bio-for-230m/"
+        },
+        {
+          "title": "PRNewswire release (syndicated): Astromech acquires Form Bio",
+          "url": "https://lifestyle.middletownlifemagazine.com/story/841481/astromech-acquires-form-bio-bringing-together-evolutionary-ai-and-genetic-medicine-design-under-one-directive/"
+        },
+        {
+          "title": "KuCoin/CoinDesk: Astromech acquires Form Bio for $230M in stock",
+          "url": "https://www.kucoin.com/news/flash/astromech-acquires-form-bio-for-230m-to-integrate-evolutionary-ai-with-gene-medicine-design"
+        }
+      ],
+      "url": "https://lifestyle.middletownlifemagazine.com/story/841481/astromech-acquires-form-bio-bringing-together-evolutionary-ai-and-genetic-medicine-design-under-one-directive/",
+      "source_name": "PRNewswire (Astromech release)",
+      "first_seen": "2026-11-18T13:55:00+00:00"
+    },
     {
       "id": "2026-10-08-isomorphic-series-c-talks",
       "date": "2026-11-17",
