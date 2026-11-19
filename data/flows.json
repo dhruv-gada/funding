@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-18T21:55:00+00:00",
+ "last_updated": "2026-11-19T14:10:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -70,12 +70,17 @@
      "deal": "v-isomorphic-c"
     },
     {
+     "label": "Merck signs Isomorphic for an oncology target, with a co-fund option",
+     "amount": "Undisclosed",
+     "deal": "p-merck-isomorphic"
+    },
+    {
      "label": "Pharma answers with its own closed dataset: GSK, Pfizer, Sanofi join Cascade",
      "amount": "Undisclosed",
      "deal": "p-parse-nomic-cascade"
     }
    ],
-   "insight": "Isomorphic has now raised $7.1B in six months ($2.1B in May, $5B on Nov 17) without human data, and the buyers have widened from Alphabet, Thrive and sovereign funds (MGX, Temasek, UK Sovereign AI Fund) to generalist growth firms (Greenoaks, Sequoia, a16z). Pharma pays for access, Gulf states offer data, and Alphabet also funds shared cell data with an early-access window, while GSK, Pfizer and Sanofi joined a licensed rival dataset (Cascade). The next step to watch is the first clinical candidate, which is what this price has to be earned against. The open-model alternative is getting funded too: Boltz, whose open structure models compete with AlphaFold-family tools, raised a $110M Series A (Nov 18) led by Bessemer with a16z, also an Isomorphic investor, backing both."
+   "insight": "Isomorphic has now raised $7.1B in six months ($2.1B in May, $5B on Nov 17) without human data, and the buyers have widened from Alphabet, Thrive and sovereign funds (MGX, Temasek, UK Sovereign AI Fund) to generalist growth firms (Greenoaks, Sequoia, a16z). Pharma pays for access, Gulf states offer data, and Alphabet also funds shared cell data with an early-access window, while GSK, Pfizer and Sanofi joined a licensed rival dataset (Cascade). The next step to watch is the first clinical candidate, which is what this price has to be earned against. The open-model alternative is getting funded too: Boltz, whose open structure models compete with AlphaFold-family tools, raised a $110M Series A (Nov 18) led by Bessemer with a16z, also an Isomorphic investor, backing both. Two days after the close, Merck became the fourth big-pharma partner (Nov 19), and the deal lets Isomorphic co-fund development for higher royalties: the first sign the new money may go into sharing clinical risk on partnered drugs, not just its own pipeline."
   },
   {
    "id": "c-ailabs",
@@ -326,9 +331,14 @@
      "label": "IQT backs Tesorai's proteomics-data seed",
      "amount": "$5.3M (round)",
      "deal": "v-tesorai"
+    },
+    {
+     "label": "Oman Investment Authority leads MegaRobo's AI-lab robotics round",
+     "amount": "Nearly $200M",
+     "deal": "v-megarobo"
     }
    ],
-   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern. Shanghai's state tech investor leading Tourson Intelligence's Pre-A (Nov 9) is another local-lead case, two weeks after China Life Capital led BioGeometry's A+. The US joins through IQT, the intelligence community's venture arm, which backed Tesorai's $5.3M seed (Nov 18) for re-mining archived proteomics data, after its earlier stake in Lila Sciences."
+   "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern. Shanghai's state tech investor leading Tourson Intelligence's Pre-A (Nov 9) is another local-lead case, two weeks after China Life Capital led BioGeometry's A+. The US joins through IQT, the intelligence community's venture arm, which backed Tesorai's $5.3M seed (Nov 18) for re-mining archived proteomics data, after its earlier stake in Lila Sciences. Oman's lead on MegaRobo's round of nearly $200M (Nov 19) breaks the co-investor pattern at scale: a Gulf sovereign leading a late round in a Chinese lab-automation company, with Belt and Road expansion as the stated use."
   },
   {
    "id": "c-downstream",
@@ -3808,6 +3818,69 @@
    "url": "https://www.startupresearcher.com/news/valo-health-and-montai-therapeutics-merge",
    "source_name": "Startup Researcher",
    "note": "Merger of two Flagship companies under the Valo name; no terms or new financing disclosed. Found late (announced Nov 11)."
+  },
+  {
+   "id": "p-merck-isomorphic",
+   "date": "2026-11-19",
+   "type": "Partnership",
+   "company": "Isomorphic Labs",
+   "sector": "Small molecule & peptide design",
+   "round": "Small-molecule discovery, one oncology target",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Undisclosed upfront · milestones + tiered royalties",
+   "payers": [
+    {
+     "name": "Merck & Co.",
+     "kind": "Pharma"
+    }
+   ],
+   "participants": [],
+   "url": "https://biospace.com/press-releases/merck-and-isomorphic-labs-enter-strategic-research-collaboration",
+   "source_name": "BioSpace (company release)",
+   "note": "Upfront confirmed but not quantified; Isomorphic has an option to co-fund development for higher royalties."
+  },
+  {
+   "id": "v-megarobo",
+   "date": "2026-11-19",
+   "type": "Venture",
+   "company": "MegaRobo Technologies",
+   "sector": "Lab automation & robotics",
+   "round": "Late-stage round (stage not named)",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Nearly $200M",
+   "payers": [
+    {
+     "name": "Oman Investment Authority",
+     "kind": "Sovereign & state"
+    }
+   ],
+   "participants": [
+    {
+     "name": "CMB International",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Suzhou Venture Capital",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "Granite Asia",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Asia Investment Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Sinovation Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://dealroom.co/news/174147-megarobo-raises-200m-to-push-ai-into-real-world-labs-and-factories/",
+   "source_name": "Dealroom",
+   "note": "Reported only as 'nearly $200M', so not counted in totals. Part of MegaRobo's business is semiconductor and display inspection, not life sciences."
   }
  ]
 }

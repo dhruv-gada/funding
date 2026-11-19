@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-18T21:55:00+00:00",
-  "run_label": "Evening brief · Nov 18, 2026",
+  "last_updated": "2026-11-19T14:10:00+00:00",
+  "run_label": "Morning brief · Nov 19, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "Two ideas updated, none added or retired. Boltz's $110M Series A (Nov 18) was added as evidence to the binder-metrics audit, since its paid design models rely on computed scores to pick designs, and to the dynamics-versus-static affinity test, since Boltz-2 predicts affinity from one co-folded structure. Dataset links on both ideas were re-checked through search and still resolve. Tesorai's proteomics-reprocessing seed and Novo Nordisk–nference's real-world-data pact point to angles no idea covers, but each is a single small or undisclosed deal, so no idea was added this run.",
+  "since_last_run": "Two ideas updated, none added or retired. Merck–Isomorphic (Nov 19) was added as evidence to the dynamics-versus-static affinity test, since pharma is now paying for structure-based IsoDDE design on its own data. MegaRobo's Oman-led round of nearly $200M (Nov 19) was added to the small-budget self-driving lab idea as a contrast between large automated facilities and benchtop setups. Dataset links on both ideas (MISATO, PLINDER, mdCATH, ProteinGym, FLIP) were re-checked through search and still resolve. No new idea: neither deal opens an angle the current ideas miss.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -225,20 +225,21 @@
       "id": "small-budget-self-driving-lab",
       "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-10T13:58:23+00:00",
+      "updated": "2026-11-19T14:10:00+00:00",
       "title": "A self-driving loop on a benchtop robot: what works when you can only run 96 samples a round?",
       "kind": "Lab project",
       "area": "Lab automation / active learning",
       "difficulty": "Ambitious",
       "question": "Which active-learning strategies reach a target fastest when each round is small (8–96 samples) and noisy, and can a $10K-class liquid handler run the loop on its own?",
-      "why_now": "Money is flowing to the make-and-test layer: Opentrons raised a $40M Series E for AI-driven benchtop robots, Warp launched with $215M for automated chemistry, Multiply Labs raised $75M for robotic manufacturing, Danaher is building NVIDIA AI into its instruments, and Xaira introduced X-Automate. Most published closed-loop work assumes big robots and big batches; small academic labs need to know what works at their scale. On Nov 10 Mitsui Chemicals invested in iORGANBIO, which runs a closed loop of AI, single-cell readouts and robots to make human cells and organoids, and will co-develop culture conditions with it. That is exactly the small-batch optimisation problem this project tests, and it fits a benchtop robot.",
+      "why_now": "Money is flowing to the make-and-test layer: Opentrons raised a $40M Series E for AI-driven benchtop robots, Warp launched with $215M for automated chemistry, Multiply Labs raised $75M for robotic manufacturing, Danaher is building NVIDIA AI into its instruments, and Xaira introduced X-Automate. Most published closed-loop work assumes big robots and big batches; small academic labs need to know what works at their scale. On Nov 10 Mitsui Chemicals invested in iORGANBIO, which runs a closed loop of AI, single-cell readouts and robots to make human cells and organoids, and will co-develop culture conditions with it. That is exactly the small-batch optimisation problem this project tests, and it fits a benchtop robot. On Nov 19 Beijing's MegaRobo raised nearly $200M, led by Oman's sovereign fund, for robotic labs that run screening experiments around the clock as an AI data source; the money is going to large automated facilities, which makes a careful test of what works at benchtop scale more useful to the many labs that cannot buy one.",
       "evidence": [
         "2026-10-29-opentrons-series-e",
         "2026-10-22-warp-sciences-launch",
         "2026-10-07-multiply-labs-series-b",
         "2026-10-15-danaher-nvidia-autonomous-lab",
         "2026-10-23-xaira-x-automate",
-        "2026-11-10-iorganbio-mitsui"
+        "2026-11-10-iorganbio-mitsui",
+        "2026-11-19-megarobo-funding"
       ],
       "datasets": [
         {
@@ -334,19 +335,20 @@
       "id": "dynamics-vs-static-affinity",
       "status": "Active",
       "first_seen": "2026-11-06T21:49:14+00:00",
-      "updated": "2026-11-18T21:55:00+00:00",
+      "updated": "2026-11-19T14:10:00+00:00",
       "title": "Does molecular-dynamics information beat a single static structure for predicting ligand binding?",
       "kind": "Research project",
       "area": "Physics-based simulation + ML / small-molecule design",
       "difficulty": "Intermediate",
       "question": "For protein–ligand complexes with measured affinities, do features or embeddings learned from MD trajectories improve affinity and pose-stability prediction over models that see only one crystal structure, and on which kinds of targets (flexible pockets, cryptic sites) does the gain show up?",
-      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps. On Nov 17 Isomorphic Labs closed a $5B Series C partly to mature its structure-based IsoDDE design engine, so the static-structure side of this comparison now carries the largest private bet in the field; an open test of where dynamics adds signal is worth more, not less. Boltz's $110M Series A (Nov 18), whose Boltz-2 model predicts affinity jointly with a single co-folded structure, adds a second well-funded static-structure approach to compare against.",
+      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps. On Nov 17 Isomorphic Labs closed a $5B Series C partly to mature its structure-based IsoDDE design engine, so the static-structure side of this comparison now carries the largest private bet in the field; an open test of where dynamics adds signal is worth more, not less. Boltz's $110M Series A (Nov 18), whose Boltz-2 model predicts affinity jointly with a single co-folded structure, adds a second well-funded static-structure approach to compare against. On Nov 19 Merck hired Isomorphic to run IsoDDE on Merck's own data for an oncology small-molecule target, upfront undisclosed, so pharma is now paying for static-structure design on its proprietary chemistry; an open, leakage-controlled test of when dynamics helps would tell buyers like Merck what they are not getting.",
       "evidence": [
         "2026-11-10-psithera-financing",
         "2026-11-06-fathom-series-a-kos",
         "2026-11-05-potential-sciences-seed",
         "2026-10-08-isomorphic-series-c-talks",
-        "2026-11-18-boltz-series-a"
+        "2026-11-18-boltz-series-a",
+        "2026-11-19-merck-isomorphic"
       ],
       "datasets": [
         {
