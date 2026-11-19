@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-19T14:10:00+00:00",
+ "last_updated": "2026-11-19T21:55:00+00:00",
  "since": "2026-01-01",
  "method": {
   "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -3881,6 +3881,56 @@
    "url": "https://dealroom.co/news/174147-megarobo-raises-200m-to-push-ai-into-real-world-labs-and-factories/",
    "source_name": "Dealroom",
    "note": "Reported only as 'nearly $200M', so not counted in totals. Part of MegaRobo's business is semiconductor and display inspection, not life sciences."
+  },
+  {
+   "id": "v-yuanshi",
+   "date": "2026-11-19",
+   "type": "Venture",
+   "company": "YuanShi Tech (Yuanshi Technology)",
+   "sector": "Foundation models & platforms",
+   "round": "Pre-A",
+   "cash_usd": null,
+   "headline_usd": null,
+   "amount_label": "Nearly RMB 300M",
+   "payers": [
+    {
+     "name": "Legend Capital",
+     "kind": "Venture capital"
+    }
+   ],
+   "participants": [
+    {
+     "name": "Huaxia Lingtou",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "China Merchants Group China Fund",
+     "kind": "Sovereign & state"
+    },
+    {
+     "name": "JD.com-affiliated funds",
+     "kind": "Big tech & AI labs"
+    },
+    {
+     "name": "CDH VGC",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "CMC Capital",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Monolith",
+     "kind": "Venture capital"
+    },
+    {
+     "name": "Sinovation Ventures",
+     "kind": "Venture capital"
+    }
+   ],
+   "url": "https://longbridge.com/en/news/306053004",
+   "source_name": "Longbridge (Zhitong)",
+   "note": "Size only given as nearly RMB 300M and reported by one outlet, so not counted in totals. China Merchants Group is state-owned."
   }
  ]
 }

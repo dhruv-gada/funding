@@ -1,27 +1,28 @@
 {
-  "last_updated": "2026-11-19T14:10:00+00:00",
-  "run_label": "Morning brief · Nov 19, 2026",
+  "last_updated": "2026-11-19T21:55:00+00:00",
+  "run_label": "Evening brief · Nov 19, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "Two ideas updated, none added or retired. Merck–Isomorphic (Nov 19) was added as evidence to the dynamics-versus-static affinity test, since pharma is now paying for structure-based IsoDDE design on its own data. MegaRobo's Oman-led round of nearly $200M (Nov 19) was added to the small-budget self-driving lab idea as a contrast between large automated facilities and benchtop setups. Dataset links on both ideas (MISATO, PLINDER, mdCATH, ProteinGym, FLIP) were re-checked through search and still resolve. No new idea: neither deal opens an angle the current ideas miss.",
+  "since_last_run": "One idea updated, none added or retired. YuanShi Tech's Pre-A of nearly RMB 300M (Nov 19) was added as evidence to the virtual-cell scaling test, and its why_now now notes two Chinese virtual-cell rounds in a week with no public benchmarks from either. The idea's dataset links (Tahoe-100M, Arc Virtual Cell Atlas, Replogle 2022 via pertpy) were re-checked through search and still resolve. No new idea: the evening's one deal sits inside an angle the current ideas already cover.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
       "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-16T21:54:00+00:00",
+      "updated": "2026-11-19T21:55:00+00:00",
       "title": "Does more perturbation data actually help? A scaling test for virtual-cell models",
       "kind": "Benchmark",
       "area": "Virtual cell / perturbation prediction",
       "difficulty": "Intermediate",
       "question": "As training data grows from thousands to millions of perturbed cells, do perturbation-response models beat a simple mean-shift baseline on genes and cell lines they have not seen, and where does the curve flatten?",
-      "why_now": "Big tech and pharma are paying for perturbation data at scale: Google DeepMind, Isomorphic and Meta put $300M into Biohub's open virtual-cell coalition, GSK, Pfizer and Sanofi joined Parse and Nomic's 100M-cell Cascade dataset, and Flagship rebuilt Etcelera around a 150M-cell model. Several published evaluations have found that simple baselines are hard to beat, so a clean scaling curve on open data would tell everyone whether the money is buying accuracy. Arc's 2026 Virtual Cell Challenge (zero-shot prediction in unseen cell lines) closed on Nov 5 and names winners in mid-to-late November, which gives you fresh methods to compare against. Smaller players are betting on these models too: on Nov 9 DeepLife, whose TwinCell virtual-cell model its partner describes as built on more than 100 million single-cell data points, signed 3billion to pick drug targets with it. The race now includes China: on Nov 16 XtalPi-incubated INFevo raised more than RMB 100M for OCOO, a multi-omics virtual-cell model it validates in its own automated lab, so an open scaling test would also show whether in-house perturbation data beats public atlases.",
+      "why_now": "Big tech and pharma are paying for perturbation data at scale: Google DeepMind, Isomorphic and Meta put $300M into Biohub's open virtual-cell coalition, GSK, Pfizer and Sanofi joined Parse and Nomic's 100M-cell Cascade dataset, and Flagship rebuilt Etcelera around a 150M-cell model. Several published evaluations have found that simple baselines are hard to beat, so a clean scaling curve on open data would tell everyone whether the money is buying accuracy. Arc's 2026 Virtual Cell Challenge (zero-shot prediction in unseen cell lines) closed on Nov 5 and names winners in mid-to-late November, which gives you fresh methods to compare against. Smaller players are betting on these models too: on Nov 9 DeepLife, whose TwinCell virtual-cell model its partner describes as built on more than 100 million single-cell data points, signed 3billion to pick drug targets with it. The race now includes China: on Nov 16 XtalPi-incubated INFevo raised more than RMB 100M for OCOO, a multi-omics virtual-cell model it validates in its own automated lab, so an open scaling test would also show whether in-house perturbation data beats public atlases. Three days later YuanShi Tech raised a Pre-A of nearly RMB 300M, led by Legend Capital, for virtual-cell models plus an automation platform, the second Chinese round in the space in a week; neither company has published benchmarks, so an open scaling curve is still missing.",
       "evidence": [
         "2026-10-07-biohub-virtual-biology-1-8b",
         "2026-10-29-parse-nomic-cascade",
         "2026-10-29-flagship-etcelera",
         "2026-10-28-biogeometry-series-a-plus",
         "2026-11-09-deeplife-3billion",
-        "2026-11-16-infevo-pre-a"
+        "2026-11-16-infevo-pre-a",
+        "2026-11-19-yuanshi-pre-a"
       ],
       "datasets": [
         {

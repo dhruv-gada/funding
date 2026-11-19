@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-19T14:10:00+00:00",
-  "run_label": "Morning brief · Nov 19, 2026",
+  "last_updated": "2026-11-19T21:55:00+00:00",
+  "run_label": "Evening brief · Nov 19, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Merck signed Isomorphic Labs two days after its $5B Series C, the first new pharma partner since the raise and one that lets Isomorphic co-fund development, as Anthropic confirmed an $81.3B IPO at $83 a share and opened on Nasdaq",
-    "summary": "Isomorphic's $5B Series C (Nov 17) is still about 87% of the roughly $5.77B of disclosed, closed bio×AI venture since Oct 22; without it the figure is about $775M, led by Pathos ($237M), Warp ($215M) and Boltz ($110M). Biggest partnership money is still Third Rock–Funnel (up to ~$2.16B headline) and argenx–Unnatural Products ($550M cash). New this morning: Merck's oncology small-molecule deal with Isomorphic (upfront undisclosed, with an Isomorphic co-fund option), MegaRobo's Oman-led round of nearly $200M for AI lab robots, and Anthropic's confirmed $83 pricing, raising $81.3B on 980M shares.",
+    "headline": "Anthropic closed its first day on Nasdaq about 17% above its $83 IPO price, while a quiet evening's only new deal, YuanShi Tech's nearly RMB 300M Pre-A, made it two Chinese virtual-cell rounds in a week",
+    "summary": "Isomorphic's $5B Series C (Nov 17) is still about 87% of the roughly $5.77B of disclosed, closed bio×AI venture since Oct 22; without it the figure is about $775M, led by Pathos ($237M), Warp ($215M) and Boltz ($110M). Biggest partnership money is still Third Rock–Funnel (up to ~$2.16B headline) and argenx–Unnatural Products ($550M cash), and Merck–Isomorphic (Nov 19) disclosed no figures. Anthropic, the AI lab with the most explicit drug-program plans, raised $81.3B and closed its first session at $97.17; the evening's one new deal is YuanShi Tech's Legend-led Pre-A of nearly RMB 300M for virtual-cell models, logged without a dollar figure.",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
@@ -20,7 +20,7 @@
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms. PsiThera made it three protein-motion or physics-first chemistry raises in a week: its $25M (Nov 10), with AbbVie Ventures taking a board seat, funds an oral TNFα candidate found with ML plus simulation of transient pockets. Virtual-cell money is spreading to China: on Nov 16 XtalPi-incubated INFevo raised more than RMB 100M, with Aramco's Prosperity7 among new backers, for a multi-omics cell model checked in its own automated lab. And the data argument is now driving where companies get built: Flagship's £100M London origination lab (Nov 16) is explicitly pitched on access to NHS patient data, with UK Biobank and the MHRA among its partners. Model access itself is now venture-scale: Boltz, whose paid models are trained partly on that Excelra data, raised a $110M Series A on Nov 18 led by Bessemer, citing more than 5 million open-model downloads and about 50-fold growth in paid usage in four months, with Pfizer, GSK, Takeda and BMS named as users. At the other end, Tesorai's $5.3M seed (Nov 18), with IQT and Perplexity's fund among backers, bets that re-analysing archived mass-spectrometry proteomics data is a cheaper source of training data than new experiments."
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms. PsiThera made it three protein-motion or physics-first chemistry raises in a week: its $25M (Nov 10), with AbbVie Ventures taking a board seat, funds an oral TNFα candidate found with ML plus simulation of transient pockets. Virtual-cell money is spreading to China: on Nov 16 XtalPi-incubated INFevo raised more than RMB 100M, with Aramco's Prosperity7 among new backers, for a multi-omics cell model checked in its own automated lab. And the data argument is now driving where companies get built: Flagship's £100M London origination lab (Nov 16) is explicitly pitched on access to NHS patient data, with UK Biobank and the MHRA among its partners. Model access itself is now venture-scale: Boltz, whose paid models are trained partly on that Excelra data, raised a $110M Series A on Nov 18 led by Bessemer, citing more than 5 million open-model downloads and about 50-fold growth in paid usage in four months, with Pfizer, GSK, Takeda and BMS named as users. At the other end, Tesorai's $5.3M seed (Nov 18), with IQT and Perplexity's fund among backers, bets that re-analysing archived mass-spectrometry proteomics data is a cheaper source of training data than new experiments. And China's virtual-cell race added a second round in a week: YuanShi Tech's Pre-A of nearly RMB 300M (Nov 19), led by Legend Capital, funds data accumulation and an automation platform alongside its models."
       }
     ],
     "movers": [
@@ -44,7 +44,7 @@
         "player": "Anthropic",
         "kind": "AI lab",
         "direction": "From selling Claude to pharma to owning drug programs, now a listed company after an $81.3B IPO",
-        "detail": "Anthropic's S-1 (Oct 26) frames drug discovery and model-run labs as core uses and names Novo Nordisk, BMS, AbbVie and Sanofi as customers. It disclosed buying Mithril Medicine in July (after Coefficient Bio this spring), is taking its rare-disease antibodies toward candidates in 2027, and its drug R&D head describes two to five active preclinical programs; its Anthology Fund joined Basecamp's $140M. The $70 to $78 range (up to $64.4B plus a $26B private placement) puts it at up to about $1.02T on outstanding shares or about $1.4T fully diluted, and Bloomberg reported orders at about six times the shares on offer by Nov 12; on Nov 18 Anthropic confirmed a price of $83 a share, above the range, selling 980M shares for $81.3B gross, with Nasdaq trading from Nov 19. Per Forbes (Nov 11) it now runs a San Francisco wet lab and intends to hand clinical trials to pharma partners rather than run them itself. Generate Biomedicines' Q3 report (Nov 12) lists a research collaboration with Anthropic on agentic CAR-T design, terms undisclosed.",
+        "detail": "Anthropic's S-1 (Oct 26) frames drug discovery and model-run labs as core uses and names Novo Nordisk, BMS, AbbVie and Sanofi as customers. It disclosed buying Mithril Medicine in July (after Coefficient Bio this spring), is taking its rare-disease antibodies toward candidates in 2027, and its drug R&D head describes two to five active preclinical programs; its Anthology Fund joined Basecamp's $140M. The $70 to $78 range (up to $64.4B plus a $26B private placement) puts it at up to about $1.02T on outstanding shares or about $1.4T fully diluted, and Bloomberg reported orders at about six times the shares on offer by Nov 12; on Nov 18 Anthropic confirmed a price of $83 a share, above the range, selling 980M shares for $81.3B gross, with Nasdaq trading from Nov 19. Per Forbes (Nov 11) it now runs a San Francisco wet lab and intends to hand clinical trials to pharma partners rather than run them itself. Generate Biomedicines' Q3 report (Nov 12) lists a research collaboration with Anthropic on agentic CAR-T design, terms undisclosed. ANT began trading on Nov 19: the first trade was $111.50 and it closed at $97.17, about 17% above the offer price.",
         "evidence": [
           "2026-10-26-anthropic-s1-drug-rd",
           "2026-10-27-anthropic-mithril",
@@ -266,15 +266,16 @@
         ]
       },
       {
-        "player": "Chinese venture firms & AI incubators (Qiming, HongShan, Shunwei, XtalPi)",
+        "player": "Chinese venture firms & AI incubators (Qiming, HongShan, Shunwei, Legend, XtalPi)",
         "kind": "VC",
         "direction": "Incubating domestic copies of US AI-bio models: virtual cells and agent-run clinical development",
-        "detail": "On Nov 16 Qiming incubated and solely funded CataX AI's RMB 40M seed for agent-run early clinical development, and XtalPi-incubated INFevo raised more than RMB 100M for a virtual-cell model, with HongShan, Shunwei and Songhe adding to their stakes. They follow Golden Tripod's place in Tourson Intelligence's Pre-A rounds and Zero2IPO's fund in Sanyou's Series C (Nov 9). Rounds are small in dollars and mostly undisclosed in USD, but the bets mirror Formation Bio and the US virtual-cell push.",
+        "detail": "On Nov 16 Qiming incubated and solely funded CataX AI's RMB 40M seed for agent-run early clinical development, and XtalPi-incubated INFevo raised more than RMB 100M for a virtual-cell model, with HongShan, Shunwei and Songhe adding to their stakes. They follow Golden Tripod's place in Tourson Intelligence's Pre-A rounds and Zero2IPO's fund in Sanyou's Series C (Nov 9). Rounds are small in dollars and mostly undisclosed in USD, but the bets mirror Formation Bio and the US virtual-cell push. On Nov 19 Legend Capital led YuanShi Tech's Pre-A of nearly RMB 300M for virtual-cell models, with CDH, CMC Capital and a JD.com-linked fund new to the cap table, the second Chinese virtual-cell round in three days and roughly three times INFevo's.",
         "evidence": [
           "2026-11-16-catax-ai-seed",
           "2026-11-16-infevo-pre-a",
           "2026-11-09-tourson-pre-a-plus",
-          "2026-11-09-sanyou-series-c"
+          "2026-11-09-sanyou-series-c",
+          "2026-11-19-yuanshi-pre-a"
         ]
       },
       {
@@ -332,18 +333,18 @@
       }
     ],
     "watchlist": [
-      "Anthropic as a listed company: it confirmed an $83 price (980M shares, $81.3B gross) on Nov 18; watch first-day and first-week trading on Nasdaq from Nov 19, whether underwriters take up the ~147M-share option, any life-sciences revenue or R&D disclosure in its first quarterly report, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
+      "Anthropic as a listed company: ANT first traded at $111.50 in the Nasdaq opening cross on Nov 19 and closed at $97.17, about 17% above its $83 price ($81.3B gross on 980M shares). Watch whether underwriters exercise the over-allotment option, whether the $26B private placement closes, any life-sciences revenue or R&D disclosure in its first quarterly report, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
       "Isomorphic Labs and Chai: after the $5B close and the Nov 19 Merck deal, whether Isomorphic exercises its co-fund option with Merck or names the target, confirms a valuation, names its first clinical candidate or files an IND, or signs a biologics partner; whether Chai discloses Roche terms or Genentech's involvement and raises again on its seven-partner list; and whether other late-stage AI biotechs try to raise off Isomorphic's price",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner; and whether PsiThera, now with AbbVie Ventures on its board, names its oral TNFα development candidate",
       "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (running Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
       "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size; and whether argenx names a first Cradle-optimised antibody or discloses terms, and whether Cradle raises after adding UCB and argenx in November",
       "Listed AI drug developers this week: Iambic's IAM217 (KIF18A) preclinical data at EORTC-NCI-AACR (Nov 18–20) and its IAM-C1 IND due this quarter; Recursion's next Sanofi development-candidate milestones after the $10M option on Nov 2; and whether Lilly, now 15 acquisitions and more than $30B into 2026 with Calytrix, buys an AI-native developer rather than single assets",
-      "UK and China company creation: the first companies out of Flagship's London lab, which partners commit toward its £500M goal and whether a formal NHS data deal follows; CataX AI's first in-licensed asset; and whether INFevo names a pharma partner or publishes OCOO benchmarks on open perturbation data",
+      "UK and China company creation: the first companies out of Flagship's London lab, which partners commit toward its £500M goal and whether a formal NHS data deal follows; CataX AI's first in-licensed asset; and whether INFevo names a pharma partner or publishes OCOO benchmarks on open perturbation data; and whether YuanShi Tech describes its model or names a partner after its nearly RMB 300M Pre-A, and whether Arc's 2026 Virtual Cell Challenge results give either Chinese entrant a public benchmark",
       "Gene-medicine design AI: whether Astromech closes the Form Bio deal, keeps Form Bio's pharma users (Lilly, Taysha, Solid, Coave) and turns the Cure Rare Disease Duchenne construct into an IND-enabling program; whether Astromech raises again on its reported $3.8B valuation; and whether other well-valued AI biotechs start buying tool makers with stock",
       "Open-model platforms: whether Boltz turns its $110M into a named pharma deal larger than a software licence or the first custom model on partner data, whether other open-model groups raise on its terms, whether Tesorai signs a named pharma customer, and what Novo Nordisk–nference's venture framework produces first; plus the merged Valo's MTAI-1025 Phase 1 and whether it raises fresh capital",
       "Lab automation money from the Gulf: whether MegaRobo's Hong Kong IPO moves after its Oman-led round of nearly $200M, whether Oman or other Gulf funds pair it with a local lab build-out, and whether US automation players (Opentrons, Multiply Labs, Automata) answer with raises of their own"
     ],
-    "since_last_run": "Two new deals, one status change and no resolved predictions. New: Merck signed Isomorphic Labs on Nov 19 to design small molecules for one undisclosed oncology target with IsoDDE on Merck's data; it pays an upfront with milestones and tiered royalties, none quantified, and Isomorphic can co-fund development for higher royalties. MegaRobo, the Beijing AI lab-robotics maker, raised nearly $200M on Nov 19 led by the Oman Investment Authority; the amount is approximate, so it is logged without a dollar figure and not counted in totals. Changed: Anthropic confirmed its IPO at $83 a share (980M shares, $81.3B gross) after SEC effectiveness on Nov 18, so the item moves from Announced to Closed; trading starts on Nasdaq today. Movers: Merck joins the other-pharma entry and Isomorphic's entry; Oman joins crossover and sovereign funds; Anthropic's direction now reads as listed. Watchlist adds Gulf money for lab automation. The 7-day closed-venture figure is about $5.17B (Isomorphic $5B, Boltz $110M, Orakl, Biomatter and Tesorai; Switchpoint aged out of the 7-day window). No items aged out. Screened out: Drugs Made in America Acquisition II's preliminary SPAC proposal for Alpha AI Biotech Group (no description of any AI business, no definitive agreement), Hone Health's $228M (consumer longevity clinics), and older deals resurfacing in search (Incyte–Edison from May and Incyte–Genesis's expansion, Scala Biodesign's $16M from March, Aureka's $100M from August, AI Proteins' Series A from Nov 2025)."
+    "since_last_run": "One new deal, one item updated, no resolved predictions. New: YuanShi Tech, a Chinese AI virtual-cell company, closed a Pre-A of nearly RMB 300M on Nov 19 led by Legend Capital, with Huaxia Lingtou, China Merchants Group China Fund, JD.com-affiliated funds, CDH VGC and CMC Capital new and Monolith and Sinovation adding to their stakes; only one outlet has reported it, so it is logged in yuan and not counted in totals. Updated: Anthropic's IPO item now records first-day trading (first trade $111.50 at 11:48 a.m. ET, close $97.17, about 17% above the $83 price). Movers: Chinese venture firms now include Legend Capital via YuanShi, and Anthropic's detail adds first-day trading. Themes: the data-layer theme adds YuanShi. Watchlist: the Anthropic entry moves from debut to post-listing items, and the UK/China entry adds YuanShi. Ideas: the virtual-cell scaling idea adds YuanShi as evidence. The 7-day closed-venture figure is unchanged at about $5.17B. No items aged out. Screened out: Ansa Biotechnologies' $71.5M Series C (enzymatic DNA synthesis, no AI angle stated), VitriVax's $87M Series C (vaccine formulation, no AI angle), Xlue's $35M seed (disease-risk prediction from health records, clinical AI outside the biology scope), Genesis AI's $500M (general robotics), and Lilly–Ailux's $345M bispecific deal (from November 2025, resurfacing in search)."
   },
   "items": [
     {
@@ -2203,7 +2204,7 @@
       "area": "Frontier AI lab moving into drug R&D",
       "summary": "Anthropic filed its S-1 for a Nasdaq listing under the ticker ANT, presenting drug discovery and disease detection as core uses of its models, describing plans to let future models run lab equipment and robots, and confirming in-house discovery work on neglected diseases. Pharma customers named include Novo Nordisk, BMS, AbbVie and Sanofi. On Nov 10 it opened its roadshow at $70 to $78 a share for 825M shares, up to $64.4B, alongside a $26B private placement with anchor investors including Google, NVIDIA and Microsoft.",
       "why_invested": "Not a bio deal in itself. Likely: Anthropic puts science, and drug R&D in particular, at the center of its long-term story to justify a very large valuation. Owning programs such as Mithril's antibodies gives that story concrete assets, and existing pharma contracts show enterprise demand beyond coding.",
-      "whats_next": "The Nov 2 amendment showed Q3 revenue of about $17B but a swing to a $567M operating loss and about $895B in compute commitments. The $70 to $78 range set on Nov 10 values the company at about $916B to $1.02T on roughly 13.09B shares outstanding after the offering, or up to about $1.4T fully diluted, below the $1.5T once floated; pricing is expected Nov 18 and Nasdaq trading Nov 19. Forbes reported on Nov 11 that Anthropic has set up a wet lab in San Francisco, keeps its own pipeline preclinical and aimed at rare, tropical and neglected diseases, and plans to bring in drug companies to run the clinical trials, with Mithril's programs as the first test. Bloomberg reported on Nov 12 that orders were about six times the shares on offer, with no change yet to the range or the Nov 18 pricing date. Anthropic confirmed on Nov 18 that it priced at $83 a share, above the range, after the SEC declared its registration effective; it sold 980M shares (about 956M new, the rest from co-founders) for $81.3B gross, the largest IPO on record, with underwriters holding an option on about 147M more, and trading on Nasdaq starts Nov 19. Watch first-day trading, any segment disclosure of life-sciences revenue or R&D spend in its first quarterly report, a first named pharma clinical partner, and whether public money funds more biotech purchases after Mithril and Coefficient Bio.",
+      "whats_next": "Shares began trading on Nasdaq on Nov 19 under ANT: the first trade, via the opening cross at 11:48 a.m. ET, was $111.50, and the stock closed at $97.17, about 17% above the $83 offer price, on roughly 832M shares traded (per Stock Titan). Watch whether underwriters take up the over-allotment option, whether the $26B private placement closes, any life-sciences revenue or R&D disclosure in its first quarterly report, and a first named pharma partner for the clinical work it plans to hand off.",
       "why_it_matters": "The first frontier lab to file for an IPO is pitching public investors on drug discovery, so bio is now part of the core equity story for AI labs, not a side project.",
       "links": [
         {
@@ -2261,6 +2262,10 @@
         {
           "title": "24/7 Wall St.: valuation doubts and possible postponement of the Anthropic IPO",
           "url": "https://247wallst.com/investing/2026/11/07/anthropic-could-postpone-its-1-5-trillion-ipo-per-one-investor-as-market-sours-on-ai-trade-another-says-it-could-end-up-closer-to-1-trillion/"
+        },
+        {
+          "title": "Stock Titan: Anthropic (ANT) first trading day",
+          "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
         }
       ],
       "url": "https://www.pharmaceutical-technology.com/news/anthropic-ipo-drug-development-pharma/",
@@ -3095,6 +3100,48 @@
       "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
       "source_name": "Axios Pro",
       "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-11-19-yuanshi-pre-a",
+      "date": "2026-11-19",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "YuanShi Tech (Yuanshi Technology)",
+      "counterparty": "Legend Capital",
+      "amount_usd": null,
+      "amount_label": "Nearly RMB 300M",
+      "round": "Pre-A",
+      "valuation_label": null,
+      "investors": [
+        "Legend Capital",
+        "Huaxia Lingtou",
+        "China Merchants Group China Fund",
+        "JD.com-affiliated funds",
+        "CDH VGC",
+        "CMC Capital",
+        "Monolith",
+        "Sinovation Ventures",
+        "Daotong Investment",
+        "Yanyuan Venture Capital"
+      ],
+      "area": "Virtual cell models",
+      "summary": "Chinese AI virtual-cell company YuanShi Tech closed a Pre-A of nearly RMB 300M led by Legend Capital, with five new institutional backers including a JD.com-linked fund and existing investors Monolith and Sinovation adding to their stakes. The company says the money goes to building up data, an automation platform, model iteration and hiring.",
+      "why_invested": "Likely: Legend Capital and the new backers are buying into China's virtual-cell race at an early stage while round sizes are still small; the stated plan to pair models with an automation platform and in-house data mirrors the pitch that won INFevo its Pre-A three days earlier. No investor rationale was published.",
+      "whats_next": "Watch for a description of the model and the data it trains on, a first pharma or hospital partner, any public benchmark against open perturbation data, and whether the round's dollar size gets confirmed in a second outlet.",
+      "why_it_matters": "Two Chinese virtual-cell Pre-A rounds in one week, this one nearly three times INFevo's, show the model-plus-own-lab pitch drawing mainstream Chinese VC money, not only incubator capital.",
+      "links": [
+        {
+          "title": "Longbridge (Zhitong): YuanShi Tech completes nearly RMB 300M Pre-A",
+          "url": "https://longbridge.com/en/news/306053004"
+        },
+        {
+          "title": "AI Funding Tracker: AI funding news, Nov 19, 2026 (YuanShi Tech)",
+          "url": "https://aifundingtracker.com/ai-funding-news-november-19-2026/"
+        }
+      ],
+      "url": "https://longbridge.com/en/news/306053004",
+      "source_name": "Longbridge (Zhitong)",
+      "first_seen": "2026-11-19T21:55:00+00:00"
     }
   ]
 }
