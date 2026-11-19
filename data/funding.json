@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T16:06:11.729650+00:00",
+  "last_updated": "2026-11-19T16:13:48.092057+00:00",
   "count": 12,
   "items": [
     {
@@ -73,6 +73,23 @@
       ]
     },
     {
+      "id": "e4d123cb57",
+      "title": "20 Fellowships and Grants for Emerging Writers",
+      "source": "ProFellow",
+      "type": "Fellowship",
+      "url": "https://www.profellow.com/fellowships/12-fellowships-and-grants-for-emerging-writers/",
+      "description": "",
+      "deadline": null,
+      "amount": null,
+      "posted": null,
+      "relevance_score": 1,
+      "tags": [
+        "Fellowship",
+        "STEM",
+        "Aggregator"
+      ]
+    },
+    {
       "id": "9785157f19",
       "title": "Isabella Wilson on Finding Her Story Through a CIEE Study Abroad Fellowship",
       "source": "ProFellow",
@@ -112,23 +129,6 @@
       "source": "ProFellow",
       "type": "Fellowship",
       "url": "https://www.profellow.com/fellowships/ocean-and-marine-science-fellowships/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "120b18af20",
-      "title": "Full Tuition MPP and MPA Fellowships and Scholarships",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/fellowships/full-tuition-mpp-and-mpa-fellowships-and-scholarships/",
       "description": "",
       "deadline": null,
       "amount": null,
