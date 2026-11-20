@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-19T21:55:00+00:00",
-  "run_label": "Evening brief · Nov 19, 2026",
+  "last_updated": "2026-11-20T14:05:00+00:00",
+  "run_label": "Morning brief · Nov 20, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "One idea updated, none added or retired. YuanShi Tech's Pre-A of nearly RMB 300M (Nov 19) was added as evidence to the virtual-cell scaling test, and its why_now now notes two Chinese virtual-cell rounds in a week with no public benchmarks from either. The idea's dataset links (Tahoe-100M, Arc Virtual Cell Atlas, Replogle 2022 via pertpy) were re-checked through search and still resolve. No new idea: the evening's one deal sits inside an angle the current ideas already cover.",
+  "since_last_run": "One idea added, none updated or retired. New: a genetic-support target-score analysis, prompted by Vertex's extension of Genomics (Nov 18, up to more than $220M) and AstraZeneca's five-year Tempus AI renewal (Nov 18, about $200M), with AstraZeneca–insitro (October) as earlier evidence. Its datasets are the Open Targets Platform (licence and access pages checked: CC0 1.0, bulk downloads and BigQuery) and the open Minikel et al. 2024 Nature analysis (CC BY 4.0, 29,476 target–indication pairs, checked on PubMed Central). The morning's Bionsight–Astellas deal fits angles the current ideas already cover, so no other idea changed.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -441,6 +441,55 @@
       ],
       "who_cares": "argenx and Unnatural Products, Generate and Zealand, and every team designing macrocycles or oral peptides, all of whom need to know whether a permeability model generalises to the series they are about to make.",
       "risks": "The database pools assays from many papers, so measurement differences between labs can masquerade as a generalisation gap; restrict to one assay type first and report how many peptides survive that filter."
+    },
+    {
+      "id": "genetic-support-target-score",
+      "status": "New",
+      "first_seen": "2026-11-20T14:05:00+00:00",
+      "updated": "2026-11-20T14:05:00+00:00",
+      "title": "Rebuild a genetic-support score for drug targets from open data and test whether it still predicts clinical progress",
+      "kind": "Analysis",
+      "area": "Human genetics / target prioritisation",
+      "difficulty": "Intermediate",
+      "question": "Using only open genetic association data, how much of the published link between genetic support and a target–indication pair's clinical success can be reproduced, and does it hold for indications and target classes the original analysis covered thinly?",
+      "why_now": "On Nov 18 Vertex extended Genomics' genetics-led target platform for four more years at up to more than $220M plus royalties, and AstraZeneca renewed Tempus AI's oncology data and model access for 2027–2031 at about $200M in fees; in October AstraZeneca also paid insitro $40M upfront for AI target discovery. Pharma is paying recurring sums for evidence that a target is causal in humans, so an open, reproducible estimate of how much genetic support is worth, and where it breaks down, is directly useful to the people signing these contracts.",
+      "evidence": [
+        "2026-11-18-vertex-genomics-extension",
+        "2026-11-18-astrazeneca-tempus-renewal",
+        "2026-10-15-astrazeneca-insitro"
+      ],
+      "datasets": [
+        {
+          "name": "Open Targets Platform",
+          "url": "https://platform-docs.opentargets.org/data-access",
+          "what": "Integrated target–disease evidence drawn from sources including the GWAS Catalog, ChEMBL, gnomAD, ClinVar and Ensembl, available through the web interface, a GraphQL API and bulk downloads (FTP, Google BigQuery, Azure and AWS open datasets)",
+          "access": "Open (CC0 1.0 for platform data; individual sources keep their own terms, listed on the licence page)",
+          "size": null
+        },
+        {
+          "name": "Minikel et al. 2024, Nature: 'Refining the impact of genetic evidence on clinical success' (article and supplementary data)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/11096124/",
+          "what": "Analysis of 29,476 target–indication pairs from monotherapy programmes added to Citeline Pharmaprojects since 2000, matched against 81,939 human gene–trait associations, of which 2,166 pairs (7.3%) had genetic support; the supplementary tables give the derived per-pair results",
+          "access": "Open article (CC BY 4.0); the underlying Pharmaprojects pipeline data is commercial, so check which per-pair fields the released tables include",
+          "size": "29,476 target–indication pairs"
+        }
+      ],
+      "approach": [
+        "Download the Open Targets Platform association and evidence tables for genetic sources (GWAS-based and rare-variant evidence) and, separately, its ChEMBL-derived known-drug table with the highest clinical phase per target–indication pair.",
+        "Define genetic support as in Minikel et al. (a genetic association whose trait closely matches the indication) and compute the relative probability of a pair advancing from phase I to approval with and without support.",
+        "Compare your estimate with the published figures, then break it down by therapeutic area, target class and evidence type to see where the effect is weak or the data are thin.",
+        "Hold out pairs whose programmes started after a cut-off year and check whether a score fitted on earlier years still ranks later successes higher."
+      ],
+      "first_milestone": "Two weeks: an Open Targets extract of target–indication pairs with highest phase and a binary genetic-support flag, plus one table comparing your phase I-to-approval ratio with the paper's.",
+      "compute": "A laptop for the analysis; BigQuery's free tier makes the extraction easier.",
+      "skills": [
+        "Python or R",
+        "SQL",
+        "Statistical genetics basics",
+        "Ontology mapping (EFO/MeSH)"
+      ],
+      "who_cares": "Vertex and Genomics, AstraZeneca and its target-discovery partners (Tempus, insitro), and any pharma deciding how much to pay for genetics-backed target lists.",
+      "risks": "Open drug-phase data (from ChEMBL) is less complete than the commercial pipeline database the paper used, so failed programmes are under-counted; measure that first by checking how many of your pairs have a recorded phase below approval."
     }
   ]
 }

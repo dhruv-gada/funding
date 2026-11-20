@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-11-19T21:55:00+00:00",
-  "run_label": "Evening brief · Nov 19, 2026",
+  "last_updated": "2026-11-20T14:05:00+00:00",
+  "run_label": "Morning brief · Nov 20, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Anthropic closed its first day on Nasdaq about 17% above its $83 IPO price, while a quiet evening's only new deal, YuanShi Tech's nearly RMB 300M Pre-A, made it two Chinese virtual-cell rounds in a week",
-    "summary": "Isomorphic's $5B Series C (Nov 17) is still about 87% of the roughly $5.77B of disclosed, closed bio×AI venture since Oct 22; without it the figure is about $775M, led by Pathos ($237M), Warp ($215M) and Boltz ($110M). Biggest partnership money is still Third Rock–Funnel (up to ~$2.16B headline) and argenx–Unnatural Products ($550M cash), and Merck–Isomorphic (Nov 19) disclosed no figures. Anthropic, the AI lab with the most explicit drug-program plans, raised $81.3B and closed its first session at $97.17; the evening's one new deal is YuanShi Tech's Legend-led Pre-A of nearly RMB 300M for virtual-cell models, logged without a dollar figure.",
+    "headline": "Pharma is renewing data and genetics deals for years at a time: AstraZeneca committed about $200M over five years to Tempus AI and Vertex extended Genomics for four more at up to $220M, in a quiet morning with no new venture rounds",
+    "summary": "Isomorphic's $5B Series C (Nov 17) is still about 87% of the roughly $5.77B of disclosed, closed bio×AI venture since Oct 22, and the 7-day closed-venture figure is about $5.12B (Isomorphic, Boltz $110M, Tesorai $5.3M) as Orakl and Biomatter age out. The new money this run is in partnerships: AstraZeneca–Tempus ($200M in fees for 2027–2031, at least $32M a year) and Vertex–Genomics (up to more than $220M plus royalties), with Astellas–Bionsight on undisclosed terms. Biggest partnership headlines in the window remain Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
-        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors; after a $70 to $78 range and a book Bloomberg put at about six times covered, it confirmed on Nov 18 a price of $83 a share, raising $81.3B on 980M shares, the largest IPO on record, with Nasdaq trading from Nov 19; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Generate Biomedicines' Q3 report (Nov 12) confirms a research collaboration with Anthropic on agentic CAR-T design, in which Claude helped shrink a key CAR component by about 70%. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic closed a $5B Series C on Nov 17, co-led by Greenoaks and Sequoia with a16z new to the cap table, to take its first oncology and immunology programs toward the clinic and add biologics; it no longer gives a trial date. Two days later, on Nov 19, Merck became its fourth big-pharma partner after Lilly, Novartis and J&J, hiring IsoDDE for one oncology small-molecule target on Merck's own data, with an upfront, milestones and royalties, none quantified, and an option for Isomorphic to co-fund development for higher royalties. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before. Chinese pharma is buying the same way at home: on Nov 13 Hansoh signed Hong Kong spin-off AilsynBio to find oral cyclic peptides against targets Hansoh picks, for up to RMB317M in total payments plus royalties, with Hansoh keeping the IP. Software licences are growing inside pharma once they show results: on Nov 17 argenx extended Cradle's platform to more scientists and antibody programs after a first phase of lead optimisation, eight days after agreeing to buy Unnatural Products. Stock is also becoming the currency for consolidation one rung up: on Nov 17 Astromech, the Church and Lamm evolutionary-AI company valued at a reported $3.8B in August, agreed to buy sister Colossal spinout Form Bio for $230M in shares, adding AI design tools for gene-therapy constructs used by Lilly, Taysha and Solid Biosciences. Flagship is consolidating too, with no stock price attached: on Nov 11 it merged Valo Health with Montai Therapeutics under the Valo name, its second AI-platform merger in two weeks after Etcelera, leading with Montai's Phase 1 oral NRF2 agonist for ulcerative colitis."
+        "detail": "Anthropic's S-1 sells drug discovery and lab-running models to public investors; after a $70 to $78 range and a book Bloomberg put at about six times covered, it confirmed on Nov 18 a price of $83 a share, raising $81.3B on 980M shares, the largest IPO on record, with Nasdaq trading from Nov 19; the company owns Mithril's muscular-dystrophy antibodies with candidates planned for 2027, and its drug R&D head now puts its pipeline at two to five preclinical programs. OpenAI bought Orchestra Bio and backs Chai and Biossil, the $1B drug-repurposing startup whose $153M round its fund led and which signed its first asset buy on Nov 2; Anthropic's Anthology Fund joined Basecamp's $140M. Generate Biomedicines' Q3 report (Nov 12) confirms a research collaboration with Anthropic on agentic CAR-T design, in which Claude helped shrink a key CAR component by about 70%. Former OpenAI staff founded Warp ($215M) and another is reportedly raising about $200M. Startups are getting the same pipeline-wide access: Pfizer is putting Edison Scientific's Kosmos agent to work on its internal data across oncology, immunology and internal medicine. Alphabet's Isomorphic closed a $5B Series C on Nov 17, co-led by Greenoaks and Sequoia with a16z new to the cap table, to take its first oncology and immunology programs toward the clinic and add biologics; it no longer gives a trial date. Two days later, on Nov 19, Merck became its fourth big-pharma partner after Lilly, Novartis and J&J, hiring IsoDDE for one oncology small-molecule target on Merck's own data, with an upfront, milestones and royalties, none quantified, and an option for Isomorphic to co-fund development for higher royalties. Buyers of AI design are widening beyond pharma: Third Rock Ventures, a company-creation venture firm, signed up to about $2.16B with Beijing's Funnel Biosciences for de novo antibodies against targets it chooses, its second such pact with a Chinese AI shop after Perpetual Medicine. At the small end, platforms are changing hands for stock: on Nov 10 Rakovina licensed Artemis.AI for its DNA-repair cancer targets for C$1M in shares and no cash, after iSpecimen's mostly-stock FoldLab purchase the week before. Chinese pharma is buying the same way at home: on Nov 13 Hansoh signed Hong Kong spin-off AilsynBio to find oral cyclic peptides against targets Hansoh picks, for up to RMB317M in total payments plus royalties, with Hansoh keeping the IP. Software licences are growing inside pharma once they show results: on Nov 17 argenx extended Cradle's platform to more scientists and antibody programs after a first phase of lead optimisation, eight days after agreeing to buy Unnatural Products. Stock is also becoming the currency for consolidation one rung up: on Nov 17 Astromech, the Church and Lamm evolutionary-AI company valued at a reported $3.8B in August, agreed to buy sister Colossal spinout Form Bio for $230M in shares, adding AI design tools for gene-therapy constructs used by Lilly, Taysha and Solid Biosciences. Flagship is consolidating too, with no stock price attached: on Nov 11 it merged Valo Health with Montai Therapeutics under the Valo name, its second AI-platform merger in two weeks after Etcelera, leading with Montai's Phase 1 oral NRF2 agonist for ulcerative colitis. Japanese pharma keeps adding small Asian AI partners: on Nov 19 Astellas signed Korea's Bionsight, which pairs AI design with proteome-wide chemoproteomics, for a first-in-class innate-immune autoimmune program, terms undisclosed."
       },
       {
         "title": "AI moves into trial design, recruitment and clinical assets",
@@ -20,7 +20,7 @@
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
-        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms. PsiThera made it three protein-motion or physics-first chemistry raises in a week: its $25M (Nov 10), with AbbVie Ventures taking a board seat, funds an oral TNFα candidate found with ML plus simulation of transient pockets. Virtual-cell money is spreading to China: on Nov 16 XtalPi-incubated INFevo raised more than RMB 100M, with Aramco's Prosperity7 among new backers, for a multi-omics cell model checked in its own automated lab. And the data argument is now driving where companies get built: Flagship's £100M London origination lab (Nov 16) is explicitly pitched on access to NHS patient data, with UK Biobank and the MHRA among its partners. Model access itself is now venture-scale: Boltz, whose paid models are trained partly on that Excelra data, raised a $110M Series A on Nov 18 led by Bessemer, citing more than 5 million open-model downloads and about 50-fold growth in paid usage in four months, with Pfizer, GSK, Takeda and BMS named as users. At the other end, Tesorai's $5.3M seed (Nov 18), with IQT and Perplexity's fund among backers, bets that re-analysing archived mass-spectrometry proteomics data is a cheaper source of training data than new experiments. And China's virtual-cell race added a second round in a week: YuanShi Tech's Pre-A of nearly RMB 300M (Nov 19), led by Legend Capital, funds data accumulation and an automation platform alongside its models."
+        "detail": "Google DeepMind, Isomorphic and Meta put $300M into Biohub's $1.8B open virtual-cell data coalition alongside DOE and NIH, and days later GSK, Pfizer and Sanofi became founding partners in Parse and Nomic's Cascade, a licensed 100M-cell immune perturbation dataset with matched protein readouts. Flagship merged three single-platform companies into Etcelera around a 150M-cell foundation model, BioGeometry raised past $100M to pair its design model with a virtual cell model and an automated lab, and ALLOX, Rivercell and now Venomics AI ($2.7M pre-seed for a venom-molecule atlas) raised early rounds to generate their own experimental data. Buyers now pay for data at scale, split into an open track (Biohub) and a closed, pharma-shared track (Cascade), which squeezes startups selling a proprietary atlas on its own. A third track appeared on Nov 5: Potential Sciences raised an eight-figure seed, co-led by the UK's Sovereign AI fund, to train chemistry models on physics-based quantum calculations run on GPUs instead of lab data. Fathom Therapeutics, which simulates protein motion with physics plus AI and counts Lilly Ventures among its backers, added Greek-American fund Kos to a Series A now put at $55M on Nov 6, a second physics-first chemistry bet in two days. Data holders outside pharma are starting to trade data for a share of the drugs rather than a fee: on Nov 9 Korean genomics firm 3billion put the genomes from its rare-disease testing business behind DeepLife's TwinCell virtual-cell model to co-develop small molecules against genetic modifier targets. Open-model companies are buying measured data too: on Nov 11 Boltz said it now trains the ADMET models in its BoltzMol-1 product on Excelra's curated GOSTAR solubility, lipophilicity and permeability measurements, on undisclosed terms. PsiThera made it three protein-motion or physics-first chemistry raises in a week: its $25M (Nov 10), with AbbVie Ventures taking a board seat, funds an oral TNFα candidate found with ML plus simulation of transient pockets. Virtual-cell money is spreading to China: on Nov 16 XtalPi-incubated INFevo raised more than RMB 100M, with Aramco's Prosperity7 among new backers, for a multi-omics cell model checked in its own automated lab. And the data argument is now driving where companies get built: Flagship's £100M London origination lab (Nov 16) is explicitly pitched on access to NHS patient data, with UK Biobank and the MHRA among its partners. Model access itself is now venture-scale: Boltz, whose paid models are trained partly on that Excelra data, raised a $110M Series A on Nov 18 led by Bessemer, citing more than 5 million open-model downloads and about 50-fold growth in paid usage in four months, with Pfizer, GSK, Takeda and BMS named as users. At the other end, Tesorai's $5.3M seed (Nov 18), with IQT and Perplexity's fund among backers, bets that re-analysing archived mass-spectrometry proteomics data is a cheaper source of training data than new experiments. And China's virtual-cell race added a second round in a week: YuanShi Tech's Pre-A of nearly RMB 300M (Nov 19), led by Legend Capital, funds data accumulation and an automation platform alongside its models. Pharma is also paying for data access on multi-year contracts: on Nov 18 AstraZeneca disclosed a five-year renewal with Tempus AI worth about $200M in fees from 2027, with a $32M yearly minimum, after Tempus delivered a first oncology foundation model in July, and the same day Vertex extended Genomics' human-genetics target platform for four more years at up to more than $220M in milestones plus royalties."
       }
     ],
     "movers": [
@@ -99,9 +99,10 @@
       {
         "player": "AstraZeneca",
         "kind": "Pharma",
-        "direction": "Spreading AI bets from discovery through preclinical safety to trials, plus manufacturing robots and Gulf trial capacity",
-        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets, a term sheet with Oracle for AI trial recruitment (starting in Abu Dhabi with M42), a research deal with Tremont AI for AI-read preclinical toxicology, invested in Multiply Labs' $75M round, partners with Pathos on an ER PROTAC and is exploring up to 30 trials in Abu Dhabi by 2030.",
+        "direction": "Spreading AI bets from discovery through preclinical safety to trials, and now locking in five-year access to oncology patient data",
+        "detail": "AstraZeneca signed insitro for MASH and cardiomyopathy targets, a term sheet with Oracle for AI trial recruitment (starting in Abu Dhabi with M42), a research deal with Tremont AI for AI-read preclinical toxicology, invested in Multiply Labs' $75M round, partners with Pathos on an ER PROTAC and is exploring up to 30 trials in Abu Dhabi by 2030. On Nov 18 it disclosed a renewal of its Tempus AI oncology data and model collaboration for 2027–2031, about $200M in fees with a $32M yearly minimum.",
         "evidence": [
+          "2026-11-18-astrazeneca-tempus-renewal",
           "2026-10-15-astrazeneca-insitro",
           "2026-10-20-astrazeneca-oracle-trials",
           "2026-10-28-astrazeneca-tremont-ai",
@@ -141,11 +142,13 @@
         ]
       },
       {
-        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB, Pierre Fabre, Hansoh, AbbVie, Novo Nordisk, Merck)",
+        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB, Pierre Fabre, Hansoh, AbbVie, Novo Nordisk, Merck, Vertex)",
         "kind": "Pharma",
         "direction": "Licensing AI design platforms across their pipelines rather than building them",
-        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year, and argenx widened its own Cradle use on Nov 17. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms. Chinese pharma is on the same path: Hansoh signed AilsynBio on Nov 13 for AI-found oral cyclic peptides, up to RMB317M plus royalties, keeping target choice and IP. Venture arms are buying in earlier as well: AbbVie Ventures joined PsiThera's $25M on Nov 10 and took a board seat, backing oral small molecules aimed at immune targets AbbVie now hits with antibodies. Novo Nordisk went downstream on Nov 18, pairing its cardiometabolic trial data with nference's real-world health data and AI for precision-trial design, plus a framework to start new AI-native companies. Merck joined the list on Nov 19, hiring Isomorphic's IsoDDE engine for one oncology small-molecule target on its own data, keeping development and sales in-house.",
+        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year, and argenx widened its own Cradle use on Nov 17. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms. Chinese pharma is on the same path: Hansoh signed AilsynBio on Nov 13 for AI-found oral cyclic peptides, up to RMB317M plus royalties, keeping target choice and IP. Venture arms are buying in earlier as well: AbbVie Ventures joined PsiThera's $25M on Nov 10 and took a board seat, backing oral small molecules aimed at immune targets AbbVie now hits with antibodies. Novo Nordisk went downstream on Nov 18, pairing its cardiometabolic trial data with nference's real-world health data and AI for precision-trial design, plus a framework to start new AI-native companies. Merck joined the list on Nov 19, hiring Isomorphic's IsoDDE engine for one oncology small-molecule target on its own data, keeping development and sales in-house. Vertex renewed Genomics' human-genetics target platform on Nov 18 for four more years (up to more than $220M plus royalties), and Astellas added Korea's Bionsight on Nov 19 for an AI-designed autoimmune small molecule.",
         "evidence": [
+          "2026-11-19-astellas-bionsight",
+          "2026-11-18-vertex-genomics-extension",
           "2026-11-19-merck-isomorphic",
           "2026-11-18-novo-nference",
           "2026-11-10-psithera-financing",
@@ -311,13 +314,13 @@
         "call": "Pharma–AI discovery licensing deals (not outright acquisitions) keep upfronts below ~5% of headline value",
         "timeframe": "Ongoing",
         "confidence": "High",
-        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down; Hansoh–AilsynBio (Nov 13, up to RMB317M, upfront not split out) neither confirms nor breaks it; Iambic disclosed on Nov 16 that AbbVie paid about $47M upfront for its September deal, but with no headline total it cannot be scored; Recursion's Nov 2 update shows Sanofi has paid $144M to date against more than $300M still in milestones; argenx's wider Cradle licence (Nov 17) is software access with no disclosed terms, so it cannot be scored; Merck–Isomorphic (Nov 19) has an upfront but no disclosed amounts, so it cannot be scored"
+        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down; Hansoh–AilsynBio (Nov 13, up to RMB317M, upfront not split out) neither confirms nor breaks it; Iambic disclosed on Nov 16 that AbbVie paid about $47M upfront for its September deal, but with no headline total it cannot be scored; Recursion's Nov 2 update shows Sanofi has paid $144M to date against more than $300M still in milestones; argenx's wider Cradle licence (Nov 17) is software access with no disclosed terms, so it cannot be scored; Merck–Isomorphic (Nov 19) has an upfront but no disclosed amounts, so it cannot be scored; Vertex–Genomics (Nov 18, up to more than $220M) disclosed no upfront and AstraZeneca–Tempus (Nov 18, $200M) is a fee-for-data contract rather than a milestone licence, so neither can be scored"
       },
       {
         "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
         "timeframe": "Next 6 months",
         "confidence": "Medium",
-        "based_on": "Boehringer–Microsoft digital twins; AstraZeneca–Oracle recruitment term sheet; Atlas Bio's seed; Formation Bio's $600M fund for AI-run clinical development (adjacent, but not a trial-tech raise); adsilico's £10M for virtual-patient device trials (adjacent, below the bar); Unlearn–Structure digital twins (Nov 12, Structure is not top-20 pharma, so it does not count); Orakl Oncology's $34M Series A for AI trial-outcome prediction (Nov 12, below the $50M bar and not a trial-tech partnership, so it does not count); ChronicleBio–Prolong (Nov 12, AI-selected ME/CFS trial patients; Prolong is not top-20 pharma, so it does not count); Novo Nordisk–nference (Nov 18) is a top-20 pharma–tech pact for real-world data and precision-trial design, but not digital twins, synthetic controls or recruitment, so it is adjacent and does not count"
+        "based_on": "Boehringer–Microsoft digital twins; AstraZeneca–Oracle recruitment term sheet; Atlas Bio's seed; Formation Bio's $600M fund for AI-run clinical development (adjacent, but not a trial-tech raise); adsilico's £10M for virtual-patient device trials (adjacent, below the bar); Unlearn–Structure digital twins (Nov 12, Structure is not top-20 pharma, so it does not count); Orakl Oncology's $34M Series A for AI trial-outcome prediction (Nov 12, below the $50M bar and not a trial-tech partnership, so it does not count); ChronicleBio–Prolong (Nov 12, AI-selected ME/CFS trial patients; Prolong is not top-20 pharma, so it does not count); Novo Nordisk–nference (Nov 18) is a top-20 pharma–tech pact for real-world data and precision-trial design, but not digital twins, synthetic controls or recruitment, so it is adjacent and does not count; AstraZeneca–Tempus (Nov 18) renews oncology data and model access, not digital twins, synthetic controls or recruitment, so it does not count"
       },
       {
         "call": "Another AI-native drug developer files publicly for a US IPO",
@@ -336,15 +339,16 @@
       "Anthropic as a listed company: ANT first traded at $111.50 in the Nasdaq opening cross on Nov 19 and closed at $97.17, about 17% above its $83 price ($81.3B gross on 980M shares). Watch whether underwriters exercise the over-allotment option, whether the $26B private placement closes, any life-sciences revenue or R&D disclosure in its first quarterly report, and a first named pharma partner for its clinical plans. A second public-market signal: Bitwise filed on Nov 6 for an actively managed AI Drug Discovery ETF on NYSE Arca, with no ticker set, which would create a basket buyer for listed AI biotechs such as Iambic and Recursion",
       "Isomorphic Labs and Chai: after the $5B close and the Nov 19 Merck deal, whether Isomorphic exercises its co-fund option with Merck or names the target, confirms a valuation, names its first clinical candidate or files an IND, or signs a biologics partner; whether Chai discloses Roche terms or Genentech's involvement and raises again on its seven-partner list; and whether other late-stage AI biotechs try to raise off Isomorphic's price",
       "Data coalitions and simulated data: Cascade's first release and new members, Biohub's open data partners, whether the physics-first chemistry startups (Potential Sciences, Fathom) name a first pharma customer, and whether DeepLife and 3billion disclose a first genetic-modifier target or add a pharma partner; and whether PsiThera, now with AbbVie Ventures on its board, names its oral TNFα development candidate",
-      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, Unlearn's digital-twin poster for Structure's aleniglipron at ObesityWeek (running Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
+      "Clinical-stage AI: Formation Bio's first fund-backed in-licensing deals, Biossil reopening the WashU SYN-004 trial and its next asset buys, a first program credited to Edison's Kosmos at Pfizer, whether AstraZeneca–Oracle becomes binding, whether Unlearn or Structure publish the aleniglipron digital-twin results shown at ObesityWeek (Nov 14–17), whether ChronicleBio adds partners for its other ME/CFS and long-COVID subtypes ahead of Prolong's mid-2027 first dosing, and whether Orakl turns its Sanofi asset work or its 18-of-top-20 pharma talks into a disclosed contract",
       "After BIO-Europe (closed Nov 11): the meeting's large AI-linked deals were argenx–Unnatural Products ($550M cash) and Third Rock–Funnel (up to ~$2.16B, upfront undisclosed), with Pierre Fabre–XtalPi, DeepLife–3billion and Excelra–Boltz announced without terms. Watch for pharma–AI licences that surface in the days after the meeting, whether any upfront is disclosed above about 5% of headline value, argenx's close by year-end, and whether other US venture firms copy Third Rock in licensing from Chinese AI designers. In Asia, watch whether Hansoh names targets or out-licenses an AilsynBio-derived peptide, and whether more Chinese pharma sign Hong Kong AI spin-offs on similar back-loaded terms. Also watch whether Tourson Intelligence names a first licensing partner or discloses its round size; and whether argenx names a first Cradle-optimised antibody or discloses terms, and whether Cradle raises after adding UCB and argenx in November",
       "Listed AI drug developers this week: Iambic's IAM217 (KIF18A) preclinical data at EORTC-NCI-AACR (Nov 18–20) and its IAM-C1 IND due this quarter; Recursion's next Sanofi development-candidate milestones after the $10M option on Nov 2; and whether Lilly, now 15 acquisitions and more than $30B into 2026 with Calytrix, buys an AI-native developer rather than single assets",
       "UK and China company creation: the first companies out of Flagship's London lab, which partners commit toward its £500M goal and whether a formal NHS data deal follows; CataX AI's first in-licensed asset; and whether INFevo names a pharma partner or publishes OCOO benchmarks on open perturbation data; and whether YuanShi Tech describes its model or names a partner after its nearly RMB 300M Pre-A, and whether Arc's 2026 Virtual Cell Challenge results give either Chinese entrant a public benchmark",
       "Gene-medicine design AI: whether Astromech closes the Form Bio deal, keeps Form Bio's pharma users (Lilly, Taysha, Solid, Coave) and turns the Cure Rare Disease Duchenne construct into an IND-enabling program; whether Astromech raises again on its reported $3.8B valuation; and whether other well-valued AI biotechs start buying tool makers with stock",
       "Open-model platforms: whether Boltz turns its $110M into a named pharma deal larger than a software licence or the first custom model on partner data, whether other open-model groups raise on its terms, whether Tesorai signs a named pharma customer, and what Novo Nordisk–nference's venture framework produces first; plus the merged Valo's MTAI-1025 Phase 1 and whether it raises fresh capital",
-      "Lab automation money from the Gulf: whether MegaRobo's Hong Kong IPO moves after its Oman-led round of nearly $200M, whether Oman or other Gulf funds pair it with a local lab build-out, and whether US automation players (Opentrons, Multiply Labs, Automata) answer with raises of their own"
+      "Lab automation money from the Gulf: whether MegaRobo's Hong Kong IPO moves after its Oman-led round of nearly $200M, whether Oman or other Gulf funds pair it with a local lab build-out, and whether US automation players (Opentrons, Multiply Labs, Automata) answer with raises of their own",
+      "Data and genetics contracts: whether Tempus's filing or Q4 call adds detail on the AstraZeneca renewal (and whether other pharma customers sign multi-year minimums), whether Vertex credits a clinical program to Genomics or Genomics signs a second pharma for Mystra AI, and whether Bionsight and Astellas reach a preclinical candidate or convert the project into a licence with disclosed terms"
     ],
-    "since_last_run": "One new deal, one item updated, no resolved predictions. New: YuanShi Tech, a Chinese AI virtual-cell company, closed a Pre-A of nearly RMB 300M on Nov 19 led by Legend Capital, with Huaxia Lingtou, China Merchants Group China Fund, JD.com-affiliated funds, CDH VGC and CMC Capital new and Monolith and Sinovation adding to their stakes; only one outlet has reported it, so it is logged in yuan and not counted in totals. Updated: Anthropic's IPO item now records first-day trading (first trade $111.50 at 11:48 a.m. ET, close $97.17, about 17% above the $83 price). Movers: Chinese venture firms now include Legend Capital via YuanShi, and Anthropic's detail adds first-day trading. Themes: the data-layer theme adds YuanShi. Watchlist: the Anthropic entry moves from debut to post-listing items, and the UK/China entry adds YuanShi. Ideas: the virtual-cell scaling idea adds YuanShi as evidence. The 7-day closed-venture figure is unchanged at about $5.17B. No items aged out. Screened out: Ansa Biotechnologies' $71.5M Series C (enzymatic DNA synthesis, no AI angle stated), VitriVax's $87M Series C (vaccine formulation, no AI angle), Xlue's $35M seed (disease-risk prediction from health records, clinical AI outside the biology scope), Genesis AI's $500M (general robotics), and Lilly–Ailux's $345M bispecific deal (from November 2025, resurfacing in search)."
+    "since_last_run": "Three new deals, all partnerships; no new venture rounds, no resolved predictions. New: AstraZeneca renewed its oncology data and AI collaboration with Tempus AI for 2027–2031, about $200M in fees with a $32M yearly minimum (signed Nov 16, disclosed Nov 18); Vertex extended its target-discovery collaboration with Genomics for four years, up to more than $220M in milestones plus royalties (Nov 18); and Astellas signed Korea's Bionsight, an AI chemoproteomics company, for a first-in-class autoimmune program on undisclosed terms (Nov 19). Headline and summary now lead with multi-year data and genetics renewals. Movers: AstraZeneca adds Tempus; the other-pharma entry adds Vertex and Bionsight under Astellas. Themes: the data-layer theme adds Tempus and Genomics, and the AI-buyers theme adds Bionsight. Predictions: both new deals are noted as unscorable for the upfront call, and Tempus as not counting for the trial-tech call. Watchlist: a new data-and-genetics entry, and the Unlearn item moves from the ObesityWeek poster to published results. Ideas: one new idea on genetic support for targets. The 7-day closed-venture figure falls to about $5.12B from about $5.17B as Orakl's $34M and Biomatter's $18M (Nov 12) leave the 7-day window; WhiteLab Genomics' Series B (Oct 5) aged out of the 45-day window. Screened out: a $25M Series A for Reverie Labs resurfacing in search (a 2021 round), Chai Discovery's $400M round (July), BigHat's $75M Series C (September), Antiverse's $9.3M Series A (March), Tushen Zhihe's Pre-A rounds (the same company as Tourson Intelligence, already logged Nov 9), Generate's Q3 report (no new deal), and a Reuters survey of pharma AI timelines (no deal)."
   },
   "items": [
     {
@@ -424,6 +428,79 @@
       "url": "https://dealroom.co/news/174147-megarobo-raises-200m-to-push-ai-into-real-world-labs-and-factories/",
       "source_name": "Dealroom",
       "first_seen": "2026-11-19T14:10:00+00:00"
+    },
+    {
+      "id": "2026-11-19-yuanshi-pre-a",
+      "date": "2026-11-19",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "YuanShi Tech (Yuanshi Technology)",
+      "counterparty": "Legend Capital",
+      "amount_usd": null,
+      "amount_label": "Nearly RMB 300M",
+      "round": "Pre-A",
+      "valuation_label": null,
+      "investors": [
+        "Legend Capital",
+        "Huaxia Lingtou",
+        "China Merchants Group China Fund",
+        "JD.com-affiliated funds",
+        "CDH VGC",
+        "CMC Capital",
+        "Monolith",
+        "Sinovation Ventures",
+        "Daotong Investment",
+        "Yanyuan Venture Capital"
+      ],
+      "area": "Virtual cell models",
+      "summary": "Chinese AI virtual-cell company YuanShi Tech closed a Pre-A of nearly RMB 300M led by Legend Capital, with five new institutional backers including a JD.com-linked fund and existing investors Monolith and Sinovation adding to their stakes. The company says the money goes to building up data, an automation platform, model iteration and hiring.",
+      "why_invested": "Likely: Legend Capital and the new backers are buying into China's virtual-cell race at an early stage while round sizes are still small; the stated plan to pair models with an automation platform and in-house data mirrors the pitch that won INFevo its Pre-A three days earlier. No investor rationale was published.",
+      "whats_next": "Watch for a description of the model and the data it trains on, a first pharma or hospital partner, any public benchmark against open perturbation data, and whether the round's dollar size gets confirmed in a second outlet.",
+      "why_it_matters": "Two Chinese virtual-cell Pre-A rounds in one week, this one nearly three times INFevo's, show the model-plus-own-lab pitch drawing mainstream Chinese VC money, not only incubator capital.",
+      "links": [
+        {
+          "title": "Longbridge (Zhitong): YuanShi Tech completes nearly RMB 300M Pre-A",
+          "url": "https://longbridge.com/en/news/306053004"
+        },
+        {
+          "title": "AI Funding Tracker: AI funding news, Nov 19, 2026 (YuanShi Tech)",
+          "url": "https://aifundingtracker.com/ai-funding-news-november-19-2026/"
+        }
+      ],
+      "url": "https://longbridge.com/en/news/306053004",
+      "source_name": "Longbridge (Zhitong)",
+      "first_seen": "2026-11-19T21:55:00+00:00"
+    },
+    {
+      "id": "2026-11-19-astellas-bionsight",
+      "date": "2026-11-19",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Bionsight",
+      "counterparty": "Astellas Pharma",
+      "amount_usd": null,
+      "amount_label": "Undisclosed",
+      "round": "Global R&D collaboration (one autoimmune program)",
+      "valuation_label": null,
+      "investors": [],
+      "area": "AI chemoproteomics / small molecules",
+      "summary": "South Korean startup Bionsight, whose Javelin platform pairs AI molecular design with chemoproteomics that profiles a compound against more than 7,000 proteins at once, signed a global R&D collaboration with Astellas to find a first-in-class autoimmune drug acting on the innate immune pathway.",
+      "why_invested": "Likely: Astellas gets an AI-designed small-molecule program on a new immune mechanism, with whole-proteome selectivity data early, for little disclosed cost; Bionsight's CEO calls it a step in turning the platform into drug programs. The project was also picked for a Korean government SME R&D track (TIPA), which helps fund it.",
+      "whats_next": "Bionsight leads molecular design, target validation on Javelin and lead optimisation; Astellas supplies data, expertise and development guidance. The stated goal is a preclinical candidate; watch for any disclosed option or licence terms if one emerges.",
+      "why_it_matters": "Japanese pharma keeps adding small, Asia-based AI discovery partners on undisclosed terms, after Astellas's larger AI Proteins deal in October.",
+      "links": [
+        {
+          "title": "EIN Presswire: Bionsight enters R&D collaboration with Astellas",
+          "url": "https://www.einpresswire.com/article/957672533/bionsight-enters-r-d-collaboration-agreement-with-astellas-for-first-in-class-autoimmune-disorder-therapy"
+        },
+        {
+          "title": "Pharma Journalist: Bionsight and Astellas partner on autoimmune therapy",
+          "url": "https://www.pharmajournalist.com/bionsight-and-astellas-partner-to-develop-new-autoimmune-therapy/"
+        }
+      ],
+      "url": "https://www.einpresswire.com/article/957672533/bionsight-enters-r-d-collaboration-agreement-with-astellas-for-first-in-class-autoimmune-disorder-therapy",
+      "source_name": "EIN Presswire (company release)",
+      "first_seen": "2026-11-20T14:05:00+00:00"
     },
     {
       "id": "2026-11-18-boltz-series-a",
@@ -533,6 +610,76 @@
       "url": "https://www.biospace.com/press-releases/nference-and-novo-partner-to-advance-understanding-of-cardiometabolic-disease-and-healthy-ageing",
       "source_name": "BioSpace (PR Newswire)",
       "first_seen": "2026-11-18T21:55:00+00:00"
+    },
+    {
+      "id": "2026-11-18-astrazeneca-tempus-renewal",
+      "date": "2026-11-18",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Tempus AI",
+      "counterparty": "AstraZeneca",
+      "amount_usd": 200000000,
+      "amount_label": "$200M in fees over five years (target $40M a year, minimum $32M a year)",
+      "round": "Renewal of 2021 oncology data and AI collaboration (2027–2031)",
+      "valuation_label": null,
+      "investors": [],
+      "area": "Oncology multimodal data / foundation models",
+      "summary": "AstraZeneca renewed its oncology research collaboration with Tempus AI for five more years, from January 2027 to the end of 2031, committing about $200M in fees for Tempus's de-identified multimodal patient data, AI models and related products. The amended agreement was signed on Nov 16 and disclosed in a Nov 18 SEC filing.",
+      "why_invested": "AstraZeneca's stated aim is to build AI and multimodal patient data into its oncology research as a standing capability rather than project by project; Tempus delivered the first version of an oncology foundation model to AstraZeneca in July 2026, so the renewal follows a working deliverable. Likely also: locking in data access for a further five years before competitors bid for it.",
+      "whats_next": "The new term starts on Jan 1, 2027, with a minimum spend of $32M a year against a $40M target and an option for one more year. AstraZeneca can end it early but owes outstanding commitments. Watch for the next foundation-model release, any new named oncology programs credited to the work, and whether other pharma customers renew on similar multi-year minimums.",
+      "why_it_matters": "Pharma is now signing five-year, minimum-spend contracts for clinical-genomic data and the models built on it, which turns AI data access into a recurring line item rather than a one-off pilot.",
+      "links": [
+        {
+          "title": "OncoDaily: AstraZeneca and Tempus AI renew $200M oncology deal",
+          "url": "https://oncodaily.com/industry/astrazeneca-tempus-ai-635706"
+        },
+        {
+          "title": "Investing.com: Tempus AI and AstraZeneca amend agreement with five-year, $200M commitment",
+          "url": "https://uk.investing.com/news/stock-market-news/tempus-ai-and-astrazeneca-amend-agreement-with-new-fiveyear-200-million-commitment-93CH-4990828"
+        },
+        {
+          "title": "Benzinga: AstraZeneca extends Tempus AI partnership with $200M commitment",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63444528/astrazeneca-extends-tempus-ai-partnership-with-200-million-commitment-as-analyst-weighs-multiples"
+        }
+      ],
+      "url": "https://oncodaily.com/industry/astrazeneca-tempus-ai-635706",
+      "source_name": "OncoDaily",
+      "first_seen": "2026-11-20T14:05:00+00:00"
+    },
+    {
+      "id": "2026-11-18-vertex-genomics-extension",
+      "date": "2026-11-18",
+      "type": "Partnership",
+      "status": "Signed",
+      "company": "Genomics",
+      "counterparty": "Vertex Pharmaceuticals",
+      "amount_usd": 220000000,
+      "amount_label": "Up to more than $220M in milestones · plus tiered royalties",
+      "round": "Four-year extension of 2018 target-discovery collaboration",
+      "valuation_label": null,
+      "investors": [],
+      "area": "Human genetics / target discovery",
+      "summary": "Vertex extended its drug-target discovery collaboration with Oxford-based Genomics for four more years, on top of eight years of work since 2018. Genomics' Mystra platform combines genetic association data from more than 45,000 GWAS with health records and proprietary algorithms to find and validate targets and biomarkers.",
+      "why_invested": "Vertex's chief scientific officer framed human genetics as foundational to how Vertex discovers drugs and credited Genomics for pairing data science with genetic insight; Genomics says its platform and algorithms let it scale target and biomarker discovery, and claims more than 100 candidate targets found so far.",
+      "whats_next": "Payments depend on research, development, regulatory and commercial milestones, and Genomics also earns tiered royalties; no upfront or program names were disclosed. Watch whether any Vertex clinical program is credited to the collaboration, and whether Genomics signs other pharma for Mystra AI, the AI interface it launched in June.",
+      "why_it_matters": "A pharma known for genetics-led drug choices is paying a nine-figure headline to keep a computational genetics partner for twelve years in total, a sign that genetic evidence for targets is becoming a bought service.",
+      "links": [
+        {
+          "title": "Fierce Biotech: Vertex signs $220M deal with Genomics for four more years",
+          "url": "https://www.fiercebiotech.com/biotech/vertex-signs-genomics-220m-4-more-years-long-time-discovery-pact"
+        },
+        {
+          "title": "PMLiVE: Genomics extends drug discovery collaboration with Vertex",
+          "url": "https://pmlive.com/pharma_news/genomics-extends-drug-discovery-collaboration-with-vertex/"
+        },
+        {
+          "title": "Pharma Journalist: Genomics and Vertex extend partnership worth $220M",
+          "url": "https://www.pharmajournalist.com/genomics-and-vertex-extend-drug-discovery-partnership-worth-220-million/"
+        }
+      ],
+      "url": "https://www.fiercebiotech.com/biotech/vertex-signs-genomics-220m-4-more-years-long-time-discovery-pact",
+      "source_name": "Fierce Biotech",
+      "first_seen": "2026-11-20T14:05:00+00:00"
     },
     {
       "id": "2026-11-17-astromech-form-bio",
@@ -3059,89 +3206,6 @@
       "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
       "source_name": "Newswise (DOE Office of Science release)",
       "first_seen": "2026-10-31T20:53:15+00:00"
-    },
-    {
-      "id": "2026-10-05-whitelab-series-b",
-      "date": "2026-10-05",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "WhiteLab Genomics",
-      "counterparty": "AVP (lead)",
-      "amount_usd": 26000000,
-      "amount_label": "$26M",
-      "round": "Series B",
-      "valuation_label": null,
-      "investors": [
-        "AVP",
-        "Yaday Health",
-        "Blast Club",
-        "Omnes Capital",
-        "Debiopharm Innovation Fund"
-      ],
-      "area": "AI-designed gene-therapy delivery",
-      "summary": "Paris-based WhiteLab uses its ALFRED platform to design delivery vehicles for genomic medicines, including AAV capsids that crossed the blood-brain barrier in animal work with the Paris Brain Institute. AVP led a $26M Series B.",
-      "why_invested": "Likely: investors are backing evidence that AI-designed capsids work in living animals, plus the novel sequences that could make for defensible IP; the company pitches better brain delivery for Alzheimer's and Parkinson's.",
-      "whats_next": "In vivo validation of viral and non-viral delivery (including LNPs) and synthetic promoters, building a portfolio of bio-assets to keep or partner, and expansion to the US, Japan and South Korea. Watch for a first pharma licensing deal.",
-      "why_it_matters": "Delivery is becoming its own AI-design category, alongside the Lilly–METiS deal.",
-      "links": [
-        {
-          "title": "Axios Pro: WhiteLab Genomics raises $26M Series B",
-          "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines"
-        },
-        {
-          "title": "Pulse 2.0: investors and use of funds",
-          "url": "https://pulse2.com/whitelab-genomics-raises-26-million-series-b/"
-        },
-        {
-          "title": "Drug Target Review: WhiteLab raises $26M",
-          "url": "https://www.drugtargetreview.com/news/whitelab-genomics-raises-26m-to-advance-ai-designed-genomic-medicines/2136665.article"
-        }
-      ],
-      "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
-      "source_name": "Axios Pro",
-      "first_seen": "2026-10-27T20:55:00+00:00"
-    },
-    {
-      "id": "2026-11-19-yuanshi-pre-a",
-      "date": "2026-11-19",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "YuanShi Tech (Yuanshi Technology)",
-      "counterparty": "Legend Capital",
-      "amount_usd": null,
-      "amount_label": "Nearly RMB 300M",
-      "round": "Pre-A",
-      "valuation_label": null,
-      "investors": [
-        "Legend Capital",
-        "Huaxia Lingtou",
-        "China Merchants Group China Fund",
-        "JD.com-affiliated funds",
-        "CDH VGC",
-        "CMC Capital",
-        "Monolith",
-        "Sinovation Ventures",
-        "Daotong Investment",
-        "Yanyuan Venture Capital"
-      ],
-      "area": "Virtual cell models",
-      "summary": "Chinese AI virtual-cell company YuanShi Tech closed a Pre-A of nearly RMB 300M led by Legend Capital, with five new institutional backers including a JD.com-linked fund and existing investors Monolith and Sinovation adding to their stakes. The company says the money goes to building up data, an automation platform, model iteration and hiring.",
-      "why_invested": "Likely: Legend Capital and the new backers are buying into China's virtual-cell race at an early stage while round sizes are still small; the stated plan to pair models with an automation platform and in-house data mirrors the pitch that won INFevo its Pre-A three days earlier. No investor rationale was published.",
-      "whats_next": "Watch for a description of the model and the data it trains on, a first pharma or hospital partner, any public benchmark against open perturbation data, and whether the round's dollar size gets confirmed in a second outlet.",
-      "why_it_matters": "Two Chinese virtual-cell Pre-A rounds in one week, this one nearly three times INFevo's, show the model-plus-own-lab pitch drawing mainstream Chinese VC money, not only incubator capital.",
-      "links": [
-        {
-          "title": "Longbridge (Zhitong): YuanShi Tech completes nearly RMB 300M Pre-A",
-          "url": "https://longbridge.com/en/news/306053004"
-        },
-        {
-          "title": "AI Funding Tracker: AI funding news, Nov 19, 2026 (YuanShi Tech)",
-          "url": "https://aifundingtracker.com/ai-funding-news-november-19-2026/"
-        }
-      ],
-      "url": "https://longbridge.com/en/news/306053004",
-      "source_name": "Longbridge (Zhitong)",
-      "first_seen": "2026-11-19T21:55:00+00:00"
     }
   ]
 }
