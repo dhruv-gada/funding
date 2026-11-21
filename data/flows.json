@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T13:48:12+00:00",
+  "last_updated": "2026-11-21T21:48:14+00:00",
   "since": "2026-01-01",
   "method": {
     "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -273,9 +273,14 @@
           "label": "China Medical System",
           "amount": "~$177M milestones",
           "deal": "p-cms-insilico"
+        },
+        {
+          "label": "Luoxin Pharmaceuticals",
+          "amount": "Undisclosed (non-binding)",
+          "deal": "p-luoxin-insilico"
         }
       ],
-      "insight": "About $6.3B in headline value but only about $152M in disclosed upfront cash, which shows how far pharma–AI deals are back-loaded."
+      "insight": "About $6.3B in headline value but only about $152M in disclosed upfront cash, which shows how far pharma–AI deals are back-loaded; the newest step, Luoxin (Nov 13), is a Chinese mid-size pharma signing on before any money is fixed."
     },
     {
       "id": "c-sovereign",
@@ -3994,6 +3999,27 @@
       "url": "https://www.einpresswire.com/article/957672533/bionsight-enters-r-d-collaboration-agreement-with-astellas-for-first-in-class-autoimmune-disorder-therapy",
       "source_name": "EIN Presswire (company release)",
       "note": "Also selected for a Korean government SME R&D track (TIPA)."
+    },
+    {
+      "id": "p-luoxin-insilico",
+      "date": "2026-11-13",
+      "type": "Partnership",
+      "company": "Insilico Medicine",
+      "sector": "Small molecule & peptide design",
+      "round": "Strategic cooperation (digestive & metabolic disease)",
+      "cash_usd": null,
+      "headline_usd": null,
+      "amount_label": "Undisclosed (non-binding)",
+      "payers": [
+        {
+          "name": "Luoxin Pharmaceuticals",
+          "kind": "Pharma"
+        }
+      ],
+      "participants": [],
+      "url": "https://www.tipranks.com/news/company-announcements/insilico-medicine-and-luoxin-pharmaceuticals-enter-ai-drug-discovery-cooperation",
+      "source_name": "TipRanks (company announcement)",
+      "note": "Non-binding strategic consensus; definitive terms still to be negotiated."
     }
   ]
 }
