@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-11-21T21:48:14+00:00",
-  "run_label": "Evening brief · Nov 21, 2026",
+  "last_updated": "2026-11-22T13:48:08+00:00",
+  "run_label": "Morning brief · Nov 22, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "A quiet Saturday: the only addition is a late-caught, non-binding AI discovery pact between Insilico and Chinese drugmaker Luoxin, so Isomorphic's $5B Series C and last week's multi-year pharma data renewals still define the window",
+    "headline": "A quiet Sunday morning with no new qualifying deals: Isomorphic's $5B Series C, its Merck licence and last week's multi-year pharma data contracts still set the tone, while three early-October deals (Biohub, Multiply Labs, Rivercell) age out of the window",
     "summary": "Isomorphic's $5B Series C (Nov 17) is still about 87% of the roughly $5.77B of disclosed, closed bio×AI venture since Oct 22, and the 7-day closed-venture figure holds at about $5.12B (Isomorphic, Boltz $110M, Tesorai $5.3M; MegaRobo's nearly $200M and the Chinese RMB rounds are not counted in dollars). The one new item is Insilico–Luoxin (Nov 13), a strategic cooperation with no money attached yet; the week's priced partnerships remain AstraZeneca–Tempus ($200M in fees over 2027–2031) and Vertex–Genomics (up to more than $220M plus royalties). Biggest partnership headlines in the window are still Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash).",
     "themes": [
       {
@@ -70,8 +70,7 @@
         "evidence": [
           "2026-11-19-merck-isomorphic",
           "2026-10-08-isomorphic-series-c-talks",
-          "2026-10-23-abudhabi-isomorphic",
-          "2026-10-07-biohub-virtual-biology-1-8b"
+          "2026-10-23-abudhabi-isomorphic"
         ]
       },
       {
@@ -81,8 +80,7 @@
         "detail": "NVentures joined Basecamp's $140M Series C, NVIDIA-backed Iambic raised $172.5M in its IPO (with the overallotment), and Danaher is building NVIDIA computing and BioNeMo models into its lab instruments. NVIDIA rarely leads, but it now spans model companies, public drug developers and lab hardware. It is also supplying compute in kind to Biohub's virtual-cell coalition.",
         "evidence": [
           "2026-10-15-iambic-ipo",
-          "2026-10-15-danaher-nvidia-autonomous-lab",
-          "2026-10-07-biohub-virtual-biology-1-8b"
+          "2026-10-15-danaher-nvidia-autonomous-lab"
         ]
       },
       {
@@ -106,7 +104,6 @@
           "2026-10-15-astrazeneca-insitro",
           "2026-10-20-astrazeneca-oracle-trials",
           "2026-10-28-astrazeneca-tremont-ai",
-          "2026-10-07-multiply-labs-series-b",
           "2026-10-23-pathos-series-e",
           "2026-10-23-abudhabi-isomorphic"
         ]
@@ -201,8 +198,7 @@
         "direction": "Owning the make-and-test layer end to end",
         "detail": "Lux is in Warp (automated chemistry) and Multiply Labs (robotic manufacturing), and earlier this autumn backed Enveda (AI natural-product discovery, now clinical).",
         "evidence": [
-          "2026-10-22-warp-sciences-launch",
-          "2026-10-07-multiply-labs-series-b"
+          "2026-10-22-warp-sciences-launch"
         ]
       },
       {
@@ -212,8 +208,6 @@
         "detail": "Creandum led Atlas Bio's $10M seed, HV Capital led Rivercell's €22M seed, AVP led WhiteLab's $26M Series B, Asabys led ALLOX's $10.5M seed and PXN Ventures led adsilico's £10M Series A, so European funds are writing larger early cheques for data-first AI biology and virtual-patient simulation. Greek-American Kos Biotechnology Partners took its first AI-discovery stake on Nov 6, joining Fathom's US Series A. Astanor led Biomatter's $18M Series A on Nov 12, with UVC Partners adding to its stake, for AI enzyme design that already has paying customers. On Nov 12 Norrsken VC and Singular co-led Orakl Oncology's $34M Series A for organoid-based trial prediction, with Bpifrance's Patient Autonome Fund among new backers, and Treehouse Delmar put $5M into Switchpoint Bio's blood-biomarker pre-seed on Nov 11.",
         "evidence": [
           "2026-10-27-atlas-bio-seed",
-          "2026-10-07-rivercell-seed",
-          "2026-10-05-whitelab-series-b",
           "2026-10-29-allox-seed",
           "2026-10-26-adsilico-series-a",
           "2026-11-06-fathom-series-a-kos",
@@ -232,7 +226,6 @@
           "2026-10-15-recursion-offering-sanofi",
           "2026-10-23-hexagon-bio-series-c",
           "2026-10-23-abudhabi-isomorphic",
-          "2026-10-07-biohub-virtual-biology-1-8b",
           "2026-11-05-potential-sciences-seed",
           "2026-11-16-infevo-pre-a",
           "2026-10-08-isomorphic-series-c-talks",
@@ -349,7 +342,7 @@
       "Lab automation money from the Gulf: whether MegaRobo's Hong Kong IPO moves after its Oman-led round of nearly $200M, whether Oman or other Gulf funds pair it with a local lab build-out, and whether US automation players (Opentrons, Multiply Labs, Automata) answer with raises of their own",
       "Data and genetics contracts: whether Tempus's filing or Q4 call adds detail on the AstraZeneca renewal (and whether other pharma customers sign multi-year minimums), whether Vertex credits a clinical program to Genomics or Genomics signs a second pharma for Mystra AI, and whether Bionsight and Astellas reach a preclinical candidate or convert the project into a licence with disclosed terms"
     ],
-    "since_last_run": "A quiet Saturday evening: the only new item is Insilico–Luoxin, a non-binding strategic cooperation for AI-led discovery in digestive and metabolic disease that the morning searches missed (company filing dated Nov 13, no amounts). It was added to the Chinese-pharma line in the first theme and to the other-pharma mover; no prediction resolved and no new mover was added. OpenAI's Nov 20 MedChemBench release (a medicinal-chemistry benchmark, not a deal) is noted in the OpenAI mover. The 7-day closed-venture figure stays at about $5.12B and no items aged out of the 45-day window. Screened out as old or out of scope: Takeda–Insilico (July), Automata's $45M Series C (January), Purple Biotech–Converge Bio (March), and the DMII SPAC's preliminary $600M stock proposal for Alpha AI Biotech (Oct 29, no AI or biology detail disclosed). Ideas: no changes this run."
+    "since_last_run": "Quiet Sunday morning: no new bio×AI funding, M&A, partnership or IPO announced since the Saturday evening brief passed screening, so no items were added or changed and no prediction resolved. Three items aged out of the 45-day window: Biohub's $1.8B open virtual-cell coalition, Multiply Labs' $75M Series B and Rivercell's €22M seed (all Oct 7); their ids were removed from the movers' evidence lists, and the themes still mention them as background. The 7-day closed-venture figure holds at about $5.12B (Isomorphic, Boltz, Tesorai), and disclosed closed venture across the whole window is now about $5.97B. Screened out as old or out of scope: Roche–Manifold Bio's brain-shuttle pact ($55M upfront, over $2B in milestones), which resurfaced on a deals feed but dates from Nov 3, 2025; ByteDance's Anew Labs spin-out and its reported $290M first round (September, before the window, and sourced only to press reports); Pathos's $365M Series D (May 2025); and Altos Labs' purchase of Dorian Therapeutics (no AI angle disclosed). Ideas: no changes this run."
   },
   "items": [
     {
@@ -3114,130 +3107,6 @@
       "url": "https://www.contractpharma.com/breaking-news/chai-discovery-gsk-announce-collaboration-following-wet-lab-evaluation/",
       "source_name": "Contract Pharma",
       "first_seen": "2026-10-27T20:55:00+00:00"
-    },
-    {
-      "id": "2026-10-07-rivercell-seed",
-      "date": "2026-10-07",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "Rivercell",
-      "counterparty": "HV Capital",
-      "amount_usd": 25000000,
-      "amount_label": "€22M (~$25M)",
-      "round": "Seed",
-      "valuation_label": null,
-      "investors": [
-        "HV Capital",
-        "HCVC",
-        "Alven",
-        "Bpifrance Digital Venture"
-      ],
-      "area": "AI virtual cell / cell-response data",
-      "summary": "Paris-based Rivercell came out of stealth with a €22M seed round to generate its own cell-response data and train an AI 'virtual cell' that predicts how human cells react to drugs and genetic changes.",
-      "why_invested": "Stated: the founders argue the field's real gap is data, not models, so the company runs its own wet lab to produce it. Likely: the team (a prior exit to Philips, plus Owkin and Bioptimus alumni) made a large seed for Europe easier to back.",
-      "whats_next": "Scale the in-house data platform, expand the Paris lab and launch the virtual-cell programme. Watch for a first pharma data partnership and model benchmarks.",
-      "why_it_matters": "Virtual-cell models are attracting seed money in Europe, and the pitch is owning proprietary data rather than having a better architecture.",
-      "links": [
-        {
-          "title": "EU-Startups: Rivercell emerges with €22M",
-          "url": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/"
-        },
-        {
-          "title": "Bionity: Rivercell launches with $25M for cell-response AI",
-          "url": "https://www.bionity.com/en/news/1190071/rivercell-launches-with-25-million-to-build-data-platforms-and-ai-models-that-predict-how-human-cells-respond-to-treatment.html"
-        },
-        {
-          "title": "Pulse 2.0: Rivercell $25M seed",
-          "url": "https://pulse2.com/rivercell-raises-25-million-seed-round-to-build-ai-virtual-cell-platform/amp/"
-        }
-      ],
-      "url": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/",
-      "source_name": "EU-Startups",
-      "first_seen": "2026-10-27T13:20:00+00:00"
-    },
-    {
-      "id": "2026-10-07-multiply-labs-series-b",
-      "date": "2026-10-07",
-      "type": "Funding",
-      "status": "Closed",
-      "company": "Multiply Labs",
-      "counterparty": "NantWorks / Patrick Soon-Shiong (lead)",
-      "amount_usd": 75000000,
-      "amount_label": "$75M",
-      "round": "Series B",
-      "valuation_label": null,
-      "investors": [
-        "NantWorks",
-        "AstraZeneca",
-        "Lingotto",
-        "Teradyne",
-        "Strange Ventures",
-        "Casdin Capital",
-        "Lux Capital",
-        "Founders Fund",
-        "Fifty Years"
-      ],
-      "area": "Robotic biomanufacturing ('physical AI')",
-      "summary": "Multiply Labs builds enclosed robotic clusters that automate manual steps in making cell and gene therapies, and is moving into antibodies, viral vectors and mRNA. Patrick Soon-Shiong's NantWorks led the $75M Series B, taking total funding past $100M.",
-      "why_invested": "Lingotto, which joined the board, argues biologics manufacturing has fallen behind the science and robotics can make it scale as it did in cars and chips. AstraZeneca's stake is a strategic bet that faster AI-led discovery will otherwise jam up at manufacturing.",
-      "whats_next": "More capacity, a faster product roadmap and bigger engineering, regulatory and commercial teams to move from clinical-stage installations to commercial-scale production. Watch for a commercial-product deployment and further pharma investors.",
-      "why_it_matters": "The 'make' bottleneck now extends past the discovery lab to manufacturing, and pharma is investing directly in robots to clear it.",
-      "links": [
-        {
-          "title": "BioSpace (Business Wire): Multiply Labs raises $75M Series B",
-          "url": "https://www.biospace.com/press-releases/multiply-labs-raises-75-million-series-b-to-close-the-gap-between-drug-discovery-and-drug-manufacturing"
-        },
-        {
-          "title": "Multiply Labs: Series B announcement",
-          "url": "https://www.multiplylabs.com/press/series-b-2026"
-        }
-      ],
-      "url": "https://www.biospace.com/press-releases/multiply-labs-raises-75-million-series-b-to-close-the-gap-between-drug-discovery-and-drug-manufacturing",
-      "source_name": "BioSpace",
-      "first_seen": "2026-10-27T20:55:00+00:00"
-    },
-    {
-      "id": "2026-10-07-biohub-virtual-biology-1-8b",
-      "date": "2026-10-07",
-      "type": "Partnership",
-      "status": "Announced",
-      "company": "Biohub (Virtual Biology Initiative)",
-      "counterparty": "Google DeepMind, Isomorphic Labs & Meta; US DOE and NIH",
-      "amount_usd": 1800000000,
-      "amount_label": "$1.8B initiative (incl. in-kind and prior federal data) · $300M from DeepMind, Isomorphic & Meta",
-      "round": "Expansion of the Virtual Biology Initiative",
-      "valuation_label": null,
-      "investors": [
-        "Google DeepMind",
-        "Isomorphic Labs",
-        "Meta",
-        "US Department of Energy",
-        "NIH",
-        "NVIDIA (compute, in kind)",
-        "Renaissance Philanthropy"
-      ],
-      "area": "Virtual cell / open biological training data",
-      "summary": "The Zuckerberg-backed Biohub grew its virtual-cell data effort into a $1.8B coalition: Google DeepMind, Isomorphic Labs and Meta put in $300M together, the Energy Department pledged more than $500M over five years, and NIH is contributing existing datasets built on over $500M of past federal spending. The aim is an open, AI-ready store of cell-response data and new measurement tools to train predictive models of biology.",
-      "why_invested": "The partners say no single group can generate enough standardized cell data to build an accurate model of how cells respond to drugs or genetic changes, so they are pooling it. Likely also for the tech companies: early exclusive access to the data (reported at one year before public release) feeds their own biology models, including Isomorphic's drug design engine.",
-      "whats_next": "Watch for the first released datasets, how the one-year commercial head start works in practice, which other companies buy in, and whether DOE's autonomous labs start producing data at scale. Note that the new money named is closer to $1.3B; the rest is prior NIH investment.",
-      "why_it_matters": "Big tech is now paying for the raw data layer of biology, not just models, which raises the bar for startups whose edge is a proprietary cell atlas.",
-      "links": [
-        {
-          "title": "Newswise (DOE release): coalition commits nearly $2B to biology data for AI",
-          "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease"
-        },
-        {
-          "title": "pharmaphorum: Biohub raises $1.8bn for virtual biology",
-          "url": "https://pharmaphorum.com/news/biohub-raises-18bn-its-virtual-biology-initiative"
-        },
-        {
-          "title": "Let's Data Science: breakdown of the $1.8B and commercial early access",
-          "url": "https://letsdatascience.com/news/biohub-expands-ai-ready-biology-data-initiative-75b2234b"
-        }
-      ],
-      "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
-      "source_name": "Newswise (DOE Office of Science release)",
-      "first_seen": "2026-10-31T20:53:15+00:00"
     }
   ]
 }
