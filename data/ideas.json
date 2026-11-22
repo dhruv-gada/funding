@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-22T13:48:08+00:00",
-  "run_label": "Morning brief · Nov 22, 2026",
+  "last_updated": "2026-11-22T21:50:00+00:00",
+  "run_label": "Evening brief · Nov 22, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No changes to the ideas this run: no new qualifying deals landed, so no idea was updated, added or retired. Biohub's coalition and Multiply Labs' round aged out of the deals window but remain cited as background evidence for the virtual-cell scaling and small-budget self-driving-lab ideas.",
+  "since_last_run": "No changes to the ideas this run: no new qualifying deals landed over the weekend, so no idea was updated, added or retired.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
