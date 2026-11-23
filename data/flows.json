@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T13:55:00+00:00",
+  "last_updated": "2026-11-23T21:53:00+00:00",
   "since": "2026-01-01",
   "method": {
     "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -4020,6 +4020,44 @@
       "url": "https://www.tipranks.com/news/company-announcements/insilico-medicine-and-luoxin-pharmaceuticals-enter-ai-drug-discovery-cooperation",
       "source_name": "TipRanks (company announcement)",
       "note": "Non-binding strategic consensus; definitive terms still to be negotiated."
+    },
+    {
+      "id": "v-onex-intelligence",
+      "date": "2026-11-18",
+      "type": "Venture",
+      "company": "OneX Intelligence (Guanyi Zhineng)",
+      "sector": "Foundation models & platforms",
+      "round": "First round",
+      "cash_usd": null,
+      "headline_usd": null,
+      "amount_label": "Several hundred million RMB (undisclosed)",
+      "payers": [
+        {
+          "name": "IDG Capital",
+          "kind": "Venture capital"
+        }
+      ],
+      "participants": [
+        {
+          "name": "CCV (Chuangshi Partners)",
+          "kind": "Venture capital"
+        },
+        {
+          "name": "Yunbai Capital",
+          "kind": "Venture capital"
+        },
+        {
+          "name": "Jiaoda Hanyuan Asset",
+          "kind": "Venture capital"
+        },
+        {
+          "name": "Yunqi Partners",
+          "kind": "Venture capital"
+        }
+      ],
+      "url": "https://m.chinaventure.com.cn/news/80-20261118-394089.html",
+      "source_name": "China Venture (投中网)",
+      "note": "Size given only as several hundred million yuan, so not counted in totals. Jiaoda Hanyuan is linked to Shanghai Jiao Tong University."
     }
   ]
 }
