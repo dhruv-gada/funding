@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-11-24T13:55:00+00:00",
-  "run_label": "Morning brief · Nov 24, 2026",
+  "last_updated": "2026-11-24T21:55:00+00:00",
+  "run_label": "Evening brief · Nov 24, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "Leash Biosciences' $11M (Nov 24) to sell lab-measured training environments to AI agents opens the week, a small round that extends the data-layer trade under Isomorphic's $5B and Merck's licence",
+    "headline": "A quiet Tuesday evening: no new qualifying bio×AI deal since this morning, so Leash Biosciences' $11M training-data round remains the week's only new deal, sitting under Isomorphic's $5B and Merck's licence",
     "summary": "Disclosed, closed bio×AI venture in the 45-day window is about $5.99B, with Isomorphic's $5B Series C (Nov 17) roughly 84% of it; the 7-day closed-venture figure is about $5.13B (Isomorphic, Boltz $110M, Leash $11M, Tesorai $5.3M), with MegaRobo's nearly $200M and the Chinese RMB rounds, including Xellar's tens-of-millions-of-yuan strategic round, not counted in dollars. Last week's priced partnerships remain AstraZeneca–Tempus ($200M in fees over 2027–2031) and Vertex–Genomics (up to more than $220M plus royalties); the window's largest partnership headlines are Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash), now that GSK–Chai (Oct 9) has aged out.",
     "themes": [
       {
@@ -342,7 +342,7 @@
       "Data and genetics contracts: whether Tempus's filing or Q4 call adds detail on the AstraZeneca renewal (and whether other pharma customers sign multi-year minimums), whether Vertex credits a clinical program to Genomics or Genomics signs a second pharma for Mystra AI, and whether Bionsight and Astellas reach a preclinical candidate or convert the project into a licence with disclosed terms",
       "Training data as a product: whether Leash publishes the promised results that its Minos environments improve agent or model performance and names a first AI-lab or pharma buyer, and whether Xellar names a pharma partner (CSPC is the obvious one) or gets organ-chip data accepted under China's new-method pilot"
     ],
-    "since_last_run": "Two items added. New today: Leash Biosciences' $11M round (Nov 24), co-led by Innovation Endeavors and Insight Partners, to turn its automated lab's binding data into training environments (Minos) for AI scientist agents. Found late: Xellar Biosystems' strategic round of tens of millions of yuan (Nov 18) from Shanghai Guotou Xiandao and the CSPC Guofang fund for organ-on-chip data plus AI; not counted in dollar totals. Aged out: GSK–Chai (Oct 9). Screened out: Ritzey Therapeutics' $112.5M Series A and Tagomics' $13M extension (no AI angle stated), Knit Health's $35M (health-system patient models, out of scope), and Roche–Manifold, Thermo–Clario and Lonza–Onava, which surfaced in feeds but date from October 2025 or October 2026. The 7-day closed-venture figure rises by $11M to about $5.13B. No prediction resolved. Movers: Chinese state-linked capital adds Xellar; generalist software VCs add Insight via Leash. Ideas: the dynamics-vs-static affinity test now cites Leash."
+    "since_last_run": "Quiet since the morning brief: no new qualifying funding, M&A, partnership or IPO found, and no item changed status. Screened out: Eli Lilly's acquisition of LoQus23 Therapeutics for up to $725M (Nov 23, Huntington's MSH3 inhibitor; no AI angle described), IQVIA's acquisition of Quotient Sciences (Nov 23, drug-development services; no AI angle stated), Avenzo's close of its Rallybio merger with a $215M private placement (Nov 22, no AI angle), and Aevius's $22M seed (Nov 23, clinical AI for health systems, out of scope). Old items that resurfaced in feeds and were skipped: Earendil Labs' $787M (March 2026) and Deepcell–Gilead's CHO-cell foundation model (August 2026). A China weekly roundup (week of Nov 23) re-listed MegaRobo, YuanShi, INFevo, CataX, OneX Intelligence and Xellar, all already tracked. Nothing aged out of the 45-day window (oldest item is Zealand–Generate, Oct 13). Totals unchanged: 7-day closed venture about $5.13B. No prediction resolved; movers, themes and watchlist unchanged."
   },
   "items": [
     {
