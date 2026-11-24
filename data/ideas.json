@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-23T21:53:00+00:00",
-  "run_label": "Evening brief · Nov 23, 2026",
+  "last_updated": "2026-11-24T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 24, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "Updated one idea: the virtual-cell scaling test now cites OneX Intelligence's IDG-led first round (Nov 18) and its published MAP perturbation model as a baseline. No ideas added or retired; datasets unchanged.",
+  "since_last_run": "Updated one idea: the dynamics-vs-static affinity test now cites Leash Biosciences' $11M round (Nov 24) for lab-measured binding data sold as AI training environments. No ideas added or retired; datasets unchanged (their links could not be re-fetched this run, so they were left as last confirmed).",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -337,20 +337,21 @@
       "id": "dynamics-vs-static-affinity",
       "status": "Active",
       "first_seen": "2026-11-06T21:49:14+00:00",
-      "updated": "2026-11-19T14:10:00+00:00",
+      "updated": "2026-11-24T13:55:00+00:00",
       "title": "Does molecular-dynamics information beat a single static structure for predicting ligand binding?",
       "kind": "Research project",
       "area": "Physics-based simulation + ML / small-molecule design",
       "difficulty": "Intermediate",
       "question": "For protein–ligand complexes with measured affinities, do features or embeddings learned from MD trajectories improve affinity and pose-stability prediction over models that see only one crystal structure, and on which kinds of targets (flexible pockets, cryptic sites) does the gain show up?",
-      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps. On Nov 17 Isomorphic Labs closed a $5B Series C partly to mature its structure-based IsoDDE design engine, so the static-structure side of this comparison now carries the largest private bet in the field; an open test of where dynamics adds signal is worth more, not less. Boltz's $110M Series A (Nov 18), whose Boltz-2 model predicts affinity jointly with a single co-folded structure, adds a second well-funded static-structure approach to compare against. On Nov 19 Merck hired Isomorphic to run IsoDDE on Merck's own data for an oncology small-molecule target, upfront undisclosed, so pharma is now paying for static-structure design on its proprietary chemistry; an open, leakage-controlled test of when dynamics helps would tell buyers like Merck what they are not getting.",
+      "why_now": "Investors backed three physics-first or protein-motion chemistry companies in under a week: Potential Sciences' eight-figure seed (Nov 5), co-led by the UK's Sovereign AI fund, to train models on GPU-run quantum chemistry; Fathom Therapeutics, whose Microcosmos platform simulates protein motion and which added Kos to a $55M Series A that also includes Lilly Ventures (Nov 6); and PsiThera's $25M (Nov 10), with AbbVie Ventures joining, for oral immune drugs found by modelling how proteins flex to open short-lived pockets. All three pitch dynamics as the fix for static-structure models, but there is little open, leakage-controlled evidence on when it actually helps. On Nov 17 Isomorphic Labs closed a $5B Series C partly to mature its structure-based IsoDDE design engine, so the static-structure side of this comparison now carries the largest private bet in the field; an open test of where dynamics adds signal is worth more, not less. Boltz's $110M Series A (Nov 18), whose Boltz-2 model predicts affinity jointly with a single co-folded structure, adds a second well-funded static-structure approach to compare against. On Nov 19 Merck hired Isomorphic to run IsoDDE on Merck's own data for an oncology small-molecule target, upfront undisclosed, so pharma is now paying for static-structure design on its proprietary chemistry; an open, leakage-controlled test of when dynamics helps would tell buyers like Merck what they are not getting. On Nov 24 Leash Biosciences raised $11M to sell its in-house binding measurements (more than 44 billion across nearly 1,000 targets) as training and test environments for AI models, so measured binding data at scale is becoming a product in its own right; a clear answer on when dynamics features add signal over static structures would tell such data sellers and their buyers which inputs matter.",
       "evidence": [
         "2026-11-10-psithera-financing",
         "2026-11-06-fathom-series-a-kos",
         "2026-11-05-potential-sciences-seed",
         "2026-10-08-isomorphic-series-c-talks",
         "2026-11-18-boltz-series-a",
-        "2026-11-19-merck-isomorphic"
+        "2026-11-19-merck-isomorphic",
+        "2026-11-24-leash-bio-financing"
       ],
       "datasets": [
         {

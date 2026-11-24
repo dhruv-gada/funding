@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T21:53:00+00:00",
+  "last_updated": "2026-11-24T13:55:00+00:00",
   "since": "2026-01-01",
   "method": {
     "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -341,9 +341,14 @@
           "label": "Oman Investment Authority leads MegaRobo's AI-lab robotics round",
           "amount": "Nearly $200M",
           "deal": "v-megarobo"
+        },
+        {
+          "label": "Shanghai Guotou Xiandao joins Xellar's organ-chip data round",
+          "amount": "Tens of millions of yuan",
+          "deal": "v-xellar-strategic"
         }
       ],
-      "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern. Shanghai's state tech investor leading Tourson Intelligence's Pre-A (Nov 9) is another local-lead case, two weeks after China Life Capital led BioGeometry's A+. The US joins through IQT, the intelligence community's venture arm, which backed Tesorai's $5.3M seed (Nov 18) for re-mining archived proteomics data, after its earlier stake in Lila Sciences. Oman's lead on MegaRobo's round of nearly $200M (Nov 19) breaks the co-investor pattern at scale: a Gulf sovereign leading a late round in a Chinese lab-automation company, with Belt and Road expansion as the stated use."
+      "insight": "Sovereign and state funds mostly join late-stage rounds as co-investors and lead only small local deals, though the UK's Sovereign AI now co-leads seeds and pays partly in compute (Potential Sciences). The pattern looks like industrial policy, with each country backing its own champions. France's Bpifrance joined Orakl's Series A as a co-investor (Nov 12), fitting the same co-investor pattern. Shanghai's state tech investor leading Tourson Intelligence's Pre-A (Nov 9) is another local-lead case, two weeks after China Life Capital led BioGeometry's A+. The US joins through IQT, the intelligence community's venture arm, which backed Tesorai's $5.3M seed (Nov 18) for re-mining archived proteomics data, after its earlier stake in Lila Sciences. Oman's lead on MegaRobo's round of nearly $200M (Nov 19) breaks the co-investor pattern at scale: a Gulf sovereign leading a late round in a Chinese lab-automation company, with Belt and Road expansion as the stated use. The newest step, Shanghai's state manager in Xellar (Nov 18), shows state money moving from models into the human-tissue data that trains them."
     },
     {
       "id": "c-downstream",
@@ -429,9 +434,14 @@
           "label": "Qiming seeds CataX AI's agent-run clinical development in Shanghai",
           "amount": "RMB 40M",
           "deal": "v-catax-ai"
+        },
+        {
+          "label": "Innovation Endeavors and Insight fund Leash's lab-built AI training environments",
+          "amount": "$11M",
+          "deal": "v-leash"
         }
       ],
-      "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic. argenx's Nov 9 deal shows the exit route: a pharma partner that has seen the design-and-make loop work pays mostly in cash to own it. The loop now reaches the cells the drugs are tested on: Mitsui Chemicals' Nov 10 stake puts a materials supplier inside iORGANBIO's automated cell factory. On Nov 12 digital twins reached a mid-size obesity developer, Structure Therapeutics, through Unlearn. Europe's early-stage funds are joining at the trial stage too: Orakl's $34M (Nov 12) pays to predict cancer-trial outcomes from patient tumour organoids before pharma commits to a Phase 2. On Nov 12 the money reached patient selection itself: Prolong is paying ChronicleBio to pick which ME/CFS patients get an existing drug in a Phase 2a. The model is now being copied in China: CataX AI's Nov 16 seed funds a lean team that licenses early assets and runs them through the clinic with AI agents."
+      "insight": "In October, money moved past molecule design toward delivery, lab robots (Warp, Multiply Labs, Opentrons) and manufacturing, and now trial design, recruitment and clinical assets. Microsoft and Oracle are entering at the trial stage, and Formation Bio's $600M fund brings endowment and hospital money in to buy drugs that are already in the clinic. argenx's Nov 9 deal shows the exit route: a pharma partner that has seen the design-and-make loop work pays mostly in cash to own it. The loop now reaches the cells the drugs are tested on: Mitsui Chemicals' Nov 10 stake puts a materials supplier inside iORGANBIO's automated cell factory. On Nov 12 digital twins reached a mid-size obesity developer, Structure Therapeutics, through Unlearn. Europe's early-stage funds are joining at the trial stage too: Orakl's $34M (Nov 12) pays to predict cancer-trial outcomes from patient tumour organoids before pharma commits to a Phase 2. On Nov 12 the money reached patient selection itself: Prolong is paying ChronicleBio to pick which ME/CFS patients get an existing drug in a Phase 2a. The model is now being copied in China: CataX AI's Nov 16 seed funds a lean team that licenses early assets and runs them through the clinic with AI agents. Leash (Nov 24) adds a twist: the lab's output is sold to AI agent builders as training data, not to pharma as drug candidates."
     }
   ],
   "deals": [
@@ -4058,6 +4068,61 @@
       "url": "https://m.chinaventure.com.cn/news/80-20261118-394089.html",
       "source_name": "China Venture (投中网)",
       "note": "Size given only as several hundred million yuan, so not counted in totals. Jiaoda Hanyuan is linked to Shanghai Jiao Tong University."
+    },
+    {
+      "id": "v-leash",
+      "date": "2026-11-24",
+      "type": "Venture",
+      "company": "Leash Biosciences",
+      "sector": "Foundation models & platforms",
+      "round": "Financing round (unnamed)",
+      "cash_usd": 11000000,
+      "headline_usd": 11000000,
+      "amount_label": "$11M",
+      "payers": [
+        {
+          "name": "Innovation Endeavors",
+          "kind": "Venture capital"
+        },
+        {
+          "name": "Insight Partners",
+          "kind": "Venture capital"
+        }
+      ],
+      "participants": [],
+      "url": "https://www.financialcontent.com/article/bizwire-2026-11-24-leash-biosciences-raises-11m-to-build-training-environments-for-scientific-ai",
+      "source_name": "Business Wire",
+      "note": "Automated-lab binding data sold as training environments (Minos) for AI agents."
+    },
+    {
+      "id": "v-xellar-strategic",
+      "date": "2026-11-18",
+      "type": "Venture",
+      "company": "Xellar Biosystems",
+      "sector": "Lab automation & robotics",
+      "round": "Strategic round",
+      "cash_usd": null,
+      "headline_usd": null,
+      "amount_label": "Tens of millions of yuan (undisclosed)",
+      "payers": [
+        {
+          "name": "Lead not named",
+          "kind": "Undisclosed"
+        }
+      ],
+      "participants": [
+        {
+          "name": "Shanghai Guotou Xiandao",
+          "kind": "Sovereign & state"
+        },
+        {
+          "name": "CSPC Guofang Fund",
+          "kind": "Pharma"
+        }
+      ],
+      "url": "https://dealroom.co/news/173735-xellar-raises-tens-of-millions-in-strategic-round-pushing-2026-haul-to-5/",
+      "source_name": "Dealroom",
+      "note": "Exact size undisclosed, so not counted in totals. Organ-on-chip plus AI and lab automation; third raise of 2026 after the Series A/A+ (v-xellar)."
     }
   ]
 }
