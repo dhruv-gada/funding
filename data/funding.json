@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T18:33:33.587614+00:00",
+  "last_updated": "2026-11-25T17:44:56.356056+00:00",
   "count": 12,
   "items": [
     {
@@ -73,6 +73,23 @@
       ]
     },
     {
+      "id": "9d4eabdc7b",
+      "title": "15 Creative Arts Fellowships for Social Justice Activists",
+      "source": "ProFellow",
+      "type": "Fellowship",
+      "url": "https://www.profellow.com/fellowships/15-creative-arts-fellowships-for-social-justice-activists/",
+      "description": "",
+      "deadline": null,
+      "amount": null,
+      "posted": null,
+      "relevance_score": 1,
+      "tags": [
+        "Fellowship",
+        "STEM",
+        "Aggregator"
+      ]
+    },
+    {
       "id": "e4d123cb57",
       "title": "20 Fellowships and Grants for Emerging Writers",
       "source": "ProFellow",
@@ -112,23 +129,6 @@
       "source": "ProFellow",
       "type": "Fellowship",
       "url": "https://www.profellow.com/interviews/sahana-shah-on-applying-twice-to-fulbright-spain-and-using-her-award-to-unite-research-with-advocacy/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "feeef94b24",
-      "title": "Ocean and Marine Science Fellowships for Students, Professionals, and Scholars",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/fellowships/ocean-and-marine-science-fellowships/",
       "description": "",
       "deadline": null,
       "amount": null,
