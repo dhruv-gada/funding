@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-25T14:05:00+00:00",
-  "run_label": "Morning brief · Nov 25, 2026",
+  "last_updated": "2026-11-25T21:55:00+00:00",
+  "run_label": "Evening brief · Nov 25, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "A quiet Thanksgiving-week Wednesday: no new qualifying bio×AI deal since last night, so Leash Biosciences' $11M training-data round is still the week's only fresh raise, and Isomorphic's $5B now rolls out of the 7-day count",
-    "summary": "Disclosed, closed bio×AI venture in the 45-day window is about $5.99B, with Isomorphic's $5B Series C (Nov 17) roughly 84% of it. With Isomorphic now older than seven days, the 7-day closed-venture figure drops to about $126M (Boltz $110M, Leash $11M, Tesorai $5.3M), with MegaRobo's nearly $200M and the Chinese RMB rounds not counted in dollars. Last week's priced partnerships remain AstraZeneca–Tempus ($200M in fees over 2027–2031) and Vertex–Genomics (up to more than $220M plus royalties); the window's largest partnership headlines are Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash).",
+    "headline": "Still quiet on the eve of Thanksgiving: no fresh bio×AI deal since this morning, but Capable's $38M seed for an in-house AI peptide lab (an October round held back this morning) is now confirmed and added",
+    "summary": "Disclosed, closed bio×AI venture in the 45-day window is about $6.02B, with Isomorphic's $5B Series C (Nov 17) roughly 83% of it; Capable's $38M seed (Oct 16) is the only addition tonight. The 7-day closed-venture figure stays at about $126M (Boltz $110M, Leash $11M, Tesorai $5.3M), with MegaRobo's nearly $200M and the Chinese RMB rounds not counted in dollars. Last week's priced partnerships remain AstraZeneca–Tempus ($200M in fees over 2027–2031) and Vertex–Genomics (up to more than $220M plus royalties); the window's largest partnership headlines are Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
@@ -16,7 +16,7 @@
       },
       {
         "title": "Make, test and manufacture: money for the physical layer",
-        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate and Rivercell (€22M) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle and Roche's Nov 5 deal with Chai are the software side of the same split: pharma keeps the wet lab and licenses the design models (Cradle's retrain on each batch of UCB results; Chai-3 goes across Roche's discovery programs). The Nov 9 argenx deal puts a price on a working make-and-test loop: $550M in cash for machine learning tied to massively parallel peptide synthesis and direct-to-biology screening, bought by a partner that had watched it run for more than two years. XtalPi's Pierre Fabre deal the same day also sells AI and robotics as one package. Automation is also reaching the cell supply itself: on Nov 10 Mitsui Chemicals took a stake in iORGANBIO, which makes human cells and organoids for drug testing in a closed loop of AI, single-cell readouts and robots, and will co-develop culture conditions with it. Revenue-stage protein design is following the same playbook: Biomatter's $18M Series A (Nov 12), led by Astanor, pays for a 2,000 m² Vilnius design-and-test site to shorten enzyme design cycles for customers that include AstraZeneca and Sanofi. Chinese platforms are bundling the same way: BioMap's Nov 12 partner slate, with no terms, includes MegaStream TechBio, an automated closed-loop discovery venture with Harbour BioMed, and an AI biomanufacturing lab with Revvity. Oral macrocycles are the clearest product bet in this layer: argenx paid cash for Unnatural Products' peptide make-and-test loop on Nov 9, and four days later Hansoh hired AilsynBio's AI platform for the same drug class. The same bundle is drawing robot makers onto cap tables in China: Tourson Intelligence, which pairs an agent-driven protein design platform with its own wet lab, disclosed back-to-back Pre-A rounds (Nov 9, several hundred million yuan) with lab-automation maker MegaRobo among the backers. And the layer is now drawing sovereign money at scale: on Nov 19 MegaRobo, the same Beijing automation maker that backed Tourson, raised nearly $200M led by the Oman Investment Authority for robotic drug-screening labs (plus chip-line inspection), with a Hong Kong IPO filing still pending."
+        "detail": "Warp ($215M, chemistry robots), Multiply Labs ($75M, robotic biomanufacturing), Opentrons ($40M Series E for AI-driven benchtop robots already in most top-20 pharma labs), Xaira's X-Automate and Rivercell (€22M) all bet the bottleneck has moved from design to the lab. Danaher is building NVIDIA AI into its instruments for closed-loop experiments, and Anthropic's filing talks about models running lab robots. UCB's Nov 4 deal with Cradle and Roche's Nov 5 deal with Chai are the software side of the same split: pharma keeps the wet lab and licenses the design models (Cradle's retrain on each batch of UCB results; Chai-3 goes across Roche's discovery programs). The Nov 9 argenx deal puts a price on a working make-and-test loop: $550M in cash for machine learning tied to massively parallel peptide synthesis and direct-to-biology screening, bought by a partner that had watched it run for more than two years. XtalPi's Pierre Fabre deal the same day also sells AI and robotics as one package. Automation is also reaching the cell supply itself: on Nov 10 Mitsui Chemicals took a stake in iORGANBIO, which makes human cells and organoids for drug testing in a closed loop of AI, single-cell readouts and robots, and will co-develop culture conditions with it. Revenue-stage protein design is following the same playbook: Biomatter's $18M Series A (Nov 12), led by Astanor, pays for a 2,000 m² Vilnius design-and-test site to shorten enzyme design cycles for customers that include AstraZeneca and Sanofi. Chinese platforms are bundling the same way: BioMap's Nov 12 partner slate, with no terms, includes MegaStream TechBio, an automated closed-loop discovery venture with Harbour BioMed, and an AI biomanufacturing lab with Revvity. Oral macrocycles are the clearest product bet in this layer: argenx paid cash for Unnatural Products' peptide make-and-test loop on Nov 9, and four days later Hansoh hired AilsynBio's AI platform for the same drug class. The same bundle is drawing robot makers onto cap tables in China: Tourson Intelligence, which pairs an agent-driven protein design platform with its own wet lab, disclosed back-to-back Pre-A rounds (Nov 9, several hundred million yuan) with lab-automation maker MegaRobo among the backers. And the layer is now drawing sovereign money at scale: on Nov 19 MegaRobo, the same Beijing automation maker that backed Tourson, raised nearly $200M led by the Oman Investment Authority for robotic drug-screening labs (plus chip-line inspection), with a Hong Kong IPO filing still pending. Seed money is following the same logic: Capable's $38M seed (Oct 16), backed by Cathay Innovation and Abstract with Andrej Karpathy and Fidji Simo as angels, pays for a San Francisco lab that grew roughly elevenfold in weeks so AI-designed peptides can be made and tested fast enough to feed the next design, starting with a sleep program now entering preclinical safety work."
       },
       {
         "title": "Scale of data over number of platforms: big tech and pharma pay for the data layer, and investors now fund simulated data and physics too",
@@ -340,9 +340,10 @@
       "Open-model platforms: whether Boltz turns its $110M into a named pharma deal larger than a software licence or the first custom model on partner data, whether other open-model groups raise on its terms, whether Tesorai signs a named pharma customer, and what Novo Nordisk–nference's venture framework produces first; plus the merged Valo's MTAI-1025 Phase 1 and whether it raises fresh capital",
       "Lab automation money from the Gulf: whether MegaRobo's Hong Kong IPO moves after its Oman-led round of nearly $200M, whether Oman or other Gulf funds pair it with a local lab build-out, and whether US automation players (Opentrons, Multiply Labs, Automata) answer with raises of their own",
       "Data and genetics contracts: whether Tempus's filing or Q4 call adds detail on the AstraZeneca renewal (and whether other pharma customers sign multi-year minimums), whether Vertex credits a clinical program to Genomics or Genomics signs a second pharma for Mystra AI, and whether Bionsight and Astellas reach a preclinical candidate or convert the project into a licence with disclosed terms",
-      "Training data as a product: whether Leash publishes the promised results that its Minos environments improve agent or model performance and names a first AI-lab or pharma buyer, and whether Xellar names a pharma partner (CSPC is the obvious one) or gets organ-chip data accepted under China's new-method pilot"
+      "Training data as a product: whether Leash publishes the promised results that its Minos environments improve agent or model performance and names a first AI-lab or pharma buyer, and whether Xellar names a pharma partner (CSPC is the obvious one) or gets organ-chip data accepted under China's new-method pilot",
+      "Seed-stage closed-loop labs: whether Capable names its sleep-peptide candidate or shows preclinical safety data, adds programs or outside partners on its expanded Mission Bay lab, and whether other frontier-AI angels back similar own-the-lab seed rounds"
     ],
-    "since_last_run": "Quiet since the evening brief: no new qualifying funding, M&A, partnership or IPO found, and no item changed status. The 7-day closed-venture figure falls from about $5.13B to about $126M only because Isomorphic's $5B Series C (Nov 17) moved outside the seven-day window; nothing was withdrawn. Screened out: Sanofi's ~$41B cash acquisition of Insmed (announced this week; respiratory drugs, no AI angle), Kymera's upsized $1.75B public offering (degrader biotech, no AI angle stated), Playbook's ~€8M raise (Nov 24; compliance software for pharma AI agents, not drug discovery or biology), and a Rakovina Therapeutics–NanoPalm update (Nov 25; a submitted proposal for Saudi non-dilutive funding with no award or amount, so not a deal yet). Seen but not added: Capable, an AI peptide drug developer with an automated San Francisco lab, resurfaced in feeds with a $38M seed led on the institutional side by Cathay and Abstract; aggregator pages point to an October announcement, but the date and primary release could not be confirmed this run, so it is held for a later run. Old items that resurfaced and were skipped: Aureka's $100M Series B (August), Helical's $10M seed (April), Leash's $11M (already tracked). Nothing aged out of the 45-day window (oldest item is Zealand–Generate, Oct 13). No prediction resolved; movers, themes and watchlist unchanged."
+    "since_last_run": "Quiet since the morning brief: no new qualifying funding, M&A, partnership or IPO announced, and no item changed status. One held item was resolved: Capable's $38M seed (AI-designed peptides made and tested in its own San Francisco lab; Cathay Innovation and Abstract plus angels Andrej Karpathy, Fidji Simo and Joe Betts-LaCroix; no lead or valuation disclosed) is now confirmed by a Dealroom report dated Oct 20 and a company update dated Oct 16, so it was added under Oct 16. It falls outside the 7-day count, which stays at about $126M, and lifts the 45-day closed-venture total by $38M. Screened out: Knit Health's $35M Series A (a world model for care prediction across health systems, healthcare AI rather than drug or trial work), Insilico–Ribo's oligonucleotide AI collaboration (a May 12 release that resurfaced), Aureka's $100M Series B (August), Bayer–Hansoh's up-to-$3.25B oncology licence and Sanofi–Insmed (~$41B), both without an AI angle. Nothing aged out of the 45-day window (oldest item is Zealand–Generate, Oct 13). No prediction resolved; movers unchanged; the make-and-test theme and the watchlist add Capable."
   },
   "items": [
     {
@@ -2985,6 +2986,47 @@
       "url": "https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery",
       "source_name": "Fierce Biotech",
       "first_seen": "2026-10-27T20:55:00+00:00"
+    },
+    {
+      "id": "2026-10-16-capable-seed",
+      "date": "2026-10-16",
+      "type": "Funding",
+      "status": "Closed",
+      "company": "Capable",
+      "counterparty": "Cathay Innovation and Abstract (no lead disclosed)",
+      "amount_usd": 38000000,
+      "amount_label": "$38M",
+      "round": "Seed",
+      "valuation_label": null,
+      "investors": [
+        "Cathay Innovation",
+        "Abstract",
+        "Andrej Karpathy",
+        "Fidji Simo",
+        "Joe Betts-LaCroix"
+      ],
+      "area": "AI peptide design + in-house automated lab",
+      "summary": "San Francisco's Capable is building its own lab that turns AI-generated drug designs into experimental data quickly enough for each result to steer the next design, starting with peptides aimed at reducing how much sleep people need. Its $38M seed, disclosed in a mid-October company update and reported by Dealroom on Oct 20, brings total funding to about $50M and pays for a lab that grew from 2,000 to 22,500 sq ft in Mission Bay.",
+      "why_invested": "Likely: backers are paying for the design-to-data loop rather than a model, betting that a company owning chemistry, biology, hardware and ML under one roof can iterate faster than ones that outsource testing; the angel list (Karpathy, Simo) signals frontier-AI people backing a wet-lab bottleneck thesis. No lead or valuation was disclosed.",
+      "whats_next": "The first program, in sleep, is entering preclinical safety testing by the company's own account; watch for a named candidate, safety data, more programs on the same platform, and whether the scaled lab is offered to outside partners.",
+      "why_it_matters": "Another sign that early money is going to companies that own the lab loop end to end, not just the design model, even at seed stage.",
+      "links": [
+        {
+          "title": "Dealroom: Capable raises $38M seed to build AI drug-discovery lab",
+          "url": "https://dealroom.co/news/164409-capable-raises-38m-seed-to-build-ai-drug-discovery-lab/"
+        },
+        {
+          "title": "Signalbase: Capable $38M seed round and backers",
+          "url": "https://www.trysignalbase.com/news/funding/capable-raises-38m-seed-round"
+        },
+        {
+          "title": "Digg: Capable launches lab for 24-hour AI design-to-data",
+          "url": "https://digg.com/tech/2ju765yd"
+        }
+      ],
+      "url": "https://dealroom.co/news/164409-capable-raises-38m-seed-to-build-ai-drug-discovery-lab/",
+      "source_name": "Dealroom",
+      "first_seen": "2026-11-25T21:55:00+00:00"
     },
     {
       "id": "2026-10-15-iambic-ipo",

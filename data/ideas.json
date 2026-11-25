@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-25T14:05:00+00:00",
-  "run_label": "Morning brief · Nov 25, 2026",
+  "last_updated": "2026-11-25T21:55:00+00:00",
+  "run_label": "Evening brief · Nov 25, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "No changes to the ideas this run: no new qualifying deals since the evening brief, so no evidence was added and nothing was added or retired.",
+  "since_last_run": "Updated one idea: the benchtop self-driving-lab project adds Capable's $38M seed for an in-house AI design-and-test lab as evidence (dataset links re-checked: ProteinGym and FLIP repositories still live). Nothing added or retired.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
@@ -227,13 +227,13 @@
       "id": "small-budget-self-driving-lab",
       "status": "Active",
       "first_seen": "2026-11-06T14:40:00+00:00",
-      "updated": "2026-11-19T14:10:00+00:00",
+      "updated": "2026-11-25T21:55:00+00:00",
       "title": "A self-driving loop on a benchtop robot: what works when you can only run 96 samples a round?",
       "kind": "Lab project",
       "area": "Lab automation / active learning",
       "difficulty": "Ambitious",
       "question": "Which active-learning strategies reach a target fastest when each round is small (8–96 samples) and noisy, and can a $10K-class liquid handler run the loop on its own?",
-      "why_now": "Money is flowing to the make-and-test layer: Opentrons raised a $40M Series E for AI-driven benchtop robots, Warp launched with $215M for automated chemistry, Multiply Labs raised $75M for robotic manufacturing, Danaher is building NVIDIA AI into its instruments, and Xaira introduced X-Automate. Most published closed-loop work assumes big robots and big batches; small academic labs need to know what works at their scale. On Nov 10 Mitsui Chemicals invested in iORGANBIO, which runs a closed loop of AI, single-cell readouts and robots to make human cells and organoids, and will co-develop culture conditions with it. That is exactly the small-batch optimisation problem this project tests, and it fits a benchtop robot. On Nov 19 Beijing's MegaRobo raised nearly $200M, led by Oman's sovereign fund, for robotic labs that run screening experiments around the clock as an AI data source; the money is going to large automated facilities, which makes a careful test of what works at benchtop scale more useful to the many labs that cannot buy one.",
+      "why_now": "Money is flowing to the make-and-test layer: Opentrons raised a $40M Series E for AI-driven benchtop robots, Warp launched with $215M for automated chemistry, Multiply Labs raised $75M for robotic manufacturing, Danaher is building NVIDIA AI into its instruments, and Xaira introduced X-Automate. Most published closed-loop work assumes big robots and big batches; small academic labs need to know what works at their scale. On Nov 10 Mitsui Chemicals invested in iORGANBIO, which runs a closed loop of AI, single-cell readouts and robots to make human cells and organoids, and will co-develop culture conditions with it. That is exactly the small-batch optimisation problem this project tests, and it fits a benchtop robot. On Nov 19 Beijing's MegaRobo raised nearly $200M, led by Oman's sovereign fund, for robotic labs that run screening experiments around the clock as an AI data source; the money is going to large automated facilities, which makes a careful test of what works at benchtop scale more useful to the many labs that cannot buy one. Capable's $38M seed (Oct 16) is the same bet at seed stage: a startup building its own lab so each batch of AI-designed peptides is tested fast enough to steer the next, which raises the question this project asks of how small and how quick a loop can be and still learn.",
       "evidence": [
         "2026-10-29-opentrons-series-e",
         "2026-10-22-warp-sciences-launch",
@@ -241,7 +241,8 @@
         "2026-10-15-danaher-nvidia-autonomous-lab",
         "2026-10-23-xaira-x-automate",
         "2026-11-10-iorganbio-mitsui",
-        "2026-11-19-megarobo-funding"
+        "2026-11-19-megarobo-funding",
+        "2026-10-16-capable-seed"
       ],
       "datasets": [
         {

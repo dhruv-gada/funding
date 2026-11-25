@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T14:05:00+00:00",
+  "last_updated": "2026-11-25T21:55:00+00:00",
   "since": "2026-01-01",
   "method": {
     "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -4123,6 +4123,44 @@
       "url": "https://dealroom.co/news/173735-xellar-raises-tens-of-millions-in-strategic-round-pushing-2026-haul-to-5/",
       "source_name": "Dealroom",
       "note": "Exact size undisclosed, so not counted in totals. Organ-on-chip plus AI and lab automation; third raise of 2026 after the Series A/A+ (v-xellar)."
+    },
+    {
+      "id": "v-capable",
+      "date": "2026-10-16",
+      "type": "Venture",
+      "company": "Capable",
+      "sector": "Small molecule & peptide design",
+      "round": "Seed",
+      "cash_usd": 38000000,
+      "headline_usd": 38000000,
+      "amount_label": "$38M seed",
+      "payers": [
+        {
+          "name": "Lead not named",
+          "kind": "Undisclosed"
+        }
+      ],
+      "participants": [
+        {
+          "name": "Cathay Innovation",
+          "kind": "Venture capital"
+        },
+        {
+          "name": "Abstract",
+          "kind": "Venture capital"
+        },
+        {
+          "name": "Andrej Karpathy",
+          "kind": "Undisclosed"
+        },
+        {
+          "name": "Fidji Simo",
+          "kind": "Undisclosed"
+        }
+      ],
+      "url": "https://dealroom.co/news/164409-capable-raises-38m-seed-to-build-ai-drug-discovery-lab/",
+      "source_name": "Dealroom",
+      "note": "No lead or valuation disclosed; total funding about $50M. AI-designed peptides tested in its own SF lab; first program in sleep. Added late (confirmed Nov 25)."
     }
   ]
 }
