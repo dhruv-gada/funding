@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T14:10:00+00:00",
+  "last_updated": "2026-11-26T21:55:00+00:00",
   "since": "2026-01-01",
   "method": {
     "cash": "Cash view: venture rounds count the full round size, split evenly across the named lead investors (or labelled 'Lead not named'). Partnerships count only disclosed upfront payments. Acquisitions count the disclosed upfront price. IPOs count gross proceeds.",
@@ -4161,6 +4161,27 @@
       "url": "https://dealroom.co/news/164409-capable-raises-38m-seed-to-build-ai-drug-discovery-lab/",
       "source_name": "Dealroom",
       "note": "No lead or valuation disclosed; total funding about $50M. AI-designed peptides tested in its own SF lab; first program in sleep. Added late (confirmed Nov 25)."
+    },
+    {
+      "id": "a-schrodinger-enpicom",
+      "date": "2026-11-25",
+      "type": "Acquisition",
+      "company": "ENPICOM",
+      "sector": "Protein & antibody design",
+      "round": "Acquired by Schrödinger",
+      "cash_usd": null,
+      "headline_usd": null,
+      "amount_label": "~€22M all-cash",
+      "payers": [
+        {
+          "name": "Schrödinger",
+          "kind": "AI biotech"
+        }
+      ],
+      "participants": [],
+      "url": "https://www.biospace.com/press-releases/schrodinger-acquires-enpicom-to-establish-end-to-end-computational-platform-for-biologics-discovery",
+      "source_name": "Business Wire (via BioSpace)",
+      "note": "Closed Nov 25, 2026. Price disclosed only in euros (about €22M, all cash), so not counted in USD totals. Bioinformatics and ML software that ranks antibody candidates from sequencing data; to be integrated with LiveDesign for Biologics."
     }
   ]
 }
