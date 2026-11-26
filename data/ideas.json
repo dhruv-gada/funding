@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-25T21:55:00+00:00",
-  "run_label": "Evening brief · Nov 25, 2026",
+  "last_updated": "2026-11-26T14:10:00+00:00",
+  "run_label": "Morning brief · Nov 26, 2026",
   "intro": "Projects you could start this week, each tied to the deals that make it timely. Every idea lists open datasets with links, a first milestone you can hit in about two weeks, and what you need to run it. Refreshed with the twice-daily deals brief.",
-  "since_last_run": "Updated one idea: the benchtop self-driving-lab project adds Capable's $38M seed for an in-house AI design-and-test lab as evidence (dataset links re-checked: ProteinGym and FLIP repositories still live). Nothing added or retired.",
+  "since_last_run": "No changes to the ideas this run: no new qualifying deals landed, so no evidence was added and nothing was added or retired.",
   "ideas": [
     {
       "id": "virtual-cell-scaling-test",
