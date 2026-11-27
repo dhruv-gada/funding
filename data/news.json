@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-11-26T21:55:00+00:00",
-  "run_label": "Evening brief · Nov 26, 2026",
+  "last_updated": "2026-11-27T13:55:00+00:00",
+  "run_label": "Morning brief · Nov 27, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "A quiet Thanksgiving is broken by one small but telling bolt-on: Schrödinger paid about €22M in cash for Dutch antibody-sequencing AI firm ENPICOM, buying the data front end of the biologics workflow",
+    "headline": "A quiet post-Thanksgiving morning with no new bio×AI deal; the window's story is still Isomorphic's $5B Series C and pharma licensing AI design on back-loaded terms, with Schrödinger's ~€22M ENPICOM buy the most recent move",
     "summary": "Disclosed, closed bio×AI venture in the 45-day window holds at about $6.02B, with Isomorphic's $5B Series C (Nov 17) roughly 83% of it, and the 7-day closed-venture count stays at about $11M (Leash Bio, Nov 24). The only new deal is Schrödinger–ENPICOM (closed Nov 25, ~€22M all cash, no dollar figure disclosed), the window's second AI-platform company buying a tool maker after Astromech's $230M all-stock deal for Form Bio. The largest partnership headlines remain Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash).",
     "themes": [
       {
@@ -344,7 +344,7 @@
       "Training data as a product: whether Leash publishes the promised results that its Minos environments improve agent or model performance and names a first AI-lab or pharma buyer, and whether Xellar names a pharma partner (CSPC is the obvious one) or gets organ-chip data accepted under China's new-method pilot",
       "Seed-stage closed-loop labs: whether Capable names its sleep-peptide candidate or shows preclinical safety data, adds programs or outside partners on its expanded Mission Bay lab, and whether other frontier-AI angels back similar own-the-lab seed rounds"
     ],
-    "since_last_run": "One new deal since this morning's brief, found despite US Thanksgiving: Schrödinger closed its purchase of ENPICOM, a Dutch bioinformatics and AI company that ranks antibody candidates from sequencing data, for about €22M in cash on Nov 25 (no dollar figure given, so amount_usd is left empty). It is added to the AI-platform consolidation theme and to the movers entry formerly covering only the Colossal spinouts, now renamed to cover AI platforms buying tool makers; a Schrödinger line was added to the watchlist. No other qualifying funding, M&A, partnership or IPO was found and no item changed status. Screened out: OpenAI's Nov 25 lab results for GPT-6 protein binders and Phylo's Biomni Swarm launch (capability and product news, no deal); a Tencent-linked AI peptide paper in Nature (research); Anew Labs' $290M (September, outside the window); and Genentech–Caris and Pfizer–Adaptive, which resurfaced on a page re-dated today but date from December 2025. The 7-day closed-venture count stays at about $11M (Leash Bio). Nothing aged out of the 45-day window. No prediction resolved; Schrödinger–ENPICOM is not a frontier-lab or big tech acquisition, so it does not count toward the acquisition call."
+    "since_last_run": "Quiet run: no new qualifying funding round, acquisition, partnership or IPO was found since last night's brief, which is normal for the US Thanksgiving holiday, and no existing item changed status. Screened out: Rakovina and NanoPalm's Nov 25 update, which pairs NanoPalm's AI-designed lipid nanoparticles with Rakovina's kt-3283 and applies for Saudi non-dilutive funding but states no amount or new licence; WhiteLab Genomics' $26M Series B (early October, outside the 45-day window); and a fresh wave of Chinese coverage of Isomorphic's $5B round (already recorded). The 7-day closed-venture count stays at about $11M (Leash Bio, Nov 24). Nothing aged out of the 45-day window (the oldest item, Zealand–Generate on Oct 13, sits right at the edge and drops next run). No prediction resolved, and the movers, themes and watchlist are unchanged."
   },
   "items": [
     {
