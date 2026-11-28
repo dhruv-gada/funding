@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-27T17:07:53.977663+00:00",
-  "count": 12,
+  "last_updated": "2026-11-28T15:55:36.292439+00:00",
+  "count": 5,
   "items": [
     {
       "id": "f98ce4034e",
@@ -36,125 +36,6 @@
         "Diversity",
         "Graduate",
         "Predoctoral"
-      ]
-    },
-    {
-      "id": "c9ffebc174",
-      "title": "Fellowship & Fully Funded Graduate School Lists",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/fellowships/",
-      "description": "The Woodrow Wilson Teaching Fellowship was a 3-year fellowship for talented individuals with Science, Technology, Engineering and Math (STEM) backgrounds who are interested in teaching in high-needs secondary schools. Fellows come from a wide range of backgrounds, but share in their commitment to ST",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 2,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "909a75514e",
-      "title": "20 Paid Fellowships for Your Mid-Career Sabbatical",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/fellowships/paid-fellowships-mid-career-sabbatical/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 2,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "ab19b612d9",
-      "title": "15 Short-Term International Exchange Fellowships",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/fellowships/15-short-term-international-exchange-fellowships/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "9d4eabdc7b",
-      "title": "15 Creative Arts Fellowships for Social Justice Activists",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/fellowships/15-creative-arts-fellowships-for-social-justice-activists/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "e4d123cb57",
-      "title": "20 Fellowships and Grants for Emerging Writers",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/fellowships/12-fellowships-and-grants-for-emerging-writers/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "9785157f19",
-      "title": "Isabella Wilson on Finding Her Story Through a CIEE Study Abroad Fellowship",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/interviews/isabella-wilson-on-finding-her-story-through-a-ciee-study-abroad-fellowship/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
-      ]
-    },
-    {
-      "id": "937531e614",
-      "title": "Sahana Shah on Applying Twice to Fulbright Spain and Uniting Research with Advocacy",
-      "source": "ProFellow",
-      "type": "Fellowship",
-      "url": "https://www.profellow.com/interviews/sahana-shah-on-applying-twice-to-fulbright-spain-and-using-her-award-to-unite-research-with-advocacy/",
-      "description": "",
-      "deadline": null,
-      "amount": null,
-      "posted": null,
-      "relevance_score": 1,
-      "tags": [
-        "Fellowship",
-        "STEM",
-        "Aggregator"
       ]
     },
     {
