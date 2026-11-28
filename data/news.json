@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-27T21:50:00+00:00",
-  "run_label": "Evening brief · Nov 27, 2026",
+  "last_updated": "2026-11-28T13:50:00+00:00",
+  "run_label": "Morning brief · Nov 28, 2026",
   "window_days": 45,
   "analysis": {
-    "headline": "A second quiet Thanksgiving-holiday brief with no new bio×AI deal; the window's story is still Isomorphic's $5B Series C and pharma licensing AI design on back-loaded terms, with Schrödinger's ~€22M ENPICOM buy (Nov 25) the latest move",
-    "summary": "Disclosed, closed bio×AI venture in the 45-day window holds at about $6.02B, with Isomorphic's $5B Series C (Nov 17) roughly 83% of it, and the 7-day closed-venture count stays at about $11M (Leash Bio, Nov 24). The only new deal is Schrödinger–ENPICOM (closed Nov 25, ~€22M all cash, no dollar figure disclosed), the window's second AI-platform company buying a tool maker after Astromech's $230M all-stock deal for Form Bio. The largest partnership headlines remain Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash).",
+    "headline": "A third quiet holiday-weekend brief with no new bio×AI deal; the window's story is still Isomorphic's $5B Series C and pharma licensing AI design on back-loaded terms, while the Zealand–Generate obesity pact ages out of the 45-day window",
+    "summary": "Disclosed, closed bio×AI venture in the 45-day window holds at about $6.02B, with Isomorphic's $5B Series C (Nov 17) roughly 83% of it, and the 7-day closed-venture count stays at about $11M (Leash Bio, Nov 24). The latest deal is still Schrödinger–ENPICOM (closed Nov 25, ~€22M all cash), the window's second AI-platform company buying a tool maker after Astromech's $230M all-stock deal for Form Bio. The largest partnership headlines remain Third Rock–Funnel (up to ~$2.16B) and argenx–Unnatural Products ($550M cash).",
     "themes": [
       {
         "title": "AI labs move from vendor to drug owner, and design platforms find new kinds of buyers",
@@ -138,10 +138,10 @@
         ]
       },
       {
-        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Zealand, Boehringer, UCB, Pierre Fabre, Hansoh, Luoxin, AbbVie, Novo Nordisk, Merck, Vertex)",
+        "player": "Other big & mid-size pharma (Roche, GSK, Astellas, Boehringer, UCB, Pierre Fabre, Hansoh, Luoxin, AbbVie, Novo Nordisk, Merck, Vertex)",
         "kind": "Pharma",
         "direction": "Licensing AI design platforms across their pipelines rather than building them",
-        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year, and argenx widened its own Cradle use on Nov 17. Astellas licensed AI Proteins' miniproteins (more than $400M), Zealand hired Generate for obesity proteins ($30M upfront), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms. Chinese pharma is on the same path: Hansoh signed AilsynBio on Nov 13 for AI-found oral cyclic peptides, up to RMB317M plus royalties, keeping target choice and IP, and Luoxin followed with a non-binding Insilico cooperation for digestive and metabolic disease (filed Nov 13), with no money attached yet. Venture arms are buying in earlier as well: AbbVie Ventures joined PsiThera's $25M on Nov 10 and took a board seat, backing oral small molecules aimed at immune targets AbbVie now hits with antibodies. Novo Nordisk went downstream on Nov 18, pairing its cardiometabolic trial data with nference's real-world health data and AI for precision-trial design, plus a framework to start new AI-native companies. Merck joined the list on Nov 19, hiring Isomorphic's IsoDDE engine for one oncology small-molecule target on its own data, keeping development and sales in-house. Vertex renewed Genomics' human-genetics target platform on Nov 18 for four more years (up to more than $220M plus royalties), and Astellas added Korea's Bionsight on Nov 19 for an AI-designed autoimmune small molecule.",
+        "detail": "Roche signed Chai (Nov 5) to use Chai-3 and its protein-design software across several discovery programs, a month after GSK widened its own Chai deal following lab tests; UCB signed Cradle (Nov 4), joining Bayer, Lundbeck and Hansa as Cradle customers this year, and argenx widened its own Cradle use on Nov 17. Astellas licensed AI Proteins' miniproteins (more than $400M), GSK joined the Cascade immune-data consortium, and Boehringer went to Microsoft for trial twins. Pierre Fabre added XtalPi on Nov 9 for de novo small molecules in oncology, on undisclosed terms. Chinese pharma is on the same path: Hansoh signed AilsynBio on Nov 13 for AI-found oral cyclic peptides, up to RMB317M plus royalties, keeping target choice and IP, and Luoxin followed with a non-binding Insilico cooperation for digestive and metabolic disease (filed Nov 13), with no money attached yet. Venture arms are buying in earlier as well: AbbVie Ventures joined PsiThera's $25M on Nov 10 and took a board seat, backing oral small molecules aimed at immune targets AbbVie now hits with antibodies. Novo Nordisk went downstream on Nov 18, pairing its cardiometabolic trial data with nference's real-world health data and AI for precision-trial design, plus a framework to start new AI-native companies. Merck joined the list on Nov 19, hiring Isomorphic's IsoDDE engine for one oncology small-molecule target on its own data, keeping development and sales in-house. Vertex renewed Genomics' human-genetics target platform on Nov 18 for four more years (up to more than $220M plus royalties), and Astellas added Korea's Bionsight on Nov 19 for an AI-designed autoimmune small molecule.",
         "evidence": [
           "2026-11-13-luoxin-insilico",
           "2026-11-19-astellas-bionsight",
@@ -154,7 +154,6 @@
           "2026-11-05-roche-chai",
           "2026-11-04-ucb-cradle",
           "2026-10-21-astellas-ai-proteins",
-          "2026-10-13-zealand-generate",
           "2026-10-24-boehringer-microsoft-twins",
           "2026-10-29-parse-nomic-cascade"
         ]
@@ -310,7 +309,7 @@
         "call": "Pharma–AI discovery licensing deals (not outright acquisitions) keep upfronts below ~5% of headline value",
         "timeframe": "Ongoing",
         "confidence": "High",
-        "based_on": "Zealand–Generate (~2.5%), AZ–insitro (~3%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down; Hansoh–AilsynBio (Nov 13, up to RMB317M, upfront not split out) neither confirms nor breaks it; Iambic disclosed on Nov 16 that AbbVie paid about $47M upfront for its September deal, but with no headline total it cannot be scored; Recursion's Nov 2 update shows Sanofi has paid $144M to date against more than $300M still in milestones; argenx's wider Cradle licence (Nov 17) is software access with no disclosed terms, so it cannot be scored; Merck–Isomorphic (Nov 19) has an upfront but no disclosed amounts, so it cannot be scored; Vertex–Genomics (Nov 18, up to more than $220M) disclosed no upfront and AstraZeneca–Tempus (Nov 18, $200M) is a fee-for-data contract rather than a milestone licence, so neither can be scored; Insilico–Luoxin (filed Nov 13) is a non-binding cooperation with no figures, so it cannot be scored"
+        "based_on": "AZ–insitro (~3%), and before it aged out of the window, Zealand–Generate (~2.5%), Lilly–METiS (low double-digit millions of $1.1B); argenx–Unnatural Products (~48% upfront) is an acquisition after two years of collaboration, so it sits outside this call; Third Rock–Funnel (up to ~$2.16B, upfront undisclosed) neither confirms nor breaks it; Fauna–Lilly's second target milestone (Nov 11) shows how slowly those back-loaded totals are drawn down; Hansoh–AilsynBio (Nov 13, up to RMB317M, upfront not split out) neither confirms nor breaks it; Iambic disclosed on Nov 16 that AbbVie paid about $47M upfront for its September deal, but with no headline total it cannot be scored; Recursion's Nov 2 update shows Sanofi has paid $144M to date against more than $300M still in milestones; argenx's wider Cradle licence (Nov 17) is software access with no disclosed terms, so it cannot be scored; Merck–Isomorphic (Nov 19) has an upfront but no disclosed amounts, so it cannot be scored; Vertex–Genomics (Nov 18, up to more than $220M) disclosed no upfront and AstraZeneca–Tempus (Nov 18, $200M) is a fee-for-data contract rather than a milestone licence, so neither can be scored; Insilico–Luoxin (filed Nov 13) is a non-binding cooperation with no figures, so it cannot be scored"
       },
       {
         "call": "A third top-20 pharma announces an AI digital-twin, synthetic-control-arm or trial-recruitment partnership with a tech company, or a startup raises $50M+ for it",
@@ -344,7 +343,7 @@
       "Training data as a product: whether Leash publishes the promised results that its Minos environments improve agent or model performance and names a first AI-lab or pharma buyer, and whether Xellar names a pharma partner (CSPC is the obvious one) or gets organ-chip data accepted under China's new-method pilot",
       "Seed-stage closed-loop labs: whether Capable names its sleep-peptide candidate or shows preclinical safety data, adds programs or outside partners on its expanded Mission Bay lab, and whether other frontier-AI angels back similar own-the-lab seed rounds"
     ],
-    "since_last_run": "Quiet run again: no new qualifying funding round, acquisition, partnership or IPO surfaced since this morning's brief, as expected on the day after US Thanksgiving, and no existing item changed status. Screened out this evening: Lilly–Stipple Bio (Nov 17, up to $5.9B in milestones, upfront and equity undisclosed), because Stipple's Pointillist platform is described as high-throughput experimental epitope mapping with no AI role in the release or coverage; J&J's $2.2B upfront Ollin Biosciences buy and Pfizer's ~$2.63B in-vivo CAR-T licence (both non-AI); Network Bio's Nov 9 biobank collaboration with Duke University (AI disease models from patient samples, no financial terms, academic rather than pharma counterparty); and VectorY's $83.5M Series B and Shengyan Life's $20M angel round (gene and cell therapy, no AI angle). Reports surfacing now on Capable's $38M seed, Aureka's $100M Series B and Valhalla Tech's ~$50M of rounds are re-coverage of deals from October, August and July respectively; Capable is already recorded. The 7-day closed-venture count stays at about $11M (Leash Bio, Nov 24). Nothing aged out: Zealand–Generate (Oct 13) is exactly 45 days old and leaves the window tomorrow. No prediction resolved, and the movers, themes and watchlist are unchanged."
+    "since_last_run": "Quiet run: no new qualifying funding round, acquisition, partnership or IPO surfaced since last evening's brief, over the US Thanksgiving weekend, and no existing item changed status. This morning's searches across AI drug discovery funding, AI biotech acquisitions, pharma–AI licensing, protein design and lab automation raises, Chinese AI-pharma financings and the named leaders turned up only re-coverage of deals already recorded (Isomorphic's $5B Series C and Merck pact, Boltz's $110M, Leash Bio's $11M, AstraZeneca–Tempus, Schrödinger–ENPICOM). Screened out: a $13M seed for UK multiomics diagnostics firm Tagomics listed on one funding aggregator for Nov 24, because no release or outlet confirming the round or describing an AI role could be found. One item aged out: Zealand–Generate (Oct 13, $30M upfront in a deal worth up to about $1.2B) left the 45-day window, so it is dropped from the pharma movers entry; the upfront-share prediction still rests on AZ–insitro and Lilly–METiS. The 7-day closed-venture count stays at about $11M (Leash Bio, Nov 24). No prediction resolved, and the themes and watchlist are unchanged."
   },
   "items": [
     {
@@ -3234,41 +3233,6 @@
       "url": "https://www.bioxconomy.com/partnering/danaher-and-nvidia-partner-on-ai-driven-lab-automation",
       "source_name": "BioXconomy",
       "first_seen": "2026-10-28T20:48:27+00:00"
-    },
-    {
-      "id": "2026-10-13-zealand-generate",
-      "date": "2026-10-13",
-      "type": "Partnership",
-      "status": "Signed",
-      "company": "Generate Biomedicines",
-      "counterparty": "Zealand Pharma",
-      "amount_usd": 1200000000,
-      "amount_label": "$30M upfront · up to ~$1.2B",
-      "round": null,
-      "valuation_label": null,
-      "investors": [],
-      "area": "AI protein design · obesity",
-      "summary": "Zealand Pharma hired Generate Biomedicines to design multispecific protein drugs for metabolic disease with its AI platform. Generate gets $30M upfront, up to $35M in early preclinical milestones within a total of nearly $1.2B, plus royalties.",
-      "why_invested": "Zealand has worked mostly with peptides and small molecules and wants proteins that hit several obesity targets at once; it pairs its metabolic know-how with Generate's design engine rather than building one.",
-      "whats_next": "Two initial programs; Generate runs research to lead-candidate selection, then Zealand takes over clinical development. Watch for the first candidate nomination and early milestone payments.",
-      "why_it_matters": "Obesity, the biggest market in pharma, is now pulling in AI protein design, again with about 2.5% of the headline value paid upfront.",
-      "links": [
-        {
-          "title": "Fierce Biotech: Zealand inks $1.2B Generate pact",
-          "url": "https://www.fiercebiotech.com/biotech/zealand-inks-12b-generate-pact-add-multispecific-proteins-obesity-pipeline"
-        },
-        {
-          "title": "pharmaphorum: Zealand forges obesity alliance with Generate",
-          "url": "https://pharmaphorum.com/news/zealand-forges-obesity-alliance-ai-specialist-generate"
-        },
-        {
-          "title": "Cooley: deal announcement",
-          "url": "https://www.cooley.com/news/coverage/2026/2026-10-13-zealand-pharma-and-generate-biomedicines-enter-collaboration-and-license-agreement"
-        }
-      ],
-      "url": "https://www.fiercebiotech.com/biotech/zealand-inks-12b-generate-pact-add-multispecific-proteins-obesity-pipeline",
-      "source_name": "Fierce Biotech",
-      "first_seen": "2026-10-27T20:55:00+00:00"
     }
   ]
 }
